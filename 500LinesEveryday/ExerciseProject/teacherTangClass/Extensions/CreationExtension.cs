@@ -7,7 +7,7 @@ using System.Windows;
 using Autodesk.Revit.DB;
 
 
-namespace teacherTangClass
+namespace TeacherTangClass
 {
     public static class CreationExtension
     {

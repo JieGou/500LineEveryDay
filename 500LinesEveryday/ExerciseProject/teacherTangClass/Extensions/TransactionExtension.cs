@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace teacherTangClass
+namespace TeacherTangClass
 {
     public static class TransactionExtension
     {

@@ -4,7 +4,7 @@ using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
 using System;
 using Autodesk.Revit.DB.Events;
-using teacherTangClass;
+using TeacherTangClass;
 using View = Autodesk.Revit.DB.View;
 
 namespace ExerciseProject

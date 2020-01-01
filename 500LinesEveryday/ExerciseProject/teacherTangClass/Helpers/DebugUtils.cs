@@ -12,7 +12,7 @@ using Autodesk.Revit.DB.Structure;
 
 using Autodesk.Revit.DB.Plumbing;
 
-namespace teacherTangClass
+namespace TeacherTangClass
 {
     public static class DebugUtils
 

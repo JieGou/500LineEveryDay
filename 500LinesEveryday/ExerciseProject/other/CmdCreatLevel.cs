@@ -10,7 +10,7 @@ using Autodesk.Revit.UI.Events;
 using Autodesk.Revit.UI.Selection;
 
 using  System.Windows;
-using teacherTangClass;
+using TeacherTangClass;
 
 
 namespace ExerciseProject
