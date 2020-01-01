@@ -36,13 +36,20 @@ namespace 工具集
             {
                 ts.Start();
 
-                //点选指定执行的元素
-                Reference pickedEleReference = sel.PickObject(ObjectType.Element);
-                //通过引用取到选中的元素
-                Element elem = doc.GetElement(pickedEleReference);
+
+                //1 创建收集器
+                FilteredElementCollector filteredElements = new FilteredElementCollector(doc);
+                //2 创建一个过滤器
+                ElementClassFilter classFilter = new ElementClassFilter(typeof(Wall));
+                //接着调用收集器的WherePasses函数对元素进行过滤
+                filteredElements.WherePasses(classFilter);
 
                 string info = "所选元素为: ";
-                info += "\n\t" + elem.GetType().ToString();
+                foreach (var wall in filteredElements)
+                {
+                    info += "\n\t" + wall.GetTypeId().ToString();
+                   
+                }
 
                 TaskDialog.Show("提示", info);
 

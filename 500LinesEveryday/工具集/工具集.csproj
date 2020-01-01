@@ -62,6 +62,11 @@
     <Compile Include="Autodesk二次开发基础\02先选择元素后执行命令.cs" />
     <Compile Include="Autodesk二次开发基础\03在运行外部命令过程中选择元素.cs" />
     <Compile Include="Autodesk二次开发基础\04通过过滤器选择元素.cs" />
+    <Compile Include="Autodesk二次开发基础\05获取修改元素属性.cs" />
+    <Compile Include="Autodesk二次开发基础\06使用BilutInParameter获得属性.cs" />
+    <Compile Include="Autodesk二次开发基础\07重要的属性和方法.cs" />
+    <Compile Include="Autodesk二次开发基础\08获取族实例的族名称和类型名称.cs" />
+    <Compile Include="Autodesk二次开发基础\09从族创建实例.cs" />
     <Compile Include="CmdCreatLevel.cs" />
     <Compile Include="CmdTemplateTool.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
