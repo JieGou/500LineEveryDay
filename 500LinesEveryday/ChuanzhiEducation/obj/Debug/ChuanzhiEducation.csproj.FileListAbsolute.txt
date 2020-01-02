@@ -1,0 +1,7 @@
+D:\githubRep2\500LinesEveryday\ChuanzhiEducation\bin\Debug\ChuanzhiEducation.exe.config
+D:\githubRep2\500LinesEveryday\ChuanzhiEducation\bin\Debug\ChuanzhiEducation.exe
+D:\githubRep2\500LinesEveryday\ChuanzhiEducation\bin\Debug\ChuanzhiEducation.pdb
+D:\githubRep2\500LinesEveryday\ChuanzhiEducation\obj\Debug\ChuanzhiEducation.csprojAssemblyReference.cache
+D:\githubRep2\500LinesEveryday\ChuanzhiEducation\obj\Debug\ChuanzhiEducation.csproj.CoreCompileInputs.cache
+D:\githubRep2\500LinesEveryday\ChuanzhiEducation\obj\Debug\ChuanzhiEducation.exe
+D:\githubRep2\500LinesEveryday\ChuanzhiEducation\obj\Debug\ChuanzhiEducation.pdb
