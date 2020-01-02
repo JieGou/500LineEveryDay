@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Assembly>工具集.dll</Assembly>
+    <ClientId>1d87f131-fa75-4d23-a8f6-ac714fa2b1c1</ClientId>
+    <FullClassName>ExerciseProject._01SelectElemetById</FullClassName>
+    <Text>_01SelectElemetById</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>工具集.dll</Assembly>
+    <ClientId>3eb9c351-e6e9-4c67-aad8-6494ee2f24b9</ClientId>
+    <FullClassName>ExerciseProject._02FirstSelectThenRun</FullClassName>
+    <Text>_02FirstSelectThenRun</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>工具集.dll</Assembly>
+    <ClientId>2fe5ecd0-e6f5-439c-8188-98c697aab4f7</ClientId>
+    <FullClassName>ExerciseProject._03FirstRunThenSelect</FullClassName>
+    <Text>_03FirstRunThenSelect</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>工具集.dll</Assembly>
+    <ClientId>70ffe7e7-eff8-4369-8e38-373b91d6b1ca</ClientId>
+    <FullClassName>ExerciseProject._04SelectElementByFilter</FullClassName>
+    <Text>_04SelectElementByFilter</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>工具集.dll</Assembly>
+    <ClientId>0707ffd2-2d06-42e4-a928-4afac6111bfd</ClientId>
+    <FullClassName>ExerciseProject._05GetAttributesOfElement</FullClassName>
+    <Text>_05GetAttributesOfElement</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>工具集.dll</Assembly>
+    <ClientId>a75dfb2e-4028-4c00-917f-63945270cb79</ClientId>
+    <FullClassName>ExerciseProject._06GetAttributesByBilutInParameter</FullClassName>
+    <Text>_06GetAttributesByBilutInParameter</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>工具集.dll</Assembly>
+    <ClientId>a499621e-a9e7-4275-8189-808b1ce51b60</ClientId>
+    <FullClassName>ExerciseProject._07ImportantAttributesAndMethod</FullClassName>
+    <Text>_07ImportantAttributesAndMethod</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>工具集.dll</Assembly>
+    <ClientId>97c84a3e-50d4-4d82-9b19-d9b682dd66ef</ClientId>
+    <FullClassName>ExerciseProject._08GetFmailyNameAndFamilysymbolFromFamilyinstance</FullClassName>
+    <Text>_08GetFmailyNameAndFamilysymbolFromFamilyinstance</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>工具集.dll</Assembly>
+    <ClientId>4cb1af49-63a8-45a5-bd6a-e4f09e67d149</ClientId>
+    <FullClassName>ExerciseProject._09CreatFamilyinstanceFromFamily</FullClassName>
+    <Text>_09CreatFamilyinstanceFromFamily</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>工具集.dll</Assembly>
+    <ClientId>3aaf4c15-f077-4a37-a43a-90561b667dc2</ClientId>
+    <FullClassName>ExerciseProject._201CreatFamilyOfExtrusion</FullClassName>
+    <Text>_201CreatFamilyOfExtrusion</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>工具集.dll</Assembly>
+    <ClientId>3c022a2a-529a-43d3-81f1-35466432ef73</ClientId>
+    <FullClassName>ExerciseProject.CmdCreatLevel</FullClassName>
+    <Text>CmdCreatLevel</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Assembly>工具集.dll</Assembly>
+    <ClientId>255a5875-9436-4e0f-bd71-4bedd8af4c5f</ClientId>
+    <FullClassName>ExerciseProject.CmdTemplateTool</FullClassName>
+    <Text>CmdTemplateTool</Text>
+    <Description>""</Description>
+    <VisibilityMode>AlwaysVisible</VisibilityMode>
+    <VendorId>ADSK</VendorId>
+    <VendorDescription>Autodesk, www.autodesk.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
