@@ -50,7 +50,6 @@ namespace ExerciseProject
 
                 ICollection<ElementId> deleterElementIds = doc.Delete(element.Id);
                 
-
                 TaskDialog.Show("提示", info);
 
                 ts.Commit();
