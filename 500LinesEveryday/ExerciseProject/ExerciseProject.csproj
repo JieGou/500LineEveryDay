@@ -80,6 +80,9 @@
     <Compile Include="AutodeskDevelopmentFoundation\0206SetNewLocationOfColumnByChangeLocationPoint.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0207ElementEditRotate.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0208ElementEditRotateByLocationCurve.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\0209ElementEditMirror.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\0210ElementEditDelete.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\0211DeleteElements.cs" />
     <Compile Include="Other\CmdCreatLevel.cs" />
     <Compile Include="Other\CmdTemplateTool.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

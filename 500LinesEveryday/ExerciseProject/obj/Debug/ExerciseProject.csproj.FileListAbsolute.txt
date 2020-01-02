@@ -1,5 +1,6 @@
 D:\githubRep2\500LinesEveryday\ExerciseProject\bin\Debug\工具集.dll
 D:\githubRep2\500LinesEveryday\ExerciseProject\bin\Debug\工具集.pdb
+D:\githubRep2\500LinesEveryday\ExerciseProject\bin\Debug\AdWindows.dll
 D:\githubRep2\500LinesEveryday\ExerciseProject\bin\Debug\RevitAPIIFC.dll
 D:\githubRep2\500LinesEveryday\ExerciseProject\bin\Debug\RevitAPIMacros.dll
 D:\githubRep2\500LinesEveryday\ExerciseProject\bin\Debug\RevitAPIUI.dll
@@ -7,7 +8,6 @@ D:\githubRep2\500LinesEveryday\ExerciseProject\bin\Debug\RevitAPIUIMacros.dll
 D:\githubRep2\500LinesEveryday\ExerciseProject\bin\Debug\IntfIFCAPI.dll
 D:\githubRep2\500LinesEveryday\ExerciseProject\bin\Debug\SDACommon.dll
 D:\githubRep2\500LinesEveryday\ExerciseProject\bin\Debug\RevitAPIMacrosInteropAPI.dll
-D:\githubRep2\500LinesEveryday\ExerciseProject\bin\Debug\AdWindows.dll
 D:\githubRep2\500LinesEveryday\ExerciseProject\bin\Debug\RevitAddInUtility.dll
 D:\githubRep2\500LinesEveryday\ExerciseProject\bin\Debug\APIInterop.dll
 D:\githubRep2\500LinesEveryday\ExerciseProject\bin\Debug\UIFramework.dll

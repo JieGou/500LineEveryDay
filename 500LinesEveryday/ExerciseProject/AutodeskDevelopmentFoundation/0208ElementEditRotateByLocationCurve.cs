@@ -39,7 +39,7 @@ namespace ExerciseProject
                 ///通过LocationCurve或LocationPoint旋转元素
 
                 //点选指定执行的元素, 本次按只能选择柱考虑
-                Reference pickedEleReference = sel.PickObject(ObjectType.Element, "选择个墙吧");
+                Reference pickedEleReference = sel.PickObject(ObjectType.Element, "选择个墙或柱吧");
                 //通过引用取到选中的元素
                 Element element = doc.GetElement(pickedEleReference);
 
