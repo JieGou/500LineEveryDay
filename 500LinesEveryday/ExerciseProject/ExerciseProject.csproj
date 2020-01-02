@@ -32,6 +32,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AdWindows, Version=2017.11.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Autodesk\Revit 2019\AdWindows.dll</HintPath>
+    </Reference>
     <Reference Include="RevitAPI">
       <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPI.dll</HintPath>
       <Private>False</Private>
@@ -50,6 +54,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -58,6 +63,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutodeskDevelopmentFoundation\204ElementEditMoveByLocation.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\01SelectElemetById.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\02FirstSelectThenRun.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\03FirstRunThenSelect.cs" />
@@ -68,6 +74,12 @@
     <Compile Include="AutodeskDevelopmentFoundation\08GetFmailyNameAndFamilysymbolFromFamilyinstance.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\09CreatFamilyinstanceFromFamily.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\201CreatFamilyOfExtrusion.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\202CreatFamilyTypeAndGetParameter.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\203ElementEditMove.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\205ChangWallLengthByLocationCurve.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\206SetNewLocationOfColumnByChangeLocationPoint.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\207ElementEditRotate.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\208ElementEditRotateByLocationCurve.cs" />
     <Compile Include="Other\CmdCreatLevel.cs" />
     <Compile Include="Other\CmdTemplateTool.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

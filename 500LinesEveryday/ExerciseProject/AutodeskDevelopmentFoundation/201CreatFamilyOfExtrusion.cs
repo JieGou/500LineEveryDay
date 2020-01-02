@@ -53,7 +53,7 @@ namespace ExerciseProject
                     Plane.CreateByOriginAndBasis(XYZ.Zero, new XYZ(1 , 0, 0), new XYZ(0, 1 , 0));
                 SketchPlane sketchPlane = SketchPlane.Create(familyDoc, plane);
 
-                //创建一个拉伸尸体
+                //创建一个拉拉升体
                 familyDoc.FamilyCreate.NewExtrusion
                     (true, curveArrArray, sketchPlane, 10 / 304.8);
 
