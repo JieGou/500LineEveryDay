@@ -3,21 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 using Autodesk.Revit.Attributes;
-using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
+using Autodesk.Revit.DB;
+using Autodesk.Revit.UI.Events;
 using Autodesk.Revit.UI.Selection;
+using System.Windows;
 using TeacherTangClass;
 using View = Autodesk.Revit.DB.View;
-
 
 namespace ExerciseProject
 {
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class _205ChangWallLengthByLocationCurve : IExternalCommand
+    class _0106GetAttributesByBilutInParameter : IExternalCommand
 
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
@@ -27,7 +27,7 @@ namespace ExerciseProject
             Document doc = uidoc.Document;
             Selection sel = uidoc.Selection;
 
-            View acview = uidoc.ActiveView;
+            View acView = uidoc.ActiveView;
             UIView acuiview = uidoc.ActiveUiview();
 
 
@@ -36,24 +36,24 @@ namespace ExerciseProject
             {
                 ts.Start();
 
-                //点选指定执行的元素, 本次按只能选择墙考虑
+
+                string info = "length = ";
+
                 Reference pickedEleReference = sel.PickObject(ObjectType.Element);
                 //通过引用取到选中的元素
-                Wall wall = doc.GetElement(pickedEleReference) as Wall;
+                Element elem = doc.GetElement(pickedEleReference);
 
-                if (null != wall)
+                Wall wall = elem as Wall;
+
+                Parameter parameterLength = wall.get_Parameter(BuiltInParameter.CURVE_ELEM_LENGTH);
+                if (parameterLength != null && parameterLength.StorageType == StorageType.Double)
                 {
-                    LocationCurve wallLine = wall.Location as LocationCurve;
-
-                    XYZ pointOne = XYZ.Zero;
-                    XYZ pointTwo= new XYZ(200,200,0);
-                    //定义线
-                    Line newWallLine = Line.CreateBound(pointOne, pointTwo);
-
-                    //把墙的位置线换成新的线
-                    wallLine.Curve = newWallLine;
-
+                    double length = parameterLength.AsDouble();
+                    info += "\n\t" + length.ToString();
                 }
+                
+                TaskDialog.Show("提示", info);
+
 
 
                 ts.Commit();

@@ -17,7 +17,7 @@ namespace ExerciseProject
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class _206SetNewLocationOfColumnByChangeLocationPoint : IExternalCommand
+    class _0206SetNewLocationOfColumnByChangeLocationPoint : IExternalCommand
 
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)

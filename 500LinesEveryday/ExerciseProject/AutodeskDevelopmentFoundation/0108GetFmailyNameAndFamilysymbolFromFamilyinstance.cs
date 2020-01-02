@@ -12,7 +12,7 @@ namespace ExerciseProject
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class _08GetFmailyNameAndFamilysymbolFromFamilyinstance : IExternalCommand
+    class _0108GetFmailyNameAndFamilysymbolFromFamilyinstance : IExternalCommand
 
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)

@@ -17,7 +17,7 @@ namespace ExerciseProject
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class _204ElementEditMoveByLocation : IExternalCommand
+    class _0207ElementEditRotate : IExternalCommand
 
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
@@ -36,18 +36,20 @@ namespace ExerciseProject
             {
                 ts.Start();
 
-                //点选指定执行的元素, 本次按只能选择墙考虑
-                Reference pickedEleReference = sel.PickObject(ObjectType.Element);
+                //获取一堵墙,并创建一条和墙位置垂直的旋转轴,然后对这堵墙进行逆时针60°的旋转
+
+                //点选指定执行的元素, 本次按只能选择柱考虑
+                Reference pickedEleReference = sel.PickObject(ObjectType.Element, "选择个墙吧");
                 //通过引用取到选中的元素
                 Wall wall = doc.GetElement(pickedEleReference) as Wall;
 
-                if (null != wall)
-                {
-                    LocationCurve wallLine = wall.Location as LocationCurve;
-                    XYZ newPlace = new XYZ(100, 200, 0);
-                    wallLine.Move(newPlace);
-                }
+                LocationCurve wallLine = wall.Location as LocationCurve;
+                XYZ point1 = wallLine.Curve.GetEndPoint(0);
+                XYZ point2 = new XYZ(point1.X, point1.Y, 30);
 
+                Line axis = Line.CreateBound(point1, point2);
+
+                ElementTransformUtils.RotateElement(doc, wall.Id, axis, Math.PI / (180 / 60));
 
                 ts.Commit();
             }

@@ -3,21 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using Autodesk.Revit.Attributes;
-using Autodesk.Revit.UI;
 using Autodesk.Revit.DB;
-using Autodesk.Revit.UI.Events;
+using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
-using System.Windows;
 using TeacherTangClass;
 using View = Autodesk.Revit.DB.View;
+
 
 namespace ExerciseProject
 {
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class _02FirstSelectThenRun : IExternalCommand
+    class _0202CreatFamilyTypeAndGetParameter : IExternalCommand
 
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
@@ -27,7 +27,7 @@ namespace ExerciseProject
             Document doc = uidoc.Document;
             Selection sel = uidoc.Selection;
 
-            View acView = uidoc.ActiveView;
+            View acview = uidoc.ActiveView;
             UIView acuiview = uidoc.ActiveUiview();
 
 
@@ -36,24 +36,24 @@ namespace ExerciseProject
             {
                 ts.Start();
 
-                //获取当前选择的id
-                var collection = sel.GetElementIds();
-                if (0 == collection.Count)
-                {
-                    //如果执行该例子之前没有选择任何元素, 则会弹出提示
-                    TaskDialog.Show("工具集提示", "您为选择任何元素");
-                }
-                else
-                {
-                    string info = "您选择的元素为:";
-                    foreach (var elem in collection)
-                    {
-                        info += "\n\t" + elem.GetType().ToString();
-                    }
+                //点选指定执行的元素, 本次按只能选择墙考虑
+                Reference pickedEleReference = sel.PickObject(ObjectType.Element);
+                //通过引用取到选中的元素
+                Wall wall = doc.GetElement(pickedEleReference) as Wall;
 
-                    //显示选择的元素
-                    TaskDialog.Show("工具集提示", info);
-                }
+
+                string info = "信息如下";
+
+                info += "\n\t" + "1 ELEM_TYPE_PARAM (族名称):" +
+                        wall.get_Parameter(BuiltInParameter.ELEM_TYPE_PARAM).AsValueString();
+
+                info += "\n\t" + "2 长度:" + wall.LookupParameter("长度").AsValueString();
+
+                TaskDialog.Show("提示", info);
+
+                //当新添加的族类型族中已经有的时候, 该程序不能正常运行.
+                WallType wallType = wall.WallType;
+                ElementType duplicatedWallType = wallType.Duplicate(wallType.Name + "duplicated7");
 
                 ts.Commit();
             }

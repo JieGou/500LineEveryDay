@@ -17,7 +17,7 @@ namespace ExerciseProject
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class _07ImportantAttributesAndMethod : IExternalCommand
+    class _0102FirstSelectThenRun : IExternalCommand
 
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
@@ -36,43 +36,24 @@ namespace ExerciseProject
             {
                 ts.Start();
 
-                //重要的属性: category类别, location, levelId标高, group组, id, uniqueId唯一id
-                //重要的方法: get.materials,
-
-
-                //通过点选,选择一个元素
-                Reference pickedEleReference = sel.PickObject(ObjectType.Element);
-                //通过引用,选取到选中的元素.  (群里大佬指点, 用reference是正常方法)
-                Element elem = doc.GetElement(pickedEleReference);
-
-                if (elem == null)
+                //获取当前选择的id
+                var collection = sel.GetElementIds();
+                if (0 == collection.Count)
                 {
-                    TaskDialog.Show("提示", "啥也没有,重选");
+                    //如果执行该例子之前没有选择任何元素, 则会弹出提示
+                    TaskDialog.Show("工具集提示", "您为选择任何元素");
                 }
+                else
+                {
+                    string info = "您选择的元素为:";
+                    foreach (var elem in collection)
+                    {
+                        info += "\n\t" + elem.GetType().ToString();
+                    }
 
-                var categoryName = elem.Category.Name;
-                Location location = elem.Location;
-                var levelId = elem.LevelId;
-                var group = elem.GroupId;
-                var id = elem.Id;
-                var uniqueId = elem.UniqueId;
-
-
-                string info = "选择的元素属性如下";
-
-                info += "\n\t" + "category:" + categoryName;
-                info += "\n\t" + "location:" + location;
-                info +=  "\n\t" + "levelId:" + levelId;
-                info += "\n\t" + "group:" +group;
-                info += "\n\t" + "id:" + id;
-                info += "\n\t" + "uniqueId:" + uniqueId;
-
-
-
-                TaskDialog.Show("提示", info);
-
-
-
+                    //显示选择的元素
+                    TaskDialog.Show("工具集提示", info);
+                }
 
                 ts.Commit();
             }

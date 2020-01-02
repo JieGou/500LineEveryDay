@@ -13,7 +13,7 @@ namespace ExerciseProject
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class _09CreatFamilyinstanceFromFamily : IExternalCommand
+    class _0109CreatFamilyinstanceFromFamily : IExternalCommand
 
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)

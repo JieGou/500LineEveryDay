@@ -3,22 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using Autodesk.Revit.Attributes;
-using Autodesk.Revit.UI;
 using Autodesk.Revit.DB;
-using Autodesk.Revit.UI.Events;
+using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
-using System.Windows;
 using TeacherTangClass;
-
 using View = Autodesk.Revit.DB.View;
+
 
 namespace ExerciseProject
 {
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class _01SelectElemetById : IExternalCommand
+    class _0204ElementEditMoveByLocation : IExternalCommand
 
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
@@ -28,16 +27,8 @@ namespace ExerciseProject
             Document doc = uidoc.Document;
             Selection sel = uidoc.Selection;
 
-            View acView = uidoc.ActiveView;
+            View acview = uidoc.ActiveView;
             UIView acuiview = uidoc.ActiveUiview();
-
-
-            //通过ID选择元素.
-            //不用写在事务里, 为什么?
-
-            int targetID = 417275;
-            var elementId = new ElementId(targetID);
-            sel.SetElementIds(new List<ElementId>(){elementId});
 
 
             Transaction ts = new Transaction(doc, "******");
@@ -45,7 +36,17 @@ namespace ExerciseProject
             {
                 ts.Start();
 
+                //点选指定执行的元素, 本次按只能选择墙考虑
+                Reference pickedEleReference = sel.PickObject(ObjectType.Element);
+                //通过引用取到选中的元素
+                Wall wall = doc.GetElement(pickedEleReference) as Wall;
 
+                if (null != wall)
+                {
+                    LocationCurve wallLine = wall.Location as LocationCurve;
+                    XYZ newPlace = new XYZ(100, 200, 0);
+                    wallLine.Move(newPlace);
+                }
 
 
                 ts.Commit();

@@ -3,21 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 using Autodesk.Revit.Attributes;
-using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
+using Autodesk.Revit.DB;
+using Autodesk.Revit.UI.Events;
 using Autodesk.Revit.UI.Selection;
+using System.Windows;
 using TeacherTangClass;
 using View = Autodesk.Revit.DB.View;
-
 
 namespace ExerciseProject
 {
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class _207ElementEditRotate : IExternalCommand
+    class _0105GetAttributesOfElement : IExternalCommand
 
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
@@ -27,7 +27,7 @@ namespace ExerciseProject
             Document doc = uidoc.Document;
             Selection sel = uidoc.Selection;
 
-            View acview = uidoc.ActiveView;
+            View acView = uidoc.ActiveView;
             UIView acuiview = uidoc.ActiveUiview();
 
 
@@ -36,20 +36,26 @@ namespace ExerciseProject
             {
                 ts.Start();
 
-                //获取一堵墙,并创建一条和墙位置垂直的旋转轴,然后对这堵墙进行逆时针60°的旋转
 
-                //点选指定执行的元素, 本次按只能选择柱考虑
-                Reference pickedEleReference = sel.PickObject(ObjectType.Element, "选择个墙吧");
+                //点选指定执行的元素
+                Reference pickedEleReference = sel.PickObject(ObjectType.Element);
                 //通过引用取到选中的元素
-                Wall wall = doc.GetElement(pickedEleReference) as Wall;
+                Element elem = doc.GetElement(pickedEleReference);
 
-                LocationCurve wallLine = wall.Location as LocationCurve;
-                XYZ point1 = wallLine.Curve.GetEndPoint(0);
-                XYZ point2 = new XYZ(point1.X, point1.Y, 30);
+                ParameterSet parameters = elem.Parameters;
 
-                Line axis = Line.CreateBound(point1, point2);
+                string info = "属性如下:";
+                foreach (Parameter para in parameters)
+                {
+                    if (para.Definition.Name == "长度" && para.StorageType == StorageType.Double)
+                    {
+                        string length = para.AsValueString();
 
-                ElementTransformUtils.RotateElement(doc, wall.Id, axis, Math.PI / (180 / 60));
+                        info += length;
+                    }
+                }
+
+                TaskDialog.Show("提示", info, TaskDialogCommonButtons.Close);
 
                 ts.Commit();
             }
