@@ -11,14 +11,12 @@ using Autodesk.Revit.UI.Selection;
 using System.Windows;
 using TeacherTangClass;
 using View = Autodesk.Revit.DB.View;
-
 namespace ExerciseProject
 {
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
     class _0102FirstSelectThenRun : IExternalCommand
-
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
@@ -26,16 +24,12 @@ namespace ExerciseProject
             UIDocument uidoc = commandData.Application.ActiveUIDocument;
             Document doc = uidoc.Document;
             Selection sel = uidoc.Selection;
-
             View acView = uidoc.ActiveView;
             UIView acuiview = uidoc.ActiveUiview();
-
-
             Transaction ts = new Transaction(doc, "******");
             try
             {
                 ts.Start();
-
                 //获取当前选择的id
                 var collection = sel.GetElementIds();
                 if (0 == collection.Count)
@@ -50,14 +44,11 @@ namespace ExerciseProject
                     {
                         info += "\n\t" + elem.GetType().ToString();
                     }
-
                     //显示选择的元素
                     TaskDialog.Show("工具集提示", info);
                 }
-
                 ts.Commit();
             }
-
             catch (Exception)
             {
                 if (ts.GetStatus() == TransactionStatus.Started)
@@ -65,7 +56,6 @@ namespace ExerciseProject
                     ts.RollBack();
                 }
             }
-
             return Result.Succeeded;
         }
     }

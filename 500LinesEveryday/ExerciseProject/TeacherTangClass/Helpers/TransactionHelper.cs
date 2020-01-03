@@ -4,8 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Autodesk.Revit.DB;
-
-
 namespace TeacherTangClass
 {
     public static class TransactionHelper
@@ -29,7 +27,6 @@ namespace TeacherTangClass
 #if DEBUG
             }, "c:\\revitExceptionlog.txt");
 #endif
-
         }
         public static void Invoke(this Document doc, Action<Transaction> action, string name = "Invoke", bool ignorefailure = true)
         {
@@ -38,10 +35,8 @@ namespace TeacherTangClass
                 using (Transaction transaction = new Transaction(doc, name))
                 {
                     transaction.Start();
-
                     if (ignorefailure)
                         transaction.IgnoreFailure();
-
                     action(transaction);
                     bool flag = transaction.GetStatus() == TransactionStatus.Started;
                     if (flag)
@@ -51,7 +46,6 @@ namespace TeacherTangClass
                 }
             }, "c:\\revitExceptionlog.txt");
         }
-
         public static void SubtranInvoke(this Document doc, Action<SubTransaction> action)
         {
             using (SubTransaction subTransaction = new SubTransaction(doc))
@@ -63,8 +57,6 @@ namespace TeacherTangClass
                 {
                     subTransaction.Commit();
                 }
-
-
             }
         }
     }

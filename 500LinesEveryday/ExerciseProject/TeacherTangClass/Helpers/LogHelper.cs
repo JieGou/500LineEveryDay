@@ -4,7 +4,6 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace TeacherTangClass
 {
     public static class LogHelper
@@ -20,7 +19,6 @@ namespace TeacherTangClass
                 LogWrite(e.ToString(), path);
             }
         }
-
         public static void LogWrite(string msg, string path)
         {
             StreamWriter sw = new StreamWriter(path);

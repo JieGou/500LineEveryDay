@@ -4,8 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-
 namespace TeacherTangClass
 {
     public static class TransactionExtension
@@ -15,7 +13,6 @@ namespace TeacherTangClass
             var options = trans.GetFailureHandlingOptions();
             options.SetFailuresPreprocessor(new failure_ignore());
         }
-
         //public static void Invoke(this Document doc, Action<Transaction> action, string transactionName = "aaa")
         //{
         //    Transaction ts = new Transaction(doc, transactionName);
@@ -27,7 +24,6 @@ namespace TeacherTangClass
         //    }, @"c:\transactionException.txt");
         //}
     }
-
     public class failure_ignore : IFailuresPreprocessor
     {
         public FailureProcessingResult PreprocessFailures(FailuresAccessor failuresAccessor)
