@@ -1,5 +1,3 @@
-D:\githubRep2\500LinesEveryday\ExerciseProject\bin\Debug\工具集.dll
-D:\githubRep2\500LinesEveryday\ExerciseProject\bin\Debug\工具集.pdb
 D:\githubRep2\500LinesEveryday\ExerciseProject\bin\Debug\AdWindows.dll
 D:\githubRep2\500LinesEveryday\ExerciseProject\bin\Debug\RevitAPIIFC.dll
 D:\githubRep2\500LinesEveryday\ExerciseProject\bin\Debug\RevitAPIMacros.dll
@@ -42,5 +40,8 @@ D:\githubRep2\500LinesEveryday\ExerciseProject\bin\Debug\zh-CN\AdWindows.resourc
 D:\githubRep2\500LinesEveryday\ExerciseProject\bin\Debug\zh-TW\AdWindows.resources.dll
 D:\githubRep2\500LinesEveryday\ExerciseProject\obj\Debug\ExerciseProject.csproj.CoreCompileInputs.cache
 D:\githubRep2\500LinesEveryday\ExerciseProject\obj\Debug\ExerciseProject.csproj.CopyComplete
-D:\githubRep2\500LinesEveryday\ExerciseProject\obj\Debug\工具集.dll
-D:\githubRep2\500LinesEveryday\ExerciseProject\obj\Debug\工具集.pdb
+D:\githubRep2\500LinesEveryday\ExerciseProject\bin\Debug\ExerciseProject.dll
+D:\githubRep2\500LinesEveryday\ExerciseProject\bin\Debug\ExerciseProject.pdb
+D:\githubRep2\500LinesEveryday\ExerciseProject\obj\Debug\ExerciseProject.csprojAssemblyReference.cache
+D:\githubRep2\500LinesEveryday\ExerciseProject\obj\Debug\ExerciseProject.dll
+D:\githubRep2\500LinesEveryday\ExerciseProject\obj\Debug\ExerciseProject.pdb
