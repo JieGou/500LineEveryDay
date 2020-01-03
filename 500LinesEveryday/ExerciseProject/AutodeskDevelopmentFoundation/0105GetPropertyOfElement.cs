@@ -11,6 +11,7 @@ using Autodesk.Revit.UI.Selection;
 using System.Windows;
 using TeacherTangClass;
 using View = Autodesk.Revit.DB.View;
+
 namespace ExerciseProject
 {
     [Transaction(TransactionMode.Manual)]
@@ -35,15 +36,30 @@ namespace ExerciseProject
                 //通过引用取到选中的元素
                 Element elem = doc.GetElement(pickedEleReference);
                 ParameterSet parameters = elem.Parameters;
+
+                ElementType elementType = doc.GetElement(elem.GetTypeId()) as ElementType;
+
+                Parameter elementParameter1 = elem.get_Parameter(BuiltInParameter.ELEM_CATEGORY_PARAM_MT);
+                Parameter elementParameter2 = elem.get_Parameter(BuiltInParameter.ELEM_CATEGORY_PARAM);
+
                 string info = "属性如下:";
+
+                //获得族名称
+                info += "\n\t" + "elementType.FamilyName(族名称):" + elementType.FamilyName;
+                info += "\n\t" + "elementType.Nam(族类型):" + elementType.Name;
+                info += "\n\t" + " ELEM_CATEGORY_PARAM_MT" + elementParameter1.AsValueString();
+                info += "\n\t" + " ELEM_CATEGORY_PARAM" + elementParameter2.AsValueString();
+
+
                 foreach (Parameter para in parameters)
                 {
                     if (para.Definition.Name == "长度" && para.StorageType == StorageType.Double)
                     {
                         string length = para.AsValueString();
-                        info += length;
+                        info += "\n\t" + "(para.Definition.Name= 长度)" + length;
                     }
                 }
+
                 TaskDialog.Show("提示", info, TaskDialogCommonButtons.Close);
                 ts.Commit();
             }
@@ -54,6 +70,7 @@ namespace ExerciseProject
                     ts.RollBack();
                 }
             }
+
             return Result.Succeeded;
         }
     }

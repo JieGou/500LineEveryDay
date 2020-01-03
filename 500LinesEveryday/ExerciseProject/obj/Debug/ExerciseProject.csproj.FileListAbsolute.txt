@@ -42,6 +42,5 @@ D:\githubRep2\500LinesEveryday\ExerciseProject\obj\Debug\ExerciseProject.csproj.
 D:\githubRep2\500LinesEveryday\ExerciseProject\obj\Debug\ExerciseProject.csproj.CopyComplete
 D:\githubRep2\500LinesEveryday\ExerciseProject\bin\Debug\ExerciseProject.dll
 D:\githubRep2\500LinesEveryday\ExerciseProject\bin\Debug\ExerciseProject.pdb
-D:\githubRep2\500LinesEveryday\ExerciseProject\obj\Debug\ExerciseProject.csprojAssemblyReference.cache
 D:\githubRep2\500LinesEveryday\ExerciseProject\obj\Debug\ExerciseProject.dll
 D:\githubRep2\500LinesEveryday\ExerciseProject\obj\Debug\ExerciseProject.pdb

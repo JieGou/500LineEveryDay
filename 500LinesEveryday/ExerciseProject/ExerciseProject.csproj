@@ -83,7 +83,10 @@
     <Compile Include="AutodeskDevelopmentFoundation\0209ElementEditMirror.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0210ElementEditDelete.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0211DeleteElements.cs" />
-    <Compile Include="AutodeskDevelopmentFoundation\0301CreatGroup.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\0301CreatGroupAndRename.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\0304CreatReferencePlaneInFamilyDocument.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\0303EditFamilyAndLoadFamilyAndChangeFamilyParameter.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\0302LinearArrayAndRadialArray.cs" />
     <Compile Include="Other\CmdCreatLevel.cs" />
     <Compile Include="Other\CmdTemplateTool.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

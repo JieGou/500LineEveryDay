@@ -16,7 +16,7 @@ namespace ExerciseProject
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class _0301CreatGroup : IExternalCommand
+    class _0304CreatReferencePlaneInFamilyDocument : IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
@@ -26,29 +26,27 @@ namespace ExerciseProject
             Selection sel = uidoc.Selection;
             View acview = uidoc.ActiveView;
             UIView acuiview = uidoc.ActiveUiview();
+
+           
             Transaction ts = new Transaction(doc, "******");
             try
             {
                 ts.Start();
-                List<ElementId> elementsToGroup = new List<ElementId>();
-                //uidoc.Selection.PickElementsByRectangle() 是一个让用户用鼠标画矩形框选择的 方法
-                string info = "成组的元素如下:";
-                // foreach (var element in uidoc.Selection.PickElementsByRectangle())
-                // {
-                //     elementsToGroup.Add(element.Id);
-                //     info += "\n\t" + element.Id;
-                // }
-                //换一种选择方式
-                var referenceCollection = uidoc.Selection.PickObjects
-                    (ObjectType.Element, "请选择元素");
-                foreach (var reference in referenceCollection)
+                if (!doc.IsFamilyDocument)
                 {
-                    var elem = doc.GetElement(reference);
-                    elementsToGroup.Add(elem.Id);
-                    info += "\n\t" + "elem.Id: " + elem.Id + "; elem.GetType" + elem.GetType().ToString();
+                    TaskDialog.Show("提示","不是族文档");
                 }
-                TaskDialog.Show("提示", info);
-                Group group = doc.Create.NewGroup(elementsToGroup);
+
+                //创建的参照平面在里面上
+                XYZ bubbleEnd = new XYZ(0, 100, 100);
+                XYZ freeEnd = new XYZ(100, 100, 100);
+                XYZ cutVector = XYZ.BasisY;
+                View view = doc.ActiveView;
+                ReferencePlane referencePlane = doc.FamilyCreate.NewReferencePlane
+                    (bubbleEnd, freeEnd, cutVector, view);
+                TaskDialog.Show("提示", "创建成功");
+                referencePlane.Name = "MyReferencePlane";
+
                 ts.Commit();
             }
             catch (Exception)
