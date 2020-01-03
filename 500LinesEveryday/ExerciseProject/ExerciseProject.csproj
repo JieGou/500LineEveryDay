@@ -68,9 +68,9 @@
     <Compile Include="AutodeskDevelopmentFoundation\0102FirstSelectThenRun.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0103FirstRunThenSelect.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0104SelectElementByFilter.cs" />
-    <Compile Include="AutodeskDevelopmentFoundation\0105GetAttributesOfElement.cs" />
-    <Compile Include="AutodeskDevelopmentFoundation\0106GetAttributesByBilutInParameter.cs" />
-    <Compile Include="AutodeskDevelopmentFoundation\0107ImportantAttributesAndMethod.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\0105GetPropertyOfElement.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\0106GetPropertyByBilutInParameter.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\0107ImportantPropertyAndMethod.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0108GetFmailyNameAndFamilysymbolFromFamilyinstance.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0109CreatFamilyinstanceFromFamily.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0201CreatFamilyOfExtrusion.cs" />

@@ -16,7 +16,7 @@ namespace ExerciseProject
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class _0106GetAttributesByBilutInParameter : IExternalCommand
+    class _0105GetPropertyOfElement : IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
@@ -30,18 +30,21 @@ namespace ExerciseProject
             try
             {
                 ts.Start();
-                string info = "length = ";
+                //点选指定执行的元素
                 Reference pickedEleReference = sel.PickObject(ObjectType.Element);
                 //通过引用取到选中的元素
                 Element elem = doc.GetElement(pickedEleReference);
-                Wall wall = elem as Wall;
-                Parameter parameterLength = wall.get_Parameter(BuiltInParameter.CURVE_ELEM_LENGTH);
-                if (parameterLength != null && parameterLength.StorageType == StorageType.Double)
+                ParameterSet parameters = elem.Parameters;
+                string info = "属性如下:";
+                foreach (Parameter para in parameters)
                 {
-                    double length = parameterLength.AsDouble();
-                    info += "\n\t" + length.ToString();
+                    if (para.Definition.Name == "长度" && para.StorageType == StorageType.Double)
+                    {
+                        string length = para.AsValueString();
+                        info += length;
+                    }
                 }
-                TaskDialog.Show("提示", info);
+                TaskDialog.Show("提示", info, TaskDialogCommonButtons.Close);
                 ts.Commit();
             }
             catch (Exception)
