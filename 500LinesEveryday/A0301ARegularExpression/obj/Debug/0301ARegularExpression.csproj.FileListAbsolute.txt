@@ -1,0 +1,7 @@
+D:\githubRep2\500LinesEveryday\0301ARegularExpression\bin\Debug\0301ARegularExpression.exe.config
+D:\githubRep2\500LinesEveryday\0301ARegularExpression\bin\Debug\0301ARegularExpression.exe
+D:\githubRep2\500LinesEveryday\0301ARegularExpression\bin\Debug\0301ARegularExpression.pdb
+D:\githubRep2\500LinesEveryday\0301ARegularExpression\obj\Debug\0301ARegularExpression.csprojAssemblyReference.cache
+D:\githubRep2\500LinesEveryday\0301ARegularExpression\obj\Debug\0301ARegularExpression.csproj.CoreCompileInputs.cache
+D:\githubRep2\500LinesEveryday\0301ARegularExpression\obj\Debug\0301ARegularExpression.exe
+D:\githubRep2\500LinesEveryday\0301ARegularExpression\obj\Debug\0301ARegularExpression.pdb
