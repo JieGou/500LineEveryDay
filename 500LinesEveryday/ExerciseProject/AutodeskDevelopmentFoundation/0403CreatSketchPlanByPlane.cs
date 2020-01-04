@@ -17,12 +17,10 @@ namespace ExerciseProject
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class _0401SketchPlaneAndCreatModelCurve : IExternalCommand
+    class _0403CreatSketchPlanByPlane : IExternalCommand
     {
         /// <summary>
-        /// 手动建立平面,然后建立工作平面; 
-        /// 然后用几何点(0,0,0)到点(10,10,0)的直线创建一条模型曲线
-        /// 好像不能创建标高不在工作平面上的模型线
+        /// SketchPlaneByLevelId
         /// </summary>
         /// <param name="commandData"></param>
         /// <param name="message"></param>
@@ -43,39 +41,23 @@ namespace ExerciseProject
                 ts.Start();
 
 
-                Line line = Line.CreateBound(XYZ.Zero, new XYZ(60000 / 304.8, 60000 / 304.8, 0));
-                TaskDialog.Show("提示", "直线创建成功");
+                //书上的这段代码不能用
+                //Plane plane = this.Application.creat.NewPlane(XYZ.BasisZ, XYZ.Zero);
 
                 Plane plane = Plane.CreateByOriginAndBasis(XYZ.Zero, XYZ.BasisX, XYZ.BasisY);
+
                 TaskDialog.Show("提示", "平面创建成功");
 
-                SketchPlane sketchPlane = SketchPlane.Create
-                    (doc, plane);
+                SketchPlane sketchPlane = SketchPlane.Create(doc, plane);
                 TaskDialog.Show("提示", "工作平面创建成功");
 
-                ModelCurve modelLine = doc.Create.NewModelCurve(line, sketchPlane);
-                TaskDialog.Show("提示", "草图上的模型线创建成功");
-
-                #region
 
                 Arc arc = Arc.Create(plane, 5000 / 304.8, 0, Math.PI * 2);
                 TaskDialog.Show("提示", "弧创建成功");
-                //书上的doc.FamilyCreate.NewModelCurve,已经不能运行.
-                //修改为doc.Create.NewModelCurve, 能正确运行.
-                //ModelCurve modelCircle = doc.FamilyCreate.NewModelCurve(arc, sketchPlane);
-                ModelCurve modelCircle = doc.Create.NewModelCurve(arc, sketchPlane);
-                TaskDialog.Show("提示", "模型线创建成功");
 
-                #endregion
+                ModelCurve modelCircle = doc.FamilyCreate.NewModelCurve(arc, sketchPlane);
+                TaskDialog.Show("提示", "模型圆弧创建成功");
 
-                #region 注释的这段代码不能创建模型线, 猜测原因是直线不在工作平面上.
-
-                //  Line line2 = Line.CreateBound(XYZ.Zero, new XYZ(60000 / 304.8, 60000 / 304.8, 3000/304.8));
-                //  TaskDialog.Show("提示", "与工作平面不在一个标高的直线创建成功");
-                //  ModelCurve modelLine2 = doc.Create.NewModelCurve(line2, modelSketch);
-                //  TaskDialog.Show("提示", "与工作平面不在一个标高的模型线创建成功");
-
-                #endregion
 
                 ts.Commit();
             }
