@@ -13,6 +13,9 @@ using TeacherTangClass;
 using View = Autodesk.Revit.DB.View;
 namespace ExerciseProject
 {
+    /// <summary>
+    /// 需要在族文档中才可以运行成功
+    /// </summary>
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
