@@ -11,13 +11,21 @@ using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
 using TeacherTangClass;
 using View = Autodesk.Revit.DB.View;
+
 namespace ExerciseProject
 {
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class _0301CreatGroup : IExternalCommand
+    class _0406FilteredElementCollector : IExternalCommand
     {
+        /// <summary>
+        ///0405FilteredElementCollector
+        /// </summary>
+        /// <param name="commandData"></param>
+        /// <param name="message"></param>
+        /// <param name="elements"></param>
+        /// <returns></returns>
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
             UIApplication uiapp = commandData.Application;
@@ -26,29 +34,30 @@ namespace ExerciseProject
             Selection sel = uidoc.Selection;
             View acview = uidoc.ActiveView;
             UIView acuiview = uidoc.ActiveUiview();
+
+
             Transaction ts = new Transaction(doc, "******");
             try
             {
                 ts.Start();
-                List<ElementId> elementsToGroup = new List<ElementId>();
-                //uidoc.Selection.PickElementsByRectangle() 是一个让用户用鼠标画矩形框选择的 方法
-                string info = "成组的元素如下:";
-                // foreach (var element in uidoc.Selection.PickElementsByRectangle())
-                // {
-                //     elementsToGroup.Add(element.Id);
-                //     info += "\n\t" + element.Id;
-                // }
-                //换一种选择方式
-                var referenceCollection = uidoc.Selection.PickObjects
-                    (ObjectType.Element, "请选择元素");
-                foreach (var reference in referenceCollection)
+
+                //1 创建收集器
+                FilteredElementCollector collection = new FilteredElementCollector(doc);
+
+                //2 接着调用收集器的WherePasses函数和OfClass对元素进行过滤
+                //链式调用过滤器
+                collection.WherePasses(new ElementCategoryFilter(BuiltInCategory.OST_Levels))
+                    .WhereElementIsNotElementType();
+
+                string info = "所选元素为: ";
+
+                foreach (Level level in collection)
                 {
-                    var elem = doc.GetElement(reference);
-                    elementsToGroup.Add(elem.Id);
-                    info += "\n\t" + "elem.Id: " + elem.Id + "; elem.GetType" + elem.GetType().ToString();
+                    info += "\n\t" + "Level Name: " + level.Name;
                 }
+
                 TaskDialog.Show("提示", info);
-                Group group = doc.Create.NewGroup(elementsToGroup);
+
                 ts.Commit();
             }
             catch (Exception)
@@ -58,6 +67,7 @@ namespace ExerciseProject
                     ts.RollBack();
                 }
             }
+
             return Result.Succeeded;
         }
     }
