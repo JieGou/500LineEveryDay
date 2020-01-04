@@ -97,7 +97,6 @@ namespace ExerciseProject
 
 
 
-
                 ts.Commit();
             }
             catch (Exception)

@@ -87,7 +87,8 @@
     <Compile Include="AutodeskDevelopmentFoundation\0304CreatReferencePlaneInFamilyDocument.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0402SketchPlaneByLevelId.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0401SketchPlaneAndCreatModelCurve.cs" />
-    <Compile Include="AutodeskDevelopmentFoundation\0405FilteredElementCollector.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\0405FilteredElementCollectorGetWall.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\0406FilteredElementCollectorGetLevel.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0403CreatSketchPlanByPlane.cs" />
     <Compile Include="ClassMyTest\0404GetSketchFromExtrusion.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0303EditFamilyAndLoadFamilyAndChangeFamilyParameter.cs" />

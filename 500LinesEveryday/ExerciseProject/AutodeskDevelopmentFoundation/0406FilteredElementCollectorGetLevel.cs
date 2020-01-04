@@ -17,7 +17,7 @@ namespace ExerciseProject
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class _0405FilteredElementCollector : IExternalCommand
+    class _0406FilteredElementCollector : IExternalCommand
     {
         /// <summary>
         ///0405FilteredElementCollector
@@ -35,18 +35,28 @@ namespace ExerciseProject
             View acview = uidoc.ActiveView;
             UIView acuiview = uidoc.ActiveUiview();
 
-           
+
             Transaction ts = new Transaction(doc, "******");
             try
             {
                 ts.Start();
 
-
+                //1 创建收集器
                 FilteredElementCollector collection = new FilteredElementCollector(doc);
-                ElementFilter filter = new ElementCategoryFilter(BuiltInCategory.OST_StackedWalls);
-                collection.OfClass(typeof(Wall)).WherePasses(filter);
-                ICollection<ElementId> foundIds = collection.ToElementIds();
 
+                //2 接着调用收集器的WherePasses函数和OfClass对元素进行过滤
+                //链式调用过滤器
+                collection.WherePasses(new ElementCategoryFilter(BuiltInCategory.OST_Levels))
+                    .WhereElementIsNotElementType();
+
+                string info = "所选元素为: ";
+
+                foreach (Level level in collection)
+                {
+                    info += "\n\t" + "Level Name: " + level.Name;
+                }
+
+                TaskDialog.Show("提示", info);
 
                 ts.Commit();
             }

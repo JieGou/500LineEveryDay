@@ -45,14 +45,13 @@ namespace ExerciseProject
 
                 Line line = Line.CreateBound(XYZ.Zero, new XYZ(60000 / 304.8, 60000 / 304.8, 0));
                 TaskDialog.Show("提示", "直线创建成功");
-
+                
                 Plane plane = Plane.CreateByOriginAndBasis(XYZ.Zero, XYZ.BasisX, XYZ.BasisY);
                 TaskDialog.Show("提示", "平面创建成功");
-
-                SketchPlane sketchPlane = SketchPlane.Create
-                    (doc, plane);
+                
+                SketchPlane sketchPlane = SketchPlane.Create(doc, plane);
                 TaskDialog.Show("提示", "工作平面创建成功");
-
+                
                 ModelCurve modelLine = doc.Create.NewModelCurve(line, sketchPlane);
                 TaskDialog.Show("提示", "草图上的模型线创建成功");
 
