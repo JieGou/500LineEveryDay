@@ -31,7 +31,6 @@ namespace ExerciseProject
             {
                 ts.Start();
                 List<ElementId> elementsToGroup = new List<ElementId>();
-
                 string info = "成组的元素如下:";
                 //uidoc.Selection.PickElementsByRectangle() 是一个让用户用鼠标画矩形框选择的 方法
                 // foreach (var element in uidoc.Selection.PickElementsByRectangle())
@@ -39,7 +38,6 @@ namespace ExerciseProject
                 //     elementsToGroup.Add(element.Id);
                 //     info += "\n\t" + element.Id;
                 // }
-
                 //换一种选择方式
                 var referenceCollection = uidoc.Selection.PickObjects
                     (ObjectType.Element, "请选择元素");
@@ -51,10 +49,8 @@ namespace ExerciseProject
                 }
                 TaskDialog.Show("提示", info);
                 Group group = doc.Create.NewGroup(elementsToGroup);
-
                 //重命名
                 group.GroupType.Name = "MyGroup";
-
                 ts.Commit();
             }
             catch (Exception)

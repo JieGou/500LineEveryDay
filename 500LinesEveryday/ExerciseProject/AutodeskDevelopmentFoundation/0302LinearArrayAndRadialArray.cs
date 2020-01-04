@@ -30,10 +30,8 @@ namespace ExerciseProject
             try
             {
                 ts.Start();
-
                 List<ElementId> elementsToArray = new List<ElementId>();
                 string info = "阵列的元素如下:";
-           
                //提示用户多选
                 var referenceCollection = uidoc.Selection.PickObjects
                     (ObjectType.Element, "请选择元素");
@@ -44,7 +42,6 @@ namespace ExerciseProject
                     info += "\n\t" + "elem.Id: " + elem.Id + "; elem.GetType" + elem.GetType().ToString();
                 }
                 TaskDialog.Show("提示", info);
-
                 XYZ translation = new XYZ(0,20,0);
                 //创建线性阵列
                 // LinearArray.Create
@@ -53,8 +50,6 @@ namespace ExerciseProject
                 Line line = Line.CreateBound(new XYZ(0, 0, 0), new XYZ(0, 0, 1));
                 RadialArray.Create
                 (doc, acview, elementsToArray, 3, line, Math.PI / (180 / 30),ArrayAnchorMember.Second);
-
-               
                 ts.Commit();
             }
             catch (Exception)

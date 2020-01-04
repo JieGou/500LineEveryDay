@@ -85,6 +85,7 @@
     <Compile Include="AutodeskDevelopmentFoundation\0211DeleteElements.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0301CreatGroupAndRename.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0304CreatReferencePlaneInFamilyDocument.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\0401SketchPlaneAndCreatModelCurve.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0303EditFamilyAndLoadFamilyAndChangeFamilyParameter.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0302LinearArrayAndRadialArray.cs" />
     <Compile Include="Other\CmdCreatLevel.cs" />
