@@ -44,8 +44,11 @@ namespace ExerciseProject
                 info += "\n\t" +
                         doc.GetElement(famId).Name + "(" + "族ID:" + famId.IntegerValue + ")" +
                         " 有" + count + "个FamilySymbols(族类型)  " +
-                        " 它的族分类是 :" + doc.GetElement(famId).Category.Name.ToString();
-
+                        " 它的族分类是 :" + (doc.GetElement(famId) as Family).FamilyCategory.Name;
+                //获得family的id,
+                //然后获得族的名称
+                //在获得族类型的个数
+                //获得族所在category的名称
             }
             TaskDialog.Show("提示",info );
         }
