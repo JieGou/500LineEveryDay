@@ -63,6 +63,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutodeskDevelopmentFoundation\0505FamilySymbolFilter.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\0504FamilyCreat.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0204ElementEditMoveByLocation.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0101SelectElemetById.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0102FirstSelectThenRun.cs" />

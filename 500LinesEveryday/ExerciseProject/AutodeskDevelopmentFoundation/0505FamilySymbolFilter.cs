@@ -18,17 +18,37 @@ namespace ExerciseProject
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class _0503ElementIsElementTypeFilter : IExternalCommand
+    class _0505FamilySymbolFilter : IExternalCommand
     {
         /// <summary>
-        ///使用FamilySymbolFilter
-        /// 代码片段3-40
+        ///用来匹配元素类型的过滤器
+        /// 代码片段3-39
         /// </summary>
         /// <param name="commandData"></param>
         /// <param name="message"></param>
         /// <param name="elements"></param>
         /// <returns></returns>
-        
+        ///
+        void TestFamilySymbolFilter(Document doc)
+        {
+            //找到当前文档中族实例所对应的族类型
+            FilteredElementCollector collector = new FilteredElementCollector(doc);
+            ICollection<ElementId> famIds = collector.OfClass(typeof(Family)).ToElementIds();
+            string info = null;
+            foreach (ElementId famId in famIds)
+            {
+                collector = new FilteredElementCollector(doc);
+                FamilySymbolFilter filter = new FamilySymbolFilter(famId);
+                int count = collector.WherePasses(filter).ToElementIds().Count;
+
+                info += "\n\t" +
+                        doc.GetElement(famId).Name + "(" + "族ID:" + famId.IntegerValue + ")" +
+                        " 有" + count + "个FamilySymbols(族类型)  " +
+                        " 它的族分类是 :" + doc.GetElement(famId).Category.Name.ToString();
+
+            }
+            TaskDialog.Show("提示",info );
+        }
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
             UIApplication uiapp = commandData.Application;
@@ -44,20 +64,7 @@ namespace ExerciseProject
             {
                 ts.Start();
 
-                //找到所有属于ElementType的元素
-
-                //创建收集器
-                FilteredElementCollector collector = new FilteredElementCollector(doc);
-
-                //创建过滤器
-                ElementIsElementTypeFilter filter = new ElementIsElementTypeFilter();
-
-                ICollection<ElementId> founds = collector.WherePasses(filter).ToElementIds();
-
-                string info = null;
-                info += "找到" + founds.Count + "个ElementType";
-
-                TaskDialog.Show("提示", info);
+                TestFamilySymbolFilter(doc);
 
                 ts.Commit();
             }
