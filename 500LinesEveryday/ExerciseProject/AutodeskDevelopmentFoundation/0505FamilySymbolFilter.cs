@@ -48,6 +48,8 @@ namespace ExerciseProject
                 //获得family的id,
                 //然后获得族的名称
                 //在获得族类型的个数
+                //未完成代码:
+                //能进一步获得族类型吗?
                 //获得族所在category的名称
             }
             TaskDialog.Show("提示",info );
