@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Security.AccessControl;
 using System.Text;
@@ -17,10 +18,10 @@ namespace ExerciseProject
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class _0406FilteredElementCollectorGetLevel : IExternalCommand
+    class _0503ElementIsElementTypeFilter : IExternalCommand
     {
         /// <summary>
-        /// 实现过滤文档中所有的 标高
+        ///用来匹配元素类型的过滤器
         /// </summary>
         /// <param name="commandData"></param>
         /// <param name="message"></param>
@@ -41,29 +42,18 @@ namespace ExerciseProject
             {
                 ts.Start();
 
-                //1 创建收集器
-                FilteredElementCollector collection = new FilteredElementCollector(doc);
+                //找到所有属于ElementType的元素
 
-                //2 接着调用收集器的WherePasses函数和OfClass对元素进行过滤
-                //链式调用过滤器
-                collection.WherePasses(new ElementCategoryFilter(BuiltInCategory.OST_Levels))
-                    .WhereElementIsNotElementType();
+                //创建收集器
+                FilteredElementCollector collector = new FilteredElementCollector(doc);
 
-                string info = "所选元素为: ";
+                //创建过滤器
+                ElementIsElementTypeFilter filter = new ElementIsElementTypeFilter();
 
-                foreach (Level level in collection)
-                {
-                    info += "\n\t" + "level.Name : " + level.Name;
-                    info += "\n\t" + "level.LevelId : " + level.LevelId;
-                    info += "\n\t" + "level.Location : " + level.Location;
-                    info += "\n\t" + "level.Id : " + level.Id;
-                    info += "\n\t" + "level.Parameters : " + level.LookupParameter("类别").AsValueString();
-                    
-                    info += "\n\t" + "level.Parameters : " + level.Parameters;
-                    info += "\n\t" + "level.ParametersMap : " + level.ParametersMap;
-                    info += "\n\t";
+                ICollection<ElementId> founds = collector.WherePasses(filter).ToElementIds();
 
-                }
+                string info = null;
+                info += "找到" + founds.Count + "个ElementType";
 
                 TaskDialog.Show("提示", info);
 

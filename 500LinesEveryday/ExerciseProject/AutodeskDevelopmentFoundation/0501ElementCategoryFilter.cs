@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Security.AccessControl;
 using System.Text;
@@ -17,10 +18,10 @@ namespace ExerciseProject
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class _0406FilteredElementCollectorGetLevel : IExternalCommand
+    class _0501ElementCategoryFilter : IExternalCommand
     {
         /// <summary>
-        /// 实现过滤文档中所有的 标高
+        ///实现收集文档中虽有基本墙 类别下的所有 type
         /// </summary>
         /// <param name="commandData"></param>
         /// <param name="message"></param>
@@ -41,28 +42,22 @@ namespace ExerciseProject
             {
                 ts.Start();
 
-                //1 创建收集器
-                FilteredElementCollector collection = new FilteredElementCollector(doc);
+                //创建收集器
+                FilteredElementCollector collector = new FilteredElementCollector(doc);
 
-                //2 接着调用收集器的WherePasses函数和OfClass对元素进行过滤
-                //链式调用过滤器
-                collection.WherePasses(new ElementCategoryFilter(BuiltInCategory.OST_Levels))
-                    .WhereElementIsNotElementType();
+                //创建过滤器
+                ElementCategoryFilter filter = new ElementCategoryFilter(BuiltInCategory.OST_Walls);
 
-                string info = "所选元素为: ";
+                ICollection<Element> founds = collector.WherePasses(filter).ToElements();
 
-                foreach (Level level in collection)
+                string info = null;
+
+                foreach (Element elem in founds)
                 {
-                    info += "\n\t" + "level.Name : " + level.Name;
-                    info += "\n\t" + "level.LevelId : " + level.LevelId;
-                    info += "\n\t" + "level.Location : " + level.Location;
-                    info += "\n\t" + "level.Id : " + level.Id;
-                    info += "\n\t" + "level.Parameters : " + level.LookupParameter("类别").AsValueString();
-                    
-                    info += "\n\t" + "level.Parameters : " + level.Parameters;
-                    info += "\n\t" + "level.ParametersMap : " + level.ParametersMap;
-                    info += "\n\t";
-
+                    //  Trace.WriteLine(String.Format("Element id:{0},type :{1}",elem.Id.IntegerValue, elem.GetType().Name));
+                    info += "\n\t" + "Element id : " + elem.Id.IntegerValue;
+                    info += "\n\t" + "Name : " + elem.Name;
+                    info += "\n\t" + "type : " + elem.GetType().Name;
                 }
 
                 TaskDialog.Show("提示", info);

@@ -17,10 +17,10 @@ namespace ExerciseProject
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class _0405FilteredElementCollector : IExternalCommand
+    class _0405FilteredElementCollectorGetWall : IExternalCommand
     {
         /// <summary>
-        ///0405FilteredElementCollector
+        ///过滤文档中所有的 type 是 wall 的元素
         /// </summary>
         /// <param name="commandData"></param>
         /// <param name="message"></param>
