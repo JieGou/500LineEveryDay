@@ -12,6 +12,7 @@ using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
 using TeacherTangClass;
 using View = Autodesk.Revit.DB.View;
+using MyClass;
 
 namespace ExerciseProject
 {
@@ -50,36 +51,45 @@ namespace ExerciseProject
                 string info = null;
                 foreach (var item in columns)
                 {
-                    info += "\n\t"+"族:" +item.get_Parameter(BuiltInParameter.ELEM_FAMILY_PARAM).AsValueString();
-                    info += "\n\t"+"族类型:"+ item.Name + "\n";
+                    //info += "\n\t"+"族:" +item.get_Parameter(BuiltInParameter.ELEM_FAMILY_PARAM).AsValueString();
+
+                    info += "\n\t" + "category is:" + MyTestClass.GetCategoryFromElement(doc, item);
+                    info += "\n\t" + "family is:" + MyTestClass.GetFamilyNameFromElement(doc, item);
+                    info += "\n\t" + "familySymbol is:" + MyTestClass.GetFamilySymbolFromElement(doc, item);
+                    // TaskDialog.Show("提示", info);
+
                     Options options = new Options();
                     GeometryElement geometry = item.get_Geometry(options);
                     int i = 0;
                     foreach (GeometryObject obj in geometry)
                     {
-                        GeometryInstance instance = obj as GeometryInstance;
-                        if (instance == null)
-                            continue;
-                        GeometryElement geometryElement = instance.GetInstanceGeometry();
-                        if (geometryElement == null)
-                            continue;
-                        foreach (GeometryObject elem in geometryElement)
+                        // GeometryInstance instance = obj as GeometryInstance;
+                        // if (instance != null)
+                        //     continue;
+                        // GeometryElement geometryElement = instance.GetInstanceGeometry();
+                        // if (geometryElement != null)
+                        //     continue;
+                        // foreach (GeometryObject elem in geometryElement)
+                        // {
+                        Solid solid = obj as Solid;
+                        if (solid != null)
+                            //if (solid != null || solid.Volume.ToString() != "0")
+                            // ||表示逻辑 或
                         {
-                            Solid solid = elem as Solid;
-                            if (solid != null || solid.Volume.ToString() == "0")
-                                // ||表示逻辑 或
-                                continue;
                             FaceArray faceArray = solid.Faces;
                             foreach (Face face in faceArray)
                             {
-                                info += "Face" + i + "的面积: " + (face.Area / 10.7639).ToString("0.00") + "\n";
+                                info += "\n\t" + "Face" + i + "的面积: " + (face.Area / 10.7639).ToString("0.00");
                                 //face.Area输出的是平方英尺, /10.7639得到平面米
                                 i++;
                             }
                         }
+
+                        // }
                     }
                 }
-                MessageBox.Show(info, "信息");
+
+                TaskDialog.Show("提示", info);
 
 
                 ts.Commit();

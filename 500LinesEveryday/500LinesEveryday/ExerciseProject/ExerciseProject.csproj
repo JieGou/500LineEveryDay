@@ -66,6 +66,7 @@
     <Compile Include="AutodeskDevelopmentFoundation\0504b FamilyCreat2.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0601未完ExclusionFilterw.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0603ShowSelectedElementFaceArea.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\0605ShowSelectedElementFamilyName.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0604GetGeometryElementColumnFaceArea.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0602GetGeometryElementWallFaceArea.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0506FamilySymbolFilter.cs" />
@@ -101,7 +102,7 @@
     <Compile Include="AutodeskDevelopmentFoundation\0502ElementClassFilter.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0501ElementCategoryFilter.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0403CreatSketchPlanByPlane.cs" />
-    <Compile Include="ClassMyTest\0404GetSketchFromExtrusion.cs" />
+    <Compile Include="MyTestClass\GetNameFromElement.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0303EditFamilyAndLoadFamilyAndChangeFamilyParameter.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0302LinearArrayAndRadialArray.cs" />
     <Compile Include="Other\CmdCreatLevel.cs" />
