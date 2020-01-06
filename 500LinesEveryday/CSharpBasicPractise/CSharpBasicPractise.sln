@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.960
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpBasicPractise", "CSharpBasicPractise\CSharpBasicPractise.csproj", "{62EFC045-CDCA-4B0A-8448-A51AD688AFD2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0201ArrayList", "A0201ArrayList\0201ArrayList.csproj", "{7975B621-1967-42B4-AD6D-FB89AA5C24FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0301ARegularExpression", "A0301ARegularExpression\0301ARegularExpression.csproj", "{ECDD7708-70CE-44D7-9533-90BEC43934E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{62EFC045-CDCA-4B0A-8448-A51AD688AFD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62EFC045-CDCA-4B0A-8448-A51AD688AFD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62EFC045-CDCA-4B0A-8448-A51AD688AFD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7975B621-1967-42B4-AD6D-FB89AA5C24FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7975B621-1967-42B4-AD6D-FB89AA5C24FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7975B621-1967-42B4-AD6D-FB89AA5C24FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7975B621-1967-42B4-AD6D-FB89AA5C24FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECDD7708-70CE-44D7-9533-90BEC43934E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECDD7708-70CE-44D7-9533-90BEC43934E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECDD7708-70CE-44D7-9533-90BEC43934E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECDD7708-70CE-44D7-9533-90BEC43934E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

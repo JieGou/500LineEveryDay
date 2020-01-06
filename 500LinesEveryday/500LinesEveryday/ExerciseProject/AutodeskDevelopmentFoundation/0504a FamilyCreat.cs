@@ -52,7 +52,7 @@ namespace ExerciseProject
             refPlane.Name = "OffsetH";
         }
 
-        // //书上3-32 第67页
+        // //书上3-32 第67页 
         // public void CreatSketchPlaneByPlane()
         // {
         //     Document doc = this.ActiveUIDocument.Document;
@@ -68,7 +68,6 @@ namespace ExerciseProject
         //     }
         //
         // }
-
 
         //通过三点来确定参考平面
    
