@@ -15,53 +15,42 @@ using View = Autodesk.Revit.DB.View;
 
 namespace ExerciseProject
 {
-    /// <summary>
-    /// 使用API来编辑族时, 使用doc.Family.Creat.NewReferencePlan();创建参考平面
-    /// </summary>
-    /// 
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class _0504FamilyCreat2 : IExternalCommand
+    class _0601ExclusionFilter : IExternalCommand
     {
         /// <summary>
-        ///用来匹配元素类型的过滤器
+        ///使用ExclusionFilter过滤元素
+        ///ExclusionFilter是自动排除元素集的过滤器
+        ///代码片段3-41 :使用所有族类型作为排除的集合,对文档中的元素进行排除,得到一个没有族类型的元素类型集合
         /// </summary>
         /// <param name="commandData"></param>
         /// <param name="message"></param>
         /// <param name="elements"></param>
         /// <returns></returns>
-
-        // //书上3-32 第67页
-        // public void CreatSketchPlaneByPlane()
-        // {
-        //     Document doc = this.ActiveUIDocument.Document;
-        //     using (Transaction trans = new Transaction(doc, "Creat model arc"))
-        //     {
-        //         trans.Start();
-        //         Plane plane = this.Application.Creat.NewPlane(XYZ.BasisZ, XYZ.Zero);
-        //         SketchPlane sketchPlane = SketchPlane.Create(doc, plane);
-        //
-        //         Arc arc = Arc.Create(plane, 5, 0, Math.PI * 2);
-        //         ModelCurve modelCircle = doc.FamilyCreate.NewModelCurve(arc, sketchPlane);
-        //         trans.Commit();
-        //     }
-        // }
-
+        ///
+        void TestExcusionFilter(Document doc)
+        {
+           //找到所有除族类型FamilySymbol外的元素类型 ElementType
+        }
 
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
-            UIApplication app = commandData.Application;
-            Document doc = app.ActiveUIDocument.Document;
-            Selection sel = app.ActiveUIDocument.Selection;
+            UIApplication uiapp = commandData.Application;
+            UIDocument uidoc = commandData.Application.ActiveUIDocument;
+            Document doc = uidoc.Document;
+            Selection sel = uidoc.Selection;
+            View acview = uidoc.ActiveView;
+            UIView acuiview = uidoc.ActiveUiview();
 
 
             Transaction ts = new Transaction(doc, "******");
             try
             {
                 ts.Start();
-
-               // CreatSketchPlaneByPlane();
+                
+                TestExcusionFilter(doc);
 
                 ts.Commit();
             }

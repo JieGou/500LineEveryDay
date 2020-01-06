@@ -64,6 +64,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AutodeskDevelopmentFoundation\0504b FamilyCreat2.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\0601未完ExclusionFilterw.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\0603ShowSelectedElementFaceArea.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\0604GetGeometryElementColumnFaceArea.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\0602GetGeometryElementWallFaceArea.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0506FamilySymbolFilter.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0505FamilySymbolFilter.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0504a FamilyCreat.cs" />
