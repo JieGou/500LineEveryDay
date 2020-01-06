@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.960
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpBasicPractise", "CSharpBasicPractise\CSharpBasicPractise.csproj", "{62EFC045-CDCA-4B0A-8448-A51AD688AFD2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciseProject", "ExerciseProject\ExerciseProject.csproj", "{578E200D-39A1-467B-8CEA-F3632F6A010B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0201ArrayList", "A0201ArrayList\0201ArrayList.csproj", "{7975B621-1967-42B4-AD6D-FB89AA5C24FB}"
 EndProject
@@ -15,10 +15,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{62EFC045-CDCA-4B0A-8448-A51AD688AFD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{62EFC045-CDCA-4B0A-8448-A51AD688AFD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{62EFC045-CDCA-4B0A-8448-A51AD688AFD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{62EFC045-CDCA-4B0A-8448-A51AD688AFD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{578E200D-39A1-467B-8CEA-F3632F6A010B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{578E200D-39A1-467B-8CEA-F3632F6A010B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{578E200D-39A1-467B-8CEA-F3632F6A010B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{578E200D-39A1-467B-8CEA-F3632F6A010B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7975B621-1967-42B4-AD6D-FB89AA5C24FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7975B621-1967-42B4-AD6D-FB89AA5C24FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7975B621-1967-42B4-AD6D-FB89AA5C24FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -32,6 +32,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4EF9AD61-D890-44D2-84FD-B3F58BD58442}
+		SolutionGuid = {3AD925E7-74B9-4ED0-8CEA-2E354AEAED41}
 	EndGlobalSection
 EndGlobal
