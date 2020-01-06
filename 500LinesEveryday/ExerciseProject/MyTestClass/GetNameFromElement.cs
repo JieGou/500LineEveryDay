@@ -11,72 +11,52 @@ using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
 using TeacherTangClass;
 using View = Autodesk.Revit.DB.View;
+using ExerciseProject.TeacherTangClass.Extensions;
 
 namespace MyClass
 {
-    /// <summary>
-    /// 从element获得族类型(FamilySymbol)名称
-    /// </summary>
     public static partial class MyTestClass
     {
         /// <summary>
-        /// 获得元素的类名
+        /// 从元素获得元素的category
         /// </summary>
         /// <param name="doc"></param>
         /// <param name="element"></param>
         /// <returns></returns>
         public static string GetCategoryFromElement(this Document doc, Element element)
         {
-            if (element is FamilyInstance)
-            {
-                ElementId typeId = element.GetTypeId();
-                FamilySymbol symbol = doc.GetElement(typeId) as FamilySymbol;
-                //String familyName = symbol.Family.Name;
-                string category = symbol.Category.Name;
-                return category;
-            }
-            else
-            {
-                ElementType type = doc.GetElement(element.GetTypeId()) as ElementType;
-                String category = type.Category.Name;
-                return category;
-            }
+            var result = element.Category;
+            return result.Name;
         }
 
         /// <summary>
-        /// 获得元素的族名
+        /// 从元素获得元素的族familyName
         /// </summary>
         /// <param name="doc"></param>
         /// <param name="element"></param>
         /// <returns></returns>
         public static string GetFamilyNameFromElement(this Document doc, Element element)
         {
-            if (element is FamilyInstance)
-            {
-                ElementId typeId = element.GetTypeId();
-                FamilySymbol symbol = doc.GetElement(typeId) as FamilySymbol;
-                String familyName = symbol.Family.Name;
-                return familyName;
-            }
-            else
-            {
-                ElementType type = doc.GetElement(element.GetTypeId()) as ElementType;
-                String familyName = type.FamilyName;
-                return familyName;
-            }
+            //return  (element.GetTypeId().GetElement(doc) as ElementType)?.FamilyName;
+
+            var typeid = element.GetTypeId();
+            var elementType = typeid.GetElement(doc) as ElementType;
+            string familyName = elementType.FamilyName;
+            return familyName;
         }
 
         /// <summary>
-        /// 获得元素的类型名
+        /// 从元素获得元素的familySymbol
         /// </summary>
         /// <param name="doc"></param>
         /// <param name="element"></param>
         /// <returns></returns>
         public static string GetFamilySymbolFromElement(this Document doc, Element element)
         {
-            ElementType type = doc.GetElement(element.GetTypeId()) as ElementType;
-            string symbolName = type.Name;
-            return symbolName;
+            var typeid = element.GetTypeId();
+            ElementType elementType = typeid.GetElement(doc) as ElementType;
+            string  familySymbolName =elementType.Name;
+            return familySymbolName;
         }
     }
 }
