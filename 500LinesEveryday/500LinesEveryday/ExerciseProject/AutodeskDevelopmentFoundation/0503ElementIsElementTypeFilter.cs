@@ -21,12 +21,14 @@ namespace ExerciseProject
     class _0503ElementIsElementTypeFilter : IExternalCommand
     {
         /// <summary>
-        ///用来匹配元素类型的过滤器
+        ///使用FamilySymbolFilter
+        /// 代码片段3-40
         /// </summary>
         /// <param name="commandData"></param>
         /// <param name="message"></param>
         /// <param name="elements"></param>
         /// <returns></returns>
+        
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
             UIApplication uiapp = commandData.Application;
