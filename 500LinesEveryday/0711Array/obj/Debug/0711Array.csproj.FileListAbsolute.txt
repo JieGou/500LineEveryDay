@@ -1,0 +1,7 @@
+D:\githubRep2\500LinesEveryday\0711Array\bin\Debug\0711Array.exe.config
+D:\githubRep2\500LinesEveryday\0711Array\bin\Debug\0711Array.exe
+D:\githubRep2\500LinesEveryday\0711Array\bin\Debug\0711Array.pdb
+D:\githubRep2\500LinesEveryday\0711Array\obj\Debug\0711Array.csprojAssemblyReference.cache
+D:\githubRep2\500LinesEveryday\0711Array\obj\Debug\0711Array.csproj.CoreCompileInputs.cache
+D:\githubRep2\500LinesEveryday\0711Array\obj\Debug\0711Array.exe
+D:\githubRep2\500LinesEveryday\0711Array\obj\Debug\0711Array.pdb

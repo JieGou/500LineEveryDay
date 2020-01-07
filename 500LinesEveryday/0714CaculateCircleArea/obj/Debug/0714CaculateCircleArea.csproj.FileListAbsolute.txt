@@ -1,0 +1,7 @@
+D:\githubRep2\500LinesEveryday\0714CaculateCircleArea\bin\Debug\0714CaculateCircleArea.exe.config
+D:\githubRep2\500LinesEveryday\0714CaculateCircleArea\bin\Debug\0714CaculateCircleArea.exe
+D:\githubRep2\500LinesEveryday\0714CaculateCircleArea\bin\Debug\0714CaculateCircleArea.pdb
+D:\githubRep2\500LinesEveryday\0714CaculateCircleArea\obj\Debug\0714CaculateCircleArea.csprojAssemblyReference.cache
+D:\githubRep2\500LinesEveryday\0714CaculateCircleArea\obj\Debug\0714CaculateCircleArea.csproj.CoreCompileInputs.cache
+D:\githubRep2\500LinesEveryday\0714CaculateCircleArea\obj\Debug\0714CaculateCircleArea.exe
+D:\githubRep2\500LinesEveryday\0714CaculateCircleArea\obj\Debug\0714CaculateCircleArea.pdb

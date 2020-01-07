@@ -1,0 +1,6 @@
+D:\githubRep2\500LinesEveryday\0718TypeCheckingAs\bin\Debug\0718TypeCheckingAs.exe.config
+D:\githubRep2\500LinesEveryday\0718TypeCheckingAs\bin\Debug\0718TypeCheckingAs.exe
+D:\githubRep2\500LinesEveryday\0718TypeCheckingAs\bin\Debug\0718TypeCheckingAs.pdb
+D:\githubRep2\500LinesEveryday\0718TypeCheckingAs\obj\Debug\0718TypeCheckingAs.csproj.CoreCompileInputs.cache
+D:\githubRep2\500LinesEveryday\0718TypeCheckingAs\obj\Debug\0718TypeCheckingAs.exe
+D:\githubRep2\500LinesEveryday\0718TypeCheckingAs\obj\Debug\0718TypeCheckingAs.pdb

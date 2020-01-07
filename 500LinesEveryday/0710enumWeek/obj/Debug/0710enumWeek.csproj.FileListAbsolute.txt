@@ -1,0 +1,6 @@
+D:\githubRep2\500LinesEveryday\0710enumWeek\bin\Debug\0710enumWeek.exe.config
+D:\githubRep2\500LinesEveryday\0710enumWeek\bin\Debug\0710enumWeek.exe
+D:\githubRep2\500LinesEveryday\0710enumWeek\bin\Debug\0710enumWeek.pdb
+D:\githubRep2\500LinesEveryday\0710enumWeek\obj\Debug\0710enumWeek.csproj.CoreCompileInputs.cache
+D:\githubRep2\500LinesEveryday\0710enumWeek\obj\Debug\0710enumWeek.exe
+D:\githubRep2\500LinesEveryday\0710enumWeek\obj\Debug\0710enumWeek.pdb

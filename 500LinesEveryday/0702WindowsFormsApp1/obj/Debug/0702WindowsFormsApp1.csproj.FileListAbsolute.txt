@@ -1,0 +1,10 @@
+D:\githubRep2\500LinesEveryday\0702WindowsFormsApp1\bin\Debug\0702WindowsFormsApp1.exe.config
+D:\githubRep2\500LinesEveryday\0702WindowsFormsApp1\bin\Debug\0702WindowsFormsApp1.exe
+D:\githubRep2\500LinesEveryday\0702WindowsFormsApp1\bin\Debug\0702WindowsFormsApp1.pdb
+D:\githubRep2\500LinesEveryday\0702WindowsFormsApp1\obj\Debug\0702WindowsFormsApp1.csprojAssemblyReference.cache
+D:\githubRep2\500LinesEveryday\0702WindowsFormsApp1\obj\Debug\_0702WindowsFormsApp1.Form1.resources
+D:\githubRep2\500LinesEveryday\0702WindowsFormsApp1\obj\Debug\_0702WindowsFormsApp1.Properties.Resources.resources
+D:\githubRep2\500LinesEveryday\0702WindowsFormsApp1\obj\Debug\0702WindowsFormsApp1.csproj.GenerateResource.cache
+D:\githubRep2\500LinesEveryday\0702WindowsFormsApp1\obj\Debug\0702WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\githubRep2\500LinesEveryday\0702WindowsFormsApp1\obj\Debug\0702WindowsFormsApp1.exe
+D:\githubRep2\500LinesEveryday\0702WindowsFormsApp1\obj\Debug\0702WindowsFormsApp1.pdb

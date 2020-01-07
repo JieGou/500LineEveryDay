@@ -1,0 +1,7 @@
+D:\githubRep2\500LinesEveryday\0708struct\bin\Debug\0708struct.exe.config
+D:\githubRep2\500LinesEveryday\0708struct\bin\Debug\0708struct.exe
+D:\githubRep2\500LinesEveryday\0708struct\bin\Debug\0708struct.pdb
+D:\githubRep2\500LinesEveryday\0708struct\obj\Debug\0708struct.csprojAssemblyReference.cache
+D:\githubRep2\500LinesEveryday\0708struct\obj\Debug\0708struct.csproj.CoreCompileInputs.cache
+D:\githubRep2\500LinesEveryday\0708struct\obj\Debug\0708struct.exe
+D:\githubRep2\500LinesEveryday\0708struct\obj\Debug\0708struct.pdb

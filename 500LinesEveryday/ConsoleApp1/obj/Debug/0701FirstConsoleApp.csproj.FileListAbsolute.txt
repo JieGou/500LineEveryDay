@@ -1,0 +1,6 @@
+D:\githubRep2\500LinesEveryday\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\githubRep2\500LinesEveryday\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\githubRep2\500LinesEveryday\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\githubRep2\500LinesEveryday\ConsoleApp1\obj\Debug\0701FirstConsoleApp.csproj.CoreCompileInputs.cache
+D:\githubRep2\500LinesEveryday\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\githubRep2\500LinesEveryday\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

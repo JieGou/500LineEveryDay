@@ -1,0 +1,9 @@
+D:\githubRep2\500LinesEveryday\0705WinForExercise002\bin\Debug\0705WinForExercise002.exe.config
+D:\githubRep2\500LinesEveryday\0705WinForExercise002\bin\Debug\0705WinForExercise002.exe
+D:\githubRep2\500LinesEveryday\0705WinForExercise002\bin\Debug\0705WinForExercise002.pdb
+D:\githubRep2\500LinesEveryday\0705WinForExercise002\obj\Debug\_0705WinForExercise002.Form1.resources
+D:\githubRep2\500LinesEveryday\0705WinForExercise002\obj\Debug\_0705WinForExercise002.Properties.Resources.resources
+D:\githubRep2\500LinesEveryday\0705WinForExercise002\obj\Debug\0705WinForExercise002.csproj.GenerateResource.cache
+D:\githubRep2\500LinesEveryday\0705WinForExercise002\obj\Debug\0705WinForExercise002.csproj.CoreCompileInputs.cache
+D:\githubRep2\500LinesEveryday\0705WinForExercise002\obj\Debug\0705WinForExercise002.exe
+D:\githubRep2\500LinesEveryday\0705WinForExercise002\obj\Debug\0705WinForExercise002.pdb

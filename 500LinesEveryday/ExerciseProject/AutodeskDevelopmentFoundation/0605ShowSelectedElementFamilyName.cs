@@ -13,6 +13,7 @@ using Autodesk.Revit.UI.Selection;
 using TeacherTangClass;
 using View = Autodesk.Revit.DB.View;
 using MyClass;
+using ExerciseProject.TeacherTangClass.Extensions;
 
 namespace ExerciseProject
 {
@@ -49,8 +50,9 @@ namespace ExerciseProject
 
                 string info = null;
 
+
                 info += "Category: " + MyTestClass.GetCategoryFromElement(doc, elem);
-                info += "\n\t" +"Family: " +MyTestClass.GetFamilyNameFromElement(doc, elem);
+                info += "\n\t" + "Family: " + MyTestClass.GetFamilyNameFromElement(doc, elem);
                 info += "\n\t" + "FamilySymbol: " + MyTestClass.GetFamilySymbolFromElement(doc, elem);
 
                 TaskDialog.Show("提示", info);

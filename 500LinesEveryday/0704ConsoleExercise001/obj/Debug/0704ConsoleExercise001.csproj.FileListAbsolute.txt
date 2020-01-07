@@ -1,0 +1,6 @@
+D:\githubRep2\500LinesEveryday\0704ConsoleExercise001\bin\Debug\0704ConsoleExercise001.exe.config
+D:\githubRep2\500LinesEveryday\0704ConsoleExercise001\bin\Debug\0704ConsoleExercise001.exe
+D:\githubRep2\500LinesEveryday\0704ConsoleExercise001\bin\Debug\0704ConsoleExercise001.pdb
+D:\githubRep2\500LinesEveryday\0704ConsoleExercise001\obj\Debug\0704ConsoleExercise001.csproj.CoreCompileInputs.cache
+D:\githubRep2\500LinesEveryday\0704ConsoleExercise001\obj\Debug\0704ConsoleExercise001.exe
+D:\githubRep2\500LinesEveryday\0704ConsoleExercise001\obj\Debug\0704ConsoleExercise001.pdb
