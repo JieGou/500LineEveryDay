@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,42 +20,44 @@ namespace ExerciseProject
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class _0606ExclusionFilter : IExternalCommand
+    class _0702ElementParameterFilter : IExternalCommand
     {
         /// <summary>
-        ///代码片段3-41
-        /// 使用ExclusionFilter过滤元素
-        /// 使用所有族类型作为排除的集合
+        /// 代码片段3-43
+        /// 使用ElemeterParameterFilter过滤元素
         /// </summary>
         /// <param name="commandData"></param>
         /// <param name="message"></param>
         /// <param name="elements"></param>
         /// <returns></returns>
-        void TestExclusionFilter(Document doc)
+        void TestElementParameterFilter(Document doc)
         {
-            //找到所有除族类型FamilySymbol外的元素类型 ElementType
+            //找到所有id大于99的元素
+            BuiltInParameter testPara = BuiltInParameter.ID_PARAM;
+            //提供者
+            ParameterValueProvider pvp = new ParameterValueProvider(new ElementId((int)testPara));
+
+            //评估者
+            FilterNumericRuleEvaluator fnrv = new FilterNumericGreater();
+
+            //规则者
+            ElementId ruleValId = new ElementId(99999); //Id大于99, 由于文件里的元素太多， 运行后能按一年确定不带停的。
+
+            //创建规则过滤器和对应的元素过滤器
+            FilterRule fRule = new FilterElementIdRule(pvp, fnrv, ruleValId);
+            ElementParameterFilter filter = new ElementParameterFilter(fRule);
             FilteredElementCollector collector = new FilteredElementCollector(doc);
+            ICollection<Element> founds = collector.WherePasses(filter).ToElements();
+            foreach (Element elem in founds)
+            {
+                string info = null;
+                info += "Element id :" + elem.Id.IntegerValue;
+                TaskDialog.Show("tips", info);
 
-            ICollection<ElementId> elementTypeCollection = collector.WhereElementIsElementType().ToElementIds();
-
-            ICollection<ElementId> familySymbolCollection = collector.OfClass(typeof(FamilySymbol)).ToElementIds();
-
-
-            //创建一个排除族类型FamilySymbol的过滤器
-            ExclusionFilter filter = new ExclusionFilter(familySymbolCollection);
-            ICollection<ElementId> founds = collector.WhereElementIsElementType().WherePasses(filter).ToElementIds();
-            //未完成代码，ExclusionFilter不能排除元素
-            
-
-            string info = "共找到" + elementTypeCollection.Count + "个ElementType\n";
-            info += "其中" + familySymbolCollection.Count + "是FamilySymbol\n";
-            info += "其中" + founds.Count.ToString() + "个不是FamilySymbol";
-            //未完成代码， 过滤得到非familySymbol的数量不一致。
-            TaskDialog.Show("tips", info);
-            
+            }
 
         }
-        
+
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
             UIApplication uiapp = commandData.Application;
@@ -70,7 +73,7 @@ namespace ExerciseProject
             {
                 ts.Start();
 
-                TestExclusionFilter(doc);
+                TestElementParameterFilter(doc);
 
                 ts.Commit();
             }

@@ -12,48 +12,32 @@ using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
 using TeacherTangClass;
 using View = Autodesk.Revit.DB.View;
+using MyClass;
+using ExerciseProject.TeacherTangClass.Extensions;
 
 namespace ExerciseProject
 {
-    /// <summary>
-    /// 使用API来编辑族时, 使用doc.Family.Creat.NewReferencePlan();创建参考平面
-    /// </summary>
-    /// 
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class _0504FamilyCreat2 : IExternalCommand
+    class _0605ShowSelectedElementName : IExternalCommand
     {
         /// <summary>
-        ///用来匹配元素类型的过滤器
+        ///演示获取revit文件柱的各个面的面积
         /// </summary>
         /// <param name="commandData"></param>
         /// <param name="message"></param>
         /// <param name="elements"></param>
         /// <returns></returns>
-
-        // //书上3-32 第67页
-        // public void CreatSketchPlaneByPlane()
-        // {
-        //     Document doc = this.ActiveUIDocument.Document;
-        //     using (Transaction trans = new Transaction(doc, "Creat model arc"))
-        //     {
-        //         trans.Start();
-        //         Plane plane = this.Application.Creat.NewPlane(XYZ.BasisZ, XYZ.Zero);
-        //         SketchPlane sketchPlane = SketchPlane.Create(doc, plane);
-        //
-        //         Arc arc = Arc.Create(plane, 5, 0, Math.PI * 2);
-        //         ModelCurve modelCircle = doc.FamilyCreate.NewModelCurve(arc, sketchPlane);
-        //         trans.Commit();
-        //     }
-        // }
-
-
+        ///
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
-            UIApplication app = commandData.Application;
-            Document doc = app.ActiveUIDocument.Document;
-            Selection sel = app.ActiveUIDocument.Selection;
+            UIApplication uiapp = commandData.Application;
+            UIDocument uidoc = commandData.Application.ActiveUIDocument;
+            Document doc = uidoc.Document;
+            Selection sel = uidoc.Selection;
+            View acview = uidoc.ActiveView;
+            UIView acuiview = uidoc.ActiveUiview();
 
 
             Transaction ts = new Transaction(doc, "******");
@@ -61,7 +45,17 @@ namespace ExerciseProject
             {
                 ts.Start();
 
-               // CreatSketchPlaneByPlane();
+                Reference reference = sel.PickObject(ObjectType.Element);
+                Element elem = doc.GetElement(reference);
+
+                string info = null;
+
+
+                info += "Category: " + MyTestClass.GetCategoryFromElement(doc, elem);
+                info += "\n\t" + "Family: " + MyTestClass.GetFamilyNameFromElement(doc, elem);
+                info += "\n\t" + "FamilySymbol: " + MyTestClass.GetFamilySymbolFromElement(doc, elem);
+
+                TaskDialog.Show("提示", info);
 
                 ts.Commit();
             }

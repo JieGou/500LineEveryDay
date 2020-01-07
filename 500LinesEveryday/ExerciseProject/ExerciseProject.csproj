@@ -63,16 +63,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AutodeskDevelopmentFoundation\0504b FamilyCreat2.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\0504bFamilyCreat2.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0601未完ExclusionFilterw.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0603ShowSelectedElementFaceArea.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\0704CurveElementFilter.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\0703ElementInstanceFilter.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\0702ElementParameterFilter.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\0701ElementLevelFilter.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0606ExclusionFilter.cs" />
-    <Compile Include="AutodeskDevelopmentFoundation\0605ShowSelectedElementFamilyName.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\0605ShowSelectedElementName.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0604GetGeometryElementColumnFaceArea.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0602GetGeometryElementWallFaceArea.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0506FamilySymbolFilter.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0505FamilySymbolFilter.cs" />
-    <Compile Include="AutodeskDevelopmentFoundation\0504a FamilyCreat.cs" />
+    <Compile Include="AutodeskDevelopmentFoundation\0504aFamilyCreat.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0204ElementEditMoveByLocation.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0101SelectElemetById.cs" />
     <Compile Include="AutodeskDevelopmentFoundation\0102FirstSelectThenRun.cs" />

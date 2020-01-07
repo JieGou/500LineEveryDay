@@ -22,10 +22,10 @@ namespace ExerciseProject
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class _0504FamilyCreat : IExternalCommand
+    class _0504aFamilyCreat : IExternalCommand
     {
         /// <summary>
-        ///用来匹配元素类型的过滤器
+        ///在族编辑模式下， 创建参考平面
         /// </summary>
         /// <param name="commandData"></param>
         /// <param name="message"></param>
@@ -52,25 +52,7 @@ namespace ExerciseProject
             refPlane.Name = "OffsetH";
         }
 
-        // //书上3-32 第67页 
-        // public void CreatSketchPlaneByPlane()
-        // {
-        //     Document doc = this.ActiveUIDocument.Document;
-        //     using (Transaction trans = new Transaction(doc, "Creat model arc"))
-        //     {
-        //         trans.Start();
-        //         Plane plane = this.Application.Creat.NewPlane(XYZ.BasisZ, XYZ.Zero);
-        //         SketchPlane sketchPlane = SketchPlane.Create(doc, plane);
-        //
-        //         Arc arc = Arc.Create(plane, 5, 0, Math.PI * 2);
-        //         ModelCurve modelCircle = doc.FamilyCreate.NewModelCurve(arc, sketchPlane);
-        //         trans.Commit();
-        //     }
-        //
-        // }
-
-        //通过三点来确定参考平面
-   
+ 
 
         //通过类型与名称找Element
         Element findElement(Document _rvtDoc, Type targetType, string targetName)

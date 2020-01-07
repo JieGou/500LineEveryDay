@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,42 +20,35 @@ namespace ExerciseProject
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class _0606ExclusionFilter : IExternalCommand
+    class _0701ElementLevelFilter : IExternalCommand
     {
         /// <summary>
-        ///代码片段3-41
-        /// 使用ExclusionFilter过滤元素
-        /// 使用所有族类型作为排除的集合
+        /// 代码片段3-42
+        /// 使用ElementLevelFilter过滤元素
         /// </summary>
         /// <param name="commandData"></param>
         /// <param name="message"></param>
         /// <param name="elements"></param>
         /// <returns></returns>
-        void TestExclusionFilter(Document doc)
+        void TestElementLevelFilter(Document doc)
         {
-            //找到所有除族类型FamilySymbol外的元素类型 ElementType
-            FilteredElementCollector collector = new FilteredElementCollector(doc);
+           //找到当前标高对应的所有元素
+           FilteredElementCollector collector = new FilteredElementCollector(doc);
+            ICollection<ElementId> levelIds = collector.OfClass(typeof(Level)).ToElementIds();
+            string info = null;
+            foreach (ElementId levelId in levelIds)
+            {
+                collector = new FilteredElementCollector(doc);
+                ElementLevelFilter filter = new ElementLevelFilter(levelId);
+                ICollection<ElementId> founds = collector.WherePasses(filter).ToElementIds();
 
-            ICollection<ElementId> elementTypeCollection = collector.WhereElementIsElementType().ToElementIds();
+                info += "\n\t" + founds.Count;
+                info += "个元素与 Level " + levelId.IntegerValue +"关联";
+                TaskDialog.Show("tips", info);
 
-            ICollection<ElementId> familySymbolCollection = collector.OfClass(typeof(FamilySymbol)).ToElementIds();
-
-
-            //创建一个排除族类型FamilySymbol的过滤器
-            ExclusionFilter filter = new ExclusionFilter(familySymbolCollection);
-            ICollection<ElementId> founds = collector.WhereElementIsElementType().WherePasses(filter).ToElementIds();
-            //未完成代码，ExclusionFilter不能排除元素
-            
-
-            string info = "共找到" + elementTypeCollection.Count + "个ElementType\n";
-            info += "其中" + familySymbolCollection.Count + "是FamilySymbol\n";
-            info += "其中" + founds.Count.ToString() + "个不是FamilySymbol";
-            //未完成代码， 过滤得到非familySymbol的数量不一致。
-            TaskDialog.Show("tips", info);
-            
-
+            }
         }
-        
+
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
             UIApplication uiapp = commandData.Application;
@@ -70,7 +64,7 @@ namespace ExerciseProject
             {
                 ts.Start();
 
-                TestExclusionFilter(doc);
+                TestElementLevelFilter(doc);
 
                 ts.Commit();
             }
