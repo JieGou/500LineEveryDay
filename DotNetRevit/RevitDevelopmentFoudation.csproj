@@ -66,6 +66,9 @@
     <Compile Include="TheCodeInBook\R0504bFamilyCreat2.cs" />
     <Compile Include="TheCodeInBook\R0601未完ExclusionFilterw.cs" />
     <Compile Include="TheCodeInBook\R0603ShowSelectedElementFaceArea.cs" />
+    <Compile Include="TheCodeInBook\R0803CreatViewByLevelId.cs" />
+    <Compile Include="TheCodeInBook\R0802CreatLevel.cs" />
+    <Compile Include="TheCodeInBook\R0801SetLevelBaseType.cs" />
     <Compile Include="TheCodeInBook\R0704CurveElementFilter.cs" />
     <Compile Include="TheCodeInBook\R0703ElementInstanceFilter.cs" />
     <Compile Include="TheCodeInBook\R0702ElementParameterFilter.cs" />
