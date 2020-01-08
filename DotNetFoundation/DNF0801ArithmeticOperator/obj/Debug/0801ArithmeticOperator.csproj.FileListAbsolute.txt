@@ -1,7 +1,0 @@
-D:\githubRep2\500LinesEveryday\0801ArithmeticOperator\bin\Debug\0801ArithmeticOperator.exe.config
-D:\githubRep2\500LinesEveryday\0801ArithmeticOperator\bin\Debug\0801ArithmeticOperator.exe
-D:\githubRep2\500LinesEveryday\0801ArithmeticOperator\bin\Debug\0801ArithmeticOperator.pdb
-D:\githubRep2\500LinesEveryday\0801ArithmeticOperator\obj\Debug\0801ArithmeticOperator.csprojAssemblyReference.cache
-D:\githubRep2\500LinesEveryday\0801ArithmeticOperator\obj\Debug\0801ArithmeticOperator.csproj.CoreCompileInputs.cache
-D:\githubRep2\500LinesEveryday\0801ArithmeticOperator\obj\Debug\0801ArithmeticOperator.exe
-D:\githubRep2\500LinesEveryday\0801ArithmeticOperator\obj\Debug\0801ArithmeticOperator.pdb

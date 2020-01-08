@@ -1,7 +1,0 @@
-D:\githubRep2\Gitee500LinesEveryday\DotNetFoundation\F0817C03S09Ques19\bin\Debug\F0817C03S09Ques19.exe.config
-D:\githubRep2\Gitee500LinesEveryday\DotNetFoundation\F0817C03S09Ques19\bin\Debug\F0817C03S09Ques19.exe
-D:\githubRep2\Gitee500LinesEveryday\DotNetFoundation\F0817C03S09Ques19\bin\Debug\F0817C03S09Ques19.pdb
-D:\githubRep2\Gitee500LinesEveryday\DotNetFoundation\F0817C03S09Ques19\obj\Debug\F0817C03S09Ques19.csprojAssemblyReference.cache
-D:\githubRep2\Gitee500LinesEveryday\DotNetFoundation\F0817C03S09Ques19\obj\Debug\F0817C03S09Ques19.csproj.CoreCompileInputs.cache
-D:\githubRep2\Gitee500LinesEveryday\DotNetFoundation\F0817C03S09Ques19\obj\Debug\F0817C03S09Ques19.exe
-D:\githubRep2\Gitee500LinesEveryday\DotNetFoundation\F0817C03S09Ques19\obj\Debug\F0817C03S09Ques19.pdb

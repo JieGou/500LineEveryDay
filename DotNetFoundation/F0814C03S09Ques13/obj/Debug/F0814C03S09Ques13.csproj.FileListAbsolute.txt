@@ -1,7 +1,0 @@
-D:\githubRep2\500LinesEveryday\F0814C03S09Ques13\bin\Debug\F0814C03S09Ques13.exe.config
-D:\githubRep2\500LinesEveryday\F0814C03S09Ques13\bin\Debug\F0814C03S09Ques13.exe
-D:\githubRep2\500LinesEveryday\F0814C03S09Ques13\bin\Debug\F0814C03S09Ques13.pdb
-D:\githubRep2\500LinesEveryday\F0814C03S09Ques13\obj\Debug\F0814C03S09Ques13.csprojAssemblyReference.cache
-D:\githubRep2\500LinesEveryday\F0814C03S09Ques13\obj\Debug\F0814C03S09Ques13.csproj.CoreCompileInputs.cache
-D:\githubRep2\500LinesEveryday\F0814C03S09Ques13\obj\Debug\F0814C03S09Ques13.exe
-D:\githubRep2\500LinesEveryday\F0814C03S09Ques13\obj\Debug\F0814C03S09Ques13.pdb

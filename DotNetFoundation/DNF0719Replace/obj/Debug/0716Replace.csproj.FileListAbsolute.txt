@@ -1,6 +1,0 @@
-D:\githubRep2\500LinesEveryday\0716Replace\bin\Debug\0716Replace.exe.config
-D:\githubRep2\500LinesEveryday\0716Replace\bin\Debug\0716Replace.exe
-D:\githubRep2\500LinesEveryday\0716Replace\bin\Debug\0716Replace.pdb
-D:\githubRep2\500LinesEveryday\0716Replace\obj\Debug\0716Replace.csproj.CoreCompileInputs.cache
-D:\githubRep2\500LinesEveryday\0716Replace\obj\Debug\0716Replace.exe
-D:\githubRep2\500LinesEveryday\0716Replace\obj\Debug\0716Replace.pdb

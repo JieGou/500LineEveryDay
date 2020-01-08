@@ -1,6 +1,0 @@
-D:\githubRep2\500LinesEveryday\0707Variable\bin\Debug\0707Variable.exe.config
-D:\githubRep2\500LinesEveryday\0707Variable\bin\Debug\0707Variable.exe
-D:\githubRep2\500LinesEveryday\0707Variable\bin\Debug\0707Variable.pdb
-D:\githubRep2\500LinesEveryday\0707Variable\obj\Debug\0707Variable.csproj.CoreCompileInputs.cache
-D:\githubRep2\500LinesEveryday\0707Variable\obj\Debug\0707Variable.exe
-D:\githubRep2\500LinesEveryday\0707Variable\obj\Debug\0707Variable.pdb

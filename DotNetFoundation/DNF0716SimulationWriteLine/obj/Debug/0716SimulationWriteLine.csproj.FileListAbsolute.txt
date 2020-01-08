@@ -1,7 +1,0 @@
-D:\githubRep2\500LinesEveryday\0716SimulationWriteLine\bin\Debug\0716SimulationWriteLine.exe.config
-D:\githubRep2\500LinesEveryday\0716SimulationWriteLine\bin\Debug\0716SimulationWriteLine.exe
-D:\githubRep2\500LinesEveryday\0716SimulationWriteLine\bin\Debug\0716SimulationWriteLine.pdb
-D:\githubRep2\500LinesEveryday\0716SimulationWriteLine\obj\Debug\0716SimulationWriteLine.csprojAssemblyReference.cache
-D:\githubRep2\500LinesEveryday\0716SimulationWriteLine\obj\Debug\0716SimulationWriteLine.csproj.CoreCompileInputs.cache
-D:\githubRep2\500LinesEveryday\0716SimulationWriteLine\obj\Debug\0716SimulationWriteLine.exe
-D:\githubRep2\500LinesEveryday\0716SimulationWriteLine\obj\Debug\0716SimulationWriteLine.pdb

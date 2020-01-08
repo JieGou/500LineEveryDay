@@ -1,6 +1,0 @@
-D:\githubRep2\500LinesEveryday\0712TwoDimensionalArray\bin\Debug\0712TwoDimensionalArray.exe.config
-D:\githubRep2\500LinesEveryday\0712TwoDimensionalArray\bin\Debug\0712TwoDimensionalArray.exe
-D:\githubRep2\500LinesEveryday\0712TwoDimensionalArray\bin\Debug\0712TwoDimensionalArray.pdb
-D:\githubRep2\500LinesEveryday\0712TwoDimensionalArray\obj\Debug\0712TwoDimensionalArray.csproj.CoreCompileInputs.cache
-D:\githubRep2\500LinesEveryday\0712TwoDimensionalArray\obj\Debug\0712TwoDimensionalArray.exe
-D:\githubRep2\500LinesEveryday\0712TwoDimensionalArray\obj\Debug\0712TwoDimensionalArray.pdb

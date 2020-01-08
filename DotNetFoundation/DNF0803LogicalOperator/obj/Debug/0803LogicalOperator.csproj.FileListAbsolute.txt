@@ -1,7 +1,0 @@
-D:\githubRep2\500LinesEveryday\0803LogicalOperator\bin\Debug\0803LogicalOperator.exe.config
-D:\githubRep2\500LinesEveryday\0803LogicalOperator\bin\Debug\0803LogicalOperator.exe
-D:\githubRep2\500LinesEveryday\0803LogicalOperator\bin\Debug\0803LogicalOperator.pdb
-D:\githubRep2\500LinesEveryday\0803LogicalOperator\obj\Debug\0803LogicalOperator.csprojAssemblyReference.cache
-D:\githubRep2\500LinesEveryday\0803LogicalOperator\obj\Debug\0803LogicalOperator.csproj.CoreCompileInputs.cache
-D:\githubRep2\500LinesEveryday\0803LogicalOperator\obj\Debug\0803LogicalOperator.exe
-D:\githubRep2\500LinesEveryday\0803LogicalOperator\obj\Debug\0803LogicalOperator.pdb

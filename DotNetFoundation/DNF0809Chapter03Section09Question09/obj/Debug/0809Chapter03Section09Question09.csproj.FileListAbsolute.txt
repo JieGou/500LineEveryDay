@@ -1,6 +1,0 @@
-D:\githubRep2\500LinesEveryday\0809Chapter03Section09Question09\bin\Debug\0809Chapter03Section09Question09.exe.config
-D:\githubRep2\500LinesEveryday\0809Chapter03Section09Question09\bin\Debug\0809Chapter03Section09Question09.exe
-D:\githubRep2\500LinesEveryday\0809Chapter03Section09Question09\bin\Debug\0809Chapter03Section09Question09.pdb
-D:\githubRep2\500LinesEveryday\0809Chapter03Section09Question09\obj\Debug\0809Chapter03Section09Question09.csproj.CoreCompileInputs.cache
-D:\githubRep2\500LinesEveryday\0809Chapter03Section09Question09\obj\Debug\0809Chapter03Section09Question09.exe
-D:\githubRep2\500LinesEveryday\0809Chapter03Section09Question09\obj\Debug\0809Chapter03Section09Question09.pdb
