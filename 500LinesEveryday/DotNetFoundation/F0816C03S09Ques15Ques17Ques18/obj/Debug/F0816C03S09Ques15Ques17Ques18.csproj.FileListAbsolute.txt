@@ -1,0 +1,6 @@
+D:\githubRep2\500LinesEveryday\DotNetFoundation\F0816C03S09Ques15Ques17Ques18\bin\Debug\F0816C03S09Ques15Ques17Ques18.exe.config
+D:\githubRep2\500LinesEveryday\DotNetFoundation\F0816C03S09Ques15Ques17Ques18\bin\Debug\F0816C03S09Ques15Ques17Ques18.exe
+D:\githubRep2\500LinesEveryday\DotNetFoundation\F0816C03S09Ques15Ques17Ques18\bin\Debug\F0816C03S09Ques15Ques17Ques18.pdb
+D:\githubRep2\500LinesEveryday\DotNetFoundation\F0816C03S09Ques15Ques17Ques18\obj\Debug\F0816C03S09Ques15Ques17Ques18.csproj.CoreCompileInputs.cache
+D:\githubRep2\500LinesEveryday\DotNetFoundation\F0816C03S09Ques15Ques17Ques18\obj\Debug\F0816C03S09Ques15Ques17Ques18.exe
+D:\githubRep2\500LinesEveryday\DotNetFoundation\F0816C03S09Ques15Ques17Ques18\obj\Debug\F0816C03S09Ques15Ques17Ques18.pdb

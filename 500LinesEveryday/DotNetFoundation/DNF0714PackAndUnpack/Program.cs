@@ -10,6 +10,7 @@ namespace _0715BoxAndUnbox
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

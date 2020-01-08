@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _0812Chapter03Section09Question12
+namespace DNF0813Chapter03Section09Question12
 {
     /// <summary>
     /// 定义一个整数类型a, 初始值 0

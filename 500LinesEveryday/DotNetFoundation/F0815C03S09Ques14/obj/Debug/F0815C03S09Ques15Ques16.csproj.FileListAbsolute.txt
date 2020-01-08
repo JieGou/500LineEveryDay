@@ -1,0 +1,7 @@
+D:\githubRep2\500LinesEveryday\DotNetFoundation\F0815C03S09Ques14\bin\Debug\F0815C03S09Ques14.exe.config
+D:\githubRep2\500LinesEveryday\DotNetFoundation\F0815C03S09Ques14\bin\Debug\F0815C03S09Ques14.exe
+D:\githubRep2\500LinesEveryday\DotNetFoundation\F0815C03S09Ques14\bin\Debug\F0815C03S09Ques14.pdb
+D:\githubRep2\500LinesEveryday\DotNetFoundation\F0815C03S09Ques14\obj\Debug\F0815C03S09Ques15Ques16.csprojAssemblyReference.cache
+D:\githubRep2\500LinesEveryday\DotNetFoundation\F0815C03S09Ques14\obj\Debug\F0815C03S09Ques15Ques16.csproj.CoreCompileInputs.cache
+D:\githubRep2\500LinesEveryday\DotNetFoundation\F0815C03S09Ques14\obj\Debug\F0815C03S09Ques14.exe
+D:\githubRep2\500LinesEveryday\DotNetFoundation\F0815C03S09Ques14\obj\Debug\F0815C03S09Ques14.pdb
