@@ -48,7 +48,7 @@ namespace ExerciseProject
             {
                 ts.Start();
 
-                Level level;
+               // Level level;
 
                 //过滤出所有的ViewFamilyType
 
