@@ -1,0 +1,7 @@
+D:\githubRep2\Gitee500LinesEveryday\DotNetFoundation\DNF0301ARegularExpression\bin\Debug\0301ARegularExpression.exe.config
+D:\githubRep2\Gitee500LinesEveryday\DotNetFoundation\DNF0301ARegularExpression\bin\Debug\0301ARegularExpression.exe
+D:\githubRep2\Gitee500LinesEveryday\DotNetFoundation\DNF0301ARegularExpression\bin\Debug\0301ARegularExpression.pdb
+D:\githubRep2\Gitee500LinesEveryday\DotNetFoundation\DNF0301ARegularExpression\obj\Debug\DNF0301ARegularExpression.csprojAssemblyReference.cache
+D:\githubRep2\Gitee500LinesEveryday\DotNetFoundation\DNF0301ARegularExpression\obj\Debug\DNF0301ARegularExpression.csproj.CoreCompileInputs.cache
+D:\githubRep2\Gitee500LinesEveryday\DotNetFoundation\DNF0301ARegularExpression\obj\Debug\0301ARegularExpression.exe
+D:\githubRep2\Gitee500LinesEveryday\DotNetFoundation\DNF0301ARegularExpression\obj\Debug\0301ARegularExpression.pdb

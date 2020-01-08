@@ -1,0 +1,6 @@
+D:\githubRep2\Gitee500LinesEveryday\DotNetFoundation\F0826C03S09Ques29\bin\Debug\F0826C03S09Ques29.exe.config
+D:\githubRep2\Gitee500LinesEveryday\DotNetFoundation\F0826C03S09Ques29\bin\Debug\F0826C03S09Ques29.exe
+D:\githubRep2\Gitee500LinesEveryday\DotNetFoundation\F0826C03S09Ques29\bin\Debug\F0826C03S09Ques29.pdb
+D:\githubRep2\Gitee500LinesEveryday\DotNetFoundation\F0826C03S09Ques29\obj\Debug\F0826C03S09Ques29.csproj.CoreCompileInputs.cache
+D:\githubRep2\Gitee500LinesEveryday\DotNetFoundation\F0826C03S09Ques29\obj\Debug\F0826C03S09Ques29.exe
+D:\githubRep2\Gitee500LinesEveryday\DotNetFoundation\F0826C03S09Ques29\obj\Debug\F0826C03S09Ques29.pdb
