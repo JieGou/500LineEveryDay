@@ -14,12 +14,15 @@
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
+[Rr]elease/*
 [Rr]eleases/
 x64/
 x86/
 bld/
 [Bb]in/
+**/[Bb]in/
 [Oo]bj/
+**/[Oo]bj/
 [Ll]og/
 
 # Visual Studio 2015 cache/options directory
@@ -260,4 +263,4 @@ paket-files/
 __pycache__/
 *.pyc
 /唐僧解瓦/通用/Cmd_netHeightAnalyses.cs
-/1.txt
+
