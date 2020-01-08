@@ -1,0 +1,7 @@
+D:\githubRep2\500LinesEveryday\0802AssignmentOperator\bin\Debug\0802AssignmentOperator.exe.config
+D:\githubRep2\500LinesEveryday\0802AssignmentOperator\bin\Debug\0802AssignmentOperator.exe
+D:\githubRep2\500LinesEveryday\0802AssignmentOperator\bin\Debug\0802AssignmentOperator.pdb
+D:\githubRep2\500LinesEveryday\0802AssignmentOperator\obj\Debug\0802AssignmentOperator.csprojAssemblyReference.cache
+D:\githubRep2\500LinesEveryday\0802AssignmentOperator\obj\Debug\0802AssignmentOperator.csproj.CoreCompileInputs.cache
+D:\githubRep2\500LinesEveryday\0802AssignmentOperator\obj\Debug\0802AssignmentOperator.exe
+D:\githubRep2\500LinesEveryday\0802AssignmentOperator\obj\Debug\0802AssignmentOperator.pdb

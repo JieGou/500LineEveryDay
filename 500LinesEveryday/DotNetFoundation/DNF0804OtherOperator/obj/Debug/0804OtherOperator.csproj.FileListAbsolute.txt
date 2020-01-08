@@ -1,0 +1,7 @@
+D:\githubRep2\500LinesEveryday\0804OtherOperator\bin\Debug\0804OtherOperator.exe.config
+D:\githubRep2\500LinesEveryday\0804OtherOperator\bin\Debug\0804OtherOperator.exe
+D:\githubRep2\500LinesEveryday\0804OtherOperator\bin\Debug\0804OtherOperator.pdb
+D:\githubRep2\500LinesEveryday\0804OtherOperator\obj\Debug\0804OtherOperator.csprojAssemblyReference.cache
+D:\githubRep2\500LinesEveryday\0804OtherOperator\obj\Debug\0804OtherOperator.csproj.CoreCompileInputs.cache
+D:\githubRep2\500LinesEveryday\0804OtherOperator\obj\Debug\0804OtherOperator.exe
+D:\githubRep2\500LinesEveryday\0804OtherOperator\obj\Debug\0804OtherOperator.pdb
