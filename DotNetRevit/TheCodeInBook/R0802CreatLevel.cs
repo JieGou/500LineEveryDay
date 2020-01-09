@@ -21,18 +21,17 @@ namespace ExerciseProject
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class R0803CreatViewByLevelId : IExternalCommand
+    class R0802CreatLevel : IExternalCommand
     {
         /// <summary>
-        /// 代码片段4-3
-        /// 展示如何找到所有属于FloorPlan或者CeilingPlan的视图类型,
-        /// 然后用这些视图类型,分别创建一个视图,基于一个已有的标高.
+        /// 代码片段4-2
+        /// 创建标高, 并修改标高的名字.
         /// </summary>
         /// <param name="commandData"></param>
         /// <param name="message"></param>
         /// <param name="elements"></param>
         /// <returns></returns>
-       
+
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
             UIApplication uiapp = commandData.Application;
@@ -48,11 +47,11 @@ namespace ExerciseProject
             {
                 ts.Start();
 
-               // Level level;
+                Level level = Level.Create(doc, 7000 / 304.8);
+                level.Name = "超级无敌的7000标高";
 
-                //过滤出所有的ViewFamilyType
 
-
+                TaskDialog.Show("tips", "succeed");
 
                 ts.Commit();
             }

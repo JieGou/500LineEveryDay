@@ -21,12 +21,11 @@ namespace ExerciseProject
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class R0803CreatViewByLevelId : IExternalCommand
+    class R0805GetCompoundStructure : IExternalCommand
     {
         /// <summary>
-        /// 代码片段4-3
-        /// 展示如何找到所有属于FloorPlan或者CeilingPlan的视图类型,
-        /// 然后用这些视图类型,分别创建一个视图,基于一个已有的标高.
+        /// 代码片段4-4
+        /// 创建轴网
         /// </summary>
         /// <param name="commandData"></param>
         /// <param name="message"></param>
@@ -38,28 +37,34 @@ namespace ExerciseProject
             UIDocument uidoc = commandData.Application.ActiveUIDocument;
             Document doc = uidoc.Document;
             Selection sel = uidoc.Selection;
-            View acview = uidoc.ActiveView;
-            UIView acuiview = uidoc.ActiveUiview();
+            View acView = uidoc.ActiveView;
 
             Transaction ts = new Transaction(doc, "******");
 
             try
             {
                 ts.Start();
+                string info = null;
 
-                Level level=doc.GetElement(new ElementId(341705)) as Level;
-                //过滤出所有的ViewFamilyType
-                var classFilter = new ElementClassFilter(typeof(ViewFamilyType));
-                FilteredElementCollector filteredElements = new FilteredElementCollector(doc);
-                filteredElements = filteredElements.WherePasses(classFilter);
+                Wall wall = doc.GetElement(new ElementId(348910)) as Wall;
+                CompoundStructure compoundStructure = wall.WallType.GetCompoundStructure();
 
-                foreach (ViewFamilyType viewFamilyType in filteredElements)
+                if (compoundStructure != null)
                 {
-                    //找到ViewFamily类型是FloorPlan或者CeilingPlan的viewFamilyType
-                    if (viewFamilyType.ViewFamily == ViewFamily.FloorPlan || viewFamilyType.ViewFamily ==ViewFamily.CeilingPlan)
+                    if (compoundStructure.LayerCount > 0)
+
                     {
-                        ViewPlan view =ViewPlan.Create(doc,viewFamilyType.Id,level.Id);
+                        foreach (CompoundStructureLayer compoundStructureLayer in compoundStructure.GetLayers())
+                        {
+                            //获得材质和厚度
+                            ElementId materialId = compoundStructureLayer.MaterialId;
+                            double layerWidth = compoundStructureLayer.Width * 304.8;
+                            info += "\n:materialId :" + materialId;
+                            info += "\nlayerWidth :" + layerWidth;
+                        }
                     }
+
+                    TaskDialog.Show("Tips", info);
                 }
 
                 ts.Commit();

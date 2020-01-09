@@ -21,12 +21,11 @@ namespace ExerciseProject
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class R0803CreatViewByLevelId : IExternalCommand
+    class R0804CreatGrid : IExternalCommand
     {
         /// <summary>
-        /// 代码片段4-3
-        /// 展示如何找到所有属于FloorPlan或者CeilingPlan的视图类型,
-        /// 然后用这些视图类型,分别创建一个视图,基于一个已有的标高.
+        /// 代码片段4-4
+        /// 创建轴网
         /// </summary>
         /// <param name="commandData"></param>
         /// <param name="message"></param>
@@ -38,8 +37,7 @@ namespace ExerciseProject
             UIDocument uidoc = commandData.Application.ActiveUIDocument;
             Document doc = uidoc.Document;
             Selection sel = uidoc.Selection;
-            View acview = uidoc.ActiveView;
-            UIView acuiview = uidoc.ActiveUiview();
+            View acView = uidoc.ActiveView;
 
             Transaction ts = new Transaction(doc, "******");
 
@@ -47,20 +45,9 @@ namespace ExerciseProject
             {
                 ts.Start();
 
-                Level level=doc.GetElement(new ElementId(341705)) as Level;
-                //过滤出所有的ViewFamilyType
-                var classFilter = new ElementClassFilter(typeof(ViewFamilyType));
-                FilteredElementCollector filteredElements = new FilteredElementCollector(doc);
-                filteredElements = filteredElements.WherePasses(classFilter);
+                Grid grid = Grid.Create(doc, Line.CreateBound(new XYZ(0, 0, 0), new XYZ(3000/304.8, 3000/304.8,0)));
+                grid.Name = "超级无敌的轴线";
 
-                foreach (ViewFamilyType viewFamilyType in filteredElements)
-                {
-                    //找到ViewFamily类型是FloorPlan或者CeilingPlan的viewFamilyType
-                    if (viewFamilyType.ViewFamily == ViewFamily.FloorPlan || viewFamilyType.ViewFamily ==ViewFamily.CeilingPlan)
-                    {
-                        ViewPlan view =ViewPlan.Create(doc,viewFamilyType.Id,level.Id);
-                    }
-                }
 
                 ts.Commit();
             }
