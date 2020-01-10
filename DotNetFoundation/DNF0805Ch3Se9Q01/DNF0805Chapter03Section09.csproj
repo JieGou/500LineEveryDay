@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3F8DB183-0C81-43CE-8DD3-21ED99E2A138}</ProjectGuid>
+    <ProjectGuid>{7A314DA3-1F25-4439-B0A6-8607D7CCD201}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_0707Variable</RootNamespace>
-    <AssemblyName>0707Variable</AssemblyName>
+    <RootNamespace>_0805Ch3Se9Q01</RootNamespace>
+    <AssemblyName>0805Ch3Se9Q01</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -31,9 +31,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>_0707Variable.DNF0707Variable</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -45,18 +42,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DNF0707Variable.cs" />
-    <Compile Include="DNF0708constant.cs" />
-    <Compile Include="DNF0709struct.cs" />
-    <Compile Include="DNF0710enumWeek.cs" />
-    <Compile Include="DNF0711Array.cs" />
-    <Compile Include="DNF0712TwoDimensionalArray.cs" />
-    <Compile Include="DNF0713TypeCast.cs" />
-    <Compile Include="DNF0715BoxAndUnbox.cs" />
-    <Compile Include="DNF0716SimulationWriteLine.cs" />
-    <Compile Include="DNF0717TypeCheckingIs.cs" />
-    <Compile Include="DNF0718TypeCheckingAs.cs" />
-    <Compile Include="DNF0719Replace.cs" />
+    <Compile Include="DNF0805Chapter03Section09Question01And02.cs" />
+    <Compile Include="DNF0806Chapter03Section09Question03And04.cs" />
+    <Compile Include="DNF0807Chapter03Section09Question05And06.cs" />
+    <Compile Include="DNF0808Chapter03Section09Question08b.cs" />
+    <Compile Include="DNF0809Chapter03Section09Question08.cs" />
+    <Compile Include="DNF0810Chapter03Section09Question09.cs" />
+    <Compile Include="F0811Chapter03Section09Question10.cs" />
+    <Compile Include="F0812Chapter03Section09Question11.cs" />
+    <Compile Include="F0813Chapter03Section09Question12.cs" />
+    <Compile Include="F0814C03S09Ques13.cs" />
+    <Compile Include="F0815C03S09Ques15Ques16.cs" />
+    <Compile Include="F0816C03S09Ques17Ques18.cs" />
+    <Compile Include="F0817C03S09Ques19.cs" />
+    <Compile Include="F0818C03S09Ques20.cs" />
+    <Compile Include="F0819C03S09Ques21.cs" />
+    <Compile Include="F0820C03S09Ques22.cs" />
+    <Compile Include="F0821C03S09Ques23.cs" />
+    <Compile Include="F0822C03S09Ques24.cs" />
+    <Compile Include="F0823C03S09Ques25.cs" />
+    <Compile Include="F0824C03S09Ques26Ques27.cs" />
+    <Compile Include="F0825C03S09Ques28.cs" />
+    <Compile Include="F0826C03S09Ques29.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

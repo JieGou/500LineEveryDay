@@ -42,7 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="05ArrayList.cs" />
+    <Compile Include="DNF0201ArrayList.cs" />
+    <Compile Include="DNF0301ARegularExpression.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

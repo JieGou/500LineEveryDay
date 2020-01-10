@@ -42,7 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="DNF0801ArithmeticOperator.cs" />
+    <Compile Include="DNF0802AssignmentOperator.cs" />
+    <Compile Include="DNF0803LogicalOperator.cs" />
+    <Compile Include="DNF0804OtherOperator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

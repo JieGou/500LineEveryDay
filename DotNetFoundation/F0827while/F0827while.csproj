@@ -42,7 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="F0827while.cs" />
+    <Compile Include="F0828Break.cs" />
+    <Compile Include="F0829Continue.cs" />
+    <Compile Include="F0830Goto.cs" />
+    <Compile Include="F0831Return.cs" />
+    <Compile Include="F0832TryCatchFinally.cs" />
+    <Compile Include="F0833Throw.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
