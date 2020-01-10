@@ -36,6 +36,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\Program Files\Autodesk\Revit 2019\AdWindows.dll</HintPath>
     </Reference>
+    <Reference Include="EPPlus">
+      <HintPath>..\..\..\githubColone2\EPPlus\EPPlus\bin\Debug\EPPlus.dll</HintPath>
+    </Reference>
     <Reference Include="RevitAPI">
       <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPI.dll</HintPath>
       <Private>False</Private>
@@ -54,6 +57,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -63,10 +67,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassMyTest\E1001RunSample1.cs" />
+    <Compile Include="ClassMyTest\Utils.cs" />
     <Compile Include="TheCodeInBook\R0504bFamilyCreat2.cs" />
     <Compile Include="TheCodeInBook\R0601未完ExclusionFilterw.cs" />
     <Compile Include="TheCodeInBook\R0603ShowSelectedElementFaceArea.cs" />
     <Compile Include="TheCodeInBook\R0805GetCompoundStructure.cs" />
+    <Compile Include="TheCodeInBook\R0902RunEpplusSample01.cs" />
     <Compile Include="TheCodeInBook\R0804CreatGrid.cs" />
     <Compile Include="TheCodeInBook\R0803CreatViewByLevelId.cs" />
     <Compile Include="TheCodeInBook\R0802CreatLevel.cs" />
