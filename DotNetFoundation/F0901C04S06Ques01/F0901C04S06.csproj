@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>F1006Ques20NameSpace.F1006Ques20</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -58,6 +61,12 @@
     <Compile Include="F0912C04S06Ques12.cs" />
     <Compile Include="F0913C04S06Ques13.cs" />
     <Compile Include="F0914C04S06Ques14PerfectNumber.cs" />
+    <Compile Include="F1001Que15.cs" />
+    <Compile Include="F1002Que16.cs" />
+    <Compile Include="F1003Que17.cs" />
+    <Compile Include="F1004Que18PrimeNumber .cs" />
+    <Compile Include="F1005Que19.cs" />
+    <Compile Include="F1006Ques20.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -11,6 +11,7 @@ using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
+using Myclass;
 using TeacherTangClass;
 using View = Autodesk.Revit.DB.View;
 using MyClass;
@@ -21,11 +22,11 @@ namespace ExerciseProject
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class R0805GetCompoundStructure : IExternalCommand
+    class R0903GetHostObjectUtils : IExternalCommand
     {
         /// <summary>
-        /// 代码片段4-5
-        /// 获取墙每层厚度和材质
+        /// 代码片段4-6
+        /// 获取楼板的上表面
         /// </summary>
         /// <param name="commandData"></param>
         /// <param name="message"></param>
@@ -39,33 +40,29 @@ namespace ExerciseProject
             Selection sel = uidoc.Selection;
             View acView = uidoc.ActiveView;
 
+           
             Transaction ts = new Transaction(doc, "******");
 
             try
             {
                 ts.Start();
-                string info = null;
 
-                Wall wall = doc.GetElement(new ElementId(348910)) as Wall;
-                CompoundStructure compoundStructure = wall.WallType.GetCompoundStructure();
+                Floor floor = doc.GetElement(new ElementId(352449)) as Floor;
+                //获取一个楼板面的引用
+                IList<Reference> references = HostObjectUtils.GetTopFaces(floor);
 
-                if (compoundStructure != null)
+                if (references.Count ==1)
                 {
-                    if (compoundStructure.LayerCount > 0)
+                    var reference = references[0];
 
-                    {
-                        foreach (CompoundStructureLayer compoundStructureLayer in compoundStructure.GetLayers())
-                        {
-                            //获得材质和厚度
-                            ElementId materialId = compoundStructureLayer.MaterialId;
-                            double layerWidth = compoundStructureLayer.Width * 304.8;
-                            info += "\n:materialId :" + materialId;
-                            info += "\nlayerWidth :" + layerWidth;
-                        }
-                    }
+                    //从引用获取面的几何对象, 这里是一个PlanarFace
+                    GeometryObject topFaceGeo = floor.GetGeometryObjectFromReference(reference);
 
-                    TaskDialog.Show("Tips", info);
+                    //转成我们想要的对象
+                    PlanarFace topFace =topFaceGeo as PlanarFace;
                 }
+
+
 
                 ts.Commit();
             }

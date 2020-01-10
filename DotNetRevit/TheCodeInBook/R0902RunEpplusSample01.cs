@@ -25,8 +25,8 @@ namespace ExerciseProject
     class R0902RunEpplusSample01 : IExternalCommand
     {
         /// <summary>
-        /// 代码片段4-4
-        /// 创建轴网
+        /// 
+        /// 使用Epplus创建.xlsx文件
         /// </summary>
         /// <param name="commandData"></param>
         /// <param name="message"></param>

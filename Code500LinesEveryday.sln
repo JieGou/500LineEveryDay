@@ -29,6 +29,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EPPlusExercise", "EPPlusExe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpplusSamples", "MethodLibraryExercise\EPPlusExercise\E1001Samples01\EpplusSamples.csproj", "{F124F3BD-22AE-489B-86EE-AD978D18CECB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter5ClassesAndObjects", "DotNetFoundation\Chapter5ClassesAndObjects\Chapter5ClassesAndObjects.csproj", "{3A21CCC2-6702-48C9-8CBE-210872A4FA82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{F124F3BD-22AE-489B-86EE-AD978D18CECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F124F3BD-22AE-489B-86EE-AD978D18CECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F124F3BD-22AE-489B-86EE-AD978D18CECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A21CCC2-6702-48C9-8CBE-210872A4FA82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A21CCC2-6702-48C9-8CBE-210872A4FA82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A21CCC2-6702-48C9-8CBE-210872A4FA82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A21CCC2-6702-48C9-8CBE-210872A4FA82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +87,7 @@ Global
 		{2D2B4413-DFC8-4BAA-9275-50CBA3D8807D} = {3E42B64F-9ED1-4E03-8FED-A15A7C8AF998}
 		{355EEDA6-3E9B-4D5B-A041-6D66B8E615F6} = {141D3052-5023-4927-B031-DEBFF45FA972}
 		{F124F3BD-22AE-489B-86EE-AD978D18CECB} = {355EEDA6-3E9B-4D5B-A041-6D66B8E615F6}
+		{3A21CCC2-6702-48C9-8CBE-210872A4FA82} = {3E42B64F-9ED1-4E03-8FED-A15A7C8AF998}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3AD925E7-74B9-4ED0-8CEA-2E354AEAED41}

@@ -38,6 +38,7 @@
     </Reference>
     <Reference Include="EPPlus">
       <HintPath>..\..\..\githubColone2\EPPlus\EPPlus\bin\Debug\EPPlus.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="RevitAPI">
       <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPI.dll</HintPath>
@@ -45,15 +46,19 @@
     </Reference>
     <Reference Include="RevitAPIIFC">
       <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPIIFC.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="RevitAPIMacros">
       <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPIMacros.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="RevitAPIUI">
       <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPIUI.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="RevitAPIUIMacros">
       <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPIUIMacros.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -74,6 +79,8 @@
     <Compile Include="TheCodeInBook\R0603ShowSelectedElementFaceArea.cs" />
     <Compile Include="TheCodeInBook\R0805GetCompoundStructure.cs" />
     <Compile Include="TheCodeInBook\R0902RunEpplusSample01.cs" />
+    <Compile Include="TheCodeInBook\R0904WallCreat.cs" />
+    <Compile Include="TheCodeInBook\R0903GetHostObjectUtils.cs" />
     <Compile Include="TheCodeInBook\R0804CreatGrid.cs" />
     <Compile Include="TheCodeInBook\R0803CreatViewByLevelId.cs" />
     <Compile Include="TheCodeInBook\R0802CreatLevel.cs" />
