@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Reflection;
+using System.Security;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -13,9 +14,10 @@ namespace FConsoleMain
     {
         static void Main(string[] args)
         {
-            ConsoleKey key;
+            start:
+            bool judge = true;
 
-            do
+            if (judge)
             {
                 Console.WriteLine("输入要执行的程序文件名:");
                 var inputstr = Console.ReadLine();
@@ -23,11 +25,12 @@ namespace FConsoleMain
                 var types = asm.GetTypes();
                 int num = 0;
 
-                foreach (var type in types)
-                {
-                    Console.WriteLine(type.Name);
-                }
+                // foreach (var type in types)
+                // {
+                //     Console.WriteLine(type.Name);
+                // }
 
+                //判断程序是否存在, 存在直接执行,不存在给出提示
                 foreach (var type in types)
                 {
                     if (inputstr.ToLower() == type.Name.ToLower())
@@ -57,13 +60,18 @@ namespace FConsoleMain
 
                 if (num == 0)
                 {
-                    Console.WriteLine("输入错误");
+                    Console.WriteLine("输入错误,输入exit退出,或者按任意键重新输出");
+                    string str = Console.ReadLine();
+
+                    if (str != "exit")
+                    {
+                        goto start;
+                    }
+                    else
+                    {
+                    }
                 }
-
-                Console.WriteLine("请按任意键重新重新输入,或按esc退出");
-                key = Console.ReadKey().Key;
-
-            } while (key != ConsoleKey.Escape);
+            }
         }
     }
 }
