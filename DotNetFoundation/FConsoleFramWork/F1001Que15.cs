@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace F0901C04S06
+namespace FConsoleMain
 {
 class F1001
     {
