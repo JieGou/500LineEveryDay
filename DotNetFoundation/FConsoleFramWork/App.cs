@@ -16,9 +16,9 @@ namespace FConsoleMain
         {
             start:
 
-            bool judge = true;
+            bool judge = false;
 
-            while (judge)
+            while (!judge)
             {
                 Console.WriteLine("输入要执行的程序文件名:");
                 var inputstr = Console.ReadLine();
@@ -69,12 +69,12 @@ namespace FConsoleMain
 
                 else
                 {
-                    Console.WriteLine("输入错误, 输入exit突出,或者输入内容继续");
+                    Console.WriteLine("输入错误, 输入exit退出,或者输入内容继续");
                     userInput = Console.ReadLine();
                 }
 
                 string keyWord = "exit";
-                judge = (num != 0 || userInput != keyWord);
+                judge = (num != 0 || userInput == keyWord);
             }
         }
     }
