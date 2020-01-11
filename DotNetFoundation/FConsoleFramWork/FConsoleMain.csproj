@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{802D76B6-97DD-49D8-AE57-C24094754246}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_0707Variable</RootNamespace>
-    <AssemblyName>0707Variable</AssemblyName>
+    <RootNamespace>FConsoleMain</RootNamespace>
+    <AssemblyName>FConsoleMainAssembly</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>_0707Variable.App</StartupObject>
+    <StartupObject>FConsoleMain.App</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
+    <Compile Include="F1101C5Exercise01.cs" />
     <Compile Include="F0201ArrayList.cs" />
     <Compile Include="F0301ARegularExpression.cs" />
     <Compile Include="F0801ArithmeticOperator.cs" />
@@ -115,11 +116,16 @@
     <Compile Include="F1004Que18PrimeNumber .cs" />
     <Compile Include="F1005Que19.cs" />
     <Compile Include="F1006Ques20.cs" />
-    <Compile Include="F1101Chapter5ClassAndObjectExercise01.cs" />
+    <Compile Include="F1102C5Exercise02.cs" />
+    <Compile Include="F1106Exercise06.cs" />
+    <Compile Include="F1105Exercise05.cs" />
+    <Compile Include="F1104Exercise04.cs" />
+    <Compile Include="F1103Exercise03.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

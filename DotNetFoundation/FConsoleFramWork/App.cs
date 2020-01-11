@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _0707Variable
+namespace FConsoleMain
 {
     class App
     {

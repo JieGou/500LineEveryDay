@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _0804OtherOperator
+namespace FConsoleMain
 {
     class F0804
     {

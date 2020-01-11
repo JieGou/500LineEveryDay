@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _0801ArithmeticOperator
+namespace FConsoleMain
 {
     class F0801
     {

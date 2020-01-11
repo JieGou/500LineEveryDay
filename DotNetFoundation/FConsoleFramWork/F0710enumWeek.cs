@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F0710
+namespace FConsoleMain
 {
     /// <summary>
     /// 星期枚举
@@ -20,7 +20,7 @@ namespace F0710
         Saturday = 6
     }
 
-    class DNF0710enumWeek
+    class F0710
     {
         static void Main(string[] args)
         {

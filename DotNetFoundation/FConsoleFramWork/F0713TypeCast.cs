@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F0713
+namespace FConsoleMain
 {
-    class DNF0713TypeCast
+    class F0713
     {
         static void Main(string[] args)
         {

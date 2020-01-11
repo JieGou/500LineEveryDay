@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F0712
+namespace FConsoleMain
 {
-    class DNF0712TwoDimensionalArray
+    class F0712
     {
         static void Main(string[] args)
         {

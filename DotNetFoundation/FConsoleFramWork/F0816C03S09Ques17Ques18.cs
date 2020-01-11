@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F0816
+namespace FConsoleMain
 {/// <summary>
 /// 题目17
 /// 创建一个对象类型 obj, 初始值为ture

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _0811Chapter03Section09Question11
+namespace FConsoleMain
 {
     /// <summary>
     /// 定义一个整数类型a,初始值为10, 将变量a隐隐式转换为双精度浮点类型 double

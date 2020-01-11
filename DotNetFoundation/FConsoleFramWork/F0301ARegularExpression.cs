@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace _0301ARegularExpression
+namespace FConsoleMain
 {
     class F0301
     {

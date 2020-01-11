@@ -5,7 +5,7 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _0809Chapter03Section09Question08
+namespace FConsoleMain
 {
     /// <summary>
     /// 声明一个关于产品的结构体，其中包括 产品名称，单位，产品的类别

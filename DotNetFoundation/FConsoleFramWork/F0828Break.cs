@@ -5,7 +5,7 @@ using System.Runtime.Serialization.Formatters;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F0828Break
+namespace FConsoleMain
 {
     class F0828
     {

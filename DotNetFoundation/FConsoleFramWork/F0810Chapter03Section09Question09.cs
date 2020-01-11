@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _0810Chapter03Section09Question09
+namespace FConsoleMain
 {
     /// <summary>
     /// 创建一个有关部门的枚举类型，部门有销售部，市场部，财务部

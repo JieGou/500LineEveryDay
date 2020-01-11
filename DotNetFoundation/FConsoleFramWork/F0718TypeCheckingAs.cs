@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F0718
+namespace FConsoleMain
 {
-    class DNF0718TypeCheckingAs
+    class F0718
     {
         static void Main(string[] args)
         {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F0832TryCatchFinally
+namespace FConsoleMain
 {
     class F0832
     {

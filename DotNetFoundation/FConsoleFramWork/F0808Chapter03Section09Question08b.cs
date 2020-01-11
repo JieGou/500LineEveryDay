@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _0808Chapter03Section09Question08
+namespace FConsoleMain
 {/// <summary>
 /// 声明一个bool类型的变量， 并赋值为true
 /// </summary>

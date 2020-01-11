@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _05ArrayList
+namespace FConsoleMain
 {
     class F0201
     {

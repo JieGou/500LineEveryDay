@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F0901C04S06
+namespace FConsoleMain
 {/// <summary>
-/// 题8
-/// 九九乘法表
-/// </summary>
-   class F0908
+ /// 题8
+ /// 九九乘法表
+ /// </summary>
+    class F0908
     {
         static void Main(string[] args)
         {

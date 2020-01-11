@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F0711
+namespace FConsoleMain
 {
-    class DNF0711Array
+    class F0711
     {
         static void Main(string[] args)
         {

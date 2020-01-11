@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F0716
+namespace FConsoleMain
 {/// <summary>
 /// 模拟writeLine（）方法， 在内部通过拆箱和的操作，返回字符串
 /// </summary>
-    class DNF0716SimulationWriteLine
+    class F0716
     {
         public static string SimulationWriteLine(string format, object arg0)
         {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F0829Continue
+namespace FConsoleMain
 {
     class F0829
     {

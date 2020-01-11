@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F0901C04S06
+namespace FConsoleMain
 {
     /// <summary>
     /// 通过switch语句,判断用户选择的显示器和尺寸.可选择的尺寸有:17寸,19寸,20寸和22寸.

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F0709
+namespace FConsoleMain
 {
     /// <summary>
     /// 学生信息- 结构
@@ -16,7 +16,7 @@ namespace F0709
         public double Score;
 
     }
-    class Program
+    class F0709
     {
         static void Main(string[] args)
         {

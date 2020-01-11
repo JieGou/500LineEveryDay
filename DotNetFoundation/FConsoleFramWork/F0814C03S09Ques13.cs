@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F0814C03S09Ques13
+namespace FConsoleMain
 {/// <summary>
 /// 定义一个整数类型的变量a, 初始值65(65是大写字幕A的ASCII码)
 ///把整数变量转化为大写字幕A

@@ -5,7 +5,7 @@ using System.Security.Permissions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F0833Throw
+namespace FConsoleMain
 {
     /// <summary>
     /// 该范例,使用throw语句抛出异常的例子
