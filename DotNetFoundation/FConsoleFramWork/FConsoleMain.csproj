@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{802D76B6-97DD-49D8-AE57-C24094754246}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>_0707Variable</RootNamespace>
+    <AssemblyName>0707Variable</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>_0707Variable.App</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.cs" />
+    <Compile Include="F0201ArrayList.cs" />
+    <Compile Include="F0301ARegularExpression.cs" />
+    <Compile Include="F0801ArithmeticOperator.cs" />
+    <Compile Include="F0802AssignmentOperator.cs" />
+    <Compile Include="F0803LogicalOperator.cs" />
+    <Compile Include="F0804OtherOperator.cs" />
+    <Compile Include="F0806Chapter03Section09Question03And04.cs" />
+    <Compile Include="F0807Chapter03Section09Question05And06.cs" />
+    <Compile Include="F0808Chapter03Section09Question08b.cs" />
+    <Compile Include="F0809Chapter03Section09Question08.cs" />
+    <Compile Include="F0810Chapter03Section09Question09.cs" />
+    <Compile Include="F0707Variable.cs" />
+    <Compile Include="F0708constant.cs" />
+    <Compile Include="F0709struct.cs" />
+    <Compile Include="F0710enumWeek.cs" />
+    <Compile Include="F0711Array.cs" />
+    <Compile Include="F0712TwoDimensionalArray.cs" />
+    <Compile Include="F0713TypeCast.cs" />
+    <Compile Include="F0715BoxAndUnbox.cs" />
+    <Compile Include="F0716SimulationWriteLine.cs" />
+    <Compile Include="F0717TypeCheckingIs.cs" />
+    <Compile Include="F0718TypeCheckingAs.cs" />
+    <Compile Include="F0719Replace.cs" />
+    <Compile Include="F0805Chapter03Section09Question01And02.cs" />
+    <Compile Include="F0811Chapter03Section09Question10.cs" />
+    <Compile Include="F0812Chapter03Section09Question11.cs" />
+    <Compile Include="F0813Chapter03Section09Question12.cs" />
+    <Compile Include="F0814C03S09Ques13.cs" />
+    <Compile Include="F0815C03S09Ques15Ques16.cs" />
+    <Compile Include="F0816C03S09Ques17Ques18.cs" />
+    <Compile Include="F0817C03S09Ques19.cs" />
+    <Compile Include="F0818C03S09Ques20.cs" />
+    <Compile Include="F0819C03S09Ques21.cs" />
+    <Compile Include="F0820C03S09Ques22.cs" />
+    <Compile Include="F0821C03S09Ques23.cs" />
+    <Compile Include="F0822C03S09Ques24.cs" />
+    <Compile Include="F0823C03S09Ques25.cs" />
+    <Compile Include="F0824C03S09Ques26Ques27.cs" />
+    <Compile Include="F0825C03S09Ques28.cs" />
+    <Compile Include="F0826C03S09Ques29.cs" />
+    <Compile Include="F0827while.cs" />
+    <Compile Include="F0828Break.cs" />
+    <Compile Include="F0829Continue.cs" />
+    <Compile Include="F0830Goto.cs" />
+    <Compile Include="F0831Return.cs" />
+    <Compile Include="F0832TryCatchFinally.cs" />
+    <Compile Include="F0833Throw.cs" />
+    <Compile Include="F0901C04S06Ques01.cs" />
+    <Compile Include="F0902C04S06Ques02.cs" />
+    <Compile Include="F0903C04S06Ques03.cs" />
+    <Compile Include="F0903a.cs" />
+    <Compile Include="F0904C04S06Ques04.cs" />
+    <Compile Include="F0905C04S06Ques05.cs" />
+    <Compile Include="F0906C04S06Ques06.cs" />
+    <Compile Include="F0907C04S06Ques07.cs" />
+    <Compile Include="F0907aC04S06Ques07.cs" />
+    <Compile Include="F0908C04S06Ques08MultiplicationTable.cs" />
+    <Compile Include="F0909C04S06Ques09.cs" />
+    <Compile Include="F0910C04S06Ques10.cs" />
+    <Compile Include="F0911C04S06Ques11.cs" />
+    <Compile Include="F0912C04S06Ques12.cs" />
+    <Compile Include="F0913C04S06Ques13.cs" />
+    <Compile Include="F0914C04S06Ques14PerfectNumber.cs" />
+    <Compile Include="F1001Que15.cs" />
+    <Compile Include="F1002Que16.cs" />
+    <Compile Include="F1003Que17.cs" />
+    <Compile Include="F1004Que18PrimeNumber .cs" />
+    <Compile Include="F1005Que19.cs" />
+    <Compile Include="F1006Ques20.cs" />
+    <Compile Include="F1101Chapter5ClassAndObjectExercise01.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
