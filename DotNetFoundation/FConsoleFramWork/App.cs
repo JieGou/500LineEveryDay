@@ -15,20 +15,22 @@ namespace FConsoleMain
         static void Main(string[] args)
         {
             start:
+
             bool judge = true;
 
-            if (judge)
+            while (judge)
             {
                 Console.WriteLine("输入要执行的程序文件名:");
                 var inputstr = Console.ReadLine();
                 var asm = Assembly.GetExecutingAssembly();
                 var types = asm.GetTypes();
-                int num = 0;
 
                 // foreach (var type in types)
                 // {
                 //     Console.WriteLine(type.Name);
                 // }
+
+                int num = 0;
 
                 //判断程序是否存在, 存在直接执行,不存在给出提示
                 foreach (var type in types)
@@ -58,19 +60,21 @@ namespace FConsoleMain
                     }
                 }
 
-                if (num == 0)
-                {
-                    Console.WriteLine("输入错误,输入exit退出,或者按任意键重新输出");
-                    string str = Console.ReadLine();
+                string userInput = null;
 
-                    if (str != "exit")
-                    {
-                        goto start;
-                    }
-                    else
-                    {
-                    }
+                if (num != 0)
+                {
+                    break;
                 }
+
+                else
+                {
+                    Console.WriteLine("输入错误, 输入exit突出,或者输入内容继续");
+                    userInput = Console.ReadLine();
+                }
+
+                string keyWord = "exit";
+                judge = (num != 0 || userInput != keyWord);
             }
         }
     }
