@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F0914C04S06Ques14
+namespace F0901C04S06
 {
-    class F0914C04S06Ques14PerfectNumber
+  public  static class F0914C04S06Ques14PerfectNumber
     {
         /// <summary>
         /// 求1000以内的所有"完数"
@@ -14,7 +14,7 @@ namespace F0914C04S06Ques14
         /// 尴尬,看不懂
         /// </summary>
         /// <param name="args"></param>
-        static void Main(string[] args)
+        public static void run()
         {
             for (int i = 2; i < 1000; i++)
             {
@@ -25,12 +25,11 @@ namespace F0914C04S06Ques14
                 for (int j = 2; j <= (int) Math.Sqrt(i); j++)
                 {
                     //如果j能被i整取且i和j的值不相等
-                    if (i % j ==0 &&i !=j)
+                    if (i % j == 0 && i != j)
                     {
                         a = i / j; //用于粗放满足条件的两数之和
                         s += j + a; //存放因子之和
                         str += string.Format("+{0}+{1}", j, a); //存放满足条件的各个因子
-
                     }
                 }
 
@@ -39,7 +38,6 @@ namespace F0914C04S06Ques14
             }
 
             Console.ReadKey();
-
         }
     }
 }

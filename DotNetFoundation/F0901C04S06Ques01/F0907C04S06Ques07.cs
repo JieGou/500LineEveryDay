@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F0907C04S06Ques07
+namespace F0901C04S06
 {
-    class F0907C04S06Ques07
+ static   class F0907C04S06Ques07
     {
         /// <summary>
         /// 题7
         /// 利用循环语句和判断语句,求100以内所有偶数和奇数的和.
         /// </summary>
         /// <param name="args"></param>
-        static void Main(string[] args)
+    public    static void run()
         {
             bool OddEven(int i, int b)
             {

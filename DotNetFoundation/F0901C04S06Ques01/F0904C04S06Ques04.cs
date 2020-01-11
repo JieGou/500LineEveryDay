@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F0904C04S06Ques04
+namespace F0901C04S06
 {
     /// <summary>
     /// 通过switch语句,判断用户选择的显示器和尺寸.可选择的尺寸有:17寸,19寸,20寸和22寸.
     /// </summary>
-    class F0904C04S06Ques04
+    static class F0904C04S06Ques04
     {
-        static void Main(string[] args)
+     public   static void run()
         {
             strat:
             Console.WriteLine(@"请选择显示器尺寸: 

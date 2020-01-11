@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F0910C04S06Ques10
+namespace F0901C04S06
 {
-    class F0910C04S06Ques10
+    static class F0910C04S06Ques10
     {
         /// <summary>
         /// 题10
         /// 创建一个数组,并使用for语句,读取数组内的所有元素
         /// </summary>
         /// <param name="args"></param>
-        static void Main(string[] args)
+      public  static void run()
         {
             int[] intArray = {1, 2, 3, 4, 5};
             string[] strArray = {"a", "b", "c", "d", "e"};

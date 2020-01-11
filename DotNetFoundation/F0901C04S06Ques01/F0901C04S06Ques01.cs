@@ -5,15 +5,15 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace F0901C04S06Ques01
+namespace F0901C04S06
 {
     /// <summary>
     /// 题1
     /// 使用if语句判断输入的用户名是否正确,正确的用户名为admiin ,输入错误要求有提示信息
     /// </summary>
-    class F0901C04S06Ques01
+  static  class F0901C04S06Ques01
     {
-        static void Main(string[] args)
+     public   static void run()
         {
             Strart:
             Console.WriteLine("请输入用户名");

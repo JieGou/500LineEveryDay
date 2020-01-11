@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F0908C04S06Ques08MultiplicationTable
+namespace F0901C04S06
 {/// <summary>
 /// 题8
 /// 九九乘法表
 /// </summary>
-    class F0908C04S06Ques08MultiplicationTable
+ static   class F0908C04S06Ques08MultiplicationTable
     {
-        static void Main(string[] args)
+   public     static void run()
         {
             int i = 1;
             int j = 1;

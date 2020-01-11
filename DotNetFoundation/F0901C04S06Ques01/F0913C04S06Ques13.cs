@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F0913C04S06Ques13
+namespace F0901C04S06
 {
-    class F0913C04S06Ques13
+  static  class F0913C04S06Ques13
     {/// <summary>
     /// 题13
     /// 写一个控制台程序
@@ -16,7 +16,7 @@ namespace F0913C04S06Ques13
     /// 如果接收的值为负值,用break或者return退出程序
     ///  </summary>
     /// <param name="args"></param>
-        static void Main(string[] args)
+   public     static void run()
         {
             int int1 =int.Parse(Console.ReadLine());
 

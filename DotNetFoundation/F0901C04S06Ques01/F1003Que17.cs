@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F1003Que17
+namespace F0901C04S06
 {
-    class F1003Que17
+   static class F1003Que17
     {
         /// <summary>
         /// 创建一个关于天气的枚举,
         /// 并使用switch语句根据不同的情况,获取不同的天气状况
         /// </summary>
         /// <param name="arg"></param>
-        static void Main(string[] arg)
+   public      static void run()
         {
 
             string desc = "";

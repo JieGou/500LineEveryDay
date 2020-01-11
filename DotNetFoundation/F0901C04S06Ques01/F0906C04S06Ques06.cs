@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F0906C04S06Ques06
+namespace F0901C04S06
 {/// <summary>
 /// 题6
 /// 利用循环语句,求1+2+3+...+100的和
 /// </summary>
-    class F0906C04S06Ques06
+  static  class F0906C04S06Ques06
     {
-        static void Main(string[] args)
+    public    static void run()
         {
             int i;
             int sum = 0;

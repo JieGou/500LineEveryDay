@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F0905C04S06Ques05
+namespace F0901C04S06
 {
-    class F0905C04S06Ques05
+   static class F0905C04S06Ques05
     {
         /// <summary>
         /// 题5
@@ -14,7 +14,7 @@ namespace F0905C04S06Ques05
         /// 要求判断用户输入的次数,输入错误超过3次,则退出并给出提示
         /// </summary>
         /// <param name="args"></param>
-        static void Main(string[] args)
+    public    static void run()
         {
             int i = 1;
 

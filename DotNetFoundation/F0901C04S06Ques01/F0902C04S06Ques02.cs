@@ -5,15 +5,15 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace F0902C04S06Ques02
+namespace F0901C04S06
 {
     /// <summary>
     /// 题2
     /// 使用if ...else if...else双重判断语句,检测用户输入的用户名是否存在,假设数据库中仅存在两个用户,admin 和user, 输入任何一个都可以检测到.
     /// </summary>
-    class Program
+  static  class F0902C04S06Ques02
     {
-        static void Main(string[] args)
+   public     static void run()
         {
             Start:
             Console.WriteLine("\n请输入用户名");

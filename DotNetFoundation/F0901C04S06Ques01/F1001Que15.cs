@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace F1001Que15
+namespace F0901C04S06
 {
-    class F1001Que15Class
+    static class F1001Que15
     {
         ///题15
         /// 编写一个类似于购物街竞猜价格的游戏:
@@ -15,7 +15,7 @@ namespace F1001Que15
         /// 然后输出提示: 如果与随机数一样,提示 "恭喜正确"
         /// 如果偏小,则提示"你输入的偏小"
         /// 如果偏大,则提示"你输入的偏大"
-        static void Main(string[] args)
+      public  static void run()
         {
             int rndNum = new Random().Next(1, 100);
             Console.WriteLine(rndNum);
@@ -43,9 +43,8 @@ namespace F1001Que15
                 }
             }
 
-            Console.WriteLine("\n!!!输入次数超过{0}次,退出",a);
+            Console.WriteLine("\n!!!输入次数超过{0}次,退出", a);
             Console.ReadKey();
-
         }
     }
 }

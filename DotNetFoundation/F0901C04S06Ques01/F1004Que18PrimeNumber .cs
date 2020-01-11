@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F1004Que18
+namespace F0901C04S06
 {
     /// <summary>
     /// 求出100以内所有的质数
     /// </summary>
-    class F1004Que18Class
+  static  class F1004Que18PrimeNumber
     {
-        public static void Main(string[] arg)
+        public static void run()
         {
             bool flag;
             int b = 200;

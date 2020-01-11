@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F0911C04S06Ques11
+namespace F0901C04S06
 {
     /// <summary>
     /// 题11
     /// 编写控制台程序, 要求用户输入5个大写字母,如果用户输出的信息不满足要求,提示帮助信息并要求重新输入
     /// </summary>
-    class F0911C04S06Ques11
+  static  class F0911C04S06Ques11
     {
-        static void Main(string[] args)
+     public   static void run()
         {
             bool ok = false;
 

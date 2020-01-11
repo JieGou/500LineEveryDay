@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F1005Que19
+namespace F0901C04S06
 {
-    class F1005Que19
+  static  class F1005Que19
     {
         /// <summary>
         /// 题目19
@@ -16,7 +16,7 @@ namespace F1005Que19
         /// 如果消费满500元, 7折.
         /// </summary>
         /// <param name="args"></param>
-        public static void Main(string[] args)
+        public static void run()
         {
             int cost = int.Parse(Console.ReadLine());
 

@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F1006Ques20NameSpace
+namespace F0901C04S06
 {
-    class F1006Ques20
+    static class F1006Ques20
     {
         /// <summary>
         /// 使用异常捕获语句,尝试捕获除以0的异常
         /// </summary>
         /// <param name="arg"></param>
-        public static void Main(string[] arg)
+        public static void run()
         {
             try
             {
@@ -23,7 +23,6 @@ namespace F1006Ques20NameSpace
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
-                
             }
 
             Console.ReadKey();

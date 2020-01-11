@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F0907C04S06Ques07b
+namespace F0901C04S06
 {
-    class F0907C04S06Ques07b
+  static  class F0907C04S06Ques07b
     {
-        static void Main(string[] args)
+     public   static void run()
         {
             int oddSum = 0;
             int evenSum = 0;

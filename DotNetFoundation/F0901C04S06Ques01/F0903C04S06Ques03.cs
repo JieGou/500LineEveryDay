@@ -5,16 +5,16 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace F0903C04S06Ques03
+namespace F0901C04S06
 {
     /// <summary>
     /// 题3
     /// 使用if语句判断输入的用户名和密码是否正确,假设正确的用户名为admin ,密码为123
     /// 
     /// </summary>
-    class F0903C04S06Ques03
+    static class F0903C04S06Ques03
     {
-        static void Main(string[] args)
+     public   static void run()
         {
             start:
             Console.WriteLine("\n请输入用户名");

@@ -4,16 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2D2B4413-DFC8-4BAA-9275-50CBA3D8807D}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>F0901C04S06Ques01</RootNamespace>
-    <AssemblyName>F0901C04S06Ques01</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <ProjectGuid>{595D0D9B-EDC3-4456-BC31-25F7E3A4C1DC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>R10PanelButtomTest</RootNamespace>
+    <AssemblyName>R10PanelButtomTest</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -21,9 +22,9 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -31,13 +32,32 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>
-    </StartupObject>
-  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AdWindows">
+      <HintPath>C:\Program Files\Autodesk\Revit 2019\AdWindows.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus">
+      <HintPath>..\..\..\..\githubColone2\EPPlus\EPPlus\bin\Debug\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitAPI">
+      <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitAPIIFC">
+      <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPIIFC.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitAPIMacros">
+      <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPIMacros.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitAPIUI">
+      <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPIUI.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitAPIUIMacros">
+      <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPIUIMacros.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,33 +66,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="F0901C04S06Ques01.cs" />
-    <Compile Include="F0902C04S06Ques02.cs" />
-    <Compile Include="F0903C04S06Ques03.cs" />
-    <Compile Include="F0903C04S06Ques03a.cs" />
-    <Compile Include="F0904C04S06Ques04.cs" />
-    <Compile Include="F0905C04S06Ques05.cs" />
-    <Compile Include="F0906C04S06Ques06.cs" />
-    <Compile Include="F0907C04S06Ques07.cs" />
-    <Compile Include="F0907C04S06Ques07b.cs" />
-    <Compile Include="F0908C04S06Ques08MultiplicationTable.cs" />
-    <Compile Include="F0909C04S06Ques09.cs" />
-    <Compile Include="F0910C04S06Ques10.cs" />
-    <Compile Include="F0911C04S06Ques11.cs" />
-    <Compile Include="F0912C04S06Ques12.cs" />
-    <Compile Include="F0913C04S06Ques13.cs" />
-    <Compile Include="F0914C04S06Ques14PerfectNumber.cs" />
-    <Compile Include="F1001Que15.cs" />
-    <Compile Include="F1002Que16.cs" />
-    <Compile Include="F1003Que17.cs" />
-    <Compile Include="F1004Que18PrimeNumber .cs" />
-    <Compile Include="F1006Ques20.cs" />
-    <Compile Include="F1005Que19.cs" />
-    <Compile Include="Main.cs" />
+    <Compile Include="R10PanelButtomTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

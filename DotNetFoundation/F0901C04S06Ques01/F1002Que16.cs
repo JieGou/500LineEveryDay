@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F1002Que16
+namespace F0901C04S06
 {
-    class F1002Que16Class
+  static  class F1002Que16
     {/// <summary>
-    /// 题16
-    /// 使用switch和goto语句,编写一个销售咖啡功能的代码.
-    /// 根据咖啡的容量计算价格
-    /// 小杯咖啡25元,中杯咖啡是在小杯的基础上加25元,大杯是在小杯的基础上再加50元.
-    ///  </summary>
-    /// <param name="arg"></param>
-        static void Main(string[] arg)
+     /// 题16
+     /// 使用switch和goto语句,编写一个销售咖啡功能的代码.
+     /// 根据咖啡的容量计算价格
+     /// 小杯咖啡25元,中杯咖啡是在小杯的基础上加25元,大杯是在小杯的基础上再加50元.
+     ///  </summary>
+     /// <param name="arg"></param>
+     public    static void run()
         {
             Console.WriteLine("请输入您要的咖啡种类: 1 小杯; 2 中杯; 3 大杯");
 

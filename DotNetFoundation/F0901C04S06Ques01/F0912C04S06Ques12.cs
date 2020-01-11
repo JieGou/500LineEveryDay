@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace F0912C04S06Ques12
+namespace F0901C04S06
 {
-    class F0912C04S06Ques12
+ static   class F0912C04S06Ques12
     {
         /// <summary>
         /// 题12
         /// 从N个整数中,找出最大的一个值
         /// </summary>
         /// <param name="args"></param>
-        static void Main(string[] args)
+      public  static void run()
         {
             int[] intArray = {1, 2, 3, 4, 55656, 76767, 34343, 767676, 33434, 67678111};
             int max;
