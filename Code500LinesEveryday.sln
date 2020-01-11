@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter5ClassesAndObjects",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R10PanelButtomTest", "DotNetRevit\R10PanelButtomTest\R10PanelButtomTest.csproj", "{595D0D9B-EDC3-4456-BC31-25F7E3A4C1DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNF0707Variable", "C:\Users\Administrator\Desktop\DNF0707Variable\DNF0707Variable.csproj", "{2DDA281D-88E0-4CD1-90AA-A37172EC962A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +81,10 @@ Global
 		{595D0D9B-EDC3-4456-BC31-25F7E3A4C1DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{595D0D9B-EDC3-4456-BC31-25F7E3A4C1DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{595D0D9B-EDC3-4456-BC31-25F7E3A4C1DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DDA281D-88E0-4CD1-90AA-A37172EC962A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DDA281D-88E0-4CD1-90AA-A37172EC962A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DDA281D-88E0-4CD1-90AA-A37172EC962A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DDA281D-88E0-4CD1-90AA-A37172EC962A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
