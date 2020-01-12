@@ -124,6 +124,11 @@
     <Compile Include="Chapter4\F1006Ques20.cs" />
     <Compile Include="Chapter5ClassAndObject\F1102C5Exercise02.cs" />
     <Compile Include="Chapter5ClassAndObject\F1106Ex07.cs" />
+    <Compile Include="Chapter5ClassAndObject\F1215Exercise15.cs" />
+    <Compile Include="Chapter5ClassAndObject\F1214Exercise14.cs" />
+    <Compile Include="Chapter5ClassAndObject\F1213Exercise13TowerOfHanoi.cs" />
+    <Compile Include="Chapter5ClassAndObject\F1212Exercise12OnewindowOnly.cs" />
+    <Compile Include="Chapter5ClassAndObject\F1211Exercise11FibonacciSequence.cs" />
     <Compile Include="Chapter5ClassAndObject\F1110Exercise10.cs" />
     <Compile Include="Chapter5ClassAndObject\F1109Exercise09.cs" />
     <Compile Include="Chapter5ClassAndObject\F1108Exercise08.cs" />
@@ -131,6 +136,15 @@
     <Compile Include="Chapter5ClassAndObject\F1105Exercise05.cs" />
     <Compile Include="Chapter5ClassAndObject\F1104Exercise04.cs" />
     <Compile Include="Chapter5ClassAndObject\F1103Exercise03.cs" />
+    <Compile Include="Chapter6InheritanceAndPolymorphism\F1223Eexercise08.cs" />
+    <Compile Include="Chapter6InheritanceAndPolymorphism\F1222Eexercise0607.cs" />
+    <Compile Include="Chapter6InheritanceAndPolymorphism\F1221Eexercise05.cs" />
+    <Compile Include="Chapter6InheritanceAndPolymorphism\F1220Eexercise04.cs" />
+    <Compile Include="Chapter6InheritanceAndPolymorphism\F1219Eexercise010203.cs" />
+    <Compile Include="Chapter6InheritanceAndPolymorphism\F1218Sealed.cs" />
+    <Compile Include="Chapter6InheritanceAndPolymorphism\F1217Override.cs" />
+    <Compile Include="Chapter6InheritanceAndPolymorphism\F1216Inheritance.cs" />
+    <Compile Include="Chapter7InterfacesAndAbstractClasses\F1224.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
