@@ -18,7 +18,7 @@ namespace FConsoleMain
 
             int num = 0;
 
-            while (num == 0 && inputstr != "exit")
+            while ( inputstr != "exit")
             {
                 Console.WriteLine("请输入类名,或者输入exit退出:");  
                  inputstr = Console.ReadLine();
@@ -57,12 +57,15 @@ namespace FConsoleMain
                         num++;
                         targetMethod.Invoke(obj, objarr);
                     }
+                    //bin modify
+                    else
+                    {
+                        Console.WriteLine("程序不存在！");
+                        continue;
+                    }
                 }
 
-                if (num == 0)
-                {
-                    Console.WriteLine("输入错误");
-                }
+                 
             }
         }
     }
