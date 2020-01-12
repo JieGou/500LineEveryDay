@@ -60,6 +60,7 @@ namespace FConsoleMain
                     //bin modify
                     else
                     {
+                        Console.WriteLine("程序不存在！");
                         continue;
                     }
                 }
