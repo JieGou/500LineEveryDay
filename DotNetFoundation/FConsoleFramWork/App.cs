@@ -20,7 +20,7 @@ namespace FConsoleMain
 
             while (num == 0 && inputstr != "exit")
             {
-                Console.WriteLine("请输入类名,或者输入exit退出:");
+                Console.WriteLine("请输入类名,或者输入exit退出:");  
                  inputstr = Console.ReadLine();
                 var asm = Assembly.GetExecutingAssembly();
                 var types = asm.GetTypes();

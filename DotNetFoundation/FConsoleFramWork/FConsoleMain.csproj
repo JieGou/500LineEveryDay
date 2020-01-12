@@ -52,7 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
-    <Compile Include="Chapter5\F1101C5Exercise01.cs" />
+    <Compile Include="Chapter5ClassAndObject\F1101C5Exercise01.cs" />
     <Compile Include="Chapter3\F0201ArrayList.cs" />
     <Compile Include="Chapter3\F0301ARegularExpression.cs" />
     <Compile Include="Chapter3\F0801ArithmeticOperator.cs" />
@@ -122,11 +122,15 @@
     <Compile Include="Chapter4\F1004Que18PrimeNumber .cs" />
     <Compile Include="Chapter4\F1005Que19.cs" />
     <Compile Include="Chapter4\F1006Ques20.cs" />
-    <Compile Include="Chapter5\F1102C5Exercise02.cs" />
-    <Compile Include="Chapter5\F1106Exercise06.cs" />
-    <Compile Include="Chapter5\F1105Exercise05.cs" />
-    <Compile Include="Chapter5\F1104Exercise04.cs" />
-    <Compile Include="Chapter5\F1103Exercise03.cs" />
+    <Compile Include="Chapter5ClassAndObject\F1102C5Exercise02.cs" />
+    <Compile Include="Chapter5ClassAndObject\F1106Ex07.cs" />
+    <Compile Include="Chapter5ClassAndObject\F1110Exercise10.cs" />
+    <Compile Include="Chapter5ClassAndObject\F1109Exercise09.cs" />
+    <Compile Include="Chapter5ClassAndObject\F1108Exercise08.cs" />
+    <Compile Include="Chapter5ClassAndObject\F1107Exercise06.cs" />
+    <Compile Include="Chapter5ClassAndObject\F1105Exercise05.cs" />
+    <Compile Include="Chapter5ClassAndObject\F1104Exercise04.cs" />
+    <Compile Include="Chapter5ClassAndObject\F1103Exercise03.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
