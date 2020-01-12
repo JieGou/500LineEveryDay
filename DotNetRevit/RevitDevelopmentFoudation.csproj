@@ -79,6 +79,7 @@
     <Compile Include="TheCodeInBook\R0603ShowSelectedElementFaceArea.cs" />
     <Compile Include="TheCodeInBook\R0805GetCompoundStructure.cs" />
     <Compile Include="TheCodeInBook\R0902RunEpplusSample01.cs" />
+    <Compile Include="TheCodeInBook\R0905WallCreat2.cs" />
     <Compile Include="TheCodeInBook\R0904WallCreat.cs" />
     <Compile Include="TheCodeInBook\R0903GetHostObjectUtils.cs" />
     <Compile Include="TheCodeInBook\R0804CreatGrid.cs" />
