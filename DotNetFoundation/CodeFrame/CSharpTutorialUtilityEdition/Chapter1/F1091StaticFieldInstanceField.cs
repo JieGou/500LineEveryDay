@@ -18,7 +18,11 @@ namespace FConsoleMain
         static void Main(string[] args)
         {
             Test t1 = new Test(100,200);
-            
+            t1.x = 40; //引用实例字段采用方法: 实例名.实例字段名
+            Test.cnt = 0; //引用静态字段采用方法: 类名.静态字段名
+            int z = t1.y; //引用只读字段
+            z = Test.intMax; //引用常量
+
         }
     }
 

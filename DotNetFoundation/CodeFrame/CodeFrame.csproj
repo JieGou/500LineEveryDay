@@ -52,7 +52,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
-    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F191StaticFieldInstanceField.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1091StaticFieldInstanceField.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1092property.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1103ArrayParameter.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1102MethodParameters.cs" />
     <Compile Include="LearnCSharpFromShallow\Chapter5ClassAndObject\F1101C5Exercise01.cs" />
     <Compile Include="LearnCSharpFromShallow\Chapter3\F0201ArrayList.cs" />
     <Compile Include="LearnCSharpFromShallow\Chapter3\F0301ARegularExpression.cs" />
