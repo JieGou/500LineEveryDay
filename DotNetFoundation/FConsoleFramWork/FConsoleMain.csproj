@@ -144,7 +144,17 @@
     <Compile Include="Chapter6InheritanceAndPolymorphism\F1218Sealed.cs" />
     <Compile Include="Chapter6InheritanceAndPolymorphism\F1217Override.cs" />
     <Compile Include="Chapter6InheritanceAndPolymorphism\F1216Inheritance.cs" />
+    <Compile Include="Chapter7InterfacesAndAbstractClasses\F1234Exercise11.cs" />
+    <Compile Include="Chapter7InterfacesAndAbstractClasses\F1233Exercise10.cs" />
+    <Compile Include="Chapter7InterfacesAndAbstractClasses\F1232Exercise09.cs" />
+    <Compile Include="Chapter7InterfacesAndAbstractClasses\F1231Exercise07.cs" />
+    <Compile Include="Chapter7InterfacesAndAbstractClasses\F1230Exercise05.cs" />
+    <Compile Include="Chapter7InterfacesAndAbstractClasses\F1229Exercise01.cs" />
+    <Compile Include="Chapter7InterfacesAndAbstractClasses\F1226.cs" />
+    <Compile Include="Chapter7InterfacesAndAbstractClasses\F1227MultipleInheritance2.cs" />
     <Compile Include="Chapter7InterfacesAndAbstractClasses\F1224.cs" />
+    <Compile Include="Chapter7InterfacesAndAbstractClasses\F1225Interface1.cs" />
+    <Compile Include="Chapter8FieldsAndProperties\F1235.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
