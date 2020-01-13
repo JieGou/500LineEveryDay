@@ -16,7 +16,6 @@ namespace FConsoleMainF1105
         /// 允许重载的操作符: + - ! ~  == -- true false * / % & | ^  == !=  >= 
         /// 不允许重载的操作符:= && || ?:  new typeof sizeof is
         /// </summary>
-        /// <param name="args"></param>
         static void Main(string[] args)
         {
             Complex x = new Complex(1, 2);

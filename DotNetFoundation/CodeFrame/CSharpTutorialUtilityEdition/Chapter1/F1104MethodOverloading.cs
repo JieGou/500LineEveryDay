@@ -14,7 +14,6 @@ namespace FConsoleMainF1104
         /// 1.10.4
         /// 方法的重载
         /// </summary>
-        /// <param name="args"></param>
         static void Main(string[] args)
         {
             UseAbs m = new UseAbs();

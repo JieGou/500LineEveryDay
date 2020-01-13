@@ -15,7 +15,6 @@ namespace FConsoleMainF1103
         /// 1.10.3
         /// 方法的参数为数组时, 也可以不是用params,此种方法可以使用一维或多维数组
         /// </summary>
-        /// <param name="args"></param>
         static void Main(string[] args)
         {
             UseMethod m = new UseMethod();

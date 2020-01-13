@@ -5,16 +5,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FConsoleMain
+namespace FConsoleMain.CSharpTutorialUtilityEdition.Chapter1
 {
-    class F191
+    class F1091
     {
         /// <summary>
         /// CSharpTutorialUtilityEdition
         /// C#教程实用版
         /// 1.9.1
         /// </summary>
-        /// <param name="args"></param>
         static void Main(string[] args)
         {
             Test t1 = new Test(100,200);

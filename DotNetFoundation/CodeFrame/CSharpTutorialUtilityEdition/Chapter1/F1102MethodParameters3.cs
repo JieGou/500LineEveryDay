@@ -15,7 +15,6 @@ namespace FConsoleMainF11023
         /// 1.10.2
         /// MethodParameter
         /// </summary>
-        /// <param name="args"></param>
         static void Main(string[] args)
         {
             char a = 'c';

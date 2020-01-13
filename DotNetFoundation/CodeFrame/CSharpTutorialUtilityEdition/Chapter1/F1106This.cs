@@ -13,7 +13,6 @@ namespace FConsoleMainF1106
         /// CSharpTutorialUtilityEdition(C#教程实用版)
      
         /// </summary>
-        /// <param name="args"></param>
         static void Main(string[] args)
         {
         }

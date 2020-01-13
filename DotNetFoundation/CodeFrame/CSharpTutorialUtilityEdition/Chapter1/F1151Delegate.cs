@@ -14,10 +14,8 @@ namespace FConsoleMainF1121.CSharpTutorialUtilityEdition.Chapter1
         /// CSharpTutorialUtilityEdition(C#教程实用版)
         /// 1.15.1 delegate 委托
         /// 相当于C#中的函数指针;
-        /// 
         /// </summary>
-        /// <param name="args"></param>
-        ///
+
         static void Main(string[] args)
         {
             MyClass p =new MyClass();

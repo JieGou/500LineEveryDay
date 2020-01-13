@@ -14,7 +14,6 @@ namespace FConsoleMainF192
         /// C#教程实用版
         /// 1.9.2
         /// </summary>
-        /// <param name="args"></param>
         static void Main(string[] args)
         {
             Person onePerson = new Person();

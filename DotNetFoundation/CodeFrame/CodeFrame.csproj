@@ -53,14 +53,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1081ClassMember.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1091StaticFieldInstanceField.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1092property.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1102ArrayParameter.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1142InterfaceInheritance.cs" />
-    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1143ImplementInterface - 复制.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1143ImplementInterface.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1152Delegate2.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1153Delegate3.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1165Event4.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1171IndexIndicator .cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1191UnsafeCode.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1201Exercise01.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1181NameSpace.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1166Event5.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1164Event3 .cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1163Event2.cs" />

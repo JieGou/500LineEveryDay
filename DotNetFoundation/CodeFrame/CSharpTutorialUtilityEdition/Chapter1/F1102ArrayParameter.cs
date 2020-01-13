@@ -15,7 +15,6 @@ namespace FConsoleMainF1103
         /// 1.10.3
         /// MethodParameter
         /// </summary>
-        /// <param name="args"></param>
         static void Main(string[] args)
         {
 
