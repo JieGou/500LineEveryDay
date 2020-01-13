@@ -47,7 +47,7 @@ namespace FConsoleMainF1121.CSharpTutorialUtilityEdition.Chapter1
             cat1.Cry(" 猫: 喵喵~~~"); //猫动作，触发事件
         }
 
-        private static void Person(object sneder, EventArgs e)
+        private static void Person(object sender, EventArgs e)
         {
             Console.WriteLine("人: 大半夜不睡觉,叫啥");
         }
