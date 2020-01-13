@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FConsoleMainF1102
+namespace FConsoleMainF11023
 {
-    class F1102
+    class F11023
     {
         /// <summary>
         /// CSharpTutorialUtilityEdition
