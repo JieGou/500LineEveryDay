@@ -43,6 +43,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -57,6 +58,12 @@
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1102ArrayParameter.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1142InterfaceInheritance.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1143ImplementInterface - 复制.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1152Delegate2.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1153Delegate3.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1165Event4.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1166Event5.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1164Event3 .cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1163Event2.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1162Event.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1151Delegate.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1141Interface.cs" />
