@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
+    <Compile Include="CSharpInDepth\Chapter3\F303021.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter12\F12011HTML.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F10401DataTypeINCSharp - 复制.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F10411BoxAndUnboxing.cs" />
@@ -93,6 +94,10 @@
     <Compile Include="CSharpTutorialUtilityEdition\Chapter6FileAndStream\F6501SplitAndMergeFile.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter6FileAndStream\F6301DirectoryAndDirectoryInfo.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter6FileAndStream\F6201FileClassFileInfoClass.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17071UncontrainedTypeParameter.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17061StackExample.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17041GenericsClass.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17011Generics.cs" />
     <Compile Include="LearnCSharpFromShallow\Chapter05ClassAndObject\F1101C5Exercise01.cs" />
     <Compile Include="LearnCSharpFromShallow\Chapter03\F0201ArrayList.cs" />
     <Compile Include="LearnCSharpFromShallow\Chapter03\F0301ARegularExpression.cs" />
