@@ -53,9 +53,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
-    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1041DataTypeINCSharp - 复制.cs" />
-    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1043StrucType.cs" />
-    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1042ValueTypeVariable.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter12\F12011HTML.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F10401DataTypeINCSharp - 复制.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F10411BoxAndUnboxing.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F10410String.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F10409Array.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F10405EnumerationType.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F10403StrucType.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F10402ValueTypeVariable.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1081ClassMember.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1091StaticFieldInstanceField.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1092property.cs" />
@@ -84,6 +89,10 @@
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1103StaticMethodAndInstanceMethod.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1102ArrayParameter2.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1102MethodParameters3.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter6FileAndStream\F6101FileStream.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter6FileAndStream\F6501SplitAndMergeFile.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter6FileAndStream\F6301DirectoryAndDirectoryInfo.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter6FileAndStream\F6201FileClassFileInfoClass.cs" />
     <Compile Include="LearnCSharpFromShallow\Chapter05ClassAndObject\F1101C5Exercise01.cs" />
     <Compile Include="LearnCSharpFromShallow\Chapter03\F0201ArrayList.cs" />
     <Compile Include="LearnCSharpFromShallow\Chapter03\F0301ARegularExpression.cs" />

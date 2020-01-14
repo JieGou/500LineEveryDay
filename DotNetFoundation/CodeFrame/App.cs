@@ -82,12 +82,7 @@ namespace FConsoleMain
                         }
                     }
                 }
-                //如果不存在,给出提示,重新执行
-                else
-                {
-                    Console.WriteLine("程序不存在");
-                    continue;
-                }
+               
             }
         }
     }
