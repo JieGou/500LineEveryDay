@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FConsoleMain3
+namespace FConsoleMain.LearnCSharpFromShallow.Chapter07
 {
     interface IShape
     {

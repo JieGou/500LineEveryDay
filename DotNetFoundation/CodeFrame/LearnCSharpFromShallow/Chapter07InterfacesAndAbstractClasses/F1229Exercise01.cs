@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using FConsoleMain;
 
-namespace FConsoleMain8
+namespace FConsoleMain.LearnCSharpFromShallow.Chapter07
 {
     /// <summary>
     /// 第7章 题目01 02 03

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using FConsoleMain;
 
-namespace FConsoleMain
+namespace FConsoleMain.LearnCSharpFromShallow.Chapter07
 {
     /// <summary>
     ///第6章

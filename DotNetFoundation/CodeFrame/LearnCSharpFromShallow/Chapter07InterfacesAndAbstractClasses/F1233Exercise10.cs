@@ -5,25 +5,23 @@ using System.Text;
 using System.Threading.Tasks;
 using FConsoleMain;
 
-namespace FConsoleMain32
+namespace FConsoleMain.LearnCSharpFromShallow.Chapter073
 {
     /// <summary>
-    /// 第7章 题目09
+    /// 第7章 题目10
     /// </summary>
-    class F1232
+    class F1233
     {
         static void Main(string[] args)
         {
         }
     }
 
-
-    abstract class Electronic
+    interface IElectronic
     {
     }
 
-    abstract class MobileDevice:Electronic
+    abstract class MobileDevice : IElectronic
     {
-        public abstract void Call();
     }
 }

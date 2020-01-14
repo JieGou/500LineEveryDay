@@ -33,7 +33,6 @@ namespace R10PanelButtomTestNameSpace
                         @"D:\Revit 2019.1 SDK\Add-In Manager\AddInManager.dll",
                         "AddInManager.CAddInManager"))
                 as PushButton;
-            
 
             //添加第二个个新的ribbon面板
             Autodesk.Revit.UI.RibbonPanel ribbonPanel2 = application.CreateRibbonPanel("我的工具", "New2");
@@ -59,13 +58,11 @@ namespace R10PanelButtomTestNameSpace
 
                 {
                     rt = tab;
-
-                    ribbon.Tabs.Remove(tab);
-
                     break;
                 }
             }
 
+            ribbon.Tabs.Remove(rt);
             ribbon.Tabs.Insert(0, rt);
 
             #endregion

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using FConsoleMain;
 
-namespace FConsoleMain35
+namespace FConsoleMain.LearnCSharpFromShallow.Chapter08
 {
 
     class F1234

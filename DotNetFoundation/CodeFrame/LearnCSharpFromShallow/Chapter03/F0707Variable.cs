@@ -15,8 +15,7 @@ namespace FConsoleMain2
             //输出变量到控制台
             Console.WriteLine(i);
             Console.WriteLine(s1);
-            Console.ReadKey();
-
+         
         }
     }
 }
