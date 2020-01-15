@@ -97,6 +97,15 @@
     <Compile Include="CSharpTutorialUtilityEdition\Chapter6FileAndStream\F6501SplitAndMergeFile.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter6FileAndStream\F6301DirectoryAndDirectoryInfo.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter6FileAndStream\F6201FileClassFileInfoClass.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17101GenericStructure.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17123Factory.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17122GenericInterface2.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17121GenericInterface.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17112GenericDelegate2.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17111GenericDelegate1.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17091ExtensionMethodAndGenericClass.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17083AnExample.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17082Generic.cs" />
     <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17073ListFindAll.cs" />
     <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17072List.cs" />
     <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17071UncontrainedTypeParameter.cs" />
@@ -213,6 +222,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="IllustratedCSharp2012\Chapter18EnumeratorsAndIterators\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

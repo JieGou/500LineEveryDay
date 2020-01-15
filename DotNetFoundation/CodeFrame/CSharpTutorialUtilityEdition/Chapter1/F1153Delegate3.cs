@@ -6,7 +6,7 @@ using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 
-public delegate void Mydelegate22(string s);
+
 
 namespace FConsoleMainF1121.CSharpTutorialUtilityEdition.Chapter1
 {
@@ -19,7 +19,9 @@ namespace FConsoleMainF1121.CSharpTutorialUtilityEdition.Chapter1
         /// https://www.cnblogs.com/vickylinj/p/10922139.html
         /// 一个委托实例可以关联多个方法
         /// </summary>
-        /// <param name="args"></param>
+     
+        
+        public delegate void Mydelegate22(string s);
         static void TestMethod1(string str)
         {
             Console.WriteLine("我是静态方法1:{0}", str);

@@ -7,8 +7,8 @@
     <ProjectGuid>{578E200D-39A1-467B-8CEA-F3632F6A010B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ExerciseProject</RootNamespace>
-    <AssemblyName>ExerciseProject</AssemblyName>
+    <RootNamespace>RevitDevelopmentFoudation</RootNamespace>
+    <AssemblyName>RevitDevelopmentFoudation</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -74,63 +74,64 @@
   <ItemGroup>
     <Compile Include="ClassMyTest\E1001RunSample1.cs" />
     <Compile Include="ClassMyTest\Utils.cs" />
-    <Compile Include="TheCodeInBook\R0504bFamilyCreat2.cs" />
-    <Compile Include="TheCodeInBook\R0601未完ExclusionFilterw.cs" />
-    <Compile Include="TheCodeInBook\R0603ShowSelectedElementFaceArea.cs" />
-    <Compile Include="TheCodeInBook\R0805GetCompoundStructure.cs" />
-    <Compile Include="TheCodeInBook\R0902RunEpplusSample01.cs" />
-    <Compile Include="TheCodeInBook\R0905WallCreat2.cs" />
-    <Compile Include="TheCodeInBook\R0904WallCreat.cs" />
-    <Compile Include="TheCodeInBook\R0903GetHostObjectUtils.cs" />
-    <Compile Include="TheCodeInBook\R0804CreatGrid.cs" />
-    <Compile Include="TheCodeInBook\R0803CreatViewByLevelId.cs" />
-    <Compile Include="TheCodeInBook\R0802CreatLevel.cs" />
-    <Compile Include="TheCodeInBook\R0801SetLevelBaseType.cs" />
-    <Compile Include="TheCodeInBook\R0704CurveElementFilter.cs" />
-    <Compile Include="TheCodeInBook\R0703ElementInstanceFilter.cs" />
-    <Compile Include="TheCodeInBook\R0702ElementParameterFilter.cs" />
-    <Compile Include="TheCodeInBook\R0701ElementLevelFilter.cs" />
-    <Compile Include="TheCodeInBook\R0606ExclusionFilter.cs" />
-    <Compile Include="TheCodeInBook\R0605ShowSelectedElementName.cs" />
-    <Compile Include="TheCodeInBook\R0604GetGeometryElementColumnFaceArea.cs" />
-    <Compile Include="TheCodeInBook\R0602GetGeometryElementWallFaceArea.cs" />
-    <Compile Include="TheCodeInBook\R0506FamilySymbolFilter.cs" />
-    <Compile Include="TheCodeInBook\R0505FamilySymbolFilter.cs" />
-    <Compile Include="TheCodeInBook\R0504aFamilyCreat.cs" />
-    <Compile Include="TheCodeInBook\R0204ElementEditMoveByLocation.cs" />
-    <Compile Include="TheCodeInBook\R0101SelectElemetById.cs" />
-    <Compile Include="TheCodeInBook\R0102FirstSelectThenRun.cs" />
-    <Compile Include="TheCodeInBook\R0103FirstRunThenSelect.cs" />
-    <Compile Include="TheCodeInBook\R0104SelectElementByFilter.cs" />
-    <Compile Include="TheCodeInBook\R0105GetPropertyOfElement.cs" />
-    <Compile Include="TheCodeInBook\R0106GetPropertyByBilutInParameter.cs" />
-    <Compile Include="TheCodeInBook\R0107ImportantPropertyAndMethod.cs" />
-    <Compile Include="TheCodeInBook\R0108GetFmailyNameAndFamilysymbolFromFamilyinstance.cs" />
-    <Compile Include="TheCodeInBook\R0109CreatFamilyinstanceFromFamily.cs" />
-    <Compile Include="TheCodeInBook\R0201CreatFamilyOfExtrusion.cs" />
-    <Compile Include="TheCodeInBook\R0202CreatFamilyTypeAndGetParameter.cs" />
-    <Compile Include="TheCodeInBook\R0203ElementEditMove.cs" />
-    <Compile Include="TheCodeInBook\R0205ChangWallLengthByLocationCurve.cs" />
-    <Compile Include="TheCodeInBook\R0206SetNewLocationOfColumnByChangeLocationPoint.cs" />
-    <Compile Include="TheCodeInBook\R0207ElementEditRotate.cs" />
-    <Compile Include="TheCodeInBook\R0208ElementEditRotateByLocationCurve.cs" />
-    <Compile Include="TheCodeInBook\R0209ElementEditMirror.cs" />
-    <Compile Include="TheCodeInBook\R0210ElementEditDelete.cs" />
-    <Compile Include="TheCodeInBook\R0211DeleteElements.cs" />
-    <Compile Include="TheCodeInBook\R0301CreatGroupAndRename.cs" />
-    <Compile Include="TheCodeInBook\R0304CreatReferencePlaneInFamilyDocument.cs" />
-    <Compile Include="TheCodeInBook\R0402SketchPlaneByLevelId.cs" />
-    <Compile Include="TheCodeInBook\R0401SketchPlaneAndCreatModelCurve.cs" />
-    <Compile Include="TheCodeInBook\R0405FilteredElementCollectorGetWall.cs" />
-    <Compile Include="TheCodeInBook\R0406FilteredElementCollectorGetLevel.cs" />
-    <Compile Include="TheCodeInBook\R0503ElementIsElementTypeFilter.cs" />
-    <Compile Include="TheCodeInBook\R0502ElementClassFilter.cs" />
-    <Compile Include="TheCodeInBook\R0501ElementCategoryFilter.cs" />
-    <Compile Include="TheCodeInBook\R0403CreatSketchPlanByPlane.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0504bFamilyCreat2.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0601未完ExclusionFilterw.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0603ShowSelectedElementFaceArea.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0805GetCompoundStructure.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0902RunEpplusSample01.cs" />
+    <Compile Include="TheCodeInBook\Chapter04\R0410CreatWall.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0905WallCreat2.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0904WallCreat.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0903GetHostObjectUtils.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0804CreatGrid.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0803CreatViewByLevelId.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0802CreatLevel.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0801SetLevelBaseType.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0704CurveElementFilter.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0703ElementInstanceFilter.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0702ElementParameterFilter.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0701ElementLevelFilter.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0606ExclusionFilter.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0605ShowSelectedElementName.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0604GetGeometryElementColumnFaceArea.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0602GetGeometryElementWallFaceArea.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0506FamilySymbolFilter.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0505FamilySymbolFilter.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0504aFamilyCreat.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0204ElementEditMoveByLocation.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0101SelectElemetById.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0102FirstSelectThenRun.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0103FirstRunThenSelect.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0104SelectElementByFilter.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0105GetPropertyOfElement.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0106GetPropertyByBilutInParameter.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0107ImportantPropertyAndMethod.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0108GetFmailyNameAndFamilysymbolFromFamilyinstance.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0109CreatFamilyinstanceFromFamily.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0201CreatFamilyOfExtrusion.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0202CreatFamilyTypeAndGetParameter.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0203ElementEditMove.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0205ChangWallLengthByLocationCurve.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0206SetNewLocationOfColumnByChangeLocationPoint.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0207ElementEditRotate.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0208ElementEditRotateByLocationCurve.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0209ElementEditMirror.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0210ElementEditDelete.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0211DeleteElements.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0301CreatGroupAndRename.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0304CreatReferencePlaneInFamilyDocument.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0402SketchPlaneByLevelId.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0401SketchPlaneAndCreatModelCurve.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0405FilteredElementCollectorGetWall.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0406FilteredElementCollectorGetLevel.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0503ElementIsElementTypeFilter.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0502ElementClassFilter.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0501ElementCategoryFilter.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0403CreatSketchPlanByPlane.cs" />
     <Compile Include="TheCodeInBook\tem1.cs" />
     <Compile Include="ClassMyTest\GetNameFromElement.cs" />
-    <Compile Include="TheCodeInBook\R0303EditFamilyAndLoadFamilyAndChangeFamilyParameter.cs" />
-    <Compile Include="TheCodeInBook\R0302LinearArrayAndRadialArray.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0303EditFamilyAndLoadFamilyAndChangeFamilyParameter.cs" />
+    <Compile Include="TheCodeInBook\Chapter03\R0302LinearArrayAndRadialArray.cs" />
     <Compile Include="Other\CmdCreatLevel.cs" />
     <Compile Include="Other\CmdTemplateTool.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -10,8 +10,6 @@ namespace FConsoleMain.IllustratedCSharp2012.Chapter17
 {
     /*
      * List<T>的使用
-     *
-     *
      */
     class F17072
     {
@@ -20,7 +18,7 @@ namespace FConsoleMain.IllustratedCSharp2012.Chapter17
             string[] Arr = {"a", "b", "c"};
 
             //List<T> 将泛型类做成 构造类; 用构造类实例化出mList
-            List<string> mList =new List<string>(Arr);
+            List<string> mList = new List<string>(Arr);
 
             //添加一个元素 List.Add(T item)
             mList.Add("d");
@@ -30,7 +28,7 @@ namespace FConsoleMain.IllustratedCSharp2012.Chapter17
             mList.AddRange(Arr2);
 
             //在index位置添加一个元素
-            mList.Insert(1,"p");
+            mList.Insert(1, "p");
 
             //遍历List中的元素
             foreach (var element in mList)
@@ -48,6 +46,7 @@ namespace FConsoleMain.IllustratedCSharp2012.Chapter17
 
             //给list里面元素排序
             mList.Sort();
+
             foreach (var element in mList)
             {
                 Console.WriteLine(element);
@@ -55,6 +54,7 @@ namespace FConsoleMain.IllustratedCSharp2012.Chapter17
 
             //给list里面元素顺序翻转
             mList.Reverse();
+
             foreach (var element in mList)
             {
                 Console.WriteLine(element);
@@ -62,9 +62,6 @@ namespace FConsoleMain.IllustratedCSharp2012.Chapter17
 
             //List.FindAll方法: 
             //List.Find方法
-
         }
     }
-
-    //public class List<T> : IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable, IList, ICollection, IReadOnlyList<T>, IReadOnlyCollection<T>
 }
