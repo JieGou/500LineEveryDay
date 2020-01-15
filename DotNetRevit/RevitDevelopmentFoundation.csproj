@@ -79,7 +79,13 @@
     <Compile Include="TheCodeInBook\Chapter03\R0603ShowSelectedElementFaceArea.cs" />
     <Compile Include="TheCodeInBook\Chapter03\R0805GetCompoundStructure.cs" />
     <Compile Include="TheCodeInBook\Chapter03\R0902RunEpplusSample01.cs" />
-    <Compile Include="TheCodeInBook\Chapter04\R0410CreatWall.cs" />
+    <Compile Include="TheCodeInBook\Chapter04\R0416CreateColumn.cs" />
+    <Compile Include="TheCodeInBook\Chapter04\R0415CreateDoor.cs" />
+    <Compile Include="TheCodeInBook\Chapter04\R0414CreateFamilyInstance1.cs" />
+    <Compile Include="TheCodeInBook\Chapter04\R0413ExtrusionRoof.cs" />
+    <Compile Include="TheCodeInBook\Chapter04\R0412ExtrusionRoof.cs" />
+    <Compile Include="TheCodeInBook\Chapter04\R0411CreateFloor.cs" />
+    <Compile Include="TheCodeInBook\Chapter04\R0410CreateWall.cs" />
     <Compile Include="TheCodeInBook\Chapter03\R0905WallCreat2.cs" />
     <Compile Include="TheCodeInBook\Chapter03\R0904WallCreat.cs" />
     <Compile Include="TheCodeInBook\Chapter03\R0903GetHostObjectUtils.cs" />

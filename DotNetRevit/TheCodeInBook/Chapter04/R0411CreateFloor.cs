@@ -17,18 +17,17 @@ using View = Autodesk.Revit.DB.View;
 using MyClass;
 using Form = Autodesk.Revit.DB.Form;
 
-namespace RevitDevelopmentFoudation.TheCodeInBook.Chapter04
+namespace RevitDevelopmentFoundation.Chapter04
 {
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class R0410CreatWall : IExternalCommand
+    class R0411CreateFloor : IExternalCommand
     {
         /// <summary>
-        /// 代码片段4-10
-        /// 创建墙: 并设置高度 偏移 和是否旋转
+        /// 代码片段4-11
+        /// 创建楼板
         /// </summary>
-
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
             UIApplication uiapp = commandData.Application;
@@ -43,13 +42,12 @@ namespace RevitDevelopmentFoudation.TheCodeInBook.Chapter04
             {
                 ts.Start();
 
-                ElementId levelId = new ElementId(311);
-                ElementId wallTypeId = new ElementId(398);
-                Wall wall = Wall.Create(doc, Line.CreateBound(new XYZ(0, 0, 0), new XYZ(0, 10000 / 304.8, 0)),
-                    wallTypeId, levelId, 3000 / 304.8, 1000 / 304.8, true, false);
+                CurveArray curveArray = new CurveArray();
+                curveArray.Append(Line.CreateBound(new XYZ(0, 0, 0), new XYZ(100, 0, 0)));
+                curveArray.Append(Line.CreateBound(new XYZ(100, 0, 0), new XYZ(0, 100, 0)));
+                curveArray.Append(Line.CreateBound(new XYZ(0, 100, 0), new XYZ(0, 0, 0)));
+                Floor floor = doc.Create.NewFloor(curveArray, false);
 
-
-        
                 ts.Commit();
             }
             catch (Exception)

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.960
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitDevelopmentFoudation", "DotNetRevit\RevitDevelopmentFoudation.csproj", "{578E200D-39A1-467B-8CEA-F3632F6A010B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitDevelopmentFoundation", "DotNetRevit\RevitDevelopmentFoundation.csproj", "{578E200D-39A1-467B-8CEA-F3632F6A010B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNetFoundation", "DotNetFoundation", "{3E42B64F-9ED1-4E03-8FED-A15A7C8AF998}"
 EndProject
