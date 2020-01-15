@@ -69,13 +69,16 @@
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1142InterfaceInheritance.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1143ImplementInterface.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1152Delegate2.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1155GenericDelegate.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1154Delegate4.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1153Delegate3.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1165Event4.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1171IndexIndicator .cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1191UnsafeCode.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1202ExtensionMethod.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1201Exercise01.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1181NameSpace.cs" />
-    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1166Event5.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1166Event5CatCatchMouse.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1164Event3 .cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1163Event2.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F1162Event.cs" />
@@ -94,6 +97,8 @@
     <Compile Include="CSharpTutorialUtilityEdition\Chapter6FileAndStream\F6501SplitAndMergeFile.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter6FileAndStream\F6301DirectoryAndDirectoryInfo.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter6FileAndStream\F6201FileClassFileInfoClass.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17073ListFindAll.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17072List.cs" />
     <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17071UncontrainedTypeParameter.cs" />
     <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17061StackExample.cs" />
     <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17041GenericsClass.cs" />

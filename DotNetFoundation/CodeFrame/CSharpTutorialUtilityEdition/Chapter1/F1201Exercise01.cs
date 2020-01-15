@@ -11,9 +11,9 @@ namespace FConsoleMain.CSharpTutorialUtilityEdition.Chapter1
 {
     /// <summary>
     /// CSharpTutorialUtilityEdition(C#教程实用版)
-    /// 1.19.1 Unsafe code
+    /// 1.20.1 Unsafe code
     /// </summary>
-    class F1191
+    class F1201
     {
         static void Main(string[] args)
         {

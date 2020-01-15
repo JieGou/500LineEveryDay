@@ -11,9 +11,9 @@ namespace FConsoleMain.CSharpTutorialUtilityEdition.Chapter1
 {
     /// <summary>
     /// CSharpTutorialUtilityEdition(C#教程实用版)
-    /// 第一章联系
+    /// 第一章练习
     /// </summary>
-    class F1201
+    class F1191
     {
         static void Main(string[] args)
         {
