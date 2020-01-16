@@ -10,15 +10,12 @@ using System.Threading.Tasks;
 namespace FConsoleMain.IllustratedCSharp2012.Chapter17
 {
     /*
-     * 泛型接口
+     * 泛型枚举接口
      */
-    class F1713
+    class F18013
     {
         static void Main(string[] args)
         {
-            
         }
     }
-
-    
 }

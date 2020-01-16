@@ -98,7 +98,6 @@
     <Compile Include="CSharpTutorialUtilityEdition\Chapter6FileAndStream\F6301DirectoryAndDirectoryInfo.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter6FileAndStream\F6201FileClassFileInfoClass.cs" />
     <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17101GenericStructure.cs" />
-    <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17123Factory.cs" />
     <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17122GenericInterface2.cs" />
     <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17121GenericInterface.cs" />
     <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17112GenericDelegate2.cs" />
@@ -112,6 +111,11 @@
     <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17061StackExample.cs" />
     <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17041GenericsClass.cs" />
     <Compile Include="IllustratedCSharp2012\Chapter17Generics\F17011Generics.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter18EnumeratorsAndIterators\F18043Example.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter18EnumeratorsAndIterators\F18042Iterator.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter18EnumeratorsAndIterators\F18013IEnumerableT.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter18EnumeratorsAndIterators\F18011ColorEnumerator.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter19LINQ\F19011Example.cs" />
     <Compile Include="LearnCSharpFromShallow\Chapter05ClassAndObject\F1101C5Exercise01.cs" />
     <Compile Include="LearnCSharpFromShallow\Chapter03\F0201ArrayList.cs" />
     <Compile Include="LearnCSharpFromShallow\Chapter03\F0301ARegularExpression.cs" />
@@ -222,8 +226,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="IllustratedCSharp2012\Chapter18EnumeratorsAndIterators\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
