@@ -116,6 +116,12 @@
     <Compile Include="IllustratedCSharp2012\Chapter18EnumeratorsAndIterators\F18013IEnumerableT.cs" />
     <Compile Include="IllustratedCSharp2012\Chapter18EnumeratorsAndIterators\F18011ColorEnumerator.cs" />
     <Compile Include="IllustratedCSharp2012\Chapter19LINQ\F19011Example.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter19LINQ\F19012QuerySynaxAndMehodSynax.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter19LINQ\F19053Join.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter19LINQ\F19054fromLet.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter19LINQ\F19056OrderBy.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter19LINQ\F19058Group.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter19LINQ\F19059Into.cs" />
     <Compile Include="LearnCSharpFromShallow\Chapter05ClassAndObject\F1101C5Exercise01.cs" />
     <Compile Include="LearnCSharpFromShallow\Chapter03\F0201ArrayList.cs" />
     <Compile Include="LearnCSharpFromShallow\Chapter03\F0301ARegularExpression.cs" />
