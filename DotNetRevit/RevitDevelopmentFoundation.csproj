@@ -81,8 +81,7 @@
     <Compile Include="TheCodeInBook\Chapter03\R0902RunEpplusSample01.cs" />
     <Compile Include="TheCodeInBook\Chapter04\R0416CreateColumn.cs" />
     <Compile Include="TheCodeInBook\Chapter04\R0415CreateDoor.cs" />
-    <Compile Include="TheCodeInBook\Chapter04\R0414CreateFamilyInstance1.cs" />
-    <Compile Include="TheCodeInBook\Chapter04\R0413ExtrusionRoof.cs" />
+    <Compile Include="TheCodeInBook\Chapter04\R0414FootPrintRoof.cs" />
     <Compile Include="TheCodeInBook\Chapter04\R0412ExtrusionRoof.cs" />
     <Compile Include="TheCodeInBook\Chapter04\R0411CreateFloor.cs" />
     <Compile Include="TheCodeInBook\Chapter04\R0410CreateWall.cs" />
