@@ -46,7 +46,7 @@ namespace FConsoleMain.CSharpTutorialUtilityEdition.Chapter1
 
 
         //事件源进行如下动作时,触发事件
-        public void Start()
+        public virtual void Start()
         {
             while (true)
             {
@@ -102,14 +102,26 @@ namespace FConsoleMain.CSharpTutorialUtilityEdition.Chapter1
     {
         static void Main(string[] args)
         {
-            //发布者类 实例化
-            EventSenderClass sender = new EventSenderClass();
+            // //发布者类 实例化
+            // EventSenderClass sender = new EventSenderClass();
+            //
+            // //订阅者类 实例化
+            // SubscriberClass sub = new SubscriberClass(sender);
+            //
+            // //触发事件
+            // sender.Start();
 
-            //订阅者类 实例化
-            SubscriberClass sub = new SubscriberClass(sender);
+            SubClass subClass1= new SubClass();
+            subClass1.Start();
 
-            //触发事件
-            sender.Start();
+        }
+    }
+
+    class SubClass : EventSenderClass
+    {
+        public override void Start()
+        {
+            Console.WriteLine("我是子类,父类是EventSenderClass,我把父类的Start方法从写了");
         }
     }
 }
