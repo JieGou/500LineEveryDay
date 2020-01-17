@@ -102,17 +102,18 @@ namespace FConsoleMain.CSharpTutorialUtilityEdition.Chapter1
     {
         static void Main(string[] args)
         {
-            // //发布者类 实例化
-            // EventSenderClass sender = new EventSenderClass();
-            //
+            //发布者类 实例化
+            SubClass subClass1 = new SubClass();
+
+            EventSenderClass sender = subClass1;
+
             // //订阅者类 实例化
             // SubscriberClass sub = new SubscriberClass(sender);
             //
             // //触发事件
             // sender.Start();
 
-            SubClass subClass1= new SubClass();
-            subClass1.Start();
+            sender.Start();
 
         }
     }

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Autodesk.Revit.DB;
 
-namespace ExerciseProject.TeacherTangClass.Extensions
+namespace TeacherTangClass.Extensions
 {/// <summary>
 /// 给ElementId增加扩展方法， 能根据elementId调到element
 /// </summary>

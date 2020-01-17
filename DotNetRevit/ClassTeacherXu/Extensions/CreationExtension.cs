@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using Autodesk.Revit.DB;
-namespace TeacherTangClass
+
+namespace TeacherTangClass.Extensions
 {
     public static class CreationExtension
     {
@@ -19,13 +20,16 @@ namespace TeacherTangClass
             var sketchplane = SketchPlane.Create(doc, plan);
             doc.Create.NewModelCurve(line, sketchplane);
         }
+
         public static void NewLine(this Document doc, Line line)
         {
             var dir = line.Direction;
             var origin = line.Origin;
             var norm = default(XYZ);
             norm = dir.getRandomNorm();
+
             #region oldFun
+
             //if (dir.IsParallel(XYZ.BasisX))
             //{
             //    norm = dir.CrossProduct(XYZ.BasisY).Normalize();
@@ -45,7 +49,9 @@ namespace TeacherTangClass
             //{
             //    norm = dir.CrossProduct(XYZ.BasisX);
             //}
+
             #endregion
+
             var plan = Plane.CreateByNormalAndOrigin(norm, origin);
             doc.Invoke(m =>
             {
@@ -53,6 +59,7 @@ namespace TeacherTangClass
                 doc.Create.NewModelCurve(line, sketchplane);
             }, "aa");
         }
+
         public static void Newbox(this Document doc, BoundingBoxXYZ box)
         {
             var trans = box.Transform;
@@ -93,6 +100,7 @@ namespace TeacherTangClass
                 doc.NewLine_withoutTransaction(_linez);
             }, "创建包围框");
         }
+
         public static void NewCoordinate(this Document doc, XYZ po, Transform trs, double dis = 2)
         {
             var linex = Line.CreateBound(po, po + dis * trs.BasisX);

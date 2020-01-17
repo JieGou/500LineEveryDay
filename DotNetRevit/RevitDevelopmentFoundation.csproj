@@ -79,6 +79,7 @@
     <Compile Include="TheCodeInBook\Chapter03\R0603ShowSelectedElementFaceArea.cs" />
     <Compile Include="TheCodeInBook\Chapter03\R0805GetCompoundStructure.cs" />
     <Compile Include="TheCodeInBook\Chapter03\R0902RunEpplusSample01.cs" />
+    <Compile Include="ClassTeacherXu\Extensions\ForcedDisplay.cs" />
     <Compile Include="TheCodeInBook\Chapter04\R0416CreateColumn.cs" />
     <Compile Include="TheCodeInBook\Chapter04\R0415CreateDoor.cs" />
     <Compile Include="TheCodeInBook\Chapter04\R0414FootPrintRoof.cs" />
