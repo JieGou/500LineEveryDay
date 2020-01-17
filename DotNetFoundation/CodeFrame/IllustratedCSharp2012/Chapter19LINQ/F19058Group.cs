@@ -31,7 +31,7 @@ namespace FConsoleMain.IllustratedCSharp2012.Chapter19
 
             foreach (var s in query)
             {
-                Console.WriteLine($"{s.Key}:");  //s.Key是分组的键值
+                Console.WriteLine($"{s.Key}:"); //s.Key是分组的键值
 
                 foreach (var t in s)
                 {
@@ -39,6 +39,5 @@ namespace FConsoleMain.IllustratedCSharp2012.Chapter19
                 }
             }
         }
-        
     }
 }

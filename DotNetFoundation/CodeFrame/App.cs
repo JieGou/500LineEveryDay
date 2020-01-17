@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Reflection;
+using System.Reflection.Emit;
 using System.Security;
 using System.Text;
 using System.Threading;
@@ -45,6 +46,24 @@ namespace FConsoleMain
                     }
                 }
 
+                foreach (var type in types)
+                {
+                    string[] prefix = new string[]
+                    {
+                        "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r",
+                        "s", "t", "u", "v", "w", "x", "y", "z"
+                    };
+
+                    for (int i = 0; i < prefix.Length; i++)
+                    {
+                        if ((prefix[i] + inputstr).ToLower() == type.Name.ToLower())
+                        {
+                            exists = true;
+                            inputstr = prefix[i] + inputstr;
+                        }
+                    }
+                }
+
                 //如果存在,直接执行
                 if (exists)
                 {
@@ -82,7 +101,6 @@ namespace FConsoleMain
                         }
                     }
                 }
-               
             }
         }
     }
