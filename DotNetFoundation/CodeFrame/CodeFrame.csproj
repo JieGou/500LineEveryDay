@@ -122,8 +122,13 @@
     <Compile Include="IllustratedCSharp2012\Chapter19LINQ\F19056OrderBy.cs" />
     <Compile Include="IllustratedCSharp2012\Chapter19LINQ\F19058Group.cs" />
     <Compile Include="IllustratedCSharp2012\Chapter19LINQ\F19065DedegateParameter.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter19LINQ\F190723UseXMLTree.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter19LINQ\F190761LINQToXML.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter19LINQ\F190751XMLOhterClass.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter19LINQ\F190741XMLAttibute.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter19LINQ\F190724AddNode.cs" />
     <Compile Include="IllustratedCSharp2012\Chapter19LINQ\F190722XMLTree.cs" />
-    <Compile Include="IllustratedCSharp2012\Chapter19LINQ\F190721.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter19LINQ\F190721CreatXml.cs" />
     <Compile Include="IllustratedCSharp2012\Chapter19LINQ\F19066LamdaParameter.cs" />
     <Compile Include="IllustratedCSharp2012\Chapter19LINQ\F19061MethodSyntaxAndExtensionSyntax.cs" />
     <Compile Include="IllustratedCSharp2012\Chapter19LINQ\F19059Into.cs" />
