@@ -60,7 +60,9 @@ namespace FConsoleMain.CSharpTutorialUtilityEdition.Chapter1
                 }
 
                 //启动事件
-                OnKeyPressed(e);
+                if(KeyPressed!=null)
+                this.KeyPressed(e);
+                //OnKeyPressed(e);
             }
         }
 
