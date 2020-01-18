@@ -9,6 +9,7 @@ using System.Security;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using FConsoleMainF1121.CSharpTutorialUtilityEdition.Chapter1;
 
 namespace FConsoleMain
 {
@@ -31,46 +32,17 @@ namespace FConsoleMain
             string inputstr = "123";
             bool exists;
 
-            while (inputstr != "ex")
+            while (inputstr != "e")
             {
                 Console.WriteLine("请输入类名,或者输入e退出:");
                 inputstr = Console.ReadLine();
 
                 exists = false;
 
-                //判断程序是否存在, 存在直接执行,不存在给出提示
-                foreach (var type in types)
-                {
-                    if (inputstr.ToLower() == type.Name.ToLower() && inputstr != null)
-                    {
-                        exists = true;
-                    }
-                }
+                //用方法判断是否存在,输出是否存在,和要执行的方法名.
+                Fun(out exists, out inputstr, inputstr);
 
-                foreach (var type in types)
-                {
-                    string[] prefix = new string[]
-                    {
-                        "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r",
-                        "s", "t", "u", "v", "w", "x", "y", "z"
-                    };
-
-                    for (int i = 0; i < prefix.Length; i++)
-                    {
-                        if ((prefix[i] + inputstr).ToLower() == type.Name.ToLower())
-                        {
-                            exists = true;
-                            inputstr = prefix[i] + inputstr;
-                        }
-                    }
-                }
-
-                if (inputstr.Length <= 1)
-                {
-                    exists = false;
-                }
-
-                //如果存在,直接执行
+                //如果存在,执行
                 if (exists)
                 {
                     foreach (var type in types)
@@ -108,7 +80,64 @@ namespace FConsoleMain
                     }
                 }
 
-                inputstr = null;
+                #region 判断是否存在的方法
+
+                void Fun(out bool judgeOut, out string inputstrOut, string inputstrIn)
+                {
+                    bool judge1 = false;
+                    bool judge2 = false;
+
+                    string newinputstr = null;
+
+                    //judge1 : 按不区分大小写的类全名输入的情况
+                    foreach (var type in types)
+                    {
+                        if (inputstrIn.ToLower() == type.Name.ToLower())
+                        {
+                            judge1 = true;
+                        }
+                    }
+
+                    //judge2 : 按不输入前缀的情况
+                    foreach (var type in types)
+                    {
+                        string[] prefix = new string[]
+                        {
+                            "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r",
+                            "s", "t", "u", "v", "w", "x", "y", "z"
+                        };
+
+                        for (int i = 0; i < prefix.Length; i++)
+                        {
+                            if ((prefix[i] + inputstrIn).ToLower() == type.Name.ToLower() &&
+                                (prefix[i] + inputstrIn).Length >= 2)
+                            {
+                                judge2 = true;
+                                newinputstr = prefix[i] + inputstrIn;
+                            }
+                        }
+                    }
+
+                    //结合以上,判断是否存在,分别输出类名
+                    if (judge1)
+                    {
+                        inputstrOut = inputstrIn;
+                        judgeOut = true;
+                    }
+
+                    else if (judge2)
+                    {
+                        inputstrOut = newinputstr;
+                        judgeOut = true;
+                    }
+                    else
+                    {
+                        inputstrOut = inputstrIn;
+                        judgeOut = false;
+                    }
+                }
+
+                #endregion 判断是否存在的方法
             }
         }
     }
