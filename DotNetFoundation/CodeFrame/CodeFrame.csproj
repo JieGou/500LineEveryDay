@@ -54,6 +54,17 @@
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="CSharpInDepth\Chapter3\F303021.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010701Inherit.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010603Exception.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010602Foreach.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010601ControlStatement.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010306PersonClass.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010303Object.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010301Class.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D03VirtualMethodEX3.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D02VirtualMethodEX2.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D01VirtualMethodEX1.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010201HelloWorld.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter12\F12011HTML.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F10401DataTypeINCSharp - 复制.cs" />
     <Compile Include="CSharpTutorialUtilityEdition\Chapter1\F10411BoxAndUnboxing.cs" />

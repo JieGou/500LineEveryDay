@@ -43,15 +43,17 @@ namespace TeacherTangClass.Extensions
 
                 FilteredElementCollector collection = new FilteredElementCollector(doc);
                 collection.WhereElementIsNotElementType();
-                var list = new List<ElementId>();
-
+                               
                 foreach (Element i in collection)
                 {
-                    list.Add(i.Id);
+                    new List<ElementId>().Add(i.Id);
                 }
 
-                MessageBox.Show((list.Count.ToString()));
-                acView.UnhideElements(list);
+                MessageBox.Show((new List<ElementId>().Count.ToString()));
+
+               
+
+                acView.UnhideElements(new List<ElementId>());
 
                 ts.Commit();
             }
