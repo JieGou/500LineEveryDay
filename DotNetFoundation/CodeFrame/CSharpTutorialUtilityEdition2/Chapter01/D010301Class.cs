@@ -38,6 +38,10 @@ namespace CSharpTutorialUtilityEdition2.Chapter01
             _age = age;
         }
 
+        public Person()
+        {
+        }
+
         public string Name
         {
             get { return _name; }

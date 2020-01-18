@@ -29,18 +29,19 @@ namespace FConsoleMain
             // Console.WriteLine("---------------------------------------\n\t");
 
             string inputstr = "123";
+            bool exists;
 
-            while (inputstr != "e")
+            while (inputstr != "ex")
             {
                 Console.WriteLine("请输入类名,或者输入e退出:");
                 inputstr = Console.ReadLine();
 
-                bool exists = false;
+                exists = false;
 
                 //判断程序是否存在, 存在直接执行,不存在给出提示
                 foreach (var type in types)
                 {
-                    if (inputstr.ToLower() == type.Name.ToLower())
+                    if (inputstr.ToLower() == type.Name.ToLower() && inputstr != null)
                     {
                         exists = true;
                     }
@@ -64,6 +65,11 @@ namespace FConsoleMain
                     }
                 }
 
+                if (inputstr.Length <= 1)
+                {
+                    exists = false;
+                }
+
                 //如果存在,直接执行
                 if (exists)
                 {
@@ -75,7 +81,7 @@ namespace FConsoleMain
                             var methods = type.GetMethods(BindingFlags.NonPublic | BindingFlags.Static);
                             //按过滤条件过滤数组，得到Main方法
                             var targetMethod = methods
-                                .Where(m => m.IsStatic && m.Name.ToLower().Contains("main")).FirstOrDefault();
+                                .Where(m => m.IsStatic && (m.Name.ToLower().Contains("main"))).FirstOrDefault();
                             //输出过滤得到的方法的名字，确认是否为Main方法
                             Console.WriteLine("targetMethod.Name:" + targetMethod.Name);
 
@@ -101,6 +107,8 @@ namespace FConsoleMain
                         }
                     }
                 }
+
+                inputstr = null;
             }
         }
     }

@@ -11,7 +11,7 @@ using System.Windows.Forms;
 namespace CSharpTutorialUtilityEdition2.Chapter01
 {
     /*
-     * 虚方法练习2:员工打开,经理不打开
+     * 虚方法练习2:员工打卡,经理不打卡
      */
     class D02
     {

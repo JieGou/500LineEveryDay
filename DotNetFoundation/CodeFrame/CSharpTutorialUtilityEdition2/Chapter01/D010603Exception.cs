@@ -15,12 +15,12 @@ using System.Windows.Forms;
 namespace CSharpTutorialUtilityEdition2.Chapter01
 {
     /*
-     * 1.6.2 f异常语句:
+     * 1.6.3 f异常语句:
      * try cathch  ;try finally; try catch finally 可以有多个catch语句
      */
     class D010603
     {
-        public static void Main()
+        static void Main(string[] args)
         {
             StreamReader sr = null;
 
