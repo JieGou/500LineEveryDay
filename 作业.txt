@@ -1,5 +1,5 @@
 1.linq 使用。新建一个IList<type>  类型的集合 用linq扩展方法 筛选指定特征的元素。
 	筛选条件分别调用 lambda表达式，匿名委托，自定义委托，预定义委托 Fun<type,bool>
-2.设计一个程序 用Object 作为基类，Animal 继承object   Person 继承 Animal   Ape   Cow   Sheep……，最后实现的结果是 animal.sing() 可以出现符合各种动物的结果;
+2.设计一个程序 用Object 作为基类，Animal 继承object   Person 继承 Animal ，  Ape   Cow   Sheep …… 都继承自Animal，最后实现的结果是 animal.sing() 可以出现符合各种动物的结果;
 3.了解Revit api里面 Element的类的成员 。
 4.了解Revit api 里面 FilteredElementCollector 成员。
