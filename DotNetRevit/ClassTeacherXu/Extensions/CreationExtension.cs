@@ -1,15 +1,42 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows;
+using System.Windows.Forms;
+using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
+using Autodesk.Revit.UI;
+using Autodesk.Revit.UI.Selection;
+using View = Autodesk.Revit.DB.View;
+using ClassTeacherXu.Helpers;
 
-namespace TeacherTangClass.Extensions
+
+namespace ClassTeacherXu.Extensions
 {
     public static class CreationExtension
     {
+        public static MultiSelectionFilter GetCadBlockFilter(this Document doc)
+        {
+            var result = doc.GetSelectionFilter(m => m is ImportInstance,
+                                                n =>
+                                                {
+                                                    Element ele = n.GetElement(doc);
+                                                    var geometry = ele.get_Geometry(new Options()
+                                                    {
+                                                        ComputeReferences = true, View = doc.ActiveView
+                                                    });
+
+                                                    var targetgeometry = ele.GetGeometryObjectFromReference(n);
+
+                                                    if (targetgeometry is GeometryInstance) return true;
+
+                                                    return false;
+                                                });
+            return result;
+        }
+
         public static void NewLine_withoutTransaction(this Document doc, Line line)
         {
             var dir = line.Direction;
@@ -68,6 +95,7 @@ namespace TeacherTangClass.Extensions
             var x = max.X - min.X;
             var y = max.Y - min.Y;
             var z = max.Z - min.Z;
+
             //1、
             var endx = min + x * trans.BasisX;
             var linex = Line.CreateBound(min, endx);

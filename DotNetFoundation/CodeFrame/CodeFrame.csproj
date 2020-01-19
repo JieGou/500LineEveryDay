@@ -54,6 +54,10 @@
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="CSharpInDepth\Chapter3\F303021.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D0110021ArrayParameter.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D0110022Out.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010902Property.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010901StaticField.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010701Inherit.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010603Exception.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010602Foreach.cs" />
@@ -61,6 +65,7 @@
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010306PersonClass.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010303Object.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010301Class.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D04OutInRef.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D03VirtualMethodEX3.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D02VirtualMethodEX2.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D01VirtualMethodEX1.cs" />

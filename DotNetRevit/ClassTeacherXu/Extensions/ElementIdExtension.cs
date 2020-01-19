@@ -5,15 +5,25 @@ using System.Text;
 using System.Threading.Tasks;
 using Autodesk.Revit.DB;
 
-namespace TeacherTangClass.Extensions
-{/// <summary>
-/// 给ElementId增加扩展方法， 能根据elementId调到element
-/// </summary>
+namespace ClassTeacherXu.Extensions
+{
+    /// <summary>
+    /// 给ElementId增加扩展方法， 能根据elementId调到element
+    /// </summary>
     public static class ElementIdExtension
     {
         public static Element GetElement(this ElementId id, Document doc)
         {
             return doc.GetElement(id);
+        }
+    }
+
+
+    public static class ReferenceExtension
+    {
+        public static Element GetElement(this Reference thisref, Document doc)
+        {
+            return doc.GetElement(thisref);
         }
     }
 }

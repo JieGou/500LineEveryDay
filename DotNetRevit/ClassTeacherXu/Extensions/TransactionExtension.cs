@@ -1,6 +1,6 @@
 ﻿using Autodesk.Revit.DB;
 
-namespace TeacherTangClass.Extensions
+namespace ClassTeacherXu.Extensions
 {
     public static class TransactionExtension
     {

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Autodesk.Revit.DB;
 
-namespace TeacherTangClass.Extensions
+namespace ClassTeacherXu.Extensions
 {
     public static class XYZExtension
     {

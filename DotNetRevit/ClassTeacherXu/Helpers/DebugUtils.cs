@@ -9,7 +9,9 @@ using Autodesk.Revit.Attributes;
 using Autodesk.Revit.UI.Selection;
 using Autodesk.Revit.DB.Structure;
 using Autodesk.Revit.DB.Plumbing;
-namespace TeacherTangClass
+using ClassTeacherXu.Extensions;
+
+namespace ClassTeacherXu.Helpers
 {
     public static class DebugUtils
     {
