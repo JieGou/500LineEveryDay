@@ -65,7 +65,7 @@
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010306PersonClass.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010303Object.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010301Class.cs" />
-    <Compile Include="PracticeBook\Day0119\T011904MembersOfElement - 复制.cs" />
+    <Compile Include="PracticeBook\Day0119\T011904FilteredElementCollection.cs" />
     <Compile Include="PracticeBook\Day0119\T011903MembersOfElement.cs" />
     <Compile Include="PracticeBook\Day0119\T011902OverRide.cs" />
     <Compile Include="PracticeBook\Day0119\T011901List.cs" />
@@ -257,6 +257,8 @@
     <Compile Include="LearnCSharpFromShallow\Chapter08FieldsAndProperties\F1235.cs" />
     <Compile Include="LearnCSharpFromShallow\Chapter18Reflection\F1833Reflection.cs" />
     <Compile Include="LearnCSharpFromShallow\Chapter18Reflection\F18311Reflection.cs" />
+    <Compile Include="PracticeBook\Day0120\T012003StaticReadOnlyField.cs" />
+    <Compile Include="PracticeBook\Day0120\T012007RefOut.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
