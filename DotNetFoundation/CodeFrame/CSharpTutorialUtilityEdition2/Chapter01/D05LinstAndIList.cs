@@ -73,9 +73,28 @@ namespace CSharpTutorialUtilityEdition2.Chapter01
             List<string> subList2 = list2.FindAll(m => m.Length > 3);
             subList2.Disply();
 
+            //排序
+            List<int> list3 = new List<int>() {5, 1, 22, 11, 4};
+            list3.Sort((x, y) => x.CompareTo(y));
+            list3.Disply();
+            list3.Sort((x, y) => -x.CompareTo(y));
+            list3.Disply();
 
+            //非基本类排序
+            List<People2> list4 = new List<People2>();
+            Random r = new Random();
 
-            Console.ReadKey();
+            for (int i = 0; i < 10; i++)
+            {
+                int j = r.Next(0, 10);
+                list4.Add(new People2(j, "name" + j));
+            }
+
+            Console.WriteLine("排序前 :");
+            list4.Disply();
+            Console.WriteLine("排序后 :");
+            list4.Sort(); //排序,需要给people类增加接口: ICompare<People2> 原理看不懂.
+            list4.Disply();
         }
 
         public static bool ListFind(string name)
@@ -87,16 +106,57 @@ namespace CSharpTutorialUtilityEdition2.Chapter01
 
     public static class Helper
     {
-        public static void Disply(this List<string> list)
+        public static void Disply<T>(this List<T> list)
         {
             Console.WriteLine("-----------------");
 
-            foreach (string s in list)
+            foreach (T s in list)
             {
                 Console.WriteLine(s);
             }
 
             Console.WriteLine("-----------------");
+        }
+    }
+
+    //需要添加Icomparable接口
+    class People2 : IComparable<People2>
+
+    {
+        private int _id;
+        private string _name;
+
+        public People2(int id, string name)
+        {
+            this._id = id;
+            this._name = name;
+        }
+
+        public int Id
+        {
+            get { return _id; }
+            set { _id = value; }
+        }
+
+        public string Name
+        {
+            get { return _name; }
+            set { _name = value; }
+        }
+
+        public int CompareTo(People2 other)
+        {
+            if (null == other)
+            {
+                return 1; //
+            }
+
+            return other.Id.CompareTo(this.Id); //降序
+        }
+
+        public override string ToString()
+        {
+            return "Id:" + _id + ";Name: " + _name;
         }
     }
 }
