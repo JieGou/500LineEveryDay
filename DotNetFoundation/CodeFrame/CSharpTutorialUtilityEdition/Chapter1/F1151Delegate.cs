@@ -22,14 +22,14 @@ namespace FConsoleMainF1121.CSharpTutorialUtilityEdition.Chapter1
 
             //用new建立委托类MyDelegate对象,d中村中非静态的方法InstanceMethod()的地址
             //参数是被委托的方法d();
-            MyDelegate d = new MyDelegate(p.InstanceMethod);
+            newDelegate d = new newDelegate(p.InstanceMethod);
             d();
-            d =new MyDelegate(MyClass.StaticMethod); //参数是被委托的方法
+            d =new newDelegate(MyClass.StaticMethod); //参数是被委托的方法
             d();  //调用静态方法
         }
     }
     //声明一个委托,注意声明的位置
-    delegate int MyDelegate();
+    delegate int newDelegate();
 
     public class MyClass
     {

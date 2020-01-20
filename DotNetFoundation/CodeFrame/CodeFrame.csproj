@@ -65,6 +65,9 @@
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010306PersonClass.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010303Object.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010301Class.cs" />
+    <Compile Include="Test\T03MembersOfElement.cs" />
+    <Compile Include="Test\T02OverRide.cs" />
+    <Compile Include="Test\T01List.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D04OutInRef.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D03VirtualMethodEX3.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D02VirtualMethodEX2.cs" />

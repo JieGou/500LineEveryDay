@@ -57,7 +57,7 @@ namespace FConsoleMainF1121.CSharpTutorialUtilityEdition.Chapter1
             Console.WriteLine("this is Method: DoNothing.");
         }
 
-        private MyDelegate ParaReturn(out int x, ref int y)
+        private newDelegate ParaReturn(out int x, ref int y)
         {
             throw new Exception();
         }
