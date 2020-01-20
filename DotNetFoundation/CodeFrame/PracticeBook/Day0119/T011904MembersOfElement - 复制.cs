@@ -24,24 +24,24 @@ namespace PracticeBook.Day0119
         }
     }
 
-    public class FilterElementCollection : IEnumerable<Element>, IDisposable
-    {
-        /*
-         *
+    //public class FilterElementCollection : IEnumerable<Element>, IDisposable
+    //{
+    //    /*
+    //     *
        
 
 
 
-         *
-         */
-        public IEnumerator<Element> GetEnumerator()
-        {
-            throw new NotImplementedException();
-        }
+    //     *
+    //     */
+    //    public IEnumerator<Element> GetEnumerator()
+    //    {
+    //        throw new NotImplementedException();
+    //    }
 
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            throw new NotImplementedException();
-        }
-    }
+    //    IEnumerator IEnumerable.GetEnumerator()
+    //    {
+    //        throw new NotImplementedException();
+    //    }
+    //}
 }

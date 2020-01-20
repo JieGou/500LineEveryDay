@@ -18,10 +18,10 @@ namespace PracticeBook.Day0119
         static void Main(string[] args)
         {
             Animal animal = new Animal();
-            Person person = new Person();
-            Ape ape = new Ape();
-            Cow cow = new Cow();
-            Sheep sheep = new Sheep();
+            Animal person = new Person();     //xu modify
+            Animal ape = new Ape();           //xu modify
+            Animal cow = new Cow();           //xu modify
+            Animal sheep = new Sheep();       //xu modify
 
             Animal[] animals = {animal, person, ape, cow, sheep};
 

@@ -53,6 +53,11 @@ namespace PracticeBook.Day0119
             Func<string, bool> newFunc2 = mathName;
             var list4 = list.Where(m => newFunc2(m));
             Display2(list4);
+
+            //xu modify
+            Func<string, bool> newFunc3 = mathName;
+            var list5 = list.Where(mathName);
+            Display2(list4);
         }
         
         public delegate bool newDelegate(string s);
