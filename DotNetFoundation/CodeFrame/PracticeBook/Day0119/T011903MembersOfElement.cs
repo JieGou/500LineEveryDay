@@ -9,13 +9,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Test
+namespace PracticeBook.Day0119
 {
     /*
      * 练习2 :  了解Revit api里面 Element的类的成员 。
          */
 
-    class T03
+    class T011904
     {
         static void Main(string[] args)
         {
@@ -72,8 +72,73 @@ namespace Test
 
                     GetMatrialArea(ElementId,Boolean):Double 
 
+                    GetMatetialIds(ElementId,Boolean):Double 
+
+                    GetMaterialVolume(ElementId):Double 获得给定Id的材料的体积
+
+                    GetMonitoredLinkelementIds(): IList<ElementId> 
+
+                    GetMonitoredLocalElementIds():IList<ElementId>
+
+                    GetOrderedParameters():IList<ElementId> 按顺序获取与元素相关的参数
+
+                    GetParameterFormatOptions(ElementId): FormatOptions
+
+                    GetParameters(String):IList<Parameter>  通过给定的名称,从元素中搜索参数
+
+                    GetPhaseStatus(ElementId):ElementOnPhaseStatus 获得输入阶段中元素的状态
+
+                    GetSubelements():IList<subelement>
+
+                    GetTypeId(): ElementId 返回元素的Id
+
+                    IsExternalReference():Boolean
+
+                    IsHidden(View):Boolean  表明元素是否永久影藏在视图中.
+
+                    IsMonitoringLinkElement():Boolean 表明元素是否监视认识链接中的任何元素
+
+                    Is MonitoringLocalElement():Boolean 表明元素是否监视任何本地元素.
+
+                    IsValidType(ElementId):Boolean 表明给定类型对元素是否有效
+
+                    LookuoParameter(string):Parameter 根据指定名称查找元素
+
+                    setElementType(ElementType,string):Void
+
+                    setEntity(Entity):Void
+
+                    //属性:
+
+                    AssemblyInstanceId:ElementId
+                    BoundingBox[View]: BoundingBoxXYZ
+                    Category:Category
+                    CreatedPhaseId:ElementId
+                    DemolishedPhaseId:ElementId
+                    DesignOption:DesignOption
+                    Document:Document
+                    Geometry[Options]:GeometryElement
 
 
+                    GroupId:ElementId
+                    Id: ElementId
+                    IsTransient:Boolean
+                    IsValidObject:Boolean
+                    LevelId:ElementId
+                    Location:Location
+                    Name:String
+                    OwnerViewId: ElementId
+                    Parameter[BuiltInParameter]:Parameter
+                    Parameter[Definition]:Parameter
+                    parameter[Guid]:Parameter
+                    Parameters:ParameterSet
+                    ParametersMap:ParameterMap
+                    
+                    Pinned: Boolean
+                    UniqueId:String
+                    ViewSpecific:Boolean
+                    WorksetId: WorksetId
+                    
 
 
          */

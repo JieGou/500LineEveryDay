@@ -8,12 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Test
+namespace PracticeBook.Day0119
 {
     /*
      * 练习2 :  设计一个程序 用Object 作为基类，Animal 继承object   Person 继承 Animal ，  Ape   Cow   Sheep …… 都继承自Animal，最后实现的结果是 animal.sing() 可以出现符合各种动物的结果;
      */
-    class T02
+    class T011902
     {
         static void Main(string[] args)
         {
