@@ -27,6 +27,8 @@ namespace PracticeBook.Day0120
             List<int> listInt = new List<int>() {1, 2, 3, 4, 6};
             Class01.Display(1, 2, 3, 4, 6, 8);
             Class01.Display2(1, 2, 3, 4, 6, 8, "one", "two", false, true, listInt);
+
+            Console.WriteLine($"属性的get方法用lamda表达式些,可以跟三元表达式:{class01Instance.Nmu6}");
         }
     }
 
@@ -52,6 +54,10 @@ namespace PracticeBook.Day0120
             get => _num4;
             set => _num4 = value;
         }
+
+        // 属性的get方法可以使用lamda表达式写.只有get方法.
+        public int Nmu6 => _num4 > 100 ? 99 : 10;
+
 
         //静态只读字段
         public static readonly int _num1 = 10;
