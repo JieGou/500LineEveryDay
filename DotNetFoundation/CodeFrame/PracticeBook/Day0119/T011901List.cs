@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using FConsoleMainF1121.CSharpTutorialUtilityEdition.Chapter1;
 
-namespace CSharpTutorialUtilityEdition2.Chapter01
+namespace PracticeBook.Day0119
 {
     /*
      * 练习5 :
@@ -19,7 +19,7 @@ namespace CSharpTutorialUtilityEdition2.Chapter01
      * 自定义委托，
      * 预定义委托Fun<type,bool>       
      */
-    class T01
+    class T011901
     {
         static void Main(string[] args)
         {
