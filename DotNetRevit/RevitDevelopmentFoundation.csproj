@@ -81,6 +81,7 @@
     <Compile Include="TheCodeInBook\Chapter03\R0805GetCompoundStructure.cs" />
     <Compile Include="TheCodeInBook\Chapter03\R0902RunEpplusSample01.cs" />
     <Compile Include="ClassTeacherXu\Extensions\ForcedDisplay.cs" />
+    <Compile Include="TheCodeInBook\Chapter04\R0418Test.cs" />
     <Compile Include="TheCodeInBook\Chapter04\R0417GetCadBlockFilter.cs" />
     <Compile Include="TheCodeInBook\Chapter04\R0416CreateColumn.cs" />
     <Compile Include="TheCodeInBook\Chapter04\R0415CreateDoor.cs" />

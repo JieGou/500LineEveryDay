@@ -12,21 +12,41 @@ using System.Windows.Forms;
 namespace PracticeBook.Day0119
 {
     /*
-     * 练习3 :  了解Revit api里面 Element的类的成员 。
+     * 练习3 :  了解Revit api里面 Element的类的成员 。 理解值类型和引用类型存在不同的地方.
          */
 
     class T011904
     {
         static void Main(string[] args)
         {
-            // // 获取当前命名空间下所有方法名
-            // var classes = Assembly.GetExecutingAssembly().GetTypes();
-            //
-            // foreach (Type item in classes)
-            // {
-            //     Console.WriteLine(item.Name);
-            // }
+            int a = 5;
+            Console.WriteLine(a);
+            int b = a;
+            a = 10;
+            Console.WriteLine("{0},{1}",a,b); //b的值不变,因为a b存在不同的地方
+            Console.WriteLine("------------------------");
+
+            // 以下都一起变,因为引用类型,指向同一个堆内存的地址
+            MyClass class1 =new MyClass{A=20};
+            MyClass class2 = class1;
+            Console.WriteLine($"{class1.A}");
+            Console.WriteLine($"{class2.A}");
+
+            class2.A = 15;
+            Console.WriteLine($"{class1.A}");
+            Console.WriteLine($"{class2.A}");
+
+            class1.A = 30;
+            Console.WriteLine($"{class1.A}");
+            Console.WriteLine($"{class2.A}"); 
+
+
         }
+    }
+
+  public  class MyClass
+    {
+        public  int A { set; get; }
     }
 }
 
@@ -141,6 +161,10 @@ namespace PracticeBook.Day0119
             WorksetId: WorksetId
 
 
+int  public struct Int32 : IComparable, IFormattable, IConvertible, IComparable<int>, IEquatable<int>
+double public struct Double : IComparable, IFormattable, IConvertible, IComparable<double>, IEquatable<double>
+string   public sealed class String : IComparable, ICloneable, IConvertible, IEnumerable, IComparable<string>, IEnumerable<char>, IEquatable<string>
+byte  public struct Byte : IComparable, IFormattable, IConvertible, IComparable<byte>, IEquatable<byte>
 
  */
 // }

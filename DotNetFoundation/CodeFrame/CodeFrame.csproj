@@ -259,6 +259,7 @@
     <Compile Include="LearnCSharpFromShallow\Chapter18Reflection\F1833Reflection.cs" />
     <Compile Include="LearnCSharpFromShallow\Chapter18Reflection\F18311Reflection.cs" />
     <Compile Include="PracticeBook\Day0120\T012003StaticReadOnlyField.cs" />
+    <Compile Include="PracticeBook\Day0120\T012010StaticMehodInRevitApi.cs" />
     <Compile Include="PracticeBook\Day0120\T012007RefOut.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
