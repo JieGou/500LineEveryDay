@@ -40,6 +40,7 @@
       <HintPath>..\..\..\githubColone2\EPPlus\EPPlus\bin\Debug\EPPlus.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="PresentationCore" />
     <Reference Include="RevitAPI">
       <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPI.dll</HintPath>
       <Private>False</Private>
@@ -70,11 +71,22 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClassMyTest\E1001RunSample1.cs" />
     <Compile Include="ClassMyTest\Utils.cs" />
     <Compile Include="ClassTeacherXu\Extensions\SelectionFilter.cs" />
+    <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\BitmapExtension.cs" />
+    <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\LineExtension.cs" />
+    <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\GeometryObjectExtension.cs" />
+    <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\GeometryElementExtension.cs" />
+    <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\ElementIdExtension.cs" />
+    <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\DoubleExtension.cs" />
+    <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\DocumentExtension.cs" />
+    <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\VectorExtension.cs" />
+    <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\ConnectorExtension.cs" />
+    <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\ColorExtension.cs" />
     <Compile Include="TheCodeInBook\Chapter03\R0504bFamilyCreat2.cs" />
     <Compile Include="TheCodeInBook\Chapter03\R0601未完ExclusionFilterw.cs" />
     <Compile Include="TheCodeInBook\Chapter03\R0603ShowSelectedElementFaceArea.cs" />

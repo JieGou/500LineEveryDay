@@ -55,6 +55,8 @@
     <Compile Include="App.cs" />
     <Compile Include="CSharpInDepth\Chapter3\F303021.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D0110021ArrayParameter.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D0110041MethodOverload.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D0110031StaticMethodAndInstance.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D0110022Out.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010902Property.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010901StaticField.cs" />
@@ -66,6 +68,7 @@
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010303Object.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010301Class.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D05LinstAndIList.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition2\Chapter06\D060501SplitAndMergeFiles.cs" />
     <Compile Include="PracticeBook\Day0119\T011904FilteredElementCollection.cs" />
     <Compile Include="PracticeBook\Day0119\T011903MembersOfElement.cs" />
     <Compile Include="PracticeBook\Day0119\T011902OverRide.cs" />
