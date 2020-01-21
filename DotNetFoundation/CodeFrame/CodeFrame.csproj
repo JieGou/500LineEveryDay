@@ -69,6 +69,7 @@
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010301Class.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D05LinstAndIList.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter06\D060501SplitAndMergeFiles.cs" />
+    <Compile Include="IllustratedCSharp2012\Chapter13Delegate\F130101Delegate.cs" />
     <Compile Include="PracticeBook\Day0119\T011904FilteredElementCollection.cs" />
     <Compile Include="PracticeBook\Day0119\T011903MembersOfElement.cs" />
     <Compile Include="PracticeBook\Day0119\T011902OverRide.cs" />

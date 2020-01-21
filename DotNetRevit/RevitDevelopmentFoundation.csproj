@@ -41,6 +41,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="RevitAPI">
       <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPI.dll</HintPath>
       <Private>False</Private>
@@ -78,15 +79,24 @@
     <Compile Include="ClassMyTest\Utils.cs" />
     <Compile Include="ClassTeacherXu\Extensions\SelectionFilter.cs" />
     <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\BitmapExtension.cs" />
+    <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\WindowExtension.cs" />
+    <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\TransactionExtension.cs" />
+    <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\SelectionFilter.cs" />
+    <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\ReferenceExtension.cs" />
+    <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\PipeExtension.cs" />
+    <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\MepcurveExtension.cs" />
     <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\LineExtension.cs" />
     <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\GeometryObjectExtension.cs" />
     <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\GeometryElementExtension.cs" />
     <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\ElementIdExtension.cs" />
     <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\DoubleExtension.cs" />
     <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\DocumentExtension.cs" />
+    <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\PointExtension.cs" />
+    <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\UIDocumentExtension.cs" />
     <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\VectorExtension.cs" />
     <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\ConnectorExtension.cs" />
     <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\ColorExtension.cs" />
+    <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\XYZExtension.cs" />
     <Compile Include="TheCodeInBook\Chapter03\R0504bFamilyCreat2.cs" />
     <Compile Include="TheCodeInBook\Chapter03\R0601未完ExclusionFilterw.cs" />
     <Compile Include="TheCodeInBook\Chapter03\R0603ShowSelectedElementFaceArea.cs" />
@@ -165,6 +175,8 @@
     <Compile Include="ClassTeacherXu\Helpers\LogHelper.cs" />
     <Compile Include="ClassTeacherXu\Helpers\TransactionHelper.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="CodeInTangsengjiewa\BinLibrary\GeometryAlgorithm\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
