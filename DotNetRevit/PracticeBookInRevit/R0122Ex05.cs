@@ -12,6 +12,7 @@ using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
 using ClassTeacherXu.Helpers;
 using View = Autodesk.Revit.DB.View;
+using System.IO;
 
 namespace ExerciseProject
 {
@@ -47,31 +48,42 @@ namespace ExerciseProject
 
             string info = null;
 
-            info +="元素公有"+ collector.Count().ToString() +"个\n\t";
+            info += "元素公有" + collector.Count().ToString() + "个\n\t";
 
             foreach (Element element in collector)
             {
                 info += "\nId:" + element.Id.ToString();
 
-                info += "\n     Name:" + element.Name;
+                info += "     Name:" + element.Name;
 
                 if (null == element.Location)
                 {
-                    info += "\n     Location: 没有位置";
+                    info += "     Location: 没有位置";
                 }
                 else
                 {
-                    info += "\n     Location:" + element.Location.ToString();
+                    info += "     Location:" + element.Location.ToString();
                 }
 
                 if (null == element.Category)
                 {
-                    info += "\n     Category: 没有category";
+                    info += "     Category: 没有category";
                 }
                 else
                 {
-                    info += "\n Category:" + element.Category.Name;
+                    info += "     Category:" + element.Category.Name;
                 }
+            }
+
+            string path = @"D:\TestDir1\11.txt";
+
+            if (File.Exists(path) == true)
+            {
+                System.IO.File.WriteAllText(@"D:\TestDir1\22.txt", info);
+            }
+            else
+            {
+                System.IO.File.WriteAllText(path, info);
             }
 
             TaskDialog.Show("tip", info);
