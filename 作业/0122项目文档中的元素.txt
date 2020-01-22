@@ -1,4 +1,4 @@
-元素公有3744个
+元素公有4417个
 	
 Id:0     Name:新构造     Location: 没有位置     Category:阶段
 Id:1     Name:工程阶段信息     Location: 没有位置     Category: 没有category
@@ -201,51 +201,69 @@ Id:213     Name:远景     Location: 没有位置     Category: 没有category
 Id:230     Name:项目视图     Location: 没有位置     Category: 没有category
 Id:231     Name:项目视图     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:233     Name:项目浏览器     Location: 没有位置     Category: 没有category
+Id:234     Name:箭头 30 度     Location: 没有位置     Category: 没有category
 Id:235     Name:     Location: 没有位置     Category: 没有category
 Id:236     Name:箭头 30 度     Location: 没有位置     Category: 没有category
+Id:237     Name:实心箭头 30 度     Location: 没有位置     Category: 没有category
 Id:238     Name:     Location: 没有位置     Category: 没有category
 Id:239     Name:实心箭头 30 度     Location: 没有位置     Category: 没有category
+Id:240     Name:实心箭头 15 度     Location: 没有位置     Category: 没有category
 Id:241     Name:     Location: 没有位置     Category: 没有category
 Id:242     Name:实心箭头 15 度     Location: 没有位置     Category: 没有category
+Id:243     Name:空心点 3mm     Location: 没有位置     Category: 没有category
 Id:244     Name:     Location: 没有位置     Category: 没有category
 Id:245     Name:空心点 3mm     Location: 没有位置     Category: 没有category
+Id:246     Name:实心点 3mm     Location: 没有位置     Category: 没有category
 Id:247     Name:     Location: 没有位置     Category: 没有category
 Id:248     Name:实心点 3mm     Location: 没有位置     Category: 没有category
+Id:249     Name:实心框 2.5mm     Location: 没有位置     Category: 没有category
 Id:250     Name:     Location: 没有位置     Category: 没有category
 Id:251     Name:实心框 2.5mm     Location: 没有位置     Category: 没有category
+Id:252     Name:实心三角形 2.5mm     Location: 没有位置     Category: 没有category
 Id:253     Name:     Location: 没有位置     Category: 没有category
 Id:254     Name:实心三角形 2.5mm     Location: 没有位置     Category: 没有category
+Id:255     Name:加重端点 3mm     Location: 没有位置     Category: 没有category
 Id:256     Name:     Location: 没有位置     Category: 没有category
 Id:257     Name:加重端点 3mm     Location: 没有位置     Category: 没有category
+Id:258     Name:对角线 3mm     Location: 没有位置     Category: 没有category
 Id:259     Name:     Location: 没有位置     Category: 没有category
 Id:260     Name:对角线 3mm     Location: 没有位置     Category: 没有category
+Id:261     Name:对角线 - 2.5mm Arial     Location: 没有位置     Category: 没有category
 Id:262     Name:     Location: 没有位置     Category: 没有category
 Id:263     Name:对角线 - 2.5mm Arial     Location: 没有位置     Category: 没有category
 Id:264     Name:对角线 - 2.5mm Arial     Location: 没有位置     Category: 没有category
 Id:265     Name:     Location: 没有位置     Category: 没有category
 Id:266     Name:对角线 - 2.5mm Arial     Location: 没有位置     Category: 没有category
+Id:269     Name:实心箭头 - 3mm RomanD     Location: 没有位置     Category: 没有category
 Id:270     Name:     Location: 没有位置     Category: 没有category
 Id:271     Name:实心箭头 - 3mm RomanD     Location: 没有位置     Category: 没有category
 Id:272     Name:实心箭头 - 3mm RomanD     Location: 没有位置     Category: 没有category
 Id:273     Name:     Location: 没有位置     Category: 没有category
 Id:274     Name:实心箭头 - 3mm RomanD     Location: 没有位置     Category: 没有category
+Id:277     Name:线性尺寸标注样式     Location: 没有位置     Category: 没有category
 Id:278     Name:     Location: 没有位置     Category: 没有category
 Id:279     Name:图形样式信息     Location: 没有位置     Category: 没有category
 Id:280     Name:文字字体     Location: 没有位置     Category: 没有category
 Id:281     Name:     Location: 没有位置     Category: 没有category
 Id:282     Name:图形样式信息     Location: 没有位置     Category: 没有category
+Id:285     Name:箭头     Location: 没有位置     Category: 没有category
 Id:286     Name:     Location: 没有位置     Category: 没有category
 Id:287     Name:图形样式信息     Location: 没有位置     Category: 没有category
+Id:288     Name:线性尺寸标注样式     Location: 没有位置     Category: 没有category
 Id:289     Name:     Location: 没有位置     Category: 没有category
 Id:290     Name:图形样式信息     Location: 没有位置     Category: 没有category
 Id:291     Name:文字字体     Location: 没有位置     Category: 没有category
 Id:292     Name:     Location: 没有位置     Category: 没有category
 Id:293     Name:图形样式信息     Location: 没有位置     Category: 没有category
+Id:296     Name:箭头     Location: 没有位置     Category: 没有category
 Id:297     Name:     Location: 没有位置     Category: 没有category
 Id:298     Name:图形样式信息     Location: 没有位置     Category: 没有category
+Id:299     Name:1     Location: 没有位置     Category:颜色填充图例
+Id:300     Name:对角交叉线     Location: 没有位置     Category:详图项目
 Id:301     Name:     Location: 没有位置     Category: 没有category
 Id:302     Name:对角交叉线     Location: 没有位置     Category: 没有category
 Id:303     Name:对角交叉线     Location: 没有位置     Category: 没有category
+Id:305     Name:上标头     Location: 没有位置     Category:标高
 Id:306     Name:     Location: 没有位置     Category: 没有category
 Id:307     Name:上标头     Location: 没有位置     Category: 没有category
 Id:308     Name:上标头     Location: 没有位置     Category: 没有category
@@ -258,6 +276,14 @@ Id:315     Name:标高 1     Location: 没有位置     Category: 没有category
 Id:316     Name:标高 1     Location: 没有位置     Category:视图
 Id:317     Name:标高 1     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:319     Name:标高 1     Location: 没有位置     Category: 没有category
+Id:324     Name:有线条的标题     Location: 没有位置     Category: 没有category
+Id:334     Name:幕墙     Location: 没有位置     Category:墙
+Id:335     Name:常规 - 400mm     Location: 没有位置     Category:屋顶
+Id:336     Name:钢筋托梁 - 钢面板 - EPDM 薄膜     Location: 没有位置     Category:屋顶
+Id:337     Name:常规 - 125mm     Location: 没有位置     Category:屋顶
+Id:338     Name:玻璃斜窗     Location: 没有位置     Category:屋顶
+Id:339     Name:常规 - 150mm     Location: 没有位置     Category:楼板
+Id:341     Name:6.5mm 编号     Location: 没有位置     Category:轴网
 Id:342     Name:     Location: 没有位置     Category: 没有category
 Id:343     Name:6.5mm 编号     Location: 没有位置     Category: 没有category
 Id:344     Name:6.5mm 编号     Location: 没有位置     Category: 没有category
@@ -265,9 +291,12 @@ Id:345     Name:     Location: 没有位置     Category: 没有category
 Id:346     Name:6.5mm 编号     Location: 没有位置     Category: 没有category
 Id:347     Name:     Location: 没有位置     Category: 没有category
 Id:348     Name:6.5mm 编号     Location: 没有位置     Category: 没有category
+Id:350     Name:坡道 1     Location: 没有位置     Category:坡道
+Id:357     Name:12mm 圆     Location: 没有位置     Category: 没有category
 Id:358     Name:     Location: 没有位置     Category: 没有category
 Id:359     Name:12mm 圆     Location: 没有位置     Category: 没有category
 Id:360     Name:12mm 圆     Location: 没有位置     Category: 没有category
+Id:365     Name:标签 1     Location: 没有位置     Category: 没有category
 Id:366     Name:     Location: 没有位置     Category: 没有category
 Id:367     Name:标签 1     Location: 没有位置     Category: 没有category
 Id:368     Name:标签 1     Location: 没有位置     Category: 没有category
@@ -277,6 +306,20 @@ Id:372     Name:显示原有 + 新建     Location: 没有位置     Category: �
 Id:373     Name:显示原有 + 拆除     Location: 没有位置     Category: 没有category
 Id:374     Name:显示拆除 + 新建     Location: 没有位置     Category: 没有category
 Id:375     Name:全部显示     Location: 没有位置     Category: 没有category
+Id:396     Name:内部 - 138mm 隔断(1 小時)     Location: 没有位置     Category:墙
+Id:397     Name:外部 - 带砖与金属立筋龙骨复合墙     Location: 没有位置     Category:墙
+Id:398     Name:常规 - 200mm     Location: 没有位置     Category:墙
+Id:399     Name:常规 - 225mm 砌体     Location: 没有位置     Category:墙
+Id:400     Name:常规 - 140mm 砌体     Location: 没有位置     Category:墙
+Id:401     Name:常规 - 90mm 砖     Location: 没有位置     Category:墙
+Id:402     Name:内部 - 79mm 隔断(1 小時)     Location: 没有位置     Category:墙
+Id:403     Name:内部 - 砌块墙 100     Location: 没有位置     Category:墙
+Id:404     Name:内部 - 135mm 隔断(2 小時)     Location: 没有位置     Category:墙
+Id:408     Name:CW 102-50-100p     Location: 没有位置     Category:墙
+Id:410     Name:CW 102-85-140p     Location: 没有位置     Category:墙
+Id:411     Name:CW 102-50-140p     Location: 没有位置     Category:墙
+Id:412     Name:CW 102-50-215p     Location: 没有位置     Category:墙
+Id:413     Name:CW 102-85-215p     Location: 没有位置     Category:墙
 Id:414     Name:砌体 - 普通砖 75x225mm     Location: 没有位置     Category:材质
 Id:415     Name:混凝土砌块     Location: 没有位置     Category:材质
 Id:417     Name:胶合板，面层     Location: 没有位置     Category:材质
@@ -319,13 +362,19 @@ Id:698     Name:标高 2     Location: 没有位置     Category: 没有category
 Id:699     Name:标高 2     Location: 没有位置     Category:视图
 Id:700     Name:标高 2     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:702     Name:标高 2     Location: 没有位置     Category: 没有category
+Id:757     Name:常规     Location: 没有位置     Category:天花板
 Id:758     Name:默认楼板     Location: 没有位置     Category:材质
+Id:759     Name:常规 - 300mm     Location: 没有位置     Category:楼板
+Id:784     Name:标准木材 - 木质面层     Location: 没有位置     Category:楼板
+Id:785     Name:梁和砌块 200mm     Location: 没有位置     Category:楼板
+Id:786     Name:现场浇注混凝土 225mm     Location: 没有位置     Category:楼板
 Id:788     Name:结构 - 木托梁/椽层     Location: 没有位置     Category:材质
 Id:790     Name:结构 - 钢筋托梁层     Location: 没有位置     Category:材质
 Id:792     Name:EPDM 薄膜     Location: 没有位置     Category:材质
 Id:813     Name:水泥砂浆     Location: 没有位置     Category:材质
 Id:863     Name:瓦片 - 筒瓦     Location: 没有位置     Category:材质
 Id:865     Name:沥青     Location: 没有位置     Category:材质
+Id:880     Name:架空隔热保温屋顶 - 混凝土     Location: 没有位置     Category:屋顶
 Id:942     Name:对齐线     Location: 没有位置     Category: 没有category
 Id:1951     Name:平面打开方向     Location: 没有位置     Category: 没有category
 Id:1952     Name:立面打开方向     Location: 没有位置     Category: 没有category
@@ -343,29 +392,55 @@ Id:2685     Name:平面打开方向     Location: 没有位置     Category: 没
 Id:2686     Name:立面打开方向     Location: 没有位置     Category: 没有category
 Id:2687     Name:浇筑     Location: 没有位置     Category: 没有category
 Id:3325     Name:标高 1     Location:Autodesk.Revit.DB.Location     Category: 没有category
+Id:3332     Name:下对角线     Location: 没有位置     Category:详图项目
 Id:3333     Name:     Location: 没有位置     Category: 没有category
 Id:3334     Name:下对角线     Location: 没有位置     Category: 没有category
 Id:3335     Name:下对角线     Location: 没有位置     Category: 没有category
+Id:3336     Name:上对角线     Location: 没有位置     Category:详图项目
 Id:3337     Name:     Location: 没有位置     Category: 没有category
 Id:3338     Name:上对角线     Location: 没有位置     Category: 没有category
 Id:3339     Name:上对角线     Location: 没有位置     Category: 没有category
+Id:3340     Name:水平     Location: 没有位置     Category:详图项目
 Id:3341     Name:     Location: 没有位置     Category: 没有category
 Id:3342     Name:水平     Location: 没有位置     Category: 没有category
 Id:3343     Name:水平     Location: 没有位置     Category: 没有category
+Id:3344     Name:垂直     Location: 没有位置     Category:详图项目
 Id:3345     Name:     Location: 没有位置     Category: 没有category
 Id:3346     Name:垂直     Location: 没有位置     Category: 没有category
 Id:3347     Name:垂直     Location: 没有位置     Category: 没有category
+Id:3348     Name:正交交叉线     Location: 没有位置     Category:详图项目
 Id:3349     Name:     Location: 没有位置     Category: 没有category
 Id:3350     Name:正交交叉线     Location: 没有位置     Category: 没有category
 Id:3351     Name:正交交叉线     Location: 没有位置     Category: 没有category
 Id:3378     Name:英国标准通用梁     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:3443     Name:中粗线     Location: 没有位置     Category: 没有category
 Id:3444     Name:中粗线     Location: 没有位置     Category: 没有category
+Id:3546     Name:203x133x30UB     Location: 没有位置     Category:详图项目
+Id:3547     Name:254x146x31UB     Location: 没有位置     Category:详图项目
+Id:3548     Name:305x127x37UB     Location: 没有位置     Category:详图项目
+Id:3549     Name:356x171x45UB     Location: 没有位置     Category:详图项目
+Id:3550     Name:406x178x54UB     Location: 没有位置     Category:详图项目
+Id:3551     Name:305x165x40UB     Location: 没有位置     Category:详图项目
+Id:3552     Name:457x152x52UB     Location: 没有位置     Category:详图项目
+Id:3553     Name:457x191x67UB     Location: 没有位置     Category:详图项目
+Id:3554     Name:533x210x82UB     Location: 没有位置     Category:详图项目
+Id:3555     Name:610x229x101UB     Location: 没有位置     Category:详图项目
+Id:3556     Name:686x254x125UB     Location: 没有位置     Category:详图项目
+Id:3557     Name:254x102x22UB     Location: 没有位置     Category:详图项目
+Id:3558     Name:305x102x25UB     Location: 没有位置     Category:详图项目
 Id:3621     Name:玻璃     Location: 没有位置     Category: 没有category
 Id:3644     Name:玻璃     Location: 没有位置     Category: 没有category
 Id:3652     Name:玻璃     Location: 没有位置     Category: 没有category
+Id:5113     Name:混凝土 - 民用 425mm     Location: 没有位置     Category:楼板
 Id:5121     Name:场地 - 碎石     Location: 没有位置     Category:材质
+Id:5136     Name:混凝土 - 商用 362mm     Location: 没有位置     Category:楼板
+Id:5165     Name:保温屋顶 - 混凝土     Location: 没有位置     Category:屋顶
+Id:5173     Name:保温屋顶 - 木材     Location: 没有位置     Category:屋顶
 Id:5181     Name:油毡     Location: 没有位置     Category:材质
+Id:5476     Name:CW 102-85-100p     Location: 没有位置     Category:墙
+Id:5533     Name:内部 - 砌块墙 140     Location: 没有位置     Category:墙
+Id:5541     Name:内部 - 砌块墙 190     Location: 没有位置     Category:墙
+Id:6291     Name:常规 - 300mm     Location: 没有位置     Category:墙
 Id:6553     Name:中心线     Location: 没有位置     Category: 没有category
 Id:6876     Name:浇筑/楣梁     Location: 没有位置     Category: 没有category
 Id:6877     Name:浇筑/楣梁     Location: 没有位置     Category: 没有category
@@ -394,8 +469,11 @@ Id:7567     Name:三角形边缘     Location: 没有位置     Category: 没有
 Id:7568     Name:主等高线     Location: 没有位置     Category: 没有category
 Id:7569     Name:主等高线     Location: 没有位置     Category: 没有category
 Id:7842     Name:<面积边界>     Location: 没有位置     Category: 没有category
+Id:7843     Name:分隔条     Location: 没有位置     Category:分隔条
+Id:7844     Name:檐口     Location: 没有位置     Category:墙饰条
 Id:7845     Name:结构柱     Location: 没有位置     Category: 没有category
 Id:7846     Name:结构柱     Location: 没有位置     Category: 没有category
+Id:7848     Name:600mm Arial     Location: 没有位置     Category:常规模型
 Id:7849     Name:600mm Arial     Location: 没有位置     Category: 没有category
 Id:7850     Name:场地设置     Location: 没有位置     Category: 没有category
 Id:7851     Name:墙饰条     Location: 没有位置     Category: 没有category
@@ -425,9 +503,13 @@ Id:8482     Name:矩形竖梃     Location:Autodesk.Revit.DB.Location     Catego
 Id:8483     Name:圆形竖梃     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:8484     Name:矩形竖梃     Location: 没有位置     Category: 没有category
 Id:8485     Name:圆形竖梃     Location: 没有位置     Category: 没有category
+Id:8486     Name:50 x 150mm     Location: 没有位置     Category:幕墙竖梃
 Id:8487     Name:50 x 150mm     Location: 没有位置     Category: 没有category
+Id:8488     Name:50mm 半径     Location: 没有位置     Category:幕墙竖梃
 Id:8489     Name:50mm 半径     Location: 没有位置     Category: 没有category
+Id:8490     Name:30mm 正方形     Location: 没有位置     Category:幕墙竖梃
 Id:8491     Name:30mm 正方形     Location: 没有位置     Category: 没有category
+Id:8492     Name:25mm 半径     Location: 没有位置     Category:幕墙竖梃
 Id:8493     Name:25mm 半径     Location: 没有位置     Category: 没有category
 Id:8494     Name:结构柱标记     Location: 没有位置     Category: 没有category
 Id:8495     Name:结构基础标记     Location: 没有位置     Category: 没有category
@@ -471,6 +553,8 @@ Id:9197     Name:停车场规划     Location: 没有位置     Category: 没有
 Id:9198     Name:停车场规划     Location: 没有位置     Category: 没有category
 Id:9199     Name:参照线     Location: 没有位置     Category: 没有category
 Id:9200     Name:参照线     Location: 没有位置     Category: 没有category
+Id:9426     Name:基础 - 300mm 混凝土     Location: 没有位置     Category:墙
+Id:9427     Name:挡土墙 - 300mm 混凝土     Location: 没有位置     Category:墙
 Id:9481     Name:ExtentElem     Location: 没有位置     Category: 没有category
 Id:9482     Name:ExtentElem     Location: 没有位置     Category: 没有category
 Id:9483     Name:ExtentElem     Location: 没有位置     Category: 没有category
@@ -495,12 +579,15 @@ Id:9625     Name:结构框架立面     Location: 没有位置     Category:视�
 Id:9630     Name:结构剖面     Location: 没有位置     Category:视图
 Id:9676     Name:     Location: 没有位置     Category: 没有category
 Id:9677     Name:有线条的标题     Location: 没有位置     Category: 没有category
+Id:9693     Name:10mm 圆     Location: 没有位置     Category: 没有category
 Id:9694     Name:     Location: 没有位置     Category: 没有category
 Id:9695     Name:10mm 圆     Location: 没有位置     Category: 没有category
 Id:9696     Name:10mm 圆     Location: 没有位置     Category: 没有category
 Id:9744     Name:系统数据     Location: 没有位置     Category: 没有category
+Id:10156     Name:没有线条的标题     Location: 没有位置     Category: 没有category
 Id:10157     Name:     Location: 没有位置     Category: 没有category
 Id:10158     Name:没有线条的标题     Location: 没有位置     Category: 没有category
+Id:10159     Name:无标题     Location: 没有位置     Category: 没有category
 Id:10160     Name:     Location: 没有位置     Category: 没有category
 Id:10161     Name:无标题     Location: 没有位置     Category: 没有category
 Id:10164     Name:在族中导入     Location: 没有位置     Category: 没有category
@@ -520,17 +607,31 @@ Id:11804     Name:隐藏面     Location: 没有位置     Category: 没有categ
 Id:12099     Name:隐藏面     Location: 没有位置     Category: 没有category
 Id:12100     Name:隐藏面     Location: 没有位置     Category: 没有category
 Id:12101     Name:隐藏面     Location: 没有位置     Category: 没有category
+Id:12190     Name:UC305x305x97     Location: 没有位置     Category:结构柱
+Id:12344     Name:25mm     Location: 没有位置     Category:栏杆
+Id:12346     Name:20mm     Location: 没有位置     Category:栏杆
 Id:12589     Name:现有类型     Location: 没有位置     Category:阶段
 Id:12590     Name:颜色填充     Location: 没有位置     Category: 没有category
 Id:12609     Name:系统嵌板     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:12610     Name:系统嵌板     Location: 没有位置     Category: 没有category
+Id:12611     Name:玻璃     Location: 没有位置     Category:幕墙嵌板
 Id:12612     Name:玻璃     Location: 没有位置     Category: 没有category
 Id:12613     Name:空系统嵌板     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:12614     Name:空系统嵌板     Location: 没有位置     Category: 没有category
+Id:12615     Name:空     Location: 没有位置     Category:幕墙嵌板
 Id:12616     Name:空     Location: 没有位置     Category: 没有category
 Id:12632     Name:内部对象类型     Location: 没有位置     Category: 没有category
 Id:12799     Name:     Location: 没有位置     Category: 没有category
 Id:12859     Name:涂料 - 黄色     Location: 没有位置     Category:材质
+Id:12963     Name:4800 x 2400mm - 90 度     Location: 没有位置     Category:停车场
+Id:12965     Name:4800 x 2400mm - 60 度     Location: 没有位置     Category:停车场
+Id:12967     Name:4800 x 2400mm - 80 度     Location: 没有位置     Category:停车场
+Id:12969     Name:4800 x 2400mm - 70 度     Location: 没有位置     Category:停车场
+Id:13229     Name:25mm     Location: 没有位置     Category:栏杆
+Id:13231     Name:20mm     Location: 没有位置     Category:栏杆
+Id:16216     Name:50 x 50mm     Location: 没有位置     Category:轮廓
+Id:16332     Name:30mm     Location: 没有位置     Category:轮廓
+Id:16334     Name:40mm     Location: 没有位置     Category:轮廓
 Id:16556     Name:多类别标记     Location: 没有位置     Category: 没有category
 Id:17530     Name:内部对象类型     Location: 没有位置     Category: 没有category
 Id:17531     Name:楼梯标记     Location: 没有位置     Category: 没有category
@@ -538,6 +639,8 @@ Id:17532     Name:矩形弧墙洞口     Location: 没有位置     Category: �
 Id:17533     Name:矩形弧墙洞口     Location: 没有位置     Category: 没有category
 Id:18403     Name:中心线     Location: 没有位置     Category: 没有category
 Id:18404     Name:中心线     Location: 没有位置     Category: 没有category
+Id:18418     Name:符号中心线     Location: 没有位置     Category:常规注释
+Id:18420     Name:对角线 - 中心 - 2.5mm Arial     Location: 没有位置     Category: 没有category
 Id:18421     Name:     Location: 没有位置     Category: 没有category
 Id:18422     Name:对角线 - 中心 - 2.5mm Arial     Location: 没有位置     Category: 没有category
 Id:18423     Name:对角线 - 中心 - 2.5mm Arial     Location: 没有位置     Category: 没有category
@@ -545,15 +648,19 @@ Id:18424     Name:     Location: 没有位置     Category: 没有category
 Id:18425     Name:对角线 - 中心 - 2.5mm Arial     Location: 没有位置     Category: 没有category
 Id:18428     Name:L 形角竖梃     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:18429     Name:L 形角竖梃     Location: 没有位置     Category: 没有category
+Id:18430     Name:L 形竖梃 1     Location: 没有位置     Category:幕墙竖梃
 Id:18431     Name:L 形竖梃 1     Location: 没有位置     Category: 没有category
 Id:18432     Name:V 形角竖梃     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:18433     Name:V 形角竖梃     Location: 没有位置     Category: 没有category
+Id:18434     Name:V 形竖梃 1     Location: 没有位置     Category:幕墙竖梃
 Id:18435     Name:V 形竖梃 1     Location: 没有位置     Category: 没有category
 Id:18436     Name:梯形角竖梃     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:18437     Name:梯形角竖梃     Location: 没有位置     Category: 没有category
+Id:18438     Name:梯形竖梃 1     Location: 没有位置     Category:幕墙竖梃
 Id:18439     Name:梯形竖梃 1     Location: 没有位置     Category: 没有category
 Id:18440     Name:四边形角竖梃     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:18441     Name:四边形角竖梃     Location: 没有位置     Category: 没有category
+Id:18442     Name:四边形竖梃 1     Location: 没有位置     Category:幕墙竖梃
 Id:18443     Name:四边形竖梃 1     Location: 没有位置     Category: 没有category
 Id:18447     Name:     Location: 没有位置     Category: 没有category
 Id:18448     Name:对角线 - 2.5mm Arial     Location: 没有位置     Category: 没有category
@@ -570,26 +677,47 @@ Id:18470     Name:约束     Location: 没有位置     Category: 没有category
 Id:18811     Name:公用设施     Location: 没有位置     Category: 没有category
 Id:18812     Name:公用设施     Location: 没有位置     Category: 没有category
 Id:18813     Name:公用设施     Location: 没有位置     Category: 没有category
+Id:18921     Name:常规 - 200mm - 实心     Location: 没有位置     Category:墙
+Id:18928     Name:常规 - 150mm - 实心     Location: 没有位置     Category:楼板
+Id:18934     Name:常规 - 400mm - 实心     Location: 没有位置     Category:屋顶
 Id:19236     Name:项目单位     Location: 没有位置     Category: 没有category
 Id:19788     Name:布景     Location: 没有位置     Category: 没有category
 Id:19789     Name:布景     Location: 没有位置     Category: 没有category
 Id:19790     Name:布景     Location: 没有位置     Category: 没有category
+Id:19847     Name:600 x 1200mm 轴网     Location: 没有位置     Category:天花板
+Id:19848     Name:600 x 600mm 轴网     Location: 没有位置     Category:天花板
+Id:19849     Name:光面     Location: 没有位置     Category:天花板
 Id:19858     Name:墙饰条 - 檐口     Location: 没有位置     Category: 没有category
 Id:19859     Name:墙饰条 - 檐口     Location: 没有位置     Category: 没有category
 Id:19860     Name:墙饰条 - 檐口     Location: 没有位置     Category: 没有category
 Id:19877     Name:等高线标签     Location: 没有位置     Category: 没有category
+Id:19878     Name:常规 - 300mm     Location: 没有位置     Category:屋檐底板
 Id:19879     Name:封檐板     Location: 没有位置     Category: 没有category
 Id:19880     Name:封檐板     Location: 没有位置     Category: 没有category
 Id:19881     Name:檐沟     Location: 没有位置     Category: 没有category
 Id:19882     Name:檐沟     Location: 没有位置     Category: 没有category
 Id:19883     Name:楼板边缘     Location: 没有位置     Category: 没有category
 Id:19884     Name:楼板边缘     Location: 没有位置     Category: 没有category
+Id:19885     Name:封檐板     Location: 没有位置     Category:封檐板
+Id:19886     Name:檐沟     Location: 没有位置     Category:檐沟
+Id:19887     Name:楼板边缘     Location: 没有位置     Category:楼板边缘
 Id:19895     Name:默认     Location: 没有位置     Category: 没有category
+Id:19902     Name:1.5mm Arial     Location: 没有位置     Category: 没有category
 Id:19903     Name:     Location: 没有位置     Category: 没有category
 Id:19904     Name:1.5mm Arial     Location: 没有位置     Category: 没有category
 Id:19905     Name:1.5mm Arial     Location: 没有位置     Category: 没有category
+Id:20072     Name:900 x 300mm     Location: 没有位置     Category:轮廓
+Id:20074     Name:600 x 300mm     Location: 没有位置     Category:轮廓
+Id:20076     Name:900 x 450mm     Location: 没有位置     Category:轮廓
 Id:20184     Name:重磅线     Location: 没有位置     Category: 没有category
 Id:20185     Name:重磅线     Location: 没有位置     Category: 没有category
+Id:20242     Name:150 x150mm     Location: 没有位置     Category:轮廓
+Id:20244     Name:125 x 125mm     Location: 没有位置     Category:轮廓
+Id:20376     Name:19 x 184mm     Location: 没有位置     Category:轮廓
+Id:20378     Name:19 x 140mm     Location: 没有位置     Category:轮廓
+Id:20380     Name:19 x 235mm     Location: 没有位置     Category:轮廓
+Id:20382     Name:19 x 286mm     Location: 没有位置     Category:轮廓
+Id:20384     Name:19 x 89mm     Location: 没有位置     Category:轮廓
 Id:20448     Name:内部对象类型     Location: 没有位置     Category: 没有category
 Id:21117     Name:楣梁     Location: 没有位置     Category: 没有category
 Id:21118     Name:楣梁     Location: 没有位置     Category: 没有category
@@ -603,6 +731,7 @@ Id:21276     Name:结构洞口     Location: 没有位置     Category: 没有ca
 Id:21308     Name:Door Level     Location: 没有位置     Category: 没有category
 Id:21309     Name:Door Level     Location: 没有位置     Category: 没有category
 Id:21435     Name:砌体 - 立砌砖层     Location: 没有位置     Category: 没有category
+Id:21437     Name:垂直     Location: 没有位置     Category: 没有category
 Id:21438     Name:     Location: 没有位置     Category: 没有category
 Id:21439     Name:垂直     Location: 没有位置     Category: 没有category
 Id:21440     Name:垂直     Location: 没有位置     Category: 没有category
@@ -613,6 +742,7 @@ Id:21446     Name:垂直     Location: 没有位置     Category: 没有category
 Id:21447     Name:高程点     Location: 没有位置     Category: 没有category
 Id:21448     Name:高程点符号     Location: 没有位置     Category: 没有category
 Id:21449     Name:内部对象类型     Location: 没有位置     Category: 没有category
+Id:21737     Name:平面     Location: 没有位置     Category: 没有category
 Id:21738     Name:     Location: 没有位置     Category: 没有category
 Id:21739     Name:平面     Location: 没有位置     Category: 没有category
 Id:21740     Name:平面     Location: 没有位置     Category: 没有category
@@ -620,14 +750,20 @@ Id:21741     Name:     Location: 没有位置     Category: 没有category
 Id:21742     Name:平面     Location: 没有位置     Category: 没有category
 Id:21745     Name:     Location: 没有位置     Category: 没有category
 Id:21746     Name:平面     Location: 没有位置     Category: 没有category
+Id:21747     Name:位置数据     Location: 没有位置     Category:位置数据
 Id:21748     Name:内部     Location:Autodesk.Revit.DB.Location     Category:共享场地
 Id:21749     Name:共享场地     Location: 没有位置     Category: 没有category
+Id:22694     Name:外部 - 带粉刷砖与砌块复合墙     Location: 没有位置     Category:墙
+Id:22886     Name:1 匹砖     Location: 没有位置     Category:轮廓
+Id:22888     Name:2 匹砖     Location: 没有位置     Category:轮廓
+Id:22890     Name:3 匹砖     Location: 没有位置     Category:轮廓
 Id:23211     Name:完全显示     Location: 没有位置     Category: 没有category
 Id:23447     Name:阵列     Location: 没有位置     Category: 没有category
 Id:23471     Name:中止绘制     Location: 没有位置     Category: 没有category
 Id:23472     Name:中止绘制     Location: 没有位置     Category: 没有category
 Id:23473     Name:屋檐底板     Location: 没有位置     Category: 没有category
 Id:23474     Name:屋檐底板     Location: 没有位置     Category: 没有category
+Id:23475     Name:实心立面目标 4mm     Location: 没有位置     Category: 没有category
 Id:23476     Name:     Location: 没有位置     Category: 没有category
 Id:23477     Name:实心立面目标 4mm     Location: 没有位置     Category: 没有category
 Id:23479     Name:屋顶洞口剪切     Location: 没有位置     Category: 没有category
@@ -637,6 +773,7 @@ Id:23482     Name:楼板洞口剪切     Location: 没有位置     Category: �
 Id:23483     Name:天花板洞口剪切     Location: 没有位置     Category: 没有category
 Id:23484     Name:天花板洞口剪切     Location: 没有位置     Category: 没有category
 Id:23485     Name:属性标记     Location: 没有位置     Category: 没有category
+Id:23487     Name:带目标的引线     Location: 没有位置     Category: 没有category
 Id:23488     Name:     Location: 没有位置     Category: 没有category
 Id:23489     Name:带目标的引线     Location: 没有位置     Category: 没有category
 Id:23490     Name:带目标的引线     Location: 没有位置     Category: 没有category
@@ -644,7 +781,11 @@ Id:23491     Name:     Location: 没有位置     Category: 没有category
 Id:23492     Name:带目标的引线     Location: 没有位置     Category: 没有category
 Id:23495     Name:     Location: 没有位置     Category: 没有category
 Id:23496     Name:带目标的引线     Location: 没有位置     Category: 没有category
+Id:23614     Name:高程点 - 外部填充     Location: 没有位置     Category:高程点符号
+Id:23738     Name:高程点 - 目标填充     Location: 没有位置     Category:高程点符号
 Id:23741     Name:     Location: 没有位置     Category: 没有category
+Id:23742     Name:用地红线 - 米/平方米     Location: 没有位置     Category:建筑红线
+Id:23763     Name:线性尺寸标注样式     Location: 没有位置     Category: 没有category
 Id:23764     Name:     Location: 没有位置     Category: 没有category
 Id:23765     Name:图形样式信息     Location: 没有位置     Category: 没有category
 Id:23766     Name:文字字体     Location: 没有位置     Category: 没有category
@@ -652,6 +793,7 @@ Id:23767     Name:     Location: 没有位置     Category: 没有category
 Id:23768     Name:图形样式信息     Location: 没有位置     Category: 没有category
 Id:23771     Name:     Location: 没有位置     Category: 没有category
 Id:23772     Name:图形样式信息     Location: 没有位置     Category: 没有category
+Id:23773     Name:箭头     Location: 没有位置     Category: 没有category
 Id:23774     Name:     Location: 没有位置     Category: 没有category
 Id:23775     Name:图形样式信息     Location: 没有位置     Category: 没有category
 Id:23795     Name:标高标头     Location: 没有位置     Category: 没有category
@@ -689,12 +831,25 @@ Id:24941     Name:建筑红线线段标记     Location: 没有位置     Catego
 Id:24942     Name:不完整老虎窗洞口     Location: 没有位置     Category: 没有category
 Id:24943     Name:不完整老虎窗洞口     Location: 没有位置     Category: 没有category
 Id:24944     Name:视图     Location: 没有位置     Category: 没有category
+Id:24945     Name:全部     Location: 没有位置     Category: 没有category
+Id:24946     Name:全部     Location: 没有位置     Category: 没有category
+Id:24947     Name:不在图纸上     Location: 没有位置     Category: 没有category
+Id:25223     Name:1100mm     Location: 没有位置     Category:栏杆扶手
+Id:25224     Name:900mm     Location: 没有位置     Category:栏杆扶手
+Id:25225     Name:900mm 圆管     Location: 没有位置     Category:栏杆扶手
 Id:26009     Name:系统数据     Location: 没有位置     Category: 没有category
 Id:26010     Name:占用者     Location: 没有位置     Category: 没有category
 Id:26011     Name:     Location: 没有位置     Category: 没有category
+Id:26012     Name:阶段     Location: 没有位置     Category: 没有category
+Id:26013     Name:规程     Location: 没有位置     Category: 没有category
+Id:26014     Name:类型/规程     Location: 没有位置     Category: 没有category
+Id:26015     Name:出图日期     Location: 没有位置     Category: 没有category
+Id:26016     Name:绘图员     Location: 没有位置     Category: 没有category
+Id:26017     Name:图纸前缀     Location: 没有位置     Category: 没有category
 Id:26018     Name:剖面线     Location: 没有位置     Category: 没有category
 Id:26019     Name:详图索引边界     Location: 没有位置     Category: 没有category
 Id:26020     Name:详图索引引线     Location: 没有位置     Category: 没有category
+Id:26206     Name:弧长 - 2.5mm Arial     Location: 没有位置     Category: 没有category
 Id:26207     Name:     Location: 没有位置     Category: 没有category
 Id:26208     Name:弧长 - 2.5mm Arial     Location: 没有位置     Category: 没有category
 Id:26209     Name:弧长 - 2.5mm Arial     Location: 没有位置     Category: 没有category
@@ -702,10 +857,20 @@ Id:26210     Name:     Location: 没有位置     Category: 没有category
 Id:26211     Name:弧长 - 2.5mm Arial     Location: 没有位置     Category: 没有category
 Id:26214     Name:     Location: 没有位置     Category: 没有category
 Id:26215     Name:弧长 - 2.5mm Arial     Location: 没有位置     Category: 没有category
+Id:28598     Name:190mm 最大踢面 250mm 梯段     Location: 没有位置     Category:楼梯
+Id:28599     Name:工业装配楼梯     Location: 没有位置     Category:楼梯
+Id:28600     Name:部分 M (已停用)     Location: 没有位置     Category:楼梯
+Id:28601     Name:专用     Location: 没有位置     Category:楼梯
+Id:29088     Name:剖面详图绘制标头，剖面详图绘制末端     Location: 没有位置     Category: 没有category
 Id:29089     Name:     Location: 没有位置     Category: 没有category
 Id:29090     Name:剖面详图绘制标头，剖面详图绘制末端     Location: 没有位置     Category: 没有category
 Id:29091     Name:剖面详图绘制标头，剖面详图绘制末端     Location: 没有位置     Category: 没有category
+Id:29096     Name:外部玻璃     Location: 没有位置     Category:墙
+Id:29097     Name:店面     Location: 没有位置     Category:墙
+Id:29109     Name:砖     Location: 没有位置     Category:详图项目
+Id:29292     Name:顺砌剖面     Location: 没有位置     Category:详图项目
 Id:32420     Name:视图     Location: 没有位置     Category: 没有category
+Id:32425     Name:实心箭头 - 3mm RomanD     Location: 没有位置     Category: 没有category
 Id:32426     Name:     Location: 没有位置     Category: 没有category
 Id:32427     Name:190mm 最大踢面 250mm 梯段     Location: 没有位置     Category: 没有category
 Id:32428     Name:190mm 最大踢面 250mm 梯段     Location: 没有位置     Category: 没有category
@@ -730,6 +895,7 @@ Id:34703     Name:幕墙系统网格     Location: 没有位置     Category: �
 Id:34704     Name:内部对象类型     Location: 没有位置     Category: 没有category
 Id:34705     Name:内部对象类型     Location: 没有位置     Category: 没有category
 Id:34706     Name:内部对象类型     Location: 没有位置     Category: 没有category
+Id:35764     Name:实体     Location: 没有位置     Category:幕墙嵌板
 Id:35765     Name:实体     Location: 没有位置     Category: 没有category
 Id:36084     Name:剖切面轮廓     Location: 没有位置     Category: 没有category
 Id:36085     Name:拆分面     Location: 没有位置     Category: 没有category
@@ -744,8 +910,13 @@ Id:36235     Name:檩条     Location: 没有位置     Category: 没有category
 Id:36236     Name:水平支撑     Location: 没有位置     Category: 没有category
 Id:36237     Name:水平支撑     Location: 没有位置     Category: 没有category
 Id:36238     Name:<由实例定义>     Location: 没有位置     Category: 没有category
+Id:38520     Name:20mm     Location: 没有位置     Category:轮廓
+Id:38522     Name:30mm     Location: 没有位置     Category:轮廓
+Id:38524     Name:40mm     Location: 没有位置     Category:轮廓
 Id:41944     Name:轻磅线     Location: 没有位置     Category: 没有category
 Id:41945     Name:轻磅线     Location: 没有位置     Category: 没有category
+Id:42082     Name:立砌砖和平面     Location: 没有位置     Category:详图项目
+Id:42084     Name:桨架     Location: 没有位置     Category:详图项目
 Id:45567     Name:竖向支撑     Location: 没有位置     Category: 没有category
 Id:45568     Name:竖向支撑     Location: 没有位置     Category: 没有category
 Id:46015     Name:点 1mm     Location: 没有位置     Category: 没有category
@@ -757,15 +928,20 @@ Id:46558     Name:砌体 - 混凝土砌块     Location: 没有位置     Catego
 Id:46559     Name:木材 - 剖面     Location: 没有位置     Category: 没有category
 Id:49024     Name:结构梁系统     Location: 没有位置     Category: 没有category
 Id:49025     Name:跨方向符号     Location: 没有位置     Category: 没有category
+Id:49026     Name:结构框架系统     Location: 没有位置     Category:结构梁系统
 Id:49027     Name:云线批注     Location: 没有位置     Category: 没有category
 Id:49028     Name:云线批注标记     Location: 没有位置     Category: 没有category
+Id:49029     Name:修订云线 1     Location: 没有位置     Category:云线批注
 Id:49030     Name:序列 1 - 修订 1     Location: 没有位置     Category:修订
 Id:49031     Name:项目修订信息     Location: 没有位置     Category: 没有category
 Id:49032     Name:幕墙系统     Location: 没有位置     Category: 没有category
 Id:49033     Name:幕墙系统     Location: 没有位置     Category: 没有category
+Id:49034     Name:1500 x 3000mm     Location: 没有位置     Category:幕墙系统
+Id:49495     Name:对角交叉线 - 透明     Location: 没有位置     Category:详图项目
 Id:49496     Name:     Location: 没有位置     Category: 没有category
 Id:49497     Name:对角交叉线 - 透明     Location: 没有位置     Category: 没有category
 Id:49498     Name:对角交叉线 - 透明     Location: 没有位置     Category: 没有category
+Id:49499     Name:下对角线 - 透明     Location: 没有位置     Category:详图项目
 Id:49500     Name:     Location: 没有位置     Category: 没有category
 Id:49501     Name:下对角线 - 透明     Location: 没有位置     Category: 没有category
 Id:49502     Name:下对角线 - 透明     Location: 没有位置     Category: 没有category
@@ -773,6 +949,20 @@ Id:49504     Name:项目信息     Location: 没有位置     Category:项目信
 Id:49505     Name:参照线     Location: 没有位置     Category: 没有category
 Id:49506     Name:体量     Location: 没有位置     Category: 没有category
 Id:49507     Name:体量     Location: 没有位置     Category: 没有category
+Id:49508     Name:详图索引标头     Location: 没有位置     Category: 没有category
+Id:49552     Name:楼层平面     Location: 没有位置     Category: 没有category
+Id:49553     Name:天花板平面     Location: 没有位置     Category: 没有category
+Id:49554     Name:建筑剖面     Location: 没有位置     Category: 没有category
+Id:49555     Name:详图     Location: 没有位置     Category: 没有category
+Id:49556     Name:详图     Location: 没有位置     Category: 没有category
+Id:49557     Name:建筑立面     Location: 没有位置     Category: 没有category
+Id:49558     Name:内部立面     Location: 没有位置     Category: 没有category
+Id:49559     Name:三维视图     Location: 没有位置     Category: 没有category
+Id:49560     Name:明细表     Location: 没有位置     Category: 没有category
+Id:49561     Name:图纸     Location: 没有位置     Category: 没有category
+Id:49562     Name:漫游     Location: 没有位置     Category: 没有category
+Id:49563     Name:渲染     Location: 没有位置     Category: 没有category
+Id:49564     Name:成本报告     Location: 没有位置     Category: 没有category
 Id:50291     Name:体量楼层     Location: 没有位置     Category: 没有category
 Id:50292     Name:体量楼层     Location: 没有位置     Category: 没有category
 Id:50293     Name:形式     Location: 没有位置     Category: 没有category
@@ -837,6 +1027,9 @@ Id:52162     Name:连接件图元     Location: 没有位置     Category: 没�
 Id:52163     Name:X 轴     Location: 没有位置     Category: 没有category
 Id:52164     Name:Y 轴     Location: 没有位置     Category: 没有category
 Id:52165     Name:Z 轴     Location: 没有位置     Category: 没有category
+Id:52557     Name:475 x 610mm     Location: 没有位置     Category:柱
+Id:52559     Name:610 x 610mm     Location: 没有位置     Category:柱
+Id:52561     Name:457 x 475mm     Location: 没有位置     Category:柱
 Id:53277     Name:设计选项集     Location: 没有位置     Category: 没有category
 Id:53278     Name:设计选项     Location: 没有位置     Category: 没有category
 Id:54520     Name:来自右上角的日光     Location: 没有位置     Category:日光路径
@@ -845,6 +1038,10 @@ Id:54525     Name:视觉样式     Location: 没有位置     Category: 没有ca
 Id:54526     Name:加强支撑     Location: 没有位置     Category: 没有category
 Id:54527     Name:加强支撑     Location: 没有位置     Category: 没有category
 Id:54528     Name:附着的详图组     Location: 没有位置     Category: 没有category
+Id:54529     Name:图例     Location: 没有位置     Category: 没有category
+Id:54537     Name:外部 - 砌块勒脚砖墙     Location: 没有位置     Category:叠层墙
+Id:54538     Name:外部 - 带砌块与金属立筋龙骨复合墙     Location: 没有位置     Category:墙
+Id:54539     Name:墙     Location: 没有位置     Category:幕墙嵌板
 Id:54654     Name:分析模型     Location: 没有位置     Category: 没有category
 Id:54655     Name:分析模型     Location: 没有位置     Category: 没有category
 Id:54656     Name:分析模型     Location: 没有位置     Category: 没有category
@@ -864,19 +1061,27 @@ Id:55154     Name:夏至     Location: 没有位置     Category:日光路径
 Id:55156     Name:冬至     Location: 没有位置     Category:日光路径
 Id:55157     Name:春分     Location: 没有位置     Category:日光路径
 Id:55158     Name:秋分     Location: 没有位置     Category:日光路径
+Id:55159     Name:整体浇筑楼梯     Location: 没有位置     Category:楼梯
 Id:55160     Name:     Location: 没有位置     Category: 没有category
 Id:55161     Name:整体浇筑楼梯     Location: 没有位置     Category: 没有category
 Id:55162     Name:整体浇筑楼梯     Location: 没有位置     Category: 没有category
 Id:55169     Name:电路     Location: 没有位置     Category: 没有category
+Id:55171     Name:默认     Location: 没有位置     Category:导线
 Id:55172     Name:导线     Location: 没有位置     Category: 没有category
 Id:55355     Name:面积方案     Location: 没有位置     Category: 没有category
 Id:55356     Name:阶段     Location: 没有位置     Category: 没有category
 Id:55357     Name:电压     Location: 没有位置     Category: 没有category
 Id:55358     Name:配电系统     Location: 没有位置     Category: 没有category
+Id:55359     Name:默认     Location: 没有位置     Category:电压
+Id:55360     Name:默认     Location: 没有位置     Category:配电系统
 Id:55361     Name:需求系数     Location: 没有位置     Category: 没有category
+Id:56404     Name:负荷报告     Location: 没有位置     Category: 没有category
+Id:56405     Name:压力损失报告     Location: 没有位置     Category: 没有category
+Id:56406     Name:嵌板明细表报告     Location: 没有位置     Category: 没有category
 Id:56407     Name:位置数据     Location: 没有位置     Category: 没有category
 Id:56766     Name:建筑演示三维     Location: 没有位置     Category:视图
 Id:56767     Name:建筑演示立面     Location: 没有位置     Category:视图
+Id:56768     Name:水平     Location: 没有位置     Category: 没有category
 Id:56769     Name:     Location: 没有位置     Category: 没有category
 Id:56770     Name:水平     Location: 没有位置     Category: 没有category
 Id:56771     Name:水平     Location: 没有位置     Category: 没有category
@@ -936,6 +1141,7 @@ Id:69689     Name:衬底 [2]     Location: 没有位置     Category: 没有cate
 Id:69690     Name:衬底 [2]     Location: 没有位置     Category: 没有category
 Id:69691     Name:保温层/空气层 [3]     Location: 没有位置     Category: 没有category
 Id:69692     Name:保温层/空气层 [3]     Location: 没有位置     Category: 没有category
+Id:69693     Name:图形柱明细表     Location: 没有位置     Category: 没有category
 Id:69694     Name:矩形直墙洞口     Location: 没有位置     Category: 没有category
 Id:69695     Name:矩形直墙洞口     Location: 没有位置     Category: 没有category
 Id:69696     Name:导线标记     Location: 没有位置     Category: 没有category
@@ -965,6 +1171,7 @@ Id:69719     Name:面积报告设置     Location: 没有位置     Category: �
 Id:69720     Name:     Location: 没有位置     Category: 没有category
 Id:69721     Name:面积报告设置     Location: 没有位置     Category: 没有category
 Id:69748     Name:管道系统     Location: 没有位置     Category: 没有category
+Id:69777     Name:连续基脚     Location: 没有位置     Category:结构基础
 Id:69823     Name:面层 1 [4]     Location: 没有位置     Category: 没有category
 Id:69824     Name:面层 1 [4]     Location: 没有位置     Category: 没有category
 Id:69825     Name:面层 2 [5]     Location: 没有位置     Category: 没有category
@@ -989,6 +1196,7 @@ Id:69843     Name:面层 2 [5]     Location: 没有位置     Category: 没有ca
 Id:69844     Name:面层 2 [5]     Location: 没有位置     Category: 没有category
 Id:69845     Name:公共边     Location: 没有位置     Category: 没有category
 Id:69846     Name:公共边     Location: 没有位置     Category: 没有category
+Id:69847     Name:结构平面     Location: 没有位置     Category: 没有category
 Id:69848     Name:风管系统     Location: 没有位置     Category: 没有category
 Id:69849     Name:房间多段线     Location: 没有位置     Category: 没有category
 Id:69850     Name:面多段线     Location: 没有位置     Category: 没有category
@@ -1035,6 +1243,9 @@ Id:85170     Name:双虚线     Location: 没有位置     Category: 没有categ
 Id:85171     Name:长虚线     Location: 没有位置     Category: 没有category
 Id:85172     Name:疏松虚线     Location: 没有位置     Category: 没有category
 Id:85173     Name:三分段虚线     Location: 没有位置     Category: 没有category
+Id:85815     Name:1200 x 1500mm     Location: 没有位置     Category:窗
+Id:85817     Name:1500 x 1500mm     Location: 没有位置     Category:窗
+Id:85819     Name:1000 x 1200mm     Location: 没有位置     Category:窗
 Id:86398     Name:五金器具     Location: 没有位置     Category: 没有category
 Id:86399     Name:五金器具     Location: 没有位置     Category: 没有category
 Id:86400     Name:五金器具     Location: 没有位置     Category: 没有category
@@ -1160,6 +1371,7 @@ Id:86857     Name:截面填充图案     Location: 没有位置     Category: �
 Id:86858     Name:截面填充图案     Location: 没有位置     Category: 没有category
 Id:86859     Name:截面填充图案     Location: 没有位置     Category: 没有category
 Id:86860     Name:截面填充图案     Location: 没有位置     Category: 没有category
+Id:86861     Name:基础底板 1     Location: 没有位置     Category:结构基础
 Id:86862     Name:导线记号     Location: 没有位置     Category: 没有category
 Id:86863     Name:标准     Location: 没有位置     Category: 没有category
 Id:86864     Name:电话设备     Location: 没有位置     Category: 没有category
@@ -1215,6 +1427,7 @@ Id:86926     Name:开关系统     Location: 没有位置     Category: 没有ca
 Id:86927     Name:高程点坡度     Location: 没有位置     Category: 没有category
 Id:86936     Name:注释裁剪边界     Location: 没有位置     Category: 没有category
 Id:86937     Name:保护层类型     Location: 没有位置     Category: 没有category
+Id:86938     Name:钢筋保护层 1     Location: 没有位置     Category:保护层类型
 Id:86939     Name:腹杆     Location: 没有位置     Category: 没有category
 Id:86940     Name:腹杆     Location: 没有位置     Category: 没有category
 Id:86941     Name:上弦杆     Location: 没有位置     Category: 没有category
@@ -1229,6 +1442,7 @@ Id:86949     Name:1     Location: 没有位置     Category: 没有category
 Id:86950     Name:1     Location: 没有位置     Category: 没有category
 Id:86963     Name:视图参照     Location: 没有位置     Category: 没有category
 Id:86964     Name:视图参照     Location: 没有位置     Category: 没有category
+Id:86965     Name:视图参照 1     Location: 没有位置     Category: 没有category
 Id:86966     Name:板形状编辑器 - 指定折皱     Location: 没有位置     Category: 没有category
 Id:86967     Name:板形状编辑器 - 自动折皱     Location: 没有位置     Category: 没有category
 Id:86968     Name:板形状编辑器 - 边界     Location: 没有位置     Category: 没有category
@@ -1239,6 +1453,8 @@ Id:86979     Name:内部边缘     Location: 没有位置     Category: 没有ca
 Id:86980     Name:内部边缘     Location: 没有位置     Category: 没有category
 Id:86981     Name:内部边缘     Location: 没有位置     Category: 没有category
 Id:86982     Name:构造     Location: 没有位置     Category: 没有category
+Id:86983     Name:<建筑>     Location: 没有位置     Category: 没有category
+Id:86984     Name:构造 1     Location: 没有位置     Category:构造
 Id:86987     Name:结构洞口剪切     Location: 没有位置     Category: 没有category
 Id:86988     Name:结构洞口剪切     Location: 没有位置     Category: 没有category
 Id:86989     Name:结构洞口剪切     Location: 没有位置     Category: 没有category
@@ -1281,7 +1497,49 @@ Id:87044     Name:管道明细表     Location: 没有位置     Category: 没�
 Id:87045     Name:流体     Location: 没有位置     Category: 没有category
 Id:87050     Name:栏杆扶手标记     Location: 没有位置     Category: 没有category
 Id:87053     Name:修订     Location: 没有位置     Category: 没有category
+Id:87054     Name:碳钢     Location: 没有位置     Category:管道材质
+Id:87055     Name:螺纹     Location: 没有位置     Category:管道连接
+Id:87056     Name:法兰式     Location: 没有位置     Category:管道连接
+Id:87057     Name:焊接     Location: 没有位置     Category:管道连接
+Id:87058     Name:Schedule 40     Location: 没有位置     Category:管道明细表
+Id:87059     Name:Schedule 80     Location: 没有位置     Category:管道明细表
+Id:87060     Name:不锈钢     Location: 没有位置     Category:管道材质
+Id:87061     Name:5S     Location: 没有位置     Category:管道明细表
+Id:87062     Name:10S     Location: 没有位置     Category:管道明细表
+Id:87063     Name:铜     Location: 没有位置     Category:管道材质
+Id:87064     Name:软钎焊     Location: 没有位置     Category:管道连接
+Id:87065     Name:硬钎焊     Location: 没有位置     Category:管道连接
+Id:87066     Name:A     Location: 没有位置     Category:管道明细表
+Id:87067     Name:B     Location: 没有位置     Category:管道明细表
+Id:87068     Name:C     Location: 没有位置     Category:管道明细表
+Id:87069     Name:D     Location: 没有位置     Category:管道明细表
+Id:87070     Name:塑料     Location: 没有位置     Category:管道材质
+Id:87071     Name:承插类型     Location: 没有位置     Category:管道连接
+Id:87072     Name:球墨铸铁     Location: 没有位置     Category:管道材质
+Id:87073     Name:套接     Location: 没有位置     Category:管道连接
+Id:87074     Name:机械连接     Location: 没有位置     Category:管道连接
+Id:87075     Name:22     Location: 没有位置     Category:管道明细表
+Id:87076     Name:30     Location: 没有位置     Category:管道明细表
 Id:87077     Name:管道尺寸     Location: 没有位置     Category: 没有category
+Id:87078     Name:水     Location: 没有位置     Category:流体
+Id:87079     Name:乙二醇 - 10     Location: 没有位置     Category:流体
+Id:87080     Name:乙二醇 - 20     Location: 没有位置     Category:流体
+Id:87081     Name:乙二醇 - 30     Location: 没有位置     Category:流体
+Id:87082     Name:乙二醇 - 40     Location: 没有位置     Category:流体
+Id:87083     Name:乙二醇 - 50     Location: 没有位置     Category:流体
+Id:87084     Name:乙二醇 - 60     Location: 没有位置     Category:流体
+Id:87085     Name:乙二醇 - 70     Location: 没有位置     Category:流体
+Id:87086     Name:乙二醇 - 80     Location: 没有位置     Category:流体
+Id:87087     Name:乙二醇 - 90     Location: 没有位置     Category:流体
+Id:87088     Name:丙二醇 - 10     Location: 没有位置     Category:流体
+Id:87089     Name:丙二醇 - 20     Location: 没有位置     Category:流体
+Id:87090     Name:丙二醇 - 30     Location: 没有位置     Category:流体
+Id:87091     Name:丙二醇 - 40     Location: 没有位置     Category:流体
+Id:87092     Name:丙二醇 - 50     Location: 没有位置     Category:流体
+Id:87093     Name:丙二醇 - 60     Location: 没有位置     Category:流体
+Id:87094     Name:丙二醇 - 70     Location: 没有位置     Category:流体
+Id:87095     Name:丙二醇 - 80     Location: 没有位置     Category:流体
+Id:87096     Name:丙二醇 - 90     Location: 没有位置     Category:流体
 Id:87097     Name:默认分区外围     Location: 没有位置     Category: 没有category
 Id:87098     Name:默认分区外围     Location: 没有位置     Category: 没有category
 Id:87099     Name:默认体量裁剪器     Location: 没有位置     Category: 没有category
@@ -1294,6 +1552,39 @@ Id:87105     Name:导线材质     Location: 没有位置     Category: 没有ca
 Id:87106     Name:导线绝缘层     Location: 没有位置     Category: 没有category
 Id:87107     Name:导线额定温度     Location: 没有位置     Category: 没有category
 Id:87108     Name:导线尺寸     Location: 没有位置     Category: 没有category
+Id:87109     Name:铜     Location: 没有位置     Category:导线材质
+Id:87110     Name:铝     Location: 没有位置     Category:导线材质
+Id:87111     Name:钢     Location: 没有位置     Category:导线材质
+Id:87112     Name:非磁性     Location: 没有位置     Category:导线材质
+Id:87113     Name:FEP     Location: 没有位置     Category:导线绝缘层
+Id:87114     Name:FEPB     Location: 没有位置     Category:导线绝缘层
+Id:87115     Name:FEPW     Location: 没有位置     Category:导线绝缘层
+Id:87116     Name:MI     Location: 没有位置     Category:导线绝缘层
+Id:87117     Name:RH     Location: 没有位置     Category:导线绝缘层
+Id:87118     Name:RHH     Location: 没有位置     Category:导线绝缘层
+Id:87119     Name:RHW     Location: 没有位置     Category:导线绝缘层
+Id:87120     Name:RHW-2     Location: 没有位置     Category:导线绝缘层
+Id:87121     Name:SA     Location: 没有位置     Category:导线绝缘层
+Id:87122     Name:SIS     Location: 没有位置     Category:导线绝缘层
+Id:87123     Name:TA     Location: 没有位置     Category:导线绝缘层
+Id:87124     Name:TBS     Location: 没有位置     Category:导线绝缘层
+Id:87125     Name:THHN     Location: 没有位置     Category:导线绝缘层
+Id:87126     Name:THHW     Location: 没有位置     Category:导线绝缘层
+Id:87127     Name:THW     Location: 没有位置     Category:导线绝缘层
+Id:87128     Name:THW-2     Location: 没有位置     Category:导线绝缘层
+Id:87129     Name:THWN     Location: 没有位置     Category:导线绝缘层
+Id:87130     Name:THWN-2     Location: 没有位置     Category:导线绝缘层
+Id:87131     Name:TW     Location: 没有位置     Category:导线绝缘层
+Id:87132     Name:UF     Location: 没有位置     Category:导线绝缘层
+Id:87133     Name:USE     Location: 没有位置     Category:导线绝缘层
+Id:87134     Name:USE-2     Location: 没有位置     Category:导线绝缘层
+Id:87135     Name:XHH     Location: 没有位置     Category:导线绝缘层
+Id:87136     Name:XHHW     Location: 没有位置     Category:导线绝缘层
+Id:87137     Name:XHHW-2     Location: 没有位置     Category:导线绝缘层
+Id:87138     Name:ZW     Location: 没有位置     Category:导线绝缘层
+Id:87139     Name:60     Location: 没有位置     Category:导线额定温度
+Id:87140     Name:75     Location: 没有位置     Category:导线额定温度
+Id:87141     Name:90     Location: 没有位置     Category:导线额定温度
 Id:87142     Name:     Location: 没有位置     Category: 没有category
 Id:87143     Name:<空间分隔>     Location: 没有位置     Category: 没有category
 Id:87144     Name:空间     Location: 没有位置     Category: 没有category
@@ -1353,8 +1644,11 @@ Id:88760     Name:20mm     Location: 没有位置     Category: 没有category
 Id:88967     Name:渲染区域     Location: 没有位置     Category: 没有category
 Id:90688     Name:桌     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:91405     Name:桌     Location: 没有位置     Category: 没有category
+Id:91406     Name:1525 x 762mm     Location: 没有位置     Category:家具
 Id:91407     Name:1525 x 762mm     Location: 没有位置     Category: 没有category
+Id:91408     Name:1830 x 915mm     Location: 没有位置     Category:家具
 Id:91409     Name:1830 x 915mm     Location: 没有位置     Category: 没有category
+Id:91410     Name:1525 x 762mm 书桌     Location: 没有位置     Category:家具
 Id:91411     Name:1525 x 762mm 书桌     Location: 没有位置     Category: 没有category
 Id:91412     Name:停车位     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:91526     Name:带     Location: 没有位置     Category: 没有category
@@ -1367,11 +1661,24 @@ Id:91855     Name:4800 x 2400mm - 90 度     Location: 没有位置     Category
 Id:91856     Name:4800 x 2400mm - 60 度     Location: 没有位置     Category: 没有category
 Id:91857     Name:4800 x 2400mm - 80 度     Location: 没有位置     Category: 没有category
 Id:91858     Name:4800 x 2400mm - 70 度     Location: 没有位置     Category: 没有category
+Id:93294     Name:0406 x 0610mm     Location: 没有位置     Category:窗
+Id:93296     Name:0406 x 1220mm     Location: 没有位置     Category:窗
+Id:93298     Name:0610 x 0610mm     Location: 没有位置     Category:窗
+Id:93300     Name:0610 x 1220mm     Location: 没有位置     Category:窗
+Id:93302     Name:0915 x 0610mm     Location: 没有位置     Category:窗
+Id:93304     Name:0915 x 1220mm     Location: 没有位置     Category:窗
+Id:93306     Name:0406 x 1830mm     Location: 没有位置     Category:窗
+Id:93308     Name:0610 x 1830mm     Location: 没有位置     Category:窗
+Id:93310     Name:0915 x 1830mm     Location: 没有位置     Category:窗
 Id:93312     Name:矩形柱     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:93756     Name:矩形柱     Location: 没有位置     Category: 没有category
 Id:93757     Name:475 x 610mm     Location: 没有位置     Category: 没有category
 Id:93758     Name:610 x 610mm     Location: 没有位置     Category: 没有category
 Id:93759     Name:457 x 475mm     Location: 没有位置     Category: 没有category
+Id:94650     Name:600 x 1800mm     Location: 没有位置     Category:门
+Id:94652     Name:600 x 2000mm     Location: 没有位置     Category:门
+Id:94654     Name:750 x 2000mm     Location: 没有位置     Category:门
+Id:94656     Name:750 x 1800mm     Location: 没有位置     Category:门
 Id:94658     Name:标高 1     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:94659     Name:标高 1     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:94660     Name:标高 2     Location:Autodesk.Revit.DB.Location     Category: 没有category
@@ -1381,6 +1688,7 @@ Id:94663     Name:东     Location:Autodesk.Revit.DB.Location     Category: 没�
 Id:94664     Name:南     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:94665     Name:西     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:94666     Name:场地     Location:Autodesk.Revit.DB.Location     Category: 没有category
+Id:94672     Name:6.5mm 编号间隙     Location: 没有位置     Category:轴网
 Id:94673     Name:     Location: 没有位置     Category: 没有category
 Id:94674     Name:6.5mm 编号间隙     Location: 没有位置     Category: 没有category
 Id:94675     Name:6.5mm 编号间隙     Location: 没有位置     Category: 没有category
@@ -1388,6 +1696,7 @@ Id:94676     Name:     Location: 没有位置     Category: 没有category
 Id:94677     Name:6.5mm 编号间隙     Location: 没有位置     Category: 没有category
 Id:94678     Name:     Location: 没有位置     Category: 没有category
 Id:94679     Name:6.5mm 编号间隙     Location: 没有位置     Category: 没有category
+Id:94680     Name:6.5mm 编号自定义间隙     Location: 没有位置     Category:轴网
 Id:94681     Name:     Location: 没有位置     Category: 没有category
 Id:94682     Name:6.5mm 编号自定义间隙     Location: 没有位置     Category: 没有category
 Id:94683     Name:6.5mm 编号自定义间隙     Location: 没有位置     Category: 没有category
@@ -1594,6 +1903,7 @@ Id:95816     Name:项目基点     Location: 没有位置     Category: 没有ca
 Id:95817     Name:项目基点     Location: 没有位置     Category: 没有category
 Id:95818     Name:测量点     Location: 没有位置     Category: 没有category
 Id:95819     Name:测量点     Location: 没有位置     Category: 没有category
+Id:95821     Name:目标(项目)     Location: 没有位置     Category: 没有category
 Id:95822     Name:     Location: 没有位置     Category: 没有category
 Id:95823     Name:目标(项目)     Location: 没有位置     Category: 没有category
 Id:95824     Name:目标(项目)     Location: 没有位置     Category: 没有category
@@ -1601,6 +1911,7 @@ Id:95825     Name:     Location: 没有位置     Category: 没有category
 Id:95826     Name:目标(项目)     Location: 没有位置     Category: 没有category
 Id:95827     Name:     Location: 没有位置     Category: 没有category
 Id:95828     Name:目标(项目)     Location: 没有位置     Category: 没有category
+Id:95829     Name:目标(相对)     Location: 没有位置     Category: 没有category
 Id:95830     Name:     Location: 没有位置     Category: 没有category
 Id:95831     Name:目标(相对)     Location: 没有位置     Category: 没有category
 Id:95832     Name:目标(相对)     Location: 没有位置     Category: 没有category
@@ -1608,6 +1919,7 @@ Id:95833     Name:     Location: 没有位置     Category: 没有category
 Id:95834     Name:目标(相对)     Location: 没有位置     Category: 没有category
 Id:95835     Name:     Location: 没有位置     Category: 没有category
 Id:95836     Name:目标(相对)     Location: 没有位置     Category: 没有category
+Id:95837     Name:无符号(相对)     Location: 没有位置     Category: 没有category
 Id:95838     Name:     Location: 没有位置     Category: 没有category
 Id:95839     Name:无符号(相对)     Location: 没有位置     Category: 没有category
 Id:95840     Name:无符号(相对)     Location: 没有位置     Category: 没有category
@@ -1615,6 +1927,7 @@ Id:95841     Name:     Location: 没有位置     Category: 没有category
 Id:95842     Name:无符号(相对)     Location: 没有位置     Category: 没有category
 Id:95843     Name:     Location: 没有位置     Category: 没有category
 Id:95844     Name:无符号(相对)     Location: 没有位置     Category: 没有category
+Id:95845     Name:无符号(项目)     Location: 没有位置     Category: 没有category
 Id:95846     Name:     Location: 没有位置     Category: 没有category
 Id:95847     Name:无符号(项目)     Location: 没有位置     Category: 没有category
 Id:95848     Name:无符号(项目)     Location: 没有位置     Category: 没有category
@@ -1622,6 +1935,7 @@ Id:95849     Name:     Location: 没有位置     Category: 没有category
 Id:95850     Name:无符号(项目)     Location: 没有位置     Category: 没有category
 Id:95851     Name:     Location: 没有位置     Category: 没有category
 Id:95852     Name:无符号(项目)     Location: 没有位置     Category: 没有category
+Id:95853     Name:十字光标(项目)     Location: 没有位置     Category: 没有category
 Id:95854     Name:     Location: 没有位置     Category: 没有category
 Id:95855     Name:十字光标(项目)     Location: 没有位置     Category: 没有category
 Id:95856     Name:十字光标(项目)     Location: 没有位置     Category: 没有category
@@ -1629,6 +1943,7 @@ Id:95857     Name:     Location: 没有位置     Category: 没有category
 Id:95858     Name:十字光标(项目)     Location: 没有位置     Category: 没有category
 Id:95859     Name:     Location: 没有位置     Category: 没有category
 Id:95860     Name:十字光标(项目)     Location: 没有位置     Category: 没有category
+Id:95861     Name:十字光标(相对)     Location: 没有位置     Category: 没有category
 Id:95862     Name:     Location: 没有位置     Category: 没有category
 Id:95863     Name:十字光标(相对)     Location: 没有位置     Category: 没有category
 Id:95864     Name:十字光标(相对)     Location: 没有位置     Category: 没有category
@@ -1636,6 +1951,7 @@ Id:95865     Name:     Location: 没有位置     Category: 没有category
 Id:95866     Name:十字光标(相对)     Location: 没有位置     Category: 没有category
 Id:95867     Name:     Location: 没有位置     Category: 没有category
 Id:95868     Name:十字光标(相对)     Location: 没有位置     Category: 没有category
+Id:95869     Name:梁高程(相对)     Location: 没有位置     Category: 没有category
 Id:95870     Name:     Location: 没有位置     Category: 没有category
 Id:95871     Name:梁高程(相对)     Location: 没有位置     Category: 没有category
 Id:95872     Name:梁高程(相对)     Location: 没有位置     Category: 没有category
@@ -1643,6 +1959,7 @@ Id:95873     Name:     Location: 没有位置     Category: 没有category
 Id:95874     Name:梁高程(相对)     Location: 没有位置     Category: 没有category
 Id:95875     Name:     Location: 没有位置     Category: 没有category
 Id:95876     Name:梁高程(相对)     Location: 没有位置     Category: 没有category
+Id:95877     Name:梁高程(项目)     Location: 没有位置     Category: 没有category
 Id:95878     Name:     Location: 没有位置     Category: 没有category
 Id:95879     Name:梁高程(项目)     Location: 没有位置     Category: 没有category
 Id:95880     Name:梁高程(项目)     Location: 没有位置     Category: 没有category
@@ -1650,6 +1967,7 @@ Id:95881     Name:     Location: 没有位置     Category: 没有category
 Id:95882     Name:梁高程(项目)     Location: 没有位置     Category: 没有category
 Id:95883     Name:     Location: 没有位置     Category: 没有category
 Id:95884     Name:梁高程(项目)     Location: 没有位置     Category: 没有category
+Id:95885     Name:水平(w - 立面)     Location: 没有位置     Category: 没有category
 Id:95886     Name:     Location: 没有位置     Category: 没有category
 Id:95887     Name:水平(w - 立面)     Location: 没有位置     Category: 没有category
 Id:95888     Name:水平(w - 立面)     Location: 没有位置     Category: 没有category
@@ -1657,8 +1975,10 @@ Id:95889     Name:     Location: 没有位置     Category: 没有category
 Id:95890     Name:水平(w - 立面)     Location: 没有位置     Category: 没有category
 Id:95891     Name:     Location: 没有位置     Category: 没有category
 Id:95892     Name:水平(w - 立面)     Location: 没有位置     Category: 没有category
+Id:95893     Name:实心箭头 20 度     Location: 没有位置     Category: 没有category
 Id:95894     Name:     Location: 没有位置     Category: 没有category
 Id:95895     Name:实心箭头 20 度     Location: 没有位置     Category: 没有category
+Id:95896     Name:坡度     Location: 没有位置     Category: 没有category
 Id:95897     Name:     Location: 没有位置     Category: 没有category
 Id:95898     Name:坡度     Location: 没有位置     Category: 没有category
 Id:95899     Name:坡度     Location: 没有位置     Category: 没有category
@@ -1668,6 +1988,7 @@ Id:95902     Name:     Location: 没有位置     Category: 没有category
 Id:95903     Name:坡度     Location: 没有位置     Category: 没有category
 Id:95912     Name:高程点 - 十字光标     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:96117     Name:高程点 - 十字光标     Location: 没有位置     Category: 没有category
+Id:96118     Name:高程点 - 十字光标     Location: 没有位置     Category:高程点符号
 Id:96119     Name:高程点 - 十字光标     Location: 没有位置     Category: 没有category
 Id:96120     Name:线     Location: 没有位置     Category: 没有category
 Id:96121     Name:线     Location: 没有位置     Category: 没有category
@@ -1686,6 +2007,7 @@ Id:96299     Name:透视模式 - 路径曲线     Location: 没有位置     Cat
 Id:96300     Name:透视模式 - 隐式路径曲线     Location: 没有位置     Category: 没有category
 Id:96301     Name:透视模式 - 路径点     Location: 没有位置     Category: 没有category
 Id:96302     Name:     Location:Autodesk.Revit.DB.Location     Category:测量点
+Id:96303     Name:位置数据     Location: 没有位置     Category:位置数据
 Id:96304     Name:项目     Location:Autodesk.Revit.DB.Location     Category:共享场地
 Id:96305     Name:     Location:Autodesk.Revit.DB.Location     Category:项目基点
 Id:96306     Name:内部对象类型     Location: 没有位置     Category: 没有category
@@ -1696,6 +2018,21 @@ Id:96379     Name:图例构件     Location: 没有位置     Category: 没有ca
 Id:96380     Name:默认形状     Location: 没有位置     Category:材质
 Id:97112     Name:导出到土木工程     Location: 没有位置     Category:视图
 Id:97113     Name:瓷砖填充图案网格     Location: 没有位置     Category: 没有category
+Id:97170     Name:_无填充图案     Location: 没有位置     Category:填充图案
+Id:97171     Name:矩形     Location: 没有位置     Category:填充图案
+Id:97172     Name:三角形(弯曲)     Location: 没有位置     Category:填充图案
+Id:97173     Name:菱形     Location: 没有位置     Category:填充图案
+Id:97174     Name:六边形     Location: 没有位置     Category:填充图案
+Id:97175     Name:1/2 错缝     Location: 没有位置     Category:填充图案
+Id:97176     Name:1/3 错缝     Location: 没有位置     Category:填充图案
+Id:97177     Name:三角形棋盘(弯曲)     Location: 没有位置     Category:填充图案
+Id:97178     Name:矩形棋盘     Location: 没有位置     Category:填充图案
+Id:97179     Name:菱形棋盘     Location: 没有位置     Category:填充图案
+Id:97180     Name:三角形错缝(弯曲)     Location: 没有位置     Category:填充图案
+Id:97181     Name:箭头     Location: 没有位置     Category:填充图案
+Id:97182     Name:Z 字形     Location: 没有位置     Category:填充图案
+Id:97183     Name:八边形     Location: 没有位置     Category:填充图案
+Id:97184     Name:八边形旋转     Location: 没有位置     Category:填充图案
 Id:97185     Name:填充图案     Location: 没有位置     Category: 没有category
 Id:97186     Name:分割的表面     Location: 没有位置     Category: 没有category
 Id:97187     Name:分割的表面     Location: 没有位置     Category: 没有category
@@ -1713,6 +2050,7 @@ Id:97886     Name:内部对象类型     Location: 没有位置     Category: �
 Id:97887     Name:活动位置跟踪图元     Location: 没有位置     Category: 没有category
 Id:97888     Name:透明面     Location: 没有位置     Category: 没有category
 Id:97889     Name:透明面     Location: 没有位置     Category: 没有category
+Id:97890     Name:对角线 - 3mm RomanD     Location: 没有位置     Category: 没有category
 Id:97891     Name:     Location: 没有位置     Category: 没有category
 Id:97892     Name:对角线 - 3mm RomanD     Location: 没有位置     Category: 没有category
 Id:97893     Name:对角线 - 3mm RomanD     Location: 没有位置     Category: 没有category
@@ -1720,6 +2058,7 @@ Id:97894     Name:     Location: 没有位置     Category: 没有category
 Id:97895     Name:对角线 - 3mm RomanD     Location: 没有位置     Category: 没有category
 Id:97896     Name:     Location: 没有位置     Category: 没有category
 Id:97897     Name:对角线 - 3mm RomanD     Location: 没有位置     Category: 没有category
+Id:97898     Name:对角线 - 3mm RomanD（总图）     Location: 没有位置     Category: 没有category
 Id:97899     Name:     Location: 没有位置     Category: 没有category
 Id:97900     Name:对角线 - 3mm RomanD（总图）     Location: 没有位置     Category: 没有category
 Id:97901     Name:对角线 - 3mm RomanD（总图）     Location: 没有位置     Category: 没有category
@@ -1733,6 +2072,7 @@ Id:97909     Name:A_图纸目录     Location: 没有位置     Category: 没有
 Id:98106     Name:A_总建筑面积明细表     Location: 没有位置     Category:明细表
 Id:98107     Name:A_总建筑面积明细表     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:98109     Name:A_总建筑面积明细表     Location: 没有位置     Category: 没有category
+Id:98129     Name:总建筑面积     Location: 没有位置     Category: 没有category
 Id:98230     Name:B_内墙明细表     Location: 没有位置     Category:明细表
 Id:98231     Name:B_内墙明细表     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:98233     Name:B_内墙明细表     Location: 没有位置     Category: 没有category
@@ -1784,6 +2124,7 @@ Id:98941     Name:剖面_详图 1/20     Location: 没有位置     Category:视
 Id:98942     Name:立面_详图 1/20     Location: 没有位置     Category:视图
 Id:98943     Name:立面_详图 1/10     Location: 没有位置     Category:视图
 Id:98944     Name:立面_详图 1/5     Location: 没有位置     Category:视图
+Id:99831     Name:土壤     Location: 没有位置     Category:详图项目
 Id:99832     Name:     Location: 没有位置     Category: 没有category
 Id:99833     Name:土壤     Location: 没有位置     Category: 没有category
 Id:99834     Name:土壤     Location: 没有位置     Category: 没有category
@@ -1803,9 +2144,13 @@ Id:100748     Name:下对角线 - 9mm     Location: 没有位置     Category: �
 Id:100749     Name:交叉线 5mm     Location: 没有位置     Category: 没有category
 Id:101045     Name:金属 - 铝剖面     Location: 没有位置     Category: 没有category
 Id:101211     Name:防水 - 防水材料     Location: 没有位置     Category: 没有category
+Id:101738     Name:剖面标头 1，剖面线末端 1     Location: 没有位置     Category: 没有category
 Id:101739     Name:     Location: 没有位置     Category: 没有category
 Id:101740     Name:剖面标头 1，剖面线末端 1     Location: 没有位置     Category: 没有category
 Id:101741     Name:剖面标头 1，剖面线末端 1     Location: 没有位置     Category: 没有category
+Id:102569     Name:剖面详图绘制标头     Location: 没有位置     Category:剖面标头
+Id:103621     Name:高程点     Location: 没有位置     Category:高程点符号
+Id:103624     Name:三角形(项目)     Location: 没有位置     Category: 没有category
 Id:103625     Name:     Location: 没有位置     Category: 没有category
 Id:103626     Name:三角形(项目)     Location: 没有位置     Category: 没有category
 Id:103627     Name:三角形(项目)     Location: 没有位置     Category: 没有category
@@ -1813,6 +2158,7 @@ Id:103628     Name:     Location: 没有位置     Category: 没有category
 Id:103629     Name:三角形(项目)     Location: 没有位置     Category: 没有category
 Id:103630     Name:     Location: 没有位置     Category: 没有category
 Id:103631     Name:三角形(项目)     Location: 没有位置     Category: 没有category
+Id:103632     Name:三角形不透明(项目)     Location: 没有位置     Category: 没有category
 Id:103633     Name:     Location: 没有位置     Category: 没有category
 Id:103634     Name:三角形不透明(项目)     Location: 没有位置     Category: 没有category
 Id:103635     Name:三角形不透明(项目)     Location: 没有位置     Category: 没有category
@@ -1820,6 +2166,7 @@ Id:103636     Name:     Location: 没有位置     Category: 没有category
 Id:103637     Name:三角形不透明(项目)     Location: 没有位置     Category: 没有category
 Id:103638     Name:     Location: 没有位置     Category: 没有category
 Id:103639     Name:三角形不透明(项目)     Location: 没有位置     Category: 没有category
+Id:103640     Name:三角形结构(项目)     Location: 没有位置     Category: 没有category
 Id:103641     Name:     Location: 没有位置     Category: 没有category
 Id:103642     Name:三角形结构(项目)     Location: 没有位置     Category: 没有category
 Id:103643     Name:三角形结构(项目)     Location: 没有位置     Category: 没有category
@@ -1827,6 +2174,7 @@ Id:103644     Name:     Location: 没有位置     Category: 没有category
 Id:103645     Name:三角形结构(项目)     Location: 没有位置     Category: 没有category
 Id:103646     Name:     Location: 没有位置     Category: 没有category
 Id:103647     Name:三角形结构(项目)     Location: 没有位置     Category: 没有category
+Id:103648     Name:三角形结构不透明(项目)     Location: 没有位置     Category: 没有category
 Id:103649     Name:     Location: 没有位置     Category: 没有category
 Id:103650     Name:三角形结构不透明(项目)     Location: 没有位置     Category: 没有category
 Id:103651     Name:三角形结构不透明(项目)     Location: 没有位置     Category: 没有category
@@ -1834,6 +2182,7 @@ Id:103652     Name:     Location: 没有位置     Category: 没有category
 Id:103653     Name:三角形结构不透明(项目)     Location: 没有位置     Category: 没有category
 Id:103654     Name:     Location: 没有位置     Category: 没有category
 Id:103655     Name:三角形结构不透明(项目)     Location: 没有位置     Category: 没有category
+Id:103689     Name:正负零高程点(项目)     Location: 没有位置     Category: 没有category
 Id:103690     Name:     Location: 没有位置     Category: 没有category
 Id:103691     Name:正负零高程点(项目)     Location: 没有位置     Category: 没有category
 Id:103692     Name:正负零高程点(项目)     Location: 没有位置     Category: 没有category
@@ -1841,6 +2190,7 @@ Id:103693     Name:     Location: 没有位置     Category: 没有category
 Id:103694     Name:正负零高程点(项目)     Location: 没有位置     Category: 没有category
 Id:103695     Name:     Location: 没有位置     Category: 没有category
 Id:103696     Name:正负零高程点(项目)     Location: 没有位置     Category: 没有category
+Id:103697     Name:正负零高程点不透明(项目)     Location: 没有位置     Category: 没有category
 Id:103698     Name:     Location: 没有位置     Category: 没有category
 Id:103699     Name:正负零高程点不透明(项目)     Location: 没有位置     Category: 没有category
 Id:103700     Name:正负零高程点不透明(项目)     Location: 没有位置     Category: 没有category
@@ -1848,8 +2198,42 @@ Id:103701     Name:     Location: 没有位置     Category: 没有category
 Id:103702     Name:正负零高程点不透明(项目)     Location: 没有位置     Category: 没有category
 Id:103703     Name:     Location: 没有位置     Category: 没有category
 Id:103704     Name:正负零高程点不透明(项目)     Location: 没有位置     Category: 没有category
+Id:107458     Name:垂直下     Location: 没有位置     Category:常规注释
+Id:107460     Name:垂直上     Location: 没有位置     Category:常规注释
+Id:107462     Name:标高     Location: 没有位置     Category:常规注释
+Id:107682     Name:标记_材料     Location: 没有位置     Category:材质标记
+Id:109208     Name:标记_结构梁     Location: 没有位置     Category:结构框架标记
+Id:109407     Name:标记_结构柱     Location: 没有位置     Category:结构柱标记
+Id:109606     Name:标记_结构梁 - 台阶     Location: 没有位置     Category:结构框架标记
 Id:109823     Name:轴网     Location: 没有位置     Category: 没有category
 Id:109824     Name:轴网     Location: 没有位置     Category: 没有category
+Id:109833     Name:标记_临时轴号     Location: 没有位置     Category:常规注释
+Id:110195     Name:标记_楼板     Location: 没有位置     Category:楼板标记
+Id:110398     Name:标记_门     Location: 没有位置     Category:门标记
+Id:110602     Name:标记_面积     Location: 没有位置     Category:面积标记
+Id:110800     Name:标记_面积 - 无面积     Location: 没有位置     Category:面积标记
+Id:110999     Name:标记_面积 - 防火分区     Location: 没有位置     Category:面积标记
+Id:111212     Name:标记_幕墙嵌板     Location: 没有位置     Category:幕墙嵌板标记
+Id:111440     Name:坡度比值 5.0     Location: 没有位置     Category:常规注释
+Id:111657     Name:标记_墙     Location: 没有位置     Category:墙标记
+Id:111874     Name:标记_天花板 - 高度     Location: 没有位置     Category:天花板标记
+Id:112305     Name:标记_屋面     Location: 没有位置     Category:屋顶标记
+Id:112504     Name:标记_详图项目     Location: 没有位置     Category:详图项目标记
+Id:112718     Name:标记_照明设备     Location: 没有位置     Category:照明设备标记
+Id:112947     Name:注释记号编号 - 整体     Location: 没有位置     Category:注释记号标记
+Id:112949     Name:注释记号文字     Location: 没有位置     Category:注释记号标记
+Id:112951     Name:注释记号文字 - 不透明     Location: 没有位置     Category:注释记号标记
+Id:113165     Name:标记_专用设备     Location: 没有位置     Category:专用设备标记
+Id:113597     Name:符号车库分水线箭头     Location: 没有位置     Category:常规注释
+Id:114011     Name:箭头     Location: 没有位置     Category:常规注释
+Id:114013     Name:箭头无坡度     Location: 没有位置     Category:常规注释
+Id:114227     Name:填充     Location: 没有位置     Category:视图标题
+Id:114229     Name:空心的     Location: 没有位置     Category:视图标题
+Id:114426     Name:视图标题     Location: 没有位置     Category:视图标题
+Id:114638     Name:填充     Location: 没有位置     Category:视图标题
+Id:114640     Name:空心的     Location: 没有位置     Category:视图标题
+Id:115098     Name:填充     Location: 没有位置     Category:常规注释
+Id:115100     Name:空心的     Location: 没有位置     Category:常规注释
 Id:115104     Name:符号中心线     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:115301     Name:符号中心线     Location: 没有位置     Category: 没有category
 Id:115302     Name:符号中心线     Location: 没有位置     Category: 没有category
@@ -1858,6 +2242,13 @@ Id:115332     Name:架空线     Location: 没有位置     Category: 没有cate
 Id:115383     Name:钢     Location: 没有位置     Category: 没有category
 Id:115385     Name:石膏 - 灰泥     Location: 没有位置     Category: 没有category
 Id:115386     Name:隔热层 - 刚性     Location: 没有位置     Category: 没有category
+Id:115799     Name:符号比例尺     Location: 没有位置     Category:详图项目
+Id:116005     Name:符号剖断线     Location: 没有位置     Category:常规注释
+Id:116213     Name:标高标头_下     Location: 没有位置     Category:标高标头
+Id:116435     Name:标头可见性     Location: 没有位置     Category:标高标头
+Id:116437     Name:标头不可见性     Location: 没有位置     Category:标高标头
+Id:116640     Name:标高_卫生间     Location: 没有位置     Category:常规注释
+Id:117178     Name:正负零标高     Location: 没有位置     Category:标高
 Id:117179     Name:     Location: 没有位置     Category: 没有category
 Id:117180     Name:正负零标高     Location: 没有位置     Category: 没有category
 Id:117181     Name:正负零标高     Location: 没有位置     Category: 没有category
@@ -1904,6 +2295,7 @@ Id:117857     Name:标高 2     Location: 没有位置     Category: 没有categ
 Id:117858     Name:标高 2     Location: 没有位置     Category:工作平面网格
 Id:117859     Name:标高 2     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:117860     Name:标高 2     Location:Autodesk.Revit.DB.Location     Category: 没有category
+Id:117861     Name:净面积     Location: 没有位置     Category: 没有category
 Id:117862     Name:标高 1     Location: 没有位置     Category:视图
 Id:117863     Name:ExtentElem     Location: 没有位置     Category: 没有category
 Id:117864     Name:标高 1     Location:Autodesk.Revit.DB.Location     Category: 没有category
@@ -1918,6 +2310,7 @@ Id:117874     Name:标高 2     Location: 没有位置     Category: 没有categ
 Id:117875     Name:标高 2     Location: 没有位置     Category:工作平面网格
 Id:117876     Name:标高 2     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:117877     Name:标高 2     Location:Autodesk.Revit.DB.Location     Category: 没有category
+Id:117878     Name:防火分区面积     Location: 没有位置     Category: 没有category
 Id:117879     Name:标高 1     Location: 没有位置     Category:视图
 Id:117880     Name:ExtentElem     Location: 没有位置     Category: 没有category
 Id:117881     Name:标高 1     Location:Autodesk.Revit.DB.Location     Category: 没有category
@@ -1932,6 +2325,7 @@ Id:117891     Name:标高 2     Location: 没有位置     Category: 没有categ
 Id:117892     Name:标高 2     Location: 没有位置     Category:工作平面网格
 Id:117893     Name:标高 2     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:117894     Name:标高 2     Location:Autodesk.Revit.DB.Location     Category: 没有category
+Id:117895     Name:人防分区面积     Location: 没有位置     Category: 没有category
 Id:117896     Name:标高 1     Location: 没有位置     Category:视图
 Id:117897     Name:ExtentElem     Location: 没有位置     Category: 没有category
 Id:117898     Name:标高 1     Location:Autodesk.Revit.DB.Location     Category: 没有category
@@ -1952,42 +2346,55 @@ Id:118146     Name:A_防火分区面积明细表     Location: 没有位置     
 Id:118149     Name:A_使用面积明细表     Location: 没有位置     Category:明细表
 Id:118150     Name:A_使用面积明细表     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:118152     Name:A_使用面积明细表     Location: 没有位置     Category: 没有category
+Id:118183     Name:Hei_4mm     Location: 没有位置     Category: 没有category
 Id:118184     Name:     Location: 没有位置     Category: 没有category
 Id:118185     Name:Hei_4mm     Location: 没有位置     Category: 没有category
 Id:118186     Name:Hei_4mm     Location: 没有位置     Category: 没有category
+Id:118187     Name:Hei_8mm     Location: 没有位置     Category: 没有category
 Id:118188     Name:     Location: 没有位置     Category: 没有category
 Id:118189     Name:Hei_8mm     Location: 没有位置     Category: 没有category
 Id:118190     Name:Hei_8mm     Location: 没有位置     Category: 没有category
+Id:118191     Name:仿宋_3.5mm     Location: 没有位置     Category: 没有category
 Id:118192     Name:     Location: 没有位置     Category: 没有category
 Id:118193     Name:仿宋_3.5mm     Location: 没有位置     Category: 没有category
 Id:118194     Name:仿宋_3.5mm     Location: 没有位置     Category: 没有category
+Id:118195     Name:仿宋_3.5mm（不透明）     Location: 没有位置     Category: 没有category
 Id:118196     Name:     Location: 没有位置     Category: 没有category
 Id:118197     Name:仿宋_3.5mm（不透明）     Location: 没有位置     Category: 没有category
 Id:118198     Name:仿宋_3.5mm（不透明）     Location: 没有位置     Category: 没有category
+Id:118203     Name:仿宋_5mm     Location: 没有位置     Category: 没有category
 Id:118204     Name:     Location: 没有位置     Category: 没有category
 Id:118205     Name:仿宋_5mm     Location: 没有位置     Category: 没有category
 Id:118206     Name:仿宋_5mm     Location: 没有位置     Category: 没有category
+Id:118211     Name:仿宋_7mm     Location: 没有位置     Category: 没有category
 Id:118212     Name:     Location: 没有位置     Category: 没有category
 Id:118213     Name:仿宋_7mm     Location: 没有位置     Category: 没有category
 Id:118214     Name:仿宋_7mm     Location: 没有位置     Category: 没有category
+Id:118215     Name:仿宋_10mm     Location: 没有位置     Category: 没有category
 Id:118216     Name:     Location: 没有位置     Category: 没有category
 Id:118217     Name:仿宋_10mm     Location: 没有位置     Category: 没有category
 Id:118218     Name:仿宋_10mm     Location: 没有位置     Category: 没有category
+Id:118219     Name:宋体 10mm     Location: 没有位置     Category: 没有category
 Id:118220     Name:     Location: 没有位置     Category: 没有category
 Id:118221     Name:宋体 10mm     Location: 没有位置     Category: 没有category
 Id:118222     Name:宋体 10mm     Location: 没有位置     Category: 没有category
+Id:118223     Name:宋体 5mm     Location: 没有位置     Category: 没有category
 Id:118224     Name:     Location: 没有位置     Category: 没有category
 Id:118225     Name:宋体 5mm     Location: 没有位置     Category: 没有category
 Id:118226     Name:宋体 5mm     Location: 没有位置     Category: 没有category
+Id:118231     Name:宋体 15mm     Location: 没有位置     Category: 没有category
 Id:118232     Name:     Location: 没有位置     Category: 没有category
 Id:118233     Name:宋体 15mm     Location: 没有位置     Category: 没有category
 Id:118234     Name:宋体 15mm     Location: 没有位置     Category: 没有category
+Id:118235     Name:宋体 3mm     Location: 没有位置     Category: 没有category
 Id:118236     Name:     Location: 没有位置     Category: 没有category
 Id:118237     Name:宋体 3mm     Location: 没有位置     Category: 没有category
 Id:118238     Name:宋体 3mm     Location: 没有位置     Category: 没有category
+Id:118242     Name:宋体 6mm     Location: 没有位置     Category: 没有category
 Id:118243     Name:     Location: 没有位置     Category: 没有category
 Id:118244     Name:宋体 6mm     Location: 没有位置     Category: 没有category
 Id:118245     Name:宋体 6mm     Location: 没有位置     Category: 没有category
+Id:118246     Name:宋体 7.5mm     Location: 没有位置     Category: 没有category
 Id:118247     Name:     Location: 没有位置     Category: 没有category
 Id:118248     Name:宋体 7.5mm     Location: 没有位置     Category: 没有category
 Id:118249     Name:宋体 7.5mm     Location: 没有位置     Category: 没有category
@@ -1995,6 +2402,7 @@ Id:118321     Name:场地 - 水     Location: 没有位置     Category: 没有c
 Id:118372     Name:场地 - 草地     Location: 没有位置     Category: 没有category
 Id:118385     Name:场地 - 铺地砾石     Location: 没有位置     Category: 没有category
 Id:118398     Name:屋面 - 石板     Location: 没有位置     Category: 没有category
+Id:126172     Name:标记卫生器具     Location: 没有位置     Category:卫浴装置标记
 Id:128600     Name:标记_临时轴号     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:128836     Name:标记_临时轴号     Location: 没有位置     Category: 没有category
 Id:128837     Name:标记_临时轴号     Location: 没有位置     Category: 没有category
@@ -2020,106 +2428,140 @@ Id:131835     Name:金属 - 菱形网01     Location: 没有位置     Category:
 Id:131870     Name:金属 - 菱形网02     Location: 没有位置     Category: 没有category
 Id:132020     Name:金属 - 穿孔板     Location: 没有位置     Category: 没有category
 Id:132825     Name:玻璃 - 玻璃剖面     Location: 没有位置     Category: 没有category
+Id:132968     Name:场地 - 水     Location: 没有位置     Category:详图项目
 Id:132969     Name:     Location: 没有位置     Category: 没有category
 Id:132970     Name:场地 - 水     Location: 没有位置     Category: 没有category
 Id:132971     Name:场地 - 水     Location: 没有位置     Category: 没有category
+Id:132984     Name:场地 - 沼泽     Location: 没有位置     Category:详图项目
 Id:132985     Name:     Location: 没有位置     Category: 没有category
 Id:132986     Name:场地 - 沼泽     Location: 没有位置     Category: 没有category
 Id:132987     Name:场地 - 沼泽     Location: 没有位置     Category: 没有category
+Id:133000     Name:场地 - 草地     Location: 没有位置     Category:详图项目
 Id:133001     Name:     Location: 没有位置     Category: 没有category
 Id:133002     Name:场地 - 草地     Location: 没有位置     Category: 没有category
 Id:133003     Name:场地 - 草地     Location: 没有位置     Category: 没有category
+Id:133004     Name:场地 - 铺地卵石     Location: 没有位置     Category:详图项目
 Id:133005     Name:     Location: 没有位置     Category: 没有category
 Id:133006     Name:场地 - 铺地卵石     Location: 没有位置     Category: 没有category
 Id:133007     Name:场地 - 铺地卵石     Location: 没有位置     Category: 没有category
+Id:133020     Name:场地 - 铺地砾石     Location: 没有位置     Category:详图项目
 Id:133021     Name:     Location: 没有位置     Category: 没有category
 Id:133022     Name:场地 - 铺地砾石     Location: 没有位置     Category: 没有category
 Id:133023     Name:场地 - 铺地砾石     Location: 没有位置     Category: 没有category
+Id:133040     Name:无机合成_塑料     Location: 没有位置     Category:详图项目
 Id:133041     Name:     Location: 没有位置     Category: 没有category
 Id:133042     Name:无机合成_塑料     Location: 没有位置     Category: 没有category
 Id:133043     Name:无机合成_塑料     Location: 没有位置     Category: 没有category
+Id:133056     Name:无机合成_橡胶     Location: 没有位置     Category:详图项目
 Id:133057     Name:     Location: 没有位置     Category: 没有category
 Id:133058     Name:无机合成_橡胶     Location: 没有位置     Category: 没有category
 Id:133059     Name:无机合成_橡胶     Location: 没有位置     Category: 没有category
+Id:133072     Name:木材 - 剖面     Location: 没有位置     Category:详图项目
 Id:133073     Name:     Location: 没有位置     Category: 没有category
 Id:133074     Name:木材 - 剖面     Location: 没有位置     Category: 没有category
 Id:133075     Name:木材 - 剖面     Location: 没有位置     Category: 没有category
+Id:133088     Name:木材 - 饰面     Location: 没有位置     Category:详图项目
 Id:133089     Name:     Location: 没有位置     Category: 没有category
 Id:133090     Name:木材 - 饰面     Location: 没有位置     Category: 没有category
 Id:133091     Name:木材 - 饰面     Location: 没有位置     Category: 没有category
+Id:133104     Name:木材 - 表面1     Location: 没有位置     Category:详图项目
 Id:133105     Name:     Location: 没有位置     Category: 没有category
 Id:133106     Name:木材 - 表面1     Location: 没有位置     Category: 没有category
 Id:133107     Name:木材 - 表面1     Location: 没有位置     Category: 没有category
+Id:133116     Name:木材 - 表面2     Location: 没有位置     Category:详图项目
 Id:133117     Name:     Location: 没有位置     Category: 没有category
 Id:133118     Name:木材 - 表面2     Location: 没有位置     Category: 没有category
 Id:133119     Name:木材 - 表面2     Location: 没有位置     Category: 没有category
+Id:133120     Name:木材 - 表面3     Location: 没有位置     Category:详图项目
 Id:133121     Name:     Location: 没有位置     Category: 没有category
 Id:133122     Name:木材 - 表面3     Location: 没有位置     Category: 没有category
 Id:133123     Name:木材 - 表面3     Location: 没有位置     Category: 没有category
+Id:133124     Name:松散 - 多孔材料     Location: 没有位置     Category:详图项目
 Id:133125     Name:     Location: 没有位置     Category: 没有category
 Id:133126     Name:松散 - 多孔材料     Location: 没有位置     Category: 没有category
 Id:133127     Name:松散 - 多孔材料     Location: 没有位置     Category: 没有category
+Id:133140     Name:松散 - 泡沫塑料     Location: 没有位置     Category:详图项目
 Id:133141     Name:     Location: 没有位置     Category: 没有category
 Id:133142     Name:松散 - 泡沫塑料     Location: 没有位置     Category: 没有category
 Id:133143     Name:松散 - 泡沫塑料     Location: 没有位置     Category: 没有category
 Id:133152     Name:松散 - 泡沫塑料     Location: 没有位置     Category: 没有category
+Id:133169     Name:松散 - 焦渣矿渣     Location: 没有位置     Category:详图项目
 Id:133170     Name:     Location: 没有位置     Category: 没有category
 Id:133171     Name:松散 - 焦渣矿渣     Location: 没有位置     Category: 没有category
 Id:133172     Name:松散 - 焦渣矿渣     Location: 没有位置     Category: 没有category
+Id:133185     Name:松散 - 砂浆/粉刷     Location: 没有位置     Category:详图项目
 Id:133186     Name:     Location: 没有位置     Category: 没有category
 Id:133187     Name:松散 - 砂浆/粉刷     Location: 没有位置     Category: 没有category
 Id:133188     Name:松散 - 砂浆/粉刷     Location: 没有位置     Category: 没有category
+Id:133201     Name:松散 - 砂石碎砖     Location: 没有位置     Category:详图项目
 Id:133202     Name:     Location: 没有位置     Category: 没有category
 Id:133203     Name:松散 - 砂石碎砖     Location: 没有位置     Category: 没有category
 Id:133204     Name:松散 - 砂石碎砖     Location: 没有位置     Category: 没有category
+Id:133217     Name:松散 - 纤维材料     Location: 没有位置     Category:详图项目
 Id:133218     Name:     Location: 没有位置     Category: 没有category
 Id:133219     Name:松散 - 纤维材料     Location: 没有位置     Category: 没有category
 Id:133220     Name:松散 - 纤维材料     Location: 没有位置     Category: 没有category
+Id:133276     Name:松散 - 网状材料     Location: 没有位置     Category:详图项目
 Id:133277     Name:     Location: 没有位置     Category: 没有category
 Id:133278     Name:松散 - 网状材料     Location: 没有位置     Category: 没有category
 Id:133279     Name:松散 - 网状材料     Location: 没有位置     Category: 没有category
+Id:133292     Name:实体填充 - 灰色     Location: 没有位置     Category:详图项目
 Id:133293     Name:     Location: 没有位置     Category: 没有category
 Id:133294     Name:实体填充 - 灰色     Location: 没有位置     Category: 没有category
 Id:133295     Name:实体填充 - 灰色     Location: 没有位置     Category: 没有category
+Id:133296     Name:实体填充 - 白色     Location: 没有位置     Category:详图项目
 Id:133297     Name:     Location: 没有位置     Category: 没有category
 Id:133298     Name:实体填充 - 白色     Location: 没有位置     Category: 没有category
 Id:133299     Name:实体填充 - 白色     Location: 没有位置     Category: 没有category
+Id:133300     Name:实体填充 - 黑色     Location: 没有位置     Category:详图项目
 Id:133301     Name:     Location: 没有位置     Category: 没有category
 Id:133302     Name:实体填充 - 黑色     Location: 没有位置     Category: 没有category
 Id:133303     Name:实体填充 - 黑色     Location: 没有位置     Category: 没有category
+Id:133316     Name:混凝土     Location: 没有位置     Category:详图项目
 Id:133317     Name:     Location: 没有位置     Category: 没有category
 Id:133318     Name:混凝土     Location: 没有位置     Category: 没有category
 Id:133319     Name:混凝土     Location: 没有位置     Category: 没有category
+Id:133320     Name:混凝土_钢砼     Location: 没有位置     Category:详图项目
 Id:133321     Name:     Location: 没有位置     Category: 没有category
 Id:133322     Name:混凝土_钢砼     Location: 没有位置     Category: 没有category
 Id:133323     Name:混凝土_钢砼     Location: 没有位置     Category: 没有category
+Id:133332     Name:玻璃 - 玻璃剖面     Location: 没有位置     Category:详图项目
 Id:133333     Name:     Location: 没有位置     Category: 没有category
 Id:133334     Name:玻璃 - 玻璃剖面     Location: 没有位置     Category: 没有category
 Id:133335     Name:玻璃 - 玻璃剖面     Location: 没有位置     Category: 没有category
+Id:133348     Name:石材 - 剖面纹理     Location: 没有位置     Category:详图项目
 Id:133349     Name:     Location: 没有位置     Category: 没有category
 Id:133350     Name:石材 - 剖面纹理     Location: 没有位置     Category: 没有category
 Id:133351     Name:石材 - 剖面纹理     Location: 没有位置     Category: 没有category
+Id:133368     Name:砌体 - 加气砼     Location: 没有位置     Category:详图项目
 Id:133369     Name:     Location: 没有位置     Category: 没有category
 Id:133370     Name:砌体 - 加气砼     Location: 没有位置     Category: 没有category
 Id:133371     Name:砌体 - 加气砼     Location: 没有位置     Category: 没有category
+Id:133384     Name:砌体 - 普通砖剖面     Location: 没有位置     Category:详图项目
 Id:133385     Name:     Location: 没有位置     Category: 没有category
 Id:133386     Name:砌体 - 普通砖剖面     Location: 没有位置     Category: 没有category
 Id:133387     Name:砌体 - 普通砖剖面     Location: 没有位置     Category: 没有category
+Id:133404     Name:砌体 - 毛石     Location: 没有位置     Category:详图项目
 Id:133405     Name:     Location: 没有位置     Category: 没有category
 Id:133406     Name:砌体 - 毛石     Location: 没有位置     Category: 没有category
 Id:133407     Name:砌体 - 毛石     Location: 没有位置     Category: 没有category
+Id:133420     Name:砌体 - 空心砖剖面     Location: 没有位置     Category:详图项目
 Id:133421     Name:     Location: 没有位置     Category: 没有category
 Id:133422     Name:砌体 - 空心砖剖面     Location: 没有位置     Category: 没有category
 Id:133423     Name:砌体 - 空心砖剖面     Location: 没有位置     Category: 没有category
+Id:133436     Name:砌体 - 饰面砖表面     Location: 没有位置     Category:详图项目
 Id:133437     Name:     Location: 没有位置     Category: 没有category
 Id:133438     Name:砌体 - 饰面砖表面     Location: 没有位置     Category: 没有category
 Id:133439     Name:砌体 - 饰面砖表面     Location: 没有位置     Category: 没有category
+Id:133448     Name:金属 - 钢剖面     Location: 没有位置     Category:详图项目
 Id:133449     Name:     Location: 没有位置     Category: 没有category
 Id:133450     Name:金属 - 钢剖面     Location: 没有位置     Category: 没有category
 Id:133451     Name:金属 - 钢剖面     Location: 没有位置     Category: 没有category
+Id:133460     Name:金属 - 铝剖面     Location: 没有位置     Category:详图项目
 Id:133461     Name:     Location: 没有位置     Category: 没有category
 Id:133462     Name:金属 - 铝剖面     Location: 没有位置     Category: 没有category
 Id:133463     Name:金属 - 铝剖面     Location: 没有位置     Category: 没有category
+Id:133476     Name:防水 - 防水材料     Location: 没有位置     Category:详图项目
 Id:133477     Name:     Location: 没有位置     Category: 没有category
 Id:133478     Name:防水 - 防水材料     Location: 没有位置     Category: 没有category
 Id:133479     Name:防水 - 防水材料     Location: 没有位置     Category: 没有category
@@ -2181,6 +2623,7 @@ Id:138410     Name:审定     Location: 没有位置     Category: 没有categor
 Id:138413     Name:方案     Location: 没有位置     Category: 没有category
 Id:141619     Name:抄送     Location: 没有位置     Category: 没有category
 Id:141620     Name:主送     Location: 没有位置     Category: 没有category
+Id:141656     Name:修改通知单     Location: 没有位置     Category:图框
 Id:141681     Name:A_幕墙明细表     Location: 没有位置     Category:明细表
 Id:141682     Name:A_幕墙明细表     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:141684     Name:A_幕墙明细表     Location: 没有位置     Category: 没有category
@@ -2189,8 +2632,14 @@ Id:141688     Name:     Location: 没有位置     Category: 没有category
 Id:141889     Name:幕墙     Location: 没有位置     Category: 没有category
 Id:141890     Name:     Location: 没有位置     Category: 没有category
 Id:142113     Name:平面_地下室     Location: 没有位置     Category:视图
+Id:147812     Name:标记_房间 - 有面积 - 施工 - 仿宋 - 3mm - 0-67     Location: 没有位置     Category:房间标记
+Id:148017     Name:标记_房间 - 有面积 - 施工 - 仿宋 - 3mm - 0-80     Location: 没有位置     Category:房间标记
+Id:148222     Name:标记_房间 - 有面积 - 方案 - 黑体 - 4-5mm - 0-8     Location: 没有位置     Category:房间标记
+Id:148420     Name:标记_房间 - 无面积 - 施工 - 仿宋 - 3mm - 0-67     Location: 没有位置     Category:房间标记
+Id:148618     Name:标记_房间 - 无面积 - 施工 - 仿宋 - 3mm - 0-80     Location: 没有位置     Category:房间标记
 Id:148620     Name:标记_房间 - 无面积 - 方案 - 黑体 - 4-5mm - 0-8     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:148815     Name:标记_房间 - 无面积 - 方案 - 黑体 - 4-5mm - 0-8     Location: 没有位置     Category: 没有category
+Id:148816     Name:标记_房间 - 无面积 - 方案 - 黑体 - 4-5mm - 0-8     Location: 没有位置     Category:房间标记
 Id:148817     Name:标记_房间 - 无面积 - 方案 - 黑体 - 4-5mm - 0-8     Location: 没有位置     Category: 没有category
 Id:153282     Name:符号车库分水线箭头     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:153492     Name:符号车库分水线箭头     Location: 没有位置     Category: 没有category
@@ -2205,28 +2654,54 @@ Id:154220     Name:铝 1     Location: 没有位置     Category: 没有category
 Id:154222     Name:木质 - 面层     Location: 没有位置     Category: 没有category
 Id:154818     Name:符号比例尺     Location: 没有位置     Category: 没有category
 Id:154819     Name:符号比例尺     Location: 没有位置     Category: 没有category
+Id:155797     Name:宽度系数 0.5     Location: 没有位置     Category:轴网标头
+Id:155799     Name:宽度系数 0.65     Location: 没有位置     Category:轴网标头
+Id:155801     Name:宽度系数 1.2     Location: 没有位置     Category:轴网标头
 Id:155829     Name:审核     Location: 没有位置     Category: 没有category
 Id:155831     Name:校核     Location: 没有位置     Category: 没有category
+Id:156611     Name:A1 公制     Location: 没有位置     Category:图框
+Id:157182     Name:A2     Location: 没有位置     Category:图框
+Id:157184     Name:A2 L     Location: 没有位置     Category:图框
+Id:157755     Name:A3     Location: 没有位置     Category:图框
+Id:157757     Name:A3 L     Location: 没有位置     Category:图框
 Id:158144     Name:植物_重复_灌木平面     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:158941     Name:植物_重复_灌木平面     Location: 没有位置     Category: 没有category
+Id:158942     Name:有遮罩     Location: 没有位置     Category:详图项目
 Id:158943     Name:有遮罩     Location: 没有位置     Category: 没有category
+Id:158944     Name:无遮罩区域     Location: 没有位置     Category:详图项目
 Id:158945     Name:无遮罩区域     Location: 没有位置     Category: 没有category
+Id:158949     Name:灌木平面     Location: 没有位置     Category:详图项目
 Id:158997     Name:土壤_重复_自然土壤     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:159262     Name:土壤_重复_自然土壤     Location: 没有位置     Category: 没有category
+Id:159263     Name:1:20     Location: 没有位置     Category:详图项目
 Id:159264     Name:20     Location: 没有位置     Category: 没有category
+Id:159265     Name:1:50     Location: 没有位置     Category:详图项目
 Id:159266     Name:50     Location: 没有位置     Category: 没有category
+Id:159267     Name:1:100     Location: 没有位置     Category:详图项目
 Id:159268     Name:100     Location: 没有位置     Category: 没有category
+Id:159269     Name:1:200     Location: 没有位置     Category:详图项目
 Id:159270     Name:200     Location: 没有位置     Category: 没有category
+Id:159274     Name:自然土壤 1/20     Location: 没有位置     Category:详图项目
 Id:159341     Name:土壤_重复_素土夯实     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:159599     Name:土壤_重复_素土夯实     Location: 没有位置     Category: 没有category
+Id:159600     Name:1:20     Location: 没有位置     Category:详图项目
 Id:159601     Name:20     Location: 没有位置     Category: 没有category
+Id:159602     Name:1:50     Location: 没有位置     Category:详图项目
 Id:159603     Name:50     Location: 没有位置     Category: 没有category
+Id:159604     Name:1:100     Location: 没有位置     Category:详图项目
 Id:159605     Name:100     Location: 没有位置     Category: 没有category
+Id:159606     Name:1:200     Location: 没有位置     Category:详图项目
 Id:159607     Name:200     Location: 没有位置     Category: 没有category
+Id:159611     Name:素土夯实 1/20     Location: 没有位置     Category:详图项目
 Id:159629     Name:卷材_重复_防水卷材     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:159874     Name:卷材_重复_防水卷材     Location: 没有位置     Category: 没有category
+Id:159875     Name:防水卷材 - 黑白间距_10mm     Location: 没有位置     Category:详图项目
 Id:159876     Name:防水卷材 - 黑白间距_10mm     Location: 没有位置     Category: 没有category
+Id:159877     Name:防水卷材 - 黑白间距_25mm     Location: 没有位置     Category:详图项目
 Id:159878     Name:防水卷材 - 黑白间距_25mm     Location: 没有位置     Category: 没有category
+Id:159882     Name:防水卷材_间距25mm     Location: 没有位置     Category:详图项目
+Id:161234     Name:排水箭头     Location: 没有位置     Category:常规注释
+Id:161236     Name:排水箭头 - 无坡度值     Location: 没有位置     Category:常规注释
 Id:165915     Name:砂浆     Location: 没有位置     Category: 没有category
 Id:166209     Name:轻磅线     Location: 没有位置     Category: 没有category
 Id:166210     Name:轻磅线     Location: 没有位置     Category: 没有category
@@ -2236,22 +2711,31 @@ Id:167274     Name:隔热_防水透气膜 - 基于线     Location:Autodesk.Revi
 Id:167489     Name:防水透气膜     Location: 没有位置     Category: 没有category
 Id:167490     Name:防水透气膜     Location: 没有位置     Category: 没有category
 Id:167520     Name:隔热_防水透气膜 - 基于线     Location: 没有位置     Category: 没有category
+Id:167521     Name:防水卷材 - EPDM     Location: 没有位置     Category:详图项目
 Id:167522     Name:防水卷材 - EPDM     Location: 没有位置     Category: 没有category
 Id:167548     Name:卷材_转弯部位 - 有附加卷材     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:168294     Name:卷材_转弯部位 - 有附加卷材     Location: 没有位置     Category: 没有category
+Id:168295     Name:卷材_转弯部位 - 有附加卷材     Location: 没有位置     Category:详图项目
 Id:168296     Name:卷材_转弯部位 - 有附加卷材     Location: 没有位置     Category: 没有category
 Id:168299     Name:卷材_转弯部位 - 无附加卷材     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:168577     Name:卷材_转弯部位 - 无附加卷材     Location: 没有位置     Category: 没有category
+Id:168578     Name:无卷材 - R50mm     Location: 没有位置     Category:详图项目
 Id:168579     Name:无卷材 - R50mm     Location: 没有位置     Category: 没有category
+Id:168580     Name:无卷材 - R10mm     Location: 没有位置     Category:详图项目
 Id:168581     Name:无卷材 - R10mm     Location: 没有位置     Category: 没有category
+Id:168582     Name:无卷材 - R5mm     Location: 没有位置     Category:详图项目
 Id:168583     Name:无卷材 - R5mm     Location: 没有位置     Category: 没有category
 Id:169061     Name:对角线交叉填充 1.5mm     Location: 没有位置     Category: 没有category
 Id:169098     Name:对角线交叉填充 - 0.3mm     Location: 没有位置     Category: 没有category
 Id:169376     Name:密封_胶缝剖面     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:169630     Name:上对角线 - 1.5mm     Location: 没有位置     Category: 没有category
 Id:169632     Name:密封_胶缝剖面     Location: 没有位置     Category: 没有category
+Id:169633     Name:9 mm     Location: 没有位置     Category:详图项目
 Id:169634     Name:9 mm     Location: 没有位置     Category: 没有category
+Id:169635     Name:16 mm     Location: 没有位置     Category:详图项目
 Id:169636     Name:16 mm     Location: 没有位置     Category: 没有category
+Id:169942     Name:总平面图文字说明     Location: 没有位置     Category:详图组
+Id:170017     Name:三角形(相对)     Location: 没有位置     Category: 没有category
 Id:170018     Name:     Location: 没有位置     Category: 没有category
 Id:170019     Name:三角形(相对)     Location: 没有位置     Category: 没有category
 Id:170020     Name:三角形(相对)     Location: 没有位置     Category: 没有category
@@ -2259,6 +2743,7 @@ Id:170021     Name:     Location: 没有位置     Category: 没有category
 Id:170022     Name:三角形(相对)     Location: 没有位置     Category: 没有category
 Id:170023     Name:     Location: 没有位置     Category: 没有category
 Id:170024     Name:三角形(相对)     Location: 没有位置     Category: 没有category
+Id:170025     Name:三角形不透明(相对)     Location: 没有位置     Category: 没有category
 Id:170026     Name:     Location: 没有位置     Category: 没有category
 Id:170027     Name:三角形不透明(相对)     Location: 没有位置     Category: 没有category
 Id:170028     Name:三角形不透明(相对)     Location: 没有位置     Category: 没有category
@@ -2266,6 +2751,7 @@ Id:170029     Name:     Location: 没有位置     Category: 没有category
 Id:170030     Name:三角形不透明(相对)     Location: 没有位置     Category: 没有category
 Id:170031     Name:     Location: 没有位置     Category: 没有category
 Id:170032     Name:三角形不透明(相对)     Location: 没有位置     Category: 没有category
+Id:170033     Name:三角形结构(相对)     Location: 没有位置     Category: 没有category
 Id:170034     Name:     Location: 没有位置     Category: 没有category
 Id:170035     Name:三角形结构(相对)     Location: 没有位置     Category: 没有category
 Id:170036     Name:三角形结构(相对)     Location: 没有位置     Category: 没有category
@@ -2273,6 +2759,7 @@ Id:170037     Name:     Location: 没有位置     Category: 没有category
 Id:170038     Name:三角形结构(相对)     Location: 没有位置     Category: 没有category
 Id:170039     Name:     Location: 没有位置     Category: 没有category
 Id:170040     Name:三角形结构(相对)     Location: 没有位置     Category: 没有category
+Id:170041     Name:三角形结构不透明(相对)     Location: 没有位置     Category: 没有category
 Id:170042     Name:     Location: 没有位置     Category: 没有category
 Id:170043     Name:三角形结构不透明(相对)     Location: 没有位置     Category: 没有category
 Id:170044     Name:三角形结构不透明(相对)     Location: 没有位置     Category: 没有category
@@ -2283,27 +2770,36 @@ Id:170048     Name:三角形结构不透明(相对)     Location: 没有位置  
 Id:171278     Name:标记_结构柱     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:171473     Name:标记_结构柱     Location: 没有位置     Category: 没有category
 Id:171474     Name:标记_结构柱     Location: 没有位置     Category: 没有category
+Id:172274     Name:上标高标头     Location: 没有位置     Category:标高标头
+Id:172713     Name:标高_多重标高     Location: 没有位置     Category:常规注释
 Id:173525     Name:剖面标头 1     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:173741     Name:剖面符号     Location: 没有位置     Category: 没有category
 Id:173742     Name:剖面符号     Location: 没有位置     Category: 没有category
 Id:173743     Name:剖面标头 1     Location: 没有位置     Category: 没有category
+Id:173744     Name:剖面标头 1     Location: 没有位置     Category:剖面标头
 Id:173745     Name:剖面标头 1     Location: 没有位置     Category: 没有category
 Id:173746     Name:剖面线末端 1     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:173958     Name:剖面线末端 1     Location: 没有位置     Category: 没有category
+Id:173959     Name:剖面线末端 1     Location: 没有位置     Category:剖面标头
 Id:173960     Name:剖面线末端 1     Location: 没有位置     Category: 没有category
 Id:174172     Name:符号单圈轴号     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:174383     Name:符号单圈轴号     Location: 没有位置     Category: 没有category
 Id:174384     Name:宽度系数 0.5     Location: 没有位置     Category: 没有category
 Id:174385     Name:宽度系数 0.65     Location: 没有位置     Category: 没有category
 Id:174386     Name:宽度系数 1.2     Location: 没有位置     Category: 没有category
+Id:177011     Name:标记_材料名称     Location: 没有位置     Category:材质标记
 Id:181318     Name:标记_房间 - 有面积 - 施工 - 仿宋 - 3mm - 0-67     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:181520     Name:标记_房间 - 有面积 - 施工 - 仿宋 - 3mm - 0-67     Location: 没有位置     Category: 没有category
 Id:181521     Name:标记_房间 - 有面积 - 施工 - 仿宋 - 3mm - 0-67     Location: 没有位置     Category: 没有category
+Id:182337     Name:标高标头_正负零     Location: 没有位置     Category:标高标头
+Id:182956     Name:详图索引     Location: 没有位置     Category:详图索引标头
+Id:183129     Name:下标头     Location: 没有位置     Category:标高
 Id:183130     Name:     Location: 没有位置     Category: 没有category
 Id:183131     Name:下标头     Location: 没有位置     Category: 没有category
 Id:183132     Name:下标头     Location: 没有位置     Category: 没有category
 Id:183133     Name:     Location: 没有位置     Category: 没有category
 Id:183134     Name:下标头     Location: 没有位置     Category: 没有category
+Id:183398     Name:剖面线末端     Location: 没有位置     Category:剖面标头
 Id:183496     Name:图纸尺寸     Location: 没有位置     Category: 没有category
 Id:183498     Name:备注     Location: 没有位置     Category: 没有category
 Id:183514     Name:图集编号或工程编号     Location: 没有位置     Category: 没有category
@@ -2339,7 +2835,9 @@ Id:185981     Name:标高_卫生间     Location: 没有位置     Category: 没
 Id:186386     Name:剖面线末端     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:186578     Name:剖面线末端     Location: 没有位置     Category: 没有category
 Id:186579     Name:剖面线末端     Location: 没有位置     Category: 没有category
+Id:186580     Name:填充     Location: 没有位置     Category:剖面标头
 Id:186581     Name:填充     Location: 没有位置     Category: 没有category
+Id:186582     Name:空心的     Location: 没有位置     Category:剖面标头
 Id:186583     Name:空心的     Location: 没有位置     Category: 没有category
 Id:186584     Name:符号排水箭头     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:186790     Name:符号排水箭头     Location: 没有位置     Category: 没有category
@@ -2437,6 +2935,11 @@ Id:192661     Name:线管     Location: 没有位置     Category: 没有categor
 Id:192662     Name:线管标记     Location: 没有位置     Category: 没有category
 Id:192663     Name:钢筋保护层参照     Location: 没有位置     Category: 没有category
 Id:192664     Name:钢筋保护层线     Location: 没有位置     Category: 没有category
+Id:192665     Name:弯矩框架     Location: 没有位置     Category: 没有category
+Id:192666     Name:悬臂弯矩     Location: 没有位置     Category: 没有category
+Id:192667     Name:剪力柱连接     Location: 没有位置     Category: 没有category
+Id:192668     Name:力矩柱连接     Location: 没有位置     Category: 没有category
+Id:192669     Name:柱脚底板符号     Location: 没有位置     Category: 没有category
 Id:192670     Name:洞口剪切     Location: 没有位置     Category: 没有category
 Id:192671     Name:升     Location: 没有位置     Category: 没有category
 Id:192672     Name:降     Location: 没有位置     Category: 没有category
@@ -2474,6 +2977,11 @@ Id:192703     Name:其他     Location: 没有位置     Category:电气负荷�
 Id:192704     Name:电动机     Location: 没有位置     Category:电气需求系数定义
 Id:192705     Name:电动机     Location: 没有位置     Category:电气负荷分类
 Id:192708     Name:线管标准     Location: 没有位置     Category: 没有category
+Id:192709     Name:EMT     Location: 没有位置     Category:线管标准
+Id:192710     Name:IMC     Location: 没有位置     Category:线管标准
+Id:192711     Name:RMC     Location: 没有位置     Category:线管标准
+Id:192712     Name:RNC 明细表 40     Location: 没有位置     Category:线管标准
+Id:192713     Name:RNC 明细表 80     Location: 没有位置     Category:线管标准
 Id:192714     Name:线管尺寸     Location: 没有位置     Category: 没有category
 Id:192715     Name:电缆桥架尺寸     Location: 没有位置     Category: 没有category
 Id:192716     Name:配电盘明细表样板 - 分支配电盘     Location: 没有位置     Category: 没有category
@@ -2530,6 +3038,10 @@ Id:192856     Name:平面     Location: 没有位置     Category: 没有categor
 Id:192857     Name:线     Location: 没有位置     Category: 没有category
 Id:192858     Name:     Location: 没有位置     Category: 没有category
 Id:194784     Name:立面标记主体_方形     Location:Autodesk.Revit.DB.Location     Category: 没有category
+Id:195021     Name:详图编号和视图名称     Location: 没有位置     Category:立面标记
+Id:195022     Name:详图编号     Location: 没有位置     Category:立面标记
+Id:195023     Name:实心箭头     Location: 没有位置     Category:立面标记
+Id:195031     Name:实心箭头和视图名称     Location: 没有位置     Category:立面标记
 Id:195032     Name:立面标记指针_方形     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:195292     Name:立面标记指针_方形     Location: 没有位置     Category: 没有category
 Id:195293     Name:详图编号和视图名称     Location: 没有位置     Category: 没有category
@@ -2537,19 +3049,29 @@ Id:195294     Name:详图编号     Location: 没有位置     Category: 没有c
 Id:195295     Name:实心箭头     Location: 没有位置     Category: 没有category
 Id:195296     Name:实心箭头和视图名称     Location: 没有位置     Category: 没有category
 Id:195298     Name:立面标记主体_方形     Location: 没有位置     Category: 没有category
+Id:195299     Name:实心箭头     Location: 没有位置     Category:立面标记
 Id:195300     Name:实心箭头     Location: 没有位置     Category: 没有category
+Id:195301     Name:详图编号和视图名称     Location: 没有位置     Category:立面标记
 Id:195302     Name:详图编号和视图名称     Location: 没有位置     Category: 没有category
+Id:195303     Name:详图编号     Location: 没有位置     Category:立面标记
 Id:195304     Name:详图编号     Location: 没有位置     Category: 没有category
+Id:195305     Name:实心箭头和视图名称     Location: 没有位置     Category:立面标记
 Id:195306     Name:实心箭头和视图名称     Location: 没有位置     Category: 没有category
 Id:195311     Name:立面标记主体_圆形 - 10 mm     Location:Autodesk.Revit.DB.Location     Category: 没有category
+Id:195522     Name:详图编号     Location: 没有位置     Category:立面标记
+Id:195523     Name:实心箭头     Location: 没有位置     Category:立面标记
+Id:195524     Name:详图编号和视图名称     Location: 没有位置     Category:立面标记
 Id:195532     Name:立面标记指针_圆形 - 10 mm     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:195796     Name:立面标记指针_圆形 - 10 mm     Location: 没有位置     Category: 没有category
 Id:195797     Name:详图编号     Location: 没有位置     Category: 没有category
 Id:195798     Name:实心箭头     Location: 没有位置     Category: 没有category
 Id:195799     Name:详图编号和视图名称     Location: 没有位置     Category: 没有category
 Id:195801     Name:立面标记主体_圆形 - 10 mm     Location: 没有位置     Category: 没有category
+Id:195802     Name:实心箭头     Location: 没有位置     Category:立面标记
 Id:195803     Name:实心箭头     Location: 没有位置     Category: 没有category
+Id:195804     Name:详图编号     Location: 没有位置     Category:立面标记
 Id:195805     Name:详图编号     Location: 没有位置     Category: 没有category
+Id:195806     Name:详图编号和视图名称     Location: 没有位置     Category:立面标记
 Id:195807     Name:详图编号和视图名称     Location: 没有位置     Category: 没有category
 Id:196585     Name:导向轴网     Location: 没有位置     Category: 没有category
 Id:196586     Name:体量楼层     Location: 没有位置     Category: 没有category
@@ -2586,6 +3108,42 @@ Id:196700     Name:     Location: 没有位置     Category:日光路径
 Id:196701     Name:     Location: 没有位置     Category:日光路径
 Id:196702     Name:     Location: 没有位置     Category:日光路径
 Id:196703     Name:     Location: 没有位置     Category:日光路径
+Id:196704     Name:轻质构造 – 高隔热层     Location: 没有位置     Category:体量墙
+Id:196705     Name:轻质构造 – 典型冷气候隔热层     Location: 没有位置     Category:体量墙
+Id:196706     Name:轻质构造 – 典型温和气候隔热层     Location: 没有位置     Category:体量墙
+Id:196707     Name:轻质构造 – 低隔热层     Location: 没有位置     Category:体量墙
+Id:196708     Name:轻质构造 – 无隔热层     Location: 没有位置     Category:体量墙
+Id:196709     Name:重质构造 – 高隔热层     Location: 没有位置     Category:体量墙
+Id:196710     Name:重质构造 – 典型冷气候隔热层     Location: 没有位置     Category:体量墙
+Id:196711     Name:重质构造 – 典型温和气候隔热层     Location: 没有位置     Category:体量墙
+Id:196712     Name:重质构造 – 无隔热层     Location: 没有位置     Category:体量墙
+Id:196713     Name:高隔热层 - 浅色屋面     Location: 没有位置     Category:体量屋顶
+Id:196714     Name:高隔热层 - 深色屋面     Location: 没有位置     Category:体量屋顶
+Id:196715     Name:典型隔热层 - 浅色屋面     Location: 没有位置     Category:体量屋顶
+Id:196716     Name:典型隔热层 - 深色屋面     Location: 没有位置     Category:体量屋顶
+Id:196717     Name:低隔热层 - 浅色屋面     Location: 没有位置     Category:体量屋顶
+Id:196718     Name:低隔热层 - 深色屋面     Location: 没有位置     Category:体量屋顶
+Id:196719     Name:无隔热层 - 深色屋面     Location: 没有位置     Category:体量屋顶
+Id:196720     Name:轻质构造 – 高隔热层     Location: 没有位置     Category:体量楼层
+Id:196721     Name:轻质构造 – 典型隔热层     Location: 没有位置     Category:体量楼层
+Id:196722     Name:轻质构造 – 低隔热层     Location: 没有位置     Category:体量楼层
+Id:196723     Name:轻质构造 – 无隔热层     Location: 没有位置     Category:体量楼层
+Id:196724     Name:重质构造 – 寒冷气候楼板隔热层     Location: 没有位置     Category:体量楼层
+Id:196725     Name:重质构造 – 冷气候楼板隔热层     Location: 没有位置     Category:体量楼层
+Id:196726     Name:重质构造 – 无隔热层     Location: 没有位置     Category:体量楼层
+Id:196727     Name:基本遮阳     Location: 没有位置     Category:体量着色
+Id:196728     Name:单层清晰 - 无涂层     Location: 没有位置     Category:体量窗和天窗
+Id:196729     Name:单层 - 有色     Location: 没有位置     Category:体量窗和天窗
+Id:196730     Name:单层 - 反射     Location: 没有位置     Category:体量窗和天窗
+Id:196731     Name:双层清晰 – 无涂层     Location: 没有位置     Category:体量窗和天窗
+Id:196732     Name:双层 - 有色     Location: 没有位置     Category:体量窗和天窗
+Id:196733     Name:双层 - 反射     Location: 没有位置     Category:体量窗和天窗
+Id:196734     Name:双层清晰 – Low-E 冷气候，高太阳得热系数     Location: 没有位置     Category:体量窗和天窗
+Id:196735     Name:双层清晰 – Low-E 热气候，低太阳得热系数     Location: 没有位置     Category:体量窗和天窗
+Id:196736     Name:双层清晰 – 高性能，Low-E，高可见光透过率，低太阳得热系数     Location: 没有位置     Category:体量窗和天窗
+Id:196737     Name:三层清晰 - Low-E 热气候或冷气候     Location: 没有位置     Category:体量窗和天窗
+Id:196738     Name:四层清晰 - Low-E 热气候或冷气候     Location: 没有位置     Category:体量窗和天窗
+Id:196739     Name:空气     Location: 没有位置     Category:体量洞口
 Id:196740     Name:体量内墙     Location: 没有位置     Category: 没有category
 Id:196741     Name:体量外墙     Location: 没有位置     Category: 没有category
 Id:196742     Name:体量外墙 - 地下     Location: 没有位置     Category: 没有category
@@ -2640,8 +3198,11 @@ Id:196790     Name:<在任务中，照明>     Location: 没有位置     Catego
 Id:196791     Name:日光文字     Location: 没有位置     Category: 没有category
 Id:196792     Name:日光文字     Location: 没有位置     Category: 没有category
 Id:196793     Name:指南针     Location: 没有位置     Category: 没有category
+Id:197238     Name:A0 公制     Location: 没有位置     Category:图框
 Id:200626     Name:默认体量着色     Location: 没有位置     Category:材质
 Id:200632     Name:默认体量洞口     Location: 没有位置     Category:材质
+Id:200637     Name:三角形(扁平)     Location: 没有位置     Category:填充图案
+Id:200638     Name:三角形棋盘(扁平)     Location: 没有位置     Category:填充图案
 Id:200639     Name:分支配电盘 2     Location: 没有位置     Category:配电盘明细表样板 - 分支配电盘
 Id:200640     Name:分支配电盘 1     Location: 没有位置     Category:配电盘明细表样板 - 分支配电盘
 Id:200660     Name:对角线 - 上 3mm     Location: 没有位置     Category: 没有category
@@ -2652,7 +3213,29 @@ Id:201540     Name:其他     Location: 没有位置     Category:电气负荷�
 Id:201541     Name:电力     Location: 没有位置     Category:电气负荷分类
 Id:201542     Name:照明     Location: 没有位置     Category:电气负荷分类
 Id:201543     Name:HVAC     Location: 没有位置     Category:电气负荷分类
+Id:201546     Name:猩红栎 - 12.5 米     Location: 没有位置     Category:植物
+Id:201548     Name:红枫 - 9 米     Location: 没有位置     Category:植物
+Id:201550     Name:山茱萸 - 3.0 米     Location: 没有位置     Category:植物
+Id:201552     Name:钻天杨 - 12.2 米     Location: 没有位置     Category:植物
+Id:201554     Name:山荆子 - 6.1 米     Location: 没有位置     Category:植物
+Id:201556     Name:杨叶桦 - 3.1 米     Location: 没有位置     Category:植物
+Id:201558     Name:洋白蜡树 - 7.6 米     Location: 没有位置     Category:植物
+Id:201560     Name:白蜡树 - 5.6 米     Location: 没有位置     Category:植物
+Id:201562     Name:美洲山毛榉 - 6.0 米     Location: 没有位置     Category:植物
+Id:201564     Name:蓝浆果接骨木 - 4.5 米     Location: 没有位置     Category:植物
+Id:201566     Name:普通苹果树 - 6.0 米     Location: 没有位置     Category:植物
+Id:201568     Name:金链花 - 5.5 米     Location: 没有位置     Category:植物
+Id:201570     Name:山楂 - 7.4 米     Location: 没有位置     Category:植物
+Id:201572     Name:皂荚树 - 7.6 米     Location: 没有位置     Category:植物
+Id:201574     Name:日本樱桃树 - 4.5 米     Location: 没有位置     Category:植物
+Id:201576     Name:鸡爪枫 - 3.0 米     Location: 没有位置     Category:植物
+Id:201578     Name:大齿白杨 - 7.6 米     Location: 没有位置     Category:植物
+Id:201580     Name:Shumard 橡树 - 9.1 米     Location: 没有位置     Category:植物
 Id:201604     Name:立面标记主体_圆形 - 12 mm     Location:Autodesk.Revit.DB.Location     Category: 没有category
+Id:201813     Name:详图编号     Location: 没有位置     Category:立面标记
+Id:201814     Name:实心箭头     Location: 没有位置     Category:立面标记
+Id:201815     Name:详图编号和视图名称     Location: 没有位置     Category:立面标记
+Id:201823     Name:实心箭头和视图名称     Location: 没有位置     Category:立面标记
 Id:201824     Name:立面标记指针_圆形 - 12 mm     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:202078     Name:立面标记指针_圆形 - 12 mm     Location: 没有位置     Category: 没有category
 Id:202079     Name:详图编号     Location: 没有位置     Category: 没有category
@@ -2660,9 +3243,13 @@ Id:202080     Name:实心箭头     Location: 没有位置     Category: 没有c
 Id:202081     Name:详图编号和视图名称     Location: 没有位置     Category: 没有category
 Id:202082     Name:实心箭头和视图名称     Location: 没有位置     Category: 没有category
 Id:202084     Name:立面标记主体_圆形 - 12 mm     Location: 没有位置     Category: 没有category
+Id:202085     Name:实心箭头     Location: 没有位置     Category:立面标记
 Id:202086     Name:实心箭头     Location: 没有位置     Category: 没有category
+Id:202087     Name:详图编号     Location: 没有位置     Category:立面标记
 Id:202088     Name:详图编号     Location: 没有位置     Category: 没有category
+Id:202089     Name:详图编号和视图名称     Location: 没有位置     Category:立面标记
 Id:202090     Name:详图编号和视图名称     Location: 没有位置     Category: 没有category
+Id:202091     Name:实心箭头和视图名称     Location: 没有位置     Category:立面标记
 Id:202092     Name:实心箭头和视图名称     Location: 没有位置     Category: 没有category
 Id:204466     Name:秋分日光研究     Location: 没有位置     Category:日光路径
 Id:204467     Name:春天日光研究     Location: 没有位置     Category:日光路径
@@ -2717,6 +3304,7 @@ Id:205223     Name:HVAC 估计需用电流     Location: 没有位置     Catego
 Id:205224     Name:HVAC 连接电流     Location: 没有位置     Category:电气负荷分类参数图元
 Id:205225     Name:HVAC 需求系数     Location: 没有位置     Category:电气负荷分类参数图元
 Id:205226     Name:实际 HVAC 负荷     Location: 没有位置     Category:电气负荷分类参数图元
+Id:205476     Name:标记_窗     Location: 没有位置     Category:窗标记
 Id:206288     Name:审图员     Location: 没有位置     Category: 没有category
 Id:206290     Name:子项名称     Location: 没有位置     Category: 没有category
 Id:206294     Name:A_面积明细表（人防面积）     Location: 没有位置     Category:明细表
@@ -2729,6 +3317,7 @@ Id:208632     Name:天花板     Location: 没有位置     Category: 没有cate
 Id:210529     Name:A_材料明细表     Location: 没有位置     Category:明细表
 Id:210530     Name:A_材料明细表     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:210532     Name:A_材料明细表     Location: 没有位置     Category: 没有category
+Id:210535     Name:实心箭头 - 3mm RomanD（总图）     Location: 没有位置     Category: 没有category
 Id:210536     Name:     Location: 没有位置     Category: 没有category
 Id:210537     Name:实心箭头 - 3mm RomanD（总图）     Location: 没有位置     Category: 没有category
 Id:210538     Name:实心箭头 - 3mm RomanD（总图）     Location: 没有位置     Category: 没有category
@@ -2736,6 +3325,13 @@ Id:210539     Name:     Location: 没有位置     Category: 没有category
 Id:210540     Name:实心箭头 - 3mm RomanD（总图）     Location: 没有位置     Category: 没有category
 Id:210541     Name:     Location: 没有位置     Category: 没有category
 Id:210542     Name:实心箭头 - 3mm RomanD（总图）     Location: 没有位置     Category: 没有category
+Id:211446     Name:素土夯实 1/50     Location: 没有位置     Category:详图项目
+Id:211518     Name:素土夯实 1/100     Location: 没有位置     Category:详图项目
+Id:211525     Name:素土夯实 1/200     Location: 没有位置     Category:详图项目
+Id:211530     Name:防水卷材_间距10mm     Location: 没有位置     Category:详图项目
+Id:211531     Name:自然土壤 1/50     Location: 没有位置     Category:详图项目
+Id:211532     Name:自然土壤 1/100     Location: 没有位置     Category:详图项目
+Id:211533     Name:自然土壤 1/200     Location: 没有位置     Category:详图项目
 Id:214173     Name:详图索引标头     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:214427     Name:详图索引标头     Location: 没有位置     Category: 没有category
 Id:214428     Name:详图索引     Location: 没有位置     Category: 没有category
@@ -2784,6 +3380,19 @@ Id:218833     Name:末端线段     Location: 没有位置     Category: 没有c
 Id:218834     Name:基准线段     Location: 没有位置     Category: 没有category
 Id:218835     Name:顶部线段     Location: 没有位置     Category: 没有category
 Id:218836     Name:轮毂追踪器     Location: 没有位置     Category: 没有category
+Id:218837     Name:送风     Location: 没有位置     Category:风管系统
+Id:218838     Name:回风     Location: 没有位置     Category:风管系统
+Id:218839     Name:排风     Location: 没有位置     Category:风管系统
+Id:218841     Name:循环供水     Location: 没有位置     Category:管道系统
+Id:218842     Name:循环回水     Location: 没有位置     Category:管道系统
+Id:218843     Name:卫生设备     Location: 没有位置     Category:管道系统
+Id:218844     Name:家用热水     Location: 没有位置     Category:管道系统
+Id:218845     Name:家用冷水     Location: 没有位置     Category:管道系统
+Id:218846     Name:湿式消防系统     Location: 没有位置     Category:管道系统
+Id:218847     Name:干式消防系统     Location: 没有位置     Category:管道系统
+Id:218848     Name:预作用消防系统     Location: 没有位置     Category:管道系统
+Id:218849     Name:其他消防系统     Location: 没有位置     Category:管道系统
+Id:218850     Name:其他     Location: 没有位置     Category:管道系统
 Id:218851     Name:     Location: 没有位置     Category: 没有category
 Id:218854     Name:     Location: 没有位置     Category: 没有category
 Id:218855     Name:参照线     Location: 没有位置     Category: 没有category
@@ -2792,6 +3401,7 @@ Id:218857     Name:分析节点     Location: 没有位置     Category: 没有c
 Id:218858     Name:点     Location: 没有位置     Category: 没有category
 Id:218859     Name:平面     Location: 没有位置     Category: 没有category
 Id:218860     Name:线     Location: 没有位置     Category: 没有category
+Id:218861     Name:弧长 - 2.5mm Arial - 引线 - 文字在上     Location: 没有位置     Category: 没有category
 Id:218862     Name:     Location: 没有位置     Category: 没有category
 Id:218863     Name:弧长 - 2.5mm Arial - 引线 - 文字在上     Location: 没有位置     Category: 没有category
 Id:218864     Name:弧长 - 2.5mm Arial - 引线 - 文字在上     Location: 没有位置     Category: 没有category
@@ -2799,6 +3409,7 @@ Id:218865     Name:     Location: 没有位置     Category: 没有category
 Id:218866     Name:弧长 - 2.5mm Arial - 引线 - 文字在上     Location: 没有位置     Category: 没有category
 Id:218867     Name:     Location: 没有位置     Category: 没有category
 Id:218868     Name:弧长 - 2.5mm Arial - 引线 - 文字在上     Location: 没有位置     Category: 没有category
+Id:218869     Name:对角线 - 2.5mm Arial - 引线 - 文字在上     Location: 没有位置     Category: 没有category
 Id:218870     Name:     Location: 没有位置     Category: 没有category
 Id:218871     Name:对角线 - 2.5mm Arial - 引线 - 文字在上     Location: 没有位置     Category: 没有category
 Id:218872     Name:对角线 - 2.5mm Arial - 引线 - 文字在上     Location: 没有位置     Category: 没有category
@@ -2806,6 +3417,7 @@ Id:218873     Name:     Location: 没有位置     Category: 没有category
 Id:218874     Name:对角线 - 2.5mm Arial - 引线 - 文字在上     Location: 没有位置     Category: 没有category
 Id:218875     Name:     Location: 没有位置     Category: 没有category
 Id:218876     Name:对角线 - 2.5mm Arial - 引线 - 文字在上     Location: 没有位置     Category: 没有category
+Id:218877     Name:对角线 - 3mm RomanD - 引线 - 文字在上     Location: 没有位置     Category: 没有category
 Id:218878     Name:     Location: 没有位置     Category: 没有category
 Id:218879     Name:对角线 - 3mm RomanD - 引线 - 文字在上     Location: 没有位置     Category: 没有category
 Id:218880     Name:对角线 - 3mm RomanD - 引线 - 文字在上     Location: 没有位置     Category: 没有category
@@ -2813,6 +3425,7 @@ Id:218881     Name:     Location: 没有位置     Category: 没有category
 Id:218882     Name:对角线 - 3mm RomanD - 引线 - 文字在上     Location: 没有位置     Category: 没有category
 Id:218883     Name:     Location: 没有位置     Category: 没有category
 Id:218884     Name:对角线 - 3mm RomanD - 引线 - 文字在上     Location: 没有位置     Category: 没有category
+Id:218885     Name:对角线 - 3mm RomanD (场地) - 引线 - 文字在上     Location: 没有位置     Category: 没有category
 Id:218886     Name:     Location: 没有位置     Category: 没有category
 Id:218887     Name:对角线 - 3mm RomanD (场地) - 引线 - 文字在上     Location: 没有位置     Category: 没有category
 Id:218888     Name:对角线 - 3mm RomanD (场地) - 引线 - 文字在上     Location: 没有位置     Category: 没有category
@@ -2820,6 +3433,7 @@ Id:218889     Name:     Location: 没有位置     Category: 没有category
 Id:218890     Name:对角线 - 3mm RomanD (场地) - 引线 - 文字在上     Location: 没有位置     Category: 没有category
 Id:218891     Name:     Location: 没有位置     Category: 没有category
 Id:218892     Name:对角线 - 3mm RomanD (场地) - 引线 - 文字在上     Location: 没有位置     Category: 没有category
+Id:218893     Name:对角线 - 中心 - 2.5mm Arial - 引线 - 文字在上     Location: 没有位置     Category: 没有category
 Id:218894     Name:     Location: 没有位置     Category: 没有category
 Id:218895     Name:对角线 - 中心 - 2.5mm Arial - 引线 - 文字在上     Location: 没有位置     Category: 没有category
 Id:218896     Name:对角线 - 中心 - 2.5mm Arial - 引线 - 文字在上     Location: 没有位置     Category: 没有category
@@ -2827,6 +3441,7 @@ Id:218897     Name:     Location: 没有位置     Category: 没有category
 Id:218898     Name:对角线 - 中心 - 2.5mm Arial - 引线 - 文字在上     Location: 没有位置     Category: 没有category
 Id:218899     Name:     Location: 没有位置     Category: 没有category
 Id:218900     Name:对角线 - 中心 - 2.5mm Arial - 引线 - 文字在上     Location: 没有位置     Category: 没有category
+Id:218901     Name:弧长 - 2.5mm Arial - 引线 - 共线文字     Location: 没有位置     Category: 没有category
 Id:218902     Name:     Location: 没有位置     Category: 没有category
 Id:218903     Name:弧长 - 2.5mm Arial - 引线 - 共线文字     Location: 没有位置     Category: 没有category
 Id:218904     Name:弧长 - 2.5mm Arial - 引线 - 共线文字     Location: 没有位置     Category: 没有category
@@ -2834,6 +3449,7 @@ Id:218905     Name:     Location: 没有位置     Category: 没有category
 Id:218906     Name:弧长 - 2.5mm Arial - 引线 - 共线文字     Location: 没有位置     Category: 没有category
 Id:218907     Name:     Location: 没有位置     Category: 没有category
 Id:218908     Name:弧长 - 2.5mm Arial - 引线 - 共线文字     Location: 没有位置     Category: 没有category
+Id:218909     Name:对角线 - 2.5mm Arial - 引线 - 共线文字     Location: 没有位置     Category: 没有category
 Id:218910     Name:     Location: 没有位置     Category: 没有category
 Id:218911     Name:对角线 - 2.5mm Arial - 引线 - 共线文字     Location: 没有位置     Category: 没有category
 Id:218912     Name:对角线 - 2.5mm Arial - 引线 - 共线文字     Location: 没有位置     Category: 没有category
@@ -2841,6 +3457,7 @@ Id:218913     Name:     Location: 没有位置     Category: 没有category
 Id:218914     Name:对角线 - 2.5mm Arial - 引线 - 共线文字     Location: 没有位置     Category: 没有category
 Id:218915     Name:     Location: 没有位置     Category: 没有category
 Id:218916     Name:对角线 - 2.5mm Arial - 引线 - 共线文字     Location: 没有位置     Category: 没有category
+Id:218917     Name:对角线 - 3mm RomanD (场地) - 引线 - 共线文字     Location: 没有位置     Category: 没有category
 Id:218918     Name:     Location: 没有位置     Category: 没有category
 Id:218919     Name:对角线 - 3mm RomanD (场地) - 引线 - 共线文字     Location: 没有位置     Category: 没有category
 Id:218920     Name:对角线 - 3mm RomanD (场地) - 引线 - 共线文字     Location: 没有位置     Category: 没有category
@@ -2848,6 +3465,7 @@ Id:218921     Name:     Location: 没有位置     Category: 没有category
 Id:218922     Name:对角线 - 3mm RomanD (场地) - 引线 - 共线文字     Location: 没有位置     Category: 没有category
 Id:218923     Name:     Location: 没有位置     Category: 没有category
 Id:218924     Name:对角线 - 3mm RomanD (场地) - 引线 - 共线文字     Location: 没有位置     Category: 没有category
+Id:218925     Name:对角线 - 3mm RomanD - 引线 - 共线文字     Location: 没有位置     Category: 没有category
 Id:218926     Name:     Location: 没有位置     Category: 没有category
 Id:218927     Name:对角线 - 3mm RomanD - 引线 - 共线文字     Location: 没有位置     Category: 没有category
 Id:218928     Name:对角线 - 3mm RomanD - 引线 - 共线文字     Location: 没有位置     Category: 没有category
@@ -2855,6 +3473,7 @@ Id:218929     Name:     Location: 没有位置     Category: 没有category
 Id:218930     Name:对角线 - 3mm RomanD - 引线 - 共线文字     Location: 没有位置     Category: 没有category
 Id:218931     Name:     Location: 没有位置     Category: 没有category
 Id:218932     Name:对角线 - 3mm RomanD - 引线 - 共线文字     Location: 没有位置     Category: 没有category
+Id:218933     Name:对角线 - 中心 - 2.5mm Arial - 引线 - 共线文字     Location: 没有位置     Category: 没有category
 Id:218934     Name:     Location: 没有位置     Category: 没有category
 Id:218935     Name:对角线 - 中心 - 2.5mm Arial - 引线 - 共线文字     Location: 没有位置     Category: 没有category
 Id:218936     Name:对角线 - 中心 - 2.5mm Arial - 引线 - 共线文字     Location: 没有位置     Category: 没有category
@@ -2862,6 +3481,7 @@ Id:218937     Name:     Location: 没有位置     Category: 没有category
 Id:218938     Name:对角线 - 中心 - 2.5mm Arial - 引线 - 共线文字     Location: 没有位置     Category: 没有category
 Id:218939     Name:     Location: 没有位置     Category: 没有category
 Id:218940     Name:对角线 - 中心 - 2.5mm Arial - 引线 - 共线文字     Location: 没有位置     Category: 没有category
+Id:218941     Name:实心箭头 - 3mm RomanD - 引线 - 共线文字     Location: 没有位置     Category: 没有category
 Id:218942     Name:     Location: 没有位置     Category: 没有category
 Id:218943     Name:实心箭头 - 3mm RomanD - 引线 - 共线文字     Location: 没有位置     Category: 没有category
 Id:218944     Name:实心箭头 - 3mm RomanD - 引线 - 共线文字     Location: 没有位置     Category: 没有category
@@ -2869,6 +3489,7 @@ Id:218945     Name:     Location: 没有位置     Category: 没有category
 Id:218946     Name:实心箭头 - 3mm RomanD - 引线 - 共线文字     Location: 没有位置     Category: 没有category
 Id:218947     Name:     Location: 没有位置     Category: 没有category
 Id:218948     Name:实心箭头 - 3mm RomanD - 引线 - 共线文字     Location: 没有位置     Category: 没有category
+Id:218949     Name:实心箭头 - 3mm RomanD - 引线 - 文字在上     Location: 没有位置     Category: 没有category
 Id:218950     Name:     Location: 没有位置     Category: 没有category
 Id:218951     Name:实心箭头 - 3mm RomanD - 引线 - 文字在上     Location: 没有位置     Category: 没有category
 Id:218952     Name:实心箭头 - 3mm RomanD - 引线 - 文字在上     Location: 没有位置     Category: 没有category
@@ -2876,6 +3497,7 @@ Id:218953     Name:     Location: 没有位置     Category: 没有category
 Id:218954     Name:实心箭头 - 3mm RomanD - 引线 - 文字在上     Location: 没有位置     Category: 没有category
 Id:218955     Name:     Location: 没有位置     Category: 没有category
 Id:218956     Name:实心箭头 - 3mm RomanD - 引线 - 文字在上     Location: 没有位置     Category: 没有category
+Id:218957     Name:实心箭头 - 3mm RomanD - 引线 - 共线文字     Location: 没有位置     Category: 没有category
 Id:218958     Name:     Location: 没有位置     Category: 没有category
 Id:218959     Name:实心箭头 - 3mm RomanD - 引线 - 共线文字     Location: 没有位置     Category: 没有category
 Id:218960     Name:实心箭头 - 3mm RomanD - 引线 - 共线文字     Location: 没有位置     Category: 没有category
@@ -2883,6 +3505,7 @@ Id:218961     Name:     Location: 没有位置     Category: 没有category
 Id:218962     Name:实心箭头 - 3mm RomanD - 引线 - 共线文字     Location: 没有位置     Category: 没有category
 Id:218963     Name:     Location: 没有位置     Category: 没有category
 Id:218964     Name:实心箭头 - 3mm RomanD - 引线 - 共线文字     Location: 没有位置     Category: 没有category
+Id:218965     Name:实心箭头 - 3mm RomanD (场地) - 引线 - 共线文字     Location: 没有位置     Category: 没有category
 Id:218966     Name:     Location: 没有位置     Category: 没有category
 Id:218967     Name:实心箭头 - 3mm RomanD (场地) - 引线 - 共线文字     Location: 没有位置     Category: 没有category
 Id:218968     Name:实心箭头 - 3mm RomanD (场地) - 引线 - 共线文字     Location: 没有位置     Category: 没有category
@@ -2890,6 +3513,7 @@ Id:218969     Name:     Location: 没有位置     Category: 没有category
 Id:218970     Name:实心箭头 - 3mm RomanD (场地) - 引线 - 共线文字     Location: 没有位置     Category: 没有category
 Id:218971     Name:     Location: 没有位置     Category: 没有category
 Id:218972     Name:实心箭头 - 3mm RomanD (场地) - 引线 - 共线文字     Location: 没有位置     Category: 没有category
+Id:218973     Name:实心箭头 - 3mm RomanD (场地) - 引线 - 文字在上     Location: 没有位置     Category: 没有category
 Id:218974     Name:     Location: 没有位置     Category: 没有category
 Id:218975     Name:实心箭头 - 3mm RomanD (场地) - 引线 - 文字在上     Location: 没有位置     Category: 没有category
 Id:218976     Name:实心箭头 - 3mm RomanD (场地) - 引线 - 文字在上     Location: 没有位置     Category: 没有category
@@ -2897,6 +3521,7 @@ Id:218977     Name:     Location: 没有位置     Category: 没有category
 Id:218978     Name:实心箭头 - 3mm RomanD (场地) - 引线 - 文字在上     Location: 没有位置     Category: 没有category
 Id:218979     Name:     Location: 没有位置     Category: 没有category
 Id:218980     Name:实心箭头 - 3mm RomanD (场地) - 引线 - 文字在上     Location: 没有位置     Category: 没有category
+Id:218981     Name:实心箭头 - 3mm RomanD - 引线 - 文字在上     Location: 没有位置     Category: 没有category
 Id:218982     Name:     Location: 没有位置     Category: 没有category
 Id:218983     Name:实心箭头 - 3mm RomanD - 引线 - 文字在上     Location: 没有位置     Category: 没有category
 Id:218984     Name:实心箭头 - 3mm RomanD - 引线 - 文字在上     Location: 没有位置     Category: 没有category
@@ -2910,14 +3535,15 @@ Id:219786     Name:零件标记     Location: 没有位置     Category: 没有c
 Id:219787     Name:隐藏线     Location: 没有位置     Category: 没有category
 Id:219788     Name:隐藏线     Location: 没有位置     Category: 没有category
 Id:219789     Name:分区     Location: 没有位置     Category: 没有category
+Id:219790     Name:通风孔     Location: 没有位置     Category:管道系统
 Id:219791     Name:工作共享显示设置     Location: 没有位置     Category: 没有category
 Id:219794     Name:原始视图设置     Location: 没有位置     Category: 没有category
 Id:219802     Name:视图参照     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:219967     Name:土层     Location: 没有位置     Category:材质
 Id:220038     Name:视图参照     Location: 没有位置     Category: 没有category
+Id:220039     Name:视图参照     Location: 没有位置     Category:视图参照
 Id:220040     Name:视图参照     Location: 没有位置     Category: 没有category
 Id:220052     Name:Autodesk     Location: 没有位置     Category: 没有category
-Id:220053     Name:混凝土     Location: 没有位置     Category:材质资源
 Id:220218     Name:审定     Location: 没有位置     Category: 没有category
 Id:220219     Name:     Location: 没有位置     Category: 没有category
 Id:234980     Name:标高标头_下     Location:Autodesk.Revit.DB.Location     Category: 没有category
@@ -2925,6 +3551,7 @@ Id:235253     Name:标高标头_下     Location: 没有位置     Category: 没
 Id:235254     Name:标高标头_下     Location: 没有位置     Category: 没有category
 Id:235255     Name:标记_体量楼层     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:235533     Name:标记_体量楼层     Location: 没有位置     Category: 没有category
+Id:235535     Name:标准     Location: 没有位置     Category:体量楼层标记
 Id:235536     Name:标准     Location: 没有位置     Category: 没有category
 Id:235538     Name:剖面详图绘制标头     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:235807     Name:剖面详图绘制标头     Location: 没有位置     Category: 没有category
@@ -2932,10 +3559,12 @@ Id:235808     Name:剖面详图绘制标头     Location: 没有位置     Categ
 Id:235809     Name:高程点 - 外部填充     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:236095     Name:高程点 - 外部填充     Location: 没有位置     Category: 没有category
 Id:236096     Name:高程点 - 外部填充     Location: 没有位置     Category: 没有category
+Id:236097     Name:高程点 - 外部填充     Location: 没有位置     Category:高程点符号
 Id:236098     Name:高程点 - 外部填充     Location: 没有位置     Category: 没有category
 Id:236099     Name:高程点 - 目标填充     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:236390     Name:高程点 - 目标填充     Location: 没有位置     Category: 没有category
 Id:236391     Name:高程点 - 目标填充     Location: 没有位置     Category: 没有category
+Id:236392     Name:高程点 - 目标填充     Location: 没有位置     Category:高程点符号
 Id:236393     Name:高程点 - 目标填充     Location: 没有位置     Category: 没有category
 Id:236394     Name:符号剖断线     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:236675     Name:符号剖断线     Location: 没有位置     Category: 没有category
@@ -2948,11 +3577,14 @@ Id:240743     Name:标记_多重材料标注     Location: 没有位置     Cate
 Id:240744     Name:垂直下     Location: 没有位置     Category: 没有category
 Id:240745     Name:垂直上     Location: 没有位置     Category: 没有category
 Id:240746     Name:标高     Location: 没有位置     Category: 没有category
+Id:240747     Name:水平     Location: 没有位置     Category:常规注释
 Id:240748     Name:水平     Location: 没有位置     Category: 没有category
 Id:240765     Name:标记_专用设备     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:241039     Name:标记_专用设备     Location: 没有位置     Category: 没有category
 Id:241040     Name:标记_专用设备     Location: 没有位置     Category: 没有category
+Id:241041     Name:封闭式     Location: 没有位置     Category:专用设备标记
 Id:241042     Name:封闭式     Location: 没有位置     Category: 没有category
+Id:241043     Name:标准     Location: 没有位置     Category:专用设备标记
 Id:241044     Name:标准     Location: 没有位置     Category: 没有category
 Id:241047     Name:标记_窗     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:241325     Name:标记_窗     Location: 没有位置     Category: 没有category
@@ -2980,6 +3612,9 @@ Id:241620     Name:结构钢筋网     Location: 没有位置     Category: 没�
 Id:241621     Name:结构钢筋网     Location: 没有位置     Category: 没有category
 Id:241622     Name:结构钢筋网标记     Location: 没有位置     Category: 没有category
 Id:241623     Name:房间计算点     Location: 没有位置     Category: 没有category
+Id:241624     Name:无构件     Location: 没有位置     Category: 没有category
+Id:241625     Name:默认构件     Location: 没有位置     Category: 没有category
+Id:241626     Name:直径     Location: 没有位置     Category: 没有category
 Id:241627     Name:     Location: 没有位置     Category: 没有category
 Id:241628     Name:直径     Location: 没有位置     Category: 没有category
 Id:241629     Name:直径     Location: 没有位置     Category: 没有category
@@ -3041,6 +3676,7 @@ Id:241729     Name:结构钢筋网区域     Location: 没有位置     Category
 Id:241730     Name:结构钢筋网区域标记     Location: 没有位置     Category: 没有category
 Id:241731     Name:<钢筋网外围>     Location: 没有位置     Category: 没有category
 Id:241732     Name:<钢筋网片>     Location: 没有位置     Category: 没有category
+Id:241733     Name:分析链类型 1     Location: 没有位置     Category:分析链接
 Id:241734     Name:碳钢 - Schedule 40     Location: 没有位置     Category:管段
 Id:241735     Name:碳钢 - Schedule 80     Location: 没有位置     Category:管段
 Id:241736     Name:不锈钢 - 5S     Location: 没有位置     Category:管段
@@ -3093,25 +3729,40 @@ Id:243044     Name:边界     Location: 没有位置     Category: 没有categor
 Id:243045     Name:边界     Location: 没有位置     Category: 没有category
 Id:243046     Name:钢筋网     Location: 没有位置     Category: 没有category
 Id:243047     Name:钢筋网     Location: 没有位置     Category: 没有category
+Id:243048     Name:矩形 - 50x50mm     Location: 没有位置     Category:顶部扶栏
+Id:243049     Name:圆形 - 40mm     Location: 没有位置     Category:顶部扶栏
+Id:243111     Name:玻璃嵌板 - 底部填充     Location: 没有位置     Category:栏杆扶手
+Id:243112     Name:管道 – 墙式安装     Location: 没有位置     Category:扶手
+Id:243113     Name:矩形 – 墙式安装     Location: 没有位置     Category:扶手
 Id:243114     Name:栏杆 - 扁钢立杆     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:243807     Name:栏杆 - 扁钢立杆     Location: 没有位置     Category: 没有category
 Id:243811     Name:嵌板 - 玻璃     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:244405     Name:嵌板 - 玻璃     Location: 没有位置     Category: 没有category
 Id:245447     Name:金属 - 不锈钢，抛光     Location: 没有位置     Category:材质
 Id:245449     Name:铝 1     Location: 没有位置     Category:材质
+Id:245485     Name:40 x 30mm     Location: 没有位置     Category:轮廓
+Id:245487     Name:50 x 12mm     Location: 没有位置     Category:栏杆
 Id:245488     Name:50 x 12mm     Location: 没有位置     Category: 没有category
+Id:245489     Name:20mm     Location: 没有位置     Category:轮廓
 Id:245490     Name:20mm     Location: 没有位置     Category: 没有category
+Id:245491     Name:800mm     Location: 没有位置     Category:栏杆
 Id:245492     Name:800mm     Location: 没有位置     Category: 没有category
+Id:245493     Name:椭圆形 - 40x30mm     Location: 没有位置     Category:顶部扶栏
+Id:245494     Name:支座 - 金属 - 圆形     Location: 没有位置     Category:支座
+Id:246513     Name:端头 - 木材 - 矩形     Location: 没有位置     Category:终端
 Id:247308     Name:栏杆扶手路径线     Location: 没有位置     Category: 没有category
 Id:247309     Name:栏杆扶手路径延长线     Location: 没有位置     Category: 没有category
 Id:247310     Name:斜踏板     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:247657     Name:斜踏板     Location: 没有位置     Category: 没有category
+Id:247658     Name:斜踏板     Location: 没有位置     Category:分割轮廓
 Id:247659     Name:斜踏板     Location: 没有位置     Category: 没有category
 Id:247660     Name:槽口     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:248010     Name:槽口     Location: 没有位置     Category: 没有category
+Id:248011     Name:槽口     Location: 没有位置     Category:分割轮廓
 Id:248012     Name:槽口     Location: 没有位置     Category: 没有category
 Id:248013     Name:楔形槽     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:248370     Name:楔形槽     Location: 没有位置     Category: 没有category
+Id:248371     Name:楔形槽     Location: 没有位置     Category:分割轮廓
 Id:248372     Name:楔形槽     Location: 没有位置     Category: 没有category
 Id:248373     Name:常规     Location: 没有位置     Category: 没有category
 Id:248380     Name:均匀顺砌 - 紫红色     Location: 没有位置     Category: 没有category
@@ -3142,6 +3793,7 @@ Id:249285     Name:分析板表面     Location: 没有位置     Category:材�
 Id:249286     Name:分析墙表面     Location: 没有位置     Category:材质
 Id:249462     Name:椭圆形扶手     Location: 没有位置     Category: 没有category
 Id:249465     Name:40 x 30mm     Location: 没有位置     Category: 没有category
+Id:249466     Name:40 x 30mm     Location: 没有位置     Category:轮廓
 Id:249467     Name:40 x 30mm     Location: 没有位置     Category: 没有category
 Id:249468     Name:支座 - 金属 - 圆形     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:250318     Name:支座 - 金属 - 圆形     Location: 没有位置     Category: 没有category
@@ -3168,77 +3820,69 @@ Id:251252     Name:空气洞口     Location: 没有位置     Category: 没有c
 Id:251253     Name:分析空间     Location: 没有位置     Category: 没有category
 Id:251254     Name:标记_楼梯     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:251504     Name:标记_楼梯     Location: 没有位置     Category: 没有category
+Id:251505     Name:标记_楼梯     Location: 没有位置     Category:楼梯标记
 Id:251506     Name:标记_楼梯     Location: 没有位置     Category: 没有category
 Id:251507     Name:标记_楼梯休息平台     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:251751     Name:标记_楼梯休息平台     Location: 没有位置     Category: 没有category
+Id:251752     Name:标记_楼梯休息平台     Location: 没有位置     Category:楼梯平台标记
 Id:251753     Name:标记_楼梯休息平台     Location: 没有位置     Category: 没有category
 Id:251754     Name:标记_梯段     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:252004     Name:标记_梯段     Location: 没有位置     Category: 没有category
+Id:252005     Name:标记_梯段     Location: 没有位置     Category:楼梯梯段标记
 Id:252006     Name:标记_梯段     Location: 没有位置     Category: 没有category
 Id:252007     Name:标记_楼梯支撑     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:252251     Name:标记_楼梯支撑     Location: 没有位置     Category: 没有category
+Id:252252     Name:标记_楼梯支撑     Location: 没有位置     Category:楼梯支撑标记
 Id:252253     Name:标记_楼梯支撑     Location: 没有位置     Category: 没有category
 Id:252254     Name:楼梯踏板     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:252613     Name:楼梯踏板     Location: 没有位置     Category: 没有category
+Id:252614     Name:楼梯踏板     Location: 没有位置     Category:轮廓
 Id:252615     Name:楼梯踏板     Location: 没有位置     Category: 没有category
 Id:252616     Name:槽钢     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:252976     Name:槽钢     Location: 没有位置     Category: 没有category
+Id:252977     Name:槽钢     Location: 没有位置     Category:轮廓
 Id:252978     Name:槽钢     Location: 没有位置     Category: 没有category
+Id:252979     Name:单锯齿线     Location: 没有位置     Category:剪切标记
+Id:252980     Name:双锯齿线     Location: 没有位置     Category:剪切标记
+Id:252981     Name:箭头打开 90 度 1.25mm     Location: 没有位置     Category: 没有category
 Id:252982     Name:     Location: 没有位置     Category: 没有category
 Id:252983     Name:箭头打开 90 度 1.25mm     Location: 没有位置     Category: 没有category
+Id:252984     Name:标准     Location: 没有位置     Category:楼梯路径
+Id:252985     Name:标准     Location: 没有位置     Category:楼梯路径
+Id:252986     Name:50mm 踏板 13mm 踢面     Location: 没有位置     Category:梯段
+Id:252987     Name:非整体休息平台     Location: 没有位置     Category:平台
+Id:252988     Name:梯边梁 - 50mm 宽度     Location: 没有位置     Category:支撑
+Id:252989     Name:踏步梁 - 50mm 宽度     Location: 没有位置     Category:支撑
+Id:252990     Name:190mm 最大踢面 250mm 梯段     Location: 没有位置     Category:楼梯
+Id:252991     Name:50mm 踏板 13mm 踢面 - 圆形前缘     Location: 没有位置     Category:梯段
+Id:252994     Name:工业装配楼梯     Location: 没有位置     Category:楼梯
+Id:252997     Name:部分 M (已停用)     Location: 没有位置     Category:楼梯
+Id:252998     Name:50mm 踏板 10mm 前缘 13mm 踢面     Location: 没有位置     Category:梯段
+Id:253001     Name:专用     Location: 没有位置     Category:楼梯
+Id:253002     Name:150mm 结构深度     Location: 没有位置     Category:梯段
+Id:253003     Name:300mm 厚度     Location: 没有位置     Category:平台
+Id:253004     Name:整体浇筑楼梯     Location: 没有位置     Category:楼梯
+Id:253005     Name:预制楼梯     Location: 没有位置     Category:楼梯
+Id:253154     Name:170mm 结构深度     Location: 没有位置     Category:梯段
+Id:253155     Name:200mm 厚度     Location: 没有位置     Category:平台
 Id:254628     Name:透明     Location: 没有位置     Category: 没有category
-Id:254629     Name:玻璃 - 碱石灰     Location: 没有位置     Category:材质资源
-Id:254630     Name:玻璃 - 绿黄色窗     Location: 没有位置     Category:材质资源
 Id:254631     Name:无装饰 - 中灰色     Location: 没有位置     Category: 没有category
-Id:254632     Name:混凝土(1)     Location: 没有位置     Category:材质资源
-Id:254633     Name:砌块 - 中质     Location: 没有位置     Category:材质资源
 Id:254634     Name:胶合板 - 新     Location: 没有位置     Category: 没有category
-Id:254635     Name:胶合板     Location: 没有位置     Category:材质资源
-Id:254636     Name:胶合板     Location: 没有位置     Category:材质资源
 Id:254637     Name:透明 - 浅色     Location: 没有位置     Category: 没有category
-Id:254638     Name:空气     Location: 没有位置     Category:材质资源
-Id:254639     Name:空气     Location: 没有位置     Category:材质资源
 Id:254640     Name:灰色     Location: 没有位置     Category: 没有category
-Id:254641     Name:聚苯乙烯 - 发泡 EPS     Location: 没有位置     Category:材质资源
-Id:254642     Name:聚苯乙烯 - 发泡 - EPS     Location: 没有位置     Category:材质资源
 Id:254643     Name:黑色     Location: 没有位置     Category: 没有category
-Id:254644     Name:防湿     Location: 没有位置     Category:材质资源
-Id:254645     Name:屋顶胶粘     Location: 没有位置     Category:材质资源
 Id:254646     Name:沙     Location: 没有位置     Category: 没有category
-Id:254647     Name:沙     Location: 没有位置     Category:材质资源
-Id:254648     Name:沙 - 干     Location: 没有位置     Category:材质资源
 Id:254649     Name:板     Location: 没有位置     Category: 没有category
-Id:254650     Name:钢     Location: 没有位置     Category:材质资源
-Id:254651     Name:钢     Location: 没有位置     Category:材质资源
-Id:254653     Name:EIFS - 外部隔热层     Location: 没有位置     Category:材质资源
-Id:254654     Name:聚氨酯板 - 蜂窝     Location: 没有位置     Category:材质资源
 Id:254658     Name:粗糙带纹理 - 黑色     Location: 没有位置     Category: 没有category
-Id:254659     Name:沥青     Location: 没有位置     Category:材质资源
 Id:254661     Name:隔音瓷砖 - 外露网格 2x4 白缝     Location: 没有位置     Category: 没有category
-Id:254662     Name:隔音天花板扣板     Location: 没有位置     Category:材质资源
-Id:254663     Name:隔音瓷砖     Location: 没有位置     Category:材质资源
 Id:254664     Name:隔音瓷砖 - 外露网格 2x2 白色粒状     Location: 没有位置     Category: 没有category
 Id:254667     Name:樱桃木 - 深色着色中光泽实心     Location: 没有位置     Category: 没有category
-Id:254668     Name:樱桃木     Location: 没有位置     Category:材质资源
-Id:254669     Name:硬木     Location: 没有位置     Category:材质资源
 Id:254670     Name:铬 - 抛光     Location: 没有位置     Category: 没有category
-Id:254671     Name:钢 ASTM A36     Location: 没有位置     Category:材质资源
 Id:254673     Name:半抛光     Location: 没有位置     Category: 没有category
-Id:254674     Name:钢 - 碳钢     Location: 没有位置     Category:材质资源
 Id:254676     Name:铜 - 缎光     Location: 没有位置     Category: 没有category
-Id:254677     Name:铜     Location: 没有位置     Category:材质资源
-Id:254678     Name:铜     Location: 没有位置     Category:材质资源
 Id:254679     Name:铁灰色     Location: 没有位置     Category: 没有category
-Id:254680     Name:铁 - 球墨铸铁 A536 65-45-12     Location: 没有位置     Category:材质资源
-Id:254681     Name:铁     Location: 没有位置     Category:材质资源
 Id:254682     Name:平滑 - 浅灰     Location: 没有位置     Category: 没有category
-Id:254683     Name:塑料     Location: 没有位置     Category:材质资源
-Id:254684     Name:聚乙烯 - HDPE     Location: 没有位置     Category:材质资源
-Id:254686     Name:不锈钢     Location: 没有位置     Category:材质资源
-Id:254687     Name:不锈钢     Location: 没有位置     Category:材质资源
 Id:254688     Name:缎光     Location: 没有位置     Category: 没有category
-Id:254689     Name:铝 1     Location: 没有位置     Category:材质资源
-Id:254690     Name:铝 1     Location: 没有位置     Category:材质资源
 Id:255169     Name:RPC 树 - 落叶树     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:256359     Name:RPC 树 - 落叶树     Location: 没有位置     Category: 没有category
 Id:256361     Name:猩红栎 - 12.5 米     Location: 没有位置     Category: 没有category
@@ -3264,8 +3908,38 @@ Id:258702     Name:分析节点标记     Location: 没有位置     Category: �
 Id:259527     Name:位移集     Location: 没有位置     Category: 没有category
 Id:259528     Name:位移路径     Location: 没有位置     Category: 没有category
 Id:259529     Name:分割规则     Location: 没有位置     Category: 没有category
+Id:259530     Name:Z 字形     Location: 没有位置     Category:分割规则
+Id:259531     Name:三角形错缝(弯曲)     Location: 没有位置     Category:分割规则
+Id:259532     Name:三角形棋盘(扁平)     Location: 没有位置     Category:分割规则
+Id:259533     Name:三角形棋盘(弯曲)     Location: 没有位置     Category:分割规则
+Id:259534     Name:三角形(扁平)     Location: 没有位置     Category:分割规则
+Id:259535     Name:三角形(弯曲)     Location: 没有位置     Category:分割规则
+Id:259536     Name:菱形棋盘     Location: 没有位置     Category:分割规则
+Id:259537     Name:菱形     Location: 没有位置     Category:分割规则
+Id:259538     Name:矩形棋盘     Location: 没有位置     Category:分割规则
+Id:259539     Name:矩形     Location: 没有位置     Category:分割规则
+Id:259540     Name:八边形旋转     Location: 没有位置     Category:分割规则
+Id:259541     Name:八边形     Location: 没有位置     Category:分割规则
+Id:259542     Name:六边形     Location: 没有位置     Category:分割规则
+Id:259543     Name:箭头     Location: 没有位置     Category:分割规则
+Id:259544     Name:_无填充图案     Location: 没有位置     Category:分割规则
+Id:259545     Name:1/3 错缝     Location: 没有位置     Category:分割规则
+Id:259546     Name:1/2 错缝     Location: 没有位置     Category:分割规则
 Id:259547     Name:     Location: 没有位置     Category: 没有category
 Id:259549     Name:布管系统配置     Location: 没有位置     Category: 没有category
+Id:259550     Name:默认     Location: 没有位置     Category:风管
+Id:259551     Name:默认     Location: 没有位置     Category:风管
+Id:259552     Name:默认     Location: 没有位置     Category:风管
+Id:259553     Name:软管 - 矩形     Location: 没有位置     Category:软风管
+Id:259554     Name:软管 - 圆形     Location: 没有位置     Category:软风管
+Id:259555     Name:默认     Location: 没有位置     Category:管道
+Id:259556     Name:软管 - 圆形     Location: 没有位置     Category:软管
+Id:259557     Name:槽式电缆桥架     Location: 没有位置     Category:电缆桥架
+Id:259558     Name:梯级式电缆桥架     Location: 没有位置     Category:电缆桥架
+Id:259559     Name:槽式电缆桥架     Location: 没有位置     Category:电缆桥架
+Id:259560     Name:梯级式电缆桥架     Location: 没有位置     Category:电缆桥架
+Id:259561     Name:导管     Location: 没有位置     Category:线管
+Id:259562     Name:导管     Location: 没有位置     Category:线管
 Id:259563     Name:图纸跟踪器上的注释记号标记     Location: 没有位置     Category: 没有category
 Id:259564     Name:多钢筋注释     Location: 没有位置     Category: 没有category
 Id:259566     Name:幕墙 (楼层平面)     Location:Autodesk.Revit.DB.Location     Category:图例构件
@@ -3343,6 +4017,7 @@ Id:259640     Name:图纸跟踪器上的云线批注     Location: 没有位置 
 Id:260531     Name:着色     Location: 没有位置     Category: 没有category
 Id:260532     Name:分析表面     Location: 没有位置     Category: 没有category
 Id:260533     Name:内部对象类型     Location: 没有位置     Category: 没有category
+Id:260534     Name:明细表默认     Location: 没有位置     Category: 没有category
 Id:260535     Name:     Location: 没有位置     Category: 没有category
 Id:260536     Name:明细表默认     Location: 没有位置     Category: 没有category
 Id:260537     Name:明细表默认     Location: 没有位置     Category: 没有category
@@ -3412,7 +4087,6 @@ Id:260768     Name:A_材料明细表     Location: 没有位置     Category: �
 Id:260769     Name:     Location: 没有位置     Category: 没有category
 Id:260770     Name:A_材料明细表     Location: 没有位置     Category: 没有category
 Id:260771     Name:A_材料明细表     Location: 没有位置     Category: 没有category
-Id:260792     Name:聚氯乙烯 - 柔性     Location: 没有位置     Category:材质资源
 Id:260793     Name:常规(6)     Location: 没有位置     Category: 没有category
 Id:262678     Name:默认分割设置     Location: 没有位置     Category: 没有category
 Id:262679     Name:MEP 预制管网     Location: 没有位置     Category: 没有category
@@ -3432,7 +4106,6 @@ Id:262904     Name:架空     Location: 没有位置     Category: 没有categor
 Id:262907     Name:金属 - 钢 - 345 MPa     Location: 没有位置     Category:材质
 Id:263689     Name:W     Location: 没有位置     Category: 没有category
 Id:263690     Name:A     Location: 没有位置     Category: 没有category
-Id:263696     Name:345 MPa     Location: 没有位置     Category:材质资源
 Id:263697     Name:默认     Location: 没有位置     Category: 没有category
 Id:263698     Name:金属 - 钢 - 345 MPa     Location: 没有位置     Category: 没有category
 Id:263710     Name:默认(1)     Location: 没有位置     Category: 没有category
@@ -3452,6 +4125,9 @@ Id:265261     Name:土层     Location: 没有位置     Category: 没有categor
 Id:265262     Name:阶段 - 临时     Location: 没有位置     Category: 没有category
 Id:265263     Name:金属 - 轻型(1)     Location: 没有位置     Category: 没有category
 Id:265264     Name:默认光源     Location: 没有位置     Category: 没有category
+Id:265299     Name:HW400x400x13x21     Location: 没有位置     Category:结构框架
+Id:266516     Name:A3 公制     Location: 没有位置     Category:图框
+Id:266814     Name:A2 公制     Location: 没有位置     Category:图框
 Id:269374     Name:局部坐标系     Location: 没有位置     Category: 没有category
 Id:269375     Name:局部坐标系     Location: 没有位置     Category: 没有category
 Id:269376     Name:局部坐标系     Location: 没有位置     Category: 没有category
@@ -3538,7 +4214,6 @@ Id:313863     Name:     Location: 没有位置     Category: 没有category
 Id:313892     Name:热轧H型钢     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:313893     Name:对角线交叉填充 10mm     Location: 没有位置     Category: 没有category
 Id:313895     Name:不锈钢 - 缎光     Location: 没有位置     Category: 没有category
-Id:313896     Name:钢 345 MPa     Location: 没有位置     Category:材质资源
 Id:313897     Name:亚麻 - 白色     Location: 没有位置     Category: 没有category
 Id:313898     Name:平滑预制结构     Location: 没有位置     Category: 没有category
 Id:313899     Name:平面 - 灰色 1     Location: 没有位置     Category: 没有category
@@ -3551,8 +4226,6 @@ Id:313905     Name:常规(4)     Location: 没有位置     Category: 没有cate
 Id:313906     Name:拆除阶段     Location: 没有位置     Category: 没有category
 Id:313907     Name:现有阶段     Location: 没有位置     Category: 没有category
 Id:313908     Name:临时阶段     Location: 没有位置     Category: 没有category
-Id:313909     Name:SN400     Location: 没有位置     Category:材质资源
-Id:313910     Name:SN490     Location: 没有位置     Category:材质资源
 Id:313911     Name:阳极电镀 - 深青铜色     Location: 没有位置     Category: 没有category
 Id:313912     Name:黄松 - 深色着色中光泽实心 (1)     Location: 没有位置     Category: 没有category
 Id:313913     Name:铬 - 缎光     Location: 没有位置     Category: 没有category
@@ -3595,15 +4268,12 @@ Id:313949     Name:不均匀 - 暖灰色(2)     Location: 没有位置     Categ
 Id:313950     Name:废弃 - 版本 1.1     Location: 没有位置     Category: 没有category
 Id:313951     Name:常规(10)     Location: 没有位置     Category: 没有category
 Id:313952     Name:不均匀 - 暖灰色(1)     Location: 没有位置     Category: 没有category
-Id:313953     Name:钢 Q390     Location: 没有位置     Category:材质资源
-Id:313954     Name:钢 Q345 16     Location: 没有位置     Category:材质资源
 Id:313955     Name:金属 - 钢 Q390 16     Location: 没有位置     Category:材质
 Id:313956     Name:金属 - 钢 Q345 16     Location: 没有位置     Category:材质
 Id:314924     Name:热轧H型钢     Location: 没有位置     Category: 没有category
 Id:314925     Name:图例构件 - 热轧H型钢 (三维)     Location:Autodesk.Revit.DB.Location     Category:图例构件
 Id:314959     Name:HW400x400x13x21     Location: 没有位置     Category: 没有category
 Id:316387     Name:金属 - 钢 43-275     Location: 没有位置     Category:材质
-Id:316388     Name:钢 43-275     Location: 没有位置     Category:材质资源
 Id:316389     Name:金属 - 钢 43-275     Location: 没有位置     Category: 没有category
 Id:316390     Name:金属 - 钢 43-275 (1)     Location: 没有位置     Category: 没有category
 Id:317818     Name:结构连接     Location: 没有位置     Category: 没有category
@@ -3656,8 +4326,10 @@ Id:317864     Name:桥梁基础标记     Location: 没有位置     Category: �
 Id:317865     Name:桥梁大梁标记     Location: 没有位置     Category: 没有category
 Id:317866     Name:桥梁支座标记     Location: 没有位置     Category: 没有category
 Id:317867     Name:协调模型     Location: 没有位置     Category: 没有category
+Id:317868     Name:默认     Location: 没有位置     Category:分析管道连接
 Id:317869     Name:     Location: 没有位置     Category: 没有category
 Id:317870     Name:明细表     Location: 没有位置     Category: 没有category
+Id:317871     Name:直径尺寸标注样式     Location: 没有位置     Category: 没有category
 Id:317872     Name:     Location: 没有位置     Category: 没有category
 Id:317873     Name:图形样式信息     Location: 没有位置     Category: 没有category
 Id:317874     Name:文字字体     Location: 没有位置     Category: 没有category
@@ -3665,8 +4337,10 @@ Id:317875     Name:     Location: 没有位置     Category: 没有category
 Id:317876     Name:图形样式信息     Location: 没有位置     Category: 没有category
 Id:317877     Name:     Location: 没有位置     Category: 没有category
 Id:317878     Name:图形样式信息     Location: 没有位置     Category: 没有category
+Id:317879     Name:箭头     Location: 没有位置     Category: 没有category
 Id:317880     Name:     Location: 没有位置     Category: 没有category
 Id:317881     Name:图形样式信息     Location: 没有位置     Category: 没有category
+Id:319455     Name:全部     Location: 没有位置     Category: 没有category
 Id:319480     Name:UC-普通柱-柱     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:319966     Name:UC-普通柱-柱     Location: 没有位置     Category: 没有category
 Id:319967     Name:图例构件 - UC-普通柱-柱 (三维)     Location:Autodesk.Revit.DB.Location     Category:图例构件
@@ -3691,6 +4365,7 @@ Id:320935     Name:     Location: 没有位置     Category: 没有category
 Id:321079     Name:机械设备集     Location: 没有位置     Category: 没有category
 Id:321080     Name:机械设备集标记     Location: 没有位置     Category: 没有category
 Id:321081     Name:机械设备集边界线     Location: 没有位置     Category: 没有category
+Id:321082     Name:默认     Location: 没有位置     Category:机械设备集
 Id:321083     Name:水力分离符号     Location: 没有位置     Category: 没有category
 Id:321084     Name:升降符号     Location: 没有位置     Category: 没有category
 Id:321085     Name:ExtentElem     Location: 没有位置     Category: 没有category
@@ -3710,8 +4385,6 @@ Id:323010     Name:A_使用面积明细表     Location: 没有位置     Catego
 Id:323011     Name:A_幕墙明细表     Location: 没有位置     Category: 没有category
 Id:327732     Name:A0 公制     Location:Autodesk.Revit.DB.Location     Category: 没有category
 Id:327733     Name:土壤     Location: 没有位置     Category:材质
-Id:327734     Name:土壤     Location: 没有位置     Category:材质资源
-Id:327735     Name:土     Location: 没有位置     Category:材质资源
 Id:328074     Name:A0 公制     Location: 没有位置     Category: 没有category
 Id:328142     Name:A0 公制     Location: 没有位置     Category: 没有category
 Id:328143     Name:A1 公制     Location:Autodesk.Revit.DB.Location     Category: 没有category
