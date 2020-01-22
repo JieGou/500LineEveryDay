@@ -37,20 +37,21 @@ namespace ExerciseProject
             ///（分别在项目文档 和 族 文档测试）
 
             FilteredElementCollector collector = new FilteredElementCollector(doc);
-            BuiltInParameter testParam = BuiltInParameter.ID_PARAM;
-            ParameterValueProvider pvp = new ParameterValueProvider(new ElementId((int)testParam));
-            FilterNumericRuleEvaluator fnrv = new FilterNumericGreater();
-            ElementId ruleValId = new ElementId(0);
-            FilterRule fRule = new FilterElementIdRule(pvp, fnrv, ruleValId);
-            ElementParameterFilter filter = new ElementParameterFilter(fRule);
 
-            var founds = collector.WherePasses(filter);//引用R0122Ex01的代码.
-            IList<string>[,] list =new List<string>[,];
+            ElementClassFilter instanceFilter = new ElementClassFilter(typeof(FamilyInstance));
+            ElementClassFilter hostFilter = new ElementClassFilter(typeof(HostObject));
+            LogicalOrFilter orFilter = new LogicalOrFilter(instanceFilter, hostFilter);
+            collector.WherePasses(orFilter);
 
-           
+            string info = null;
 
+            foreach (Element element in collector)
+            {
+                info += "\n" + "Id:" + element.Id.ToString() + "\n\tCategory:" + element.Category + "\n\tName:" + element.Name +
+                        "\n\tLocation:" + element.Location.ToString();
+            }
 
-            MessageBox.Show(info);
+            TaskDialog.Show("tip", info);
 
             ts.Commit();
 
