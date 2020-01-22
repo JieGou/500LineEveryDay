@@ -47,19 +47,31 @@ namespace ExerciseProject
 
             string info = null;
 
-            var list = new List<ElementId>();
+            info +="元素公有"+ collector.Count().ToString() +"个\n\t";
 
             foreach (Element element in collector)
             {
-                list.Add(element.Id);
-            }
+                info += "\nId:" + element.Id.ToString();
 
-            foreach (var i in list)
-            {
-                info += "\n Id:" + i.IntegerValue.ToString();
-                // info += "\n Category:" + doc.GetElement(i).Category.Name;
-                info += "\n Name:" + doc.GetElement(i).Name;
-                // info += "\n Location:" + doc.GetElement(i).Location.);
+                info += "\n     Name:" + element.Name;
+
+                if (null == element.Location)
+                {
+                    info += "\n     Location: 没有位置";
+                }
+                else
+                {
+                    info += "\n     Location:" + element.Location.ToString();
+                }
+
+                if (null == element.Category)
+                {
+                    info += "\n     Category: 没有category";
+                }
+                else
+                {
+                    info += "\n Category:" + element.Category.Name;
+                }
             }
 
             TaskDialog.Show("tip", info);

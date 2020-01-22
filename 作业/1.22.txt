@@ -10,3 +10,6 @@ FamilySymbol的父类是InsertableObject, InsertableObject的父类是ElementType;
 见文件夹的图.
 --------------------------------
 5.过滤出当文件所有的元素。输出每个元素的ID ，Category，名称， 位置 （分别在项目文档 和 族 文档测试）
+
+族里面的元素数量只有项目文档里的一半.
+-------------------
