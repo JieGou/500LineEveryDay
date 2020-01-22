@@ -38,17 +38,28 @@ namespace ExerciseProject
 
             FilteredElementCollector collector = new FilteredElementCollector(doc);
 
-            ElementClassFilter instanceFilter = new ElementClassFilter(typeof(FamilyInstance));
-            ElementClassFilter hostFilter = new ElementClassFilter(typeof(HostObject));
-            LogicalOrFilter orFilter = new LogicalOrFilter(instanceFilter, hostFilter);
-            collector.WherePasses(orFilter);
+            // ElementClassFilter instanceFilter = new ElementClassFilter(typeof(FamilyInstance));
+            // ElementClassFilter hostFilter = new ElementClassFilter(typeof(HostObject));
+            // LogicalOrFilter orFilter = new LogicalOrFilter(instanceFilter, hostFilter);
+            // collector.WherePasses(orFilter);
+
+            collector.WhereElementIsNotElementType();
 
             string info = null;
 
+            var list = new List<ElementId>();
+
             foreach (Element element in collector)
             {
-                info += "\n" + "Id:" + element.Id.ToString() + "\n\tCategory:" + element.Category + "\n\tName:" + element.Name +
-                        "\n\tLocation:" + element.Location.ToString();
+                list.Add(element.Id);
+            }
+
+            foreach (var i in list)
+            {
+                info += "\n Id:" + i.IntegerValue.ToString();
+                // info += "\n Category:" + doc.GetElement(i).Category.Name;
+                info += "\n Name:" + doc.GetElement(i).Name;
+                // info += "\n Location:" + doc.GetElement(i).Location.);
             }
 
             TaskDialog.Show("tip", info);
