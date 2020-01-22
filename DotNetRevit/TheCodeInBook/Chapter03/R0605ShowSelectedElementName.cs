@@ -10,10 +10,9 @@ using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
-using TeacherTangClass;
+using ClassTeacherXu.Helpers;
 using View = Autodesk.Revit.DB.View;
 using MyClass;
-using ExerciseProject.TeacherTangClass.Extensions;
 
 namespace ExerciseProject
 {

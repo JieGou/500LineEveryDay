@@ -12,7 +12,7 @@ using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
 using Myclass;
-using TeacherTangClass;
+
 using View = Autodesk.Revit.DB.View;
 using MyClass;
 using Form = Autodesk.Revit.DB.Form;

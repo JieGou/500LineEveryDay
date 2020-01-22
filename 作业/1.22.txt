@@ -1,5 +1,12 @@
 1.在revit中过滤出名称为 标准 的 元素个数
 2.在revit中过滤出名称为 标准 的 ElementType的个数
+-----------------------------------------
 3.理解FamilySymbol ElementType 区别。
+
+FamilySymbol的父类是InsertableObject, InsertableObject的父类是ElementType;
+所以FamilySymbol是 ElementType的孙子.
+-----------------------------------------
 4.查看ElementType 所有的子类
+见文件夹的图.
+--------------------------------
 5.过滤出当文件所有的元素。输出每个元素的ID ，Category，名称， 位置 （分别在项目文档 和 族 文档测试）

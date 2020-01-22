@@ -11,7 +11,7 @@ using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
-using TeacherTangClass;
+using ClassTeacherXu.Helpers;
 using View = Autodesk.Revit.DB.View;
 using MyClass;
 
@@ -32,10 +32,11 @@ namespace ExerciseProject
         /// <returns></returns>
         void TestElementLevelFilter(Document doc)
         {
-           //找到当前标高对应的所有元素
-           FilteredElementCollector collector = new FilteredElementCollector(doc);
+            //找到当前标高对应的所有元素
+            FilteredElementCollector collector = new FilteredElementCollector(doc);
             ICollection<ElementId> levelIds = collector.OfClass(typeof(Level)).ToElementIds();
             string info = null;
+
             foreach (ElementId levelId in levelIds)
             {
                 collector = new FilteredElementCollector(doc);
@@ -43,9 +44,8 @@ namespace ExerciseProject
                 ICollection<ElementId> founds = collector.WherePasses(filter).ToElementIds();
 
                 info += "\n\t" + founds.Count;
-                info += "个元素与 Level " + levelId.IntegerValue +"关联";
+                info += "个元素与 Level " + levelId.IntegerValue + "关联";
                 TaskDialog.Show("tips", info);
-
             }
         }
 
@@ -58,8 +58,8 @@ namespace ExerciseProject
             View acview = uidoc.ActiveView;
             UIView acuiview = uidoc.ActiveUiview();
 
-
             Transaction ts = new Transaction(doc, "******");
+
             try
             {
                 ts.Start();

@@ -63,13 +63,15 @@ namespace CodeInTangsengjiewa.BinLibrary.Extensions
 
         public static XYZ Intersect_cus(this Line line1, Line line2)
         {
-            var compareResunlt = line1.Intersect(line2, out IntersectionResultArray intersectionResult);
+            var compareResunlt = line1.Intersect(line2, out IntersectionResultArray intersectResult);
 
             if (compareResunlt != SetComparisonResult.Disjoint)
             {
-                var result = intersectionResult.get_Item(0).XYZPoint;
+                var result = intersectResult.get_Item(0).XYZPoint;
                 return result;
             }
+
+            return null;
         }
     }
 }

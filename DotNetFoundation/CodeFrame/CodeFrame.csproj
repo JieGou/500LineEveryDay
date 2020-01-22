@@ -73,10 +73,10 @@
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D05LinstAndIList.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter06\D060501SplitAndMergeFiles.cs" />
     <Compile Include="IllustratedCSharp2012\Chapter13Delegate\F130101Delegate.cs" />
-    <Compile Include="PracticeBook\Day0119\T011904FilteredElementCollection.cs" />
-    <Compile Include="PracticeBook\Day0119\T011903MembersOfElement.cs" />
-    <Compile Include="PracticeBook\Day0119\T011902OverRide.cs" />
-    <Compile Include="PracticeBook\Day0119\T011901List.cs" />
+    <Compile Include="PracticeBookInFoundation\Day0119\T011904FilteredElementCollection.cs" />
+    <Compile Include="PracticeBookInFoundation\Day0119\T011903MembersOfElement.cs" />
+    <Compile Include="PracticeBookInFoundation\Day0119\T011902OverRide.cs" />
+    <Compile Include="PracticeBookInFoundation\Day0119\T011901List.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D04OutInRef.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D03VirtualMethodEX3.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D02VirtualMethodEX2.cs" />
@@ -265,9 +265,9 @@
     <Compile Include="LearnCSharpFromShallow\Chapter08FieldsAndProperties\F1235.cs" />
     <Compile Include="LearnCSharpFromShallow\Chapter18Reflection\F1833Reflection.cs" />
     <Compile Include="LearnCSharpFromShallow\Chapter18Reflection\F18311Reflection.cs" />
-    <Compile Include="PracticeBook\Day0120\T012003StaticReadOnlyField.cs" />
-    <Compile Include="PracticeBook\Day0120\T012010StaticMehodInRevitApi.cs" />
-    <Compile Include="PracticeBook\Day0120\T012007RefOut.cs" />
+    <Compile Include="PracticeBookInFoundation\Day0120\T012003StaticReadOnlyField.cs" />
+    <Compile Include="PracticeBookInFoundation\Day0120\T012010StaticMehodInRevitApi.cs" />
+    <Compile Include="PracticeBookInFoundation\Day0120\T012007RefOut.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

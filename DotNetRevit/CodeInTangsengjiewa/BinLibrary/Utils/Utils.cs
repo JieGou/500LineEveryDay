@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using Autodesk.Revit.DB.Events;
 
 namespace RevitDevelopmentFoudation.CodeInTangsengjiewa.BinLibrary.Utils
 {
@@ -110,10 +111,11 @@ namespace RevitDevelopmentFoudation.CodeInTangsengjiewa.BinLibrary.Utils
                         (null != reviseTrf && !reviseTrf.IsIdentity)
                             ? crv.CreateTransformed(reviseTrf)
                             : crv;
+                    newIds.Add(creatModelCurve(doc, reviseCrv));
                 }
-
-                return newIds;
             }
+
+            return newIds;
         }
 
         public static ElementId creatModelCurve(Document document, Curve curve, SketchPlane sp = null)
