@@ -54,6 +54,9 @@
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="CSharpInDepth\Chapter3\F303021.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D08IEnumeratable3.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D07IEnumerable2.cs" />
+    <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D06IEnumerable.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D0110021ArrayParameter.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D0110041MethodOverload.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D0110031StaticMethodAndInstance.cs" />
