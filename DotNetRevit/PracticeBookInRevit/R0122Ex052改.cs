@@ -40,11 +40,11 @@ namespace ExerciseProject
             FilteredElementCollector collector = new FilteredElementCollector(doc);
 
             BuiltInParameter testParam = BuiltInParameter.ID_PARAM;
-            ParameterValueProvider pvp = new ParameterValueProvider(new ElementId((int)testParam));
-            FilterNumericRuleEvaluator fnrv = new FilterNumericGreater();
-            ElementId ruleValId = new ElementId(-1);
-            FilterRule fRule = new FilterElementIdRule(pvp, fnrv, ruleValId);
-            ElementParameterFilter filter = new ElementParameterFilter(fRule);
+            ParameterValueProvider valueProvider = new ParameterValueProvider(new ElementId((int)testParam));
+            FilterNumericRuleEvaluator evaluator = new FilterNumericGreater();
+            ElementId ruleValue = new ElementId(-1);
+            FilterRule elementIdRuleFilter = new FilterElementIdRule(valueProvider, evaluator, ruleValue);
+            ElementParameterFilter filter = new ElementParameterFilter(elementIdRuleFilter);
 
             collector.WherePasses(filter);
 
