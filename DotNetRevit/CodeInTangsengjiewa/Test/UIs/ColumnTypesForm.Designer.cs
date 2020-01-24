@@ -50,6 +50,7 @@
             this.symbolCombo.Name = "symbolCombo";
             this.symbolCombo.Size = new System.Drawing.Size(343, 23);
             this.symbolCombo.TabIndex = 2;
+
             // 
             // ColumnTypesForm
             // 
@@ -60,7 +61,7 @@
             this.Controls.Add(this.symbolCombo);
             this.Name = "ColumnTypesForm";
             this.Text = "ColumnTypesForm";
-            // this.Load += new System.EventHandler(this.ColumnTypesForm_Load);
+            this.Load += new System.EventHandler(this.ColumnTypesForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

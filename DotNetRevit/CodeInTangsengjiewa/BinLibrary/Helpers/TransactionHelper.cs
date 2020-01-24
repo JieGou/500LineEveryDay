@@ -6,8 +6,7 @@ namespace CodeInTangsengjiewa.BinLibrary.Helpers
 {
     public static class TransactionHelper
     {
-        public static void Invoke
-            (this Document doc, Action<Transaction> action, string name = "Invoke")
+        public static void Invoke(this Document doc, Action<Transaction> action, string name = "Invoke")
         {
 #if DEBUG
             LogHelper.LogException(delegate
