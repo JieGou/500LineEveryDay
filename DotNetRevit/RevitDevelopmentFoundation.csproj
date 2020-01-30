@@ -150,6 +150,8 @@
     <Compile Include="PracticeBookInRevit\R0122Ex05.cs" />
     <Compile Include="PracticeBookInRevit\R0122Ex02.cs" />
     <Compile Include="PracticeBookInRevit\R0122Ex01.cs" />
+    <Compile Include="TheCodeInJFeast\RevitDataToExcelDemo.cs" />
+    <Compile Include="TheCodeInJFeast\RevitLinkToMysql.cs" />
     <Compile Include="TheCodeInJFeast\Code002.cs" />
     <Compile Include="TheCodeInJFeast\Code001.cs" />
     <Compile Include="TheCodeInKaiFaZhiNan\Chapter2\Code0229.cs" />
