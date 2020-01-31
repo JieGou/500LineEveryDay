@@ -32,7 +32,7 @@ namespace ExerciseProject
             UIView acuiview = uidoc.ActiveUiview();
             Transaction ts = new Transaction(doc, "**");
 
-            ///[0122练习05] 使用Epplus到出 ( 1月31日):
+            ///[0122练习05] 使用Epplus输出 ( 1月31日):
             /// 过滤出当文件所有的元素。输出每个元素的ID ，Category， 名称， 位置
             ///（分别在项目文档 和 族 文档测试）
 
@@ -53,8 +53,16 @@ namespace ExerciseProject
             string time = dt.Year.ToString() + dt.Month.ToString() + dt.Day.ToString() + dt.Hour.ToString() +
                           dt.Minute.ToString() + dt.Second.ToString();
 
-            string path = @"D:\TestDir1\elementInProjecty" + time + ".xlsx";
-            // string path = @"D:\TestDir1\elementInFamily" + time + ".xlsx";
+            string path = null;
+
+            if (!doc.IsFamilyDocument)
+            {
+                path = @"D:\TestDir1\elementInProject" + time + ".xlsx";
+            }
+            else
+            {
+                path = @"D:\TestDir1\elementInFamily" + time + ".xlsx";
+            }
 
             //如文件已存在则删除
             if (File.Exists(path)) File.Delete(path);
