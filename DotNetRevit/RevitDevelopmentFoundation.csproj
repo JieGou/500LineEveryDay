@@ -40,7 +40,7 @@
       <HintPath>..\packages\BouncyCastle.1.8.3.1\lib\BouncyCastle.Crypto.dll</HintPath>
     </Reference>
     <Reference Include="EPPlus">
-      <HintPath>..\..\..\githubColone2\EPPlus\EPPlus\bin\Debug\EPPlus.dll</HintPath>
+      <HintPath>..\..\..\githubColone2\EPPlus\EPPlus\obj\Debug\EPPlus.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Google.Protobuf, Version=3.6.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
@@ -56,7 +56,6 @@
     </Reference>
     <Reference Include="RevitAPI">
       <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPI.dll</HintPath>
-      <Private>False</Private>
     </Reference>
     <Reference Include="RevitAPIIFC">
       <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPIIFC.dll</HintPath>
@@ -68,7 +67,6 @@
     </Reference>
     <Reference Include="RevitAPIUI">
       <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPIUI.dll</HintPath>
-      <Private>False</Private>
     </Reference>
     <Reference Include="RevitAPIUIMacros">
       <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPIUIMacros.dll</HintPath>
@@ -146,11 +144,13 @@
     <Compile Include="CodeInTangsengjiewa\Test\UIs\ColumnTypesForm.Designer.cs">
       <DependentUpon>ColumnTypesForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="PracticeBookInRevit\R0122Ex052UseEpplus.cs" />
+    <Compile Include="Epplus\RevitDataToExcelDemo2.cs" />
     <Compile Include="PracticeBookInRevit\R0122Ex052改.cs" />
     <Compile Include="PracticeBookInRevit\R0122Ex05.cs" />
     <Compile Include="PracticeBookInRevit\R0122Ex02.cs" />
     <Compile Include="PracticeBookInRevit\R0122Ex01.cs" />
-    <Compile Include="TheCodeInJFeast\RevitDataToExcelDemo.cs" />
+    <Compile Include="Epplus\RevitDataToExcelDemo.cs" />
     <Compile Include="TheCodeInJFeast\RevitLinkToMysql.cs" />
     <Compile Include="TheCodeInJFeast\Code002.cs" />
     <Compile Include="TheCodeInJFeast\Code001.cs" />
@@ -247,5 +247,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

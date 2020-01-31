@@ -41,6 +41,9 @@
     <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EPPlus">
+      <HintPath>..\..\..\..\githubColone2\EPPlus\EPPlus\obj\Debug\EPPlus.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Windows.Forms" />
@@ -73,6 +76,8 @@
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010301Class.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D05LinstAndIList.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter06\D060501SplitAndMergeFiles.cs" />
+    <Compile Include="Epplus\Epplus013001.cs" />
+    <Compile Include="Epplus\F00001Time.cs" />
     <Compile Include="IllustratedCSharp2012\Chapter13Delegate\F130101Delegate.cs" />
     <Compile Include="PracticeBookInFoundation\Day0119\T011904FilteredElementCollection.cs" />
     <Compile Include="PracticeBookInFoundation\Day0119\T011903MembersOfElement.cs" />

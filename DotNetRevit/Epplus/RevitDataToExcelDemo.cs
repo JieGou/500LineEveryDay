@@ -8,10 +8,10 @@ using Autodesk.Revit.DB.Plumbing;
 using OfficeOpenXml;
 using OfficeOpenXml.Style;
 
-namespace RevitAddinTestClass
+namespace RevitDevelopmentFoundation.Epplus
 {
     [Transaction(TransactionMode.Manual)]
-    class PipeSchedule : IExternalCommand
+    class RevitDataToExcelDemo1 : IExternalCommand
     {
         /// <summary>
         /// 此段代码为复制粘贴.
@@ -25,7 +25,7 @@ namespace RevitAddinTestClass
             Document document = commandData.Application.ActiveUIDocument.Document;
 
             //Excel文件路径
-            string path = @"D:\TestDir1\PipeSchedule.xlsx";
+            string path = @"D:\TestDir1\RevitDataToExcelDemo1.xlsx";
 
             //如文件已存在则删除
             if (File.Exists(path)) File.Delete(path);
