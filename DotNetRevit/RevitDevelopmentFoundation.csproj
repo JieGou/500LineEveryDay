@@ -93,12 +93,14 @@
     <Reference Include="Ubiety.Dns.Core, Version=2.2.1.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <HintPath>..\packages\MySql.Data.8.0.19\lib\net452\Ubiety.Dns.Core.dll</HintPath>
     </Reference>
+    <Reference Include="UIFrameworkServices">
+      <HintPath>C:\Program Files\Autodesk\Revit 2020\UIFrameworkServices.dll</HintPath>
+    </Reference>
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClassMyTest\E1001RunSample1.cs" />
     <Compile Include="ClassMyTest\Utils.cs" />
-    <Compile Include="ClassTeacherXu\Extensions\SelectionFilter.cs" />
     <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\BitmapExtension.cs" />
     <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\WindowExtension.cs" />
     <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\TransactionExtension.cs" />
@@ -126,6 +128,7 @@
     <Compile Include="CodeInTangsengjiewa\BinLibrary\Helpers\CollectorHelper.cs" />
     <Compile Include="CodeInTangsengjiewa\BinLibrary\RevitHelper\RevitWindowhelper.cs" />
     <Compile Include="CodeInTangsengjiewa\BinLibrary\Utils\Utils.cs" />
+    <Compile Include="CodeInTangsengjiewa\Test\Cmd_GetCuttedFace.cs" />
     <Compile Include="CodeInTangsengjiewa\Test\Cmd_CreateCurveByPoints.cs" />
     <Compile Include="CodeInTangsengjiewa\Test\Cmd_DimLine.cs" />
     <Compile Include="CodeInTangsengjiewa\Test\Cmd_CreateColumnAccordingGridIntersection.cs" />
@@ -144,6 +147,15 @@
     <Compile Include="CodeInTangsengjiewa\Test\UIs\ColumnTypesForm.Designer.cs">
       <DependentUpon>ColumnTypesForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CodeInTangsengjiewa\建筑\Cmd_CreateFloorQuickly.cs" />
+    <Compile Include="CodeInTangsengjiewa\建筑\Cmd_BeamAlignToRoofAndFloor.cs" />
+    <Compile Include="CodeInTangsengjiewa\通用\UIs\FloorSelector.xaml.cs">
+      <DependentUpon>FloorSelector.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CodeInTangsengjiewa\通用\UIs\FloorTypeSelector.xaml.cs">
+      <DependentUpon>FloorTypeSelector.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CodeInTangsengjiewa\高级\Cmd_CallSystemCmd.cs" />
     <Compile Include="Epplus\RevitDataToExcelDemo3.cs" />
     <Compile Include="PracticeBookInRevit\R0122Ex052UseEpplus.cs" />
     <Compile Include="Epplus\RevitDataToExcelDemo2.cs" />
@@ -164,7 +176,7 @@
     <Compile Include="TheCodeInBook\Chapter03\R0603ShowSelectedElementFaceArea.cs" />
     <Compile Include="TheCodeInBook\Chapter03\R0805GetCompoundStructure.cs" />
     <Compile Include="TheCodeInBook\Chapter03\R0902RunEpplusSample01.cs" />
-    <Compile Include="ClassTeacherXu\Extensions\ForcedDisplay.cs" />
+    <Compile Include="CodeInTangsengjiewa\Test\ForcedDisplay.cs" />
     <Compile Include="TheCodeInBook\Chapter04\R0418Test.cs" />
     <Compile Include="TheCodeInBook\Chapter04\R0417GetCadBlockFilter.cs" />
     <Compile Include="TheCodeInBook\Chapter04\R0416CreateColumn.cs" />
@@ -228,14 +240,6 @@
     <Compile Include="Other\CmdCreatLevel.cs" />
     <Compile Include="Other\CmdTemplateTool.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ClassTeacherXu\Extensions\CreationExtension.cs" />
-    <Compile Include="ClassTeacherXu\Extensions\ElementIdExtension.cs" />
-    <Compile Include="ClassTeacherXu\Extensions\TransactionExtension.cs" />
-    <Compile Include="ClassTeacherXu\Extensions\XYZExtension.cs" />
-    <Compile Include="ClassTeacherXu\Helpers\collectorHelper.cs" />
-    <Compile Include="ClassTeacherXu\Helpers\DebugUtils.cs" />
-    <Compile Include="ClassTeacherXu\Helpers\LogHelper.cs" />
-    <Compile Include="ClassTeacherXu\Helpers\TransactionHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="CodeInTangsengjiewa\Test\UIs\AboutForm.resx">
@@ -249,5 +253,15 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Page Include="CodeInTangsengjiewa\通用\UIs\FloorSelector.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CodeInTangsengjiewa\通用\UIs\FloorTypeSelector.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

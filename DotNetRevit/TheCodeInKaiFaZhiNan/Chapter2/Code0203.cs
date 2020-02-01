@@ -10,7 +10,7 @@ using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
-using ClassTeacherXu.Helpers;
+
 using View = Autodesk.Revit.DB.View;
 
 namespace TheCodeInKaiFaZhiNan.Chapter2
@@ -31,7 +31,7 @@ namespace TheCodeInKaiFaZhiNan.Chapter2
             Document doc = uidoc.Document;
             Selection sel = uidoc.Selection;
             View acview = uidoc.ActiveView;
-            UIView acuiview = uidoc.ActiveUiview();
+
 
           ICollection<ElementId> excludes =new List<ElementId>();
           // ElementSetIterator elemIter =uidoc.Selection.GetElementIds().To

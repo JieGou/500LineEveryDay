@@ -3,7 +3,7 @@ using Autodesk.Revit.DB;
 using Autodesk.Revit.DB.Mechanical;
 using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
-using ClassTeacherXu.Helpers;
+
 using View = Autodesk.Revit.DB.View;
 
 
@@ -25,7 +25,7 @@ namespace TheCodeInJFeast
             Document doc = uidoc.Document;
             Selection sel = uidoc.Selection;
             View acview = uidoc.ActiveView;
-            UIView acuiview = uidoc.ActiveUiview();
+
 
             FilteredElementCollector collector =new FilteredElementCollector(doc);
 

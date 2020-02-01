@@ -9,7 +9,7 @@ using Autodesk.Revit.DB;
 using Autodesk.Revit.UI.Events;
 using Autodesk.Revit.UI.Selection;
 using System.Windows;
-using ClassTeacherXu.Helpers;
+using CodeInTangsengjiewa.BinLibrary.Helpers;
 using View = Autodesk.Revit.DB.View;
 namespace ExerciseProject
 {
@@ -25,7 +25,7 @@ namespace ExerciseProject
             Document doc = uidoc.Document;
             Selection sel = uidoc.Selection;
             View acView = uidoc.ActiveView;
-            UIView acuiview = uidoc.ActiveUiview();
+ 
             //通过ID选择元素.
             //不用写在事务里, 为什么?
             int targetID = 417275;

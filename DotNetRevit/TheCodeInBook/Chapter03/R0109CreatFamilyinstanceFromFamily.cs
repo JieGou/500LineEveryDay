@@ -7,7 +7,7 @@ using Autodesk.Revit.DB.Events;
 
 using View = Autodesk.Revit.DB.View;
 using System.Diagnostics;
-using ClassTeacherXu.Helpers;
+
 
 namespace ExerciseProject
 {
@@ -23,7 +23,7 @@ namespace ExerciseProject
             Document doc = uidoc.Document;
             Selection sel = uidoc.Selection;
             View acView = uidoc.ActiveView;
-            UIView acuiview = uidoc.ActiveUiview();
+
             Transaction ts = new Transaction(doc, "******");
             try
             {

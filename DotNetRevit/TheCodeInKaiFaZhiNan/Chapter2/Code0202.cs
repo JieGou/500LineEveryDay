@@ -10,7 +10,7 @@ using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
-using ClassTeacherXu.Helpers;
+
 using View = Autodesk.Revit.DB.View;
 
 namespace TheCodeInKaiFaZhiNan.Chapter2
@@ -29,7 +29,7 @@ namespace TheCodeInKaiFaZhiNan.Chapter2
             Document doc = uidoc.Document;
             Selection sel = uidoc.Selection;
             View acview = uidoc.ActiveView;
-            UIView acuiview = uidoc.ActiveUiview();
+
 
             //using boundingboxIntersectsFilter过滤器得到与该轮廓相交的图元.
             Outline myOutline = new Outline(new XYZ(0, 0, 0), new XYZ(100, 100, 100));

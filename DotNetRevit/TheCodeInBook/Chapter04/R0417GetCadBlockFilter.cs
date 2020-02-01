@@ -10,7 +10,7 @@ using Autodesk.Revit.UI.Events;
 using Autodesk.Revit.UI.Selection;
 using System.Windows;
 using ClassTeacherXu.Extensions;
-using ClassTeacherXu.Helpers;
+
 using View = Autodesk.Revit.DB.View;
 
 namespace RevitDevelopmentFoundation.Chapter04
@@ -27,7 +27,7 @@ namespace RevitDevelopmentFoundation.Chapter04
             Document doc = uidoc.Document;
             Selection sel = uidoc.Selection;
             View acView = uidoc.ActiveView;
-            UIView acuiview = uidoc.ActiveUiview();
+
             Transaction ts = new Transaction(doc, "******");
 
             try

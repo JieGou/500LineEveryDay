@@ -5,7 +5,9 @@ using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
 using CodeInTangsengjiewa.BinLibrary.Extensions;
 using CodeInTangsengjiewa.BinLibrary.Helpers;
-
+/// <summary>
+/// 未测试通过
+/// </summary>
 namespace CodeInTangsengjiewa.Test
 {
     [Transaction(TransactionMode.Manual)] // 特性

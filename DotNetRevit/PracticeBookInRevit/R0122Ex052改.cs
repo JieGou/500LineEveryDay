@@ -10,7 +10,7 @@ using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
-using ClassTeacherXu.Helpers;
+
 using View = Autodesk.Revit.DB.View;
 using System.IO;
 
@@ -28,7 +28,7 @@ namespace ExerciseProject
             Document doc = uidoc.Document;
             Selection sel = uidoc.Selection;
             View acview = uidoc.ActiveView;
-            UIView acuiview = uidoc.ActiveUiview();
+ 
             Transaction ts = new Transaction(doc, "**");
 
             ts.Start();
