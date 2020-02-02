@@ -1,2 +1,10 @@
 1.遍历文档内所有的Catetory
+
+答: 见目录下excel文件:
+2.2  第1题 结果CategoryInDoc20202220243.xlsx
+====
 2.了解ODBC
+
+答:已经从revit通过odbc文件,导出到mysql.见目录下pdf文件:
+2.2  第1题 结果 通过odbc到如mysql.pdf
+==============

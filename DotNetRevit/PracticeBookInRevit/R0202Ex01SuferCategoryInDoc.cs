@@ -20,7 +20,7 @@ namespace ExerciseProject.PracticeBookInRevit
     [Transaction((TransactionMode.Manual))]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.NoCommandData)]
-    class R0122Ex052UseEpplus : IExternalCommand
+    class R0202Ex01SuferCategoryInDoc : IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
@@ -32,9 +32,8 @@ namespace ExerciseProject.PracticeBookInRevit
 
             Transaction ts = new Transaction(doc, "**");
 
-            ///[0122练习05] 使用Epplus输出 ( 1月31日):
-            /// 过滤出当文件所有的元素。输出每个元素的ID ，Category， 名称， 位置
-            ///（分别在项目文档 和 族 文档测试）
+            ///0202作业01:
+            ///遍历文档中所有的Category
 
             FilteredElementCollector collector = new FilteredElementCollector(doc);
 
@@ -55,25 +54,24 @@ namespace ExerciseProject.PracticeBookInRevit
 
             string path = null;
 
-            if (!doc.IsFamilyDocument)
-            {
-                path = @"D:\TestDir1\elementInProject" + time + ".xlsx";
-            }
-            else
-            {
-                path = @"D:\TestDir1\elementInFamily" + time + ".xlsx";
-            }
+            // if (!doc.IsFamilyDocument)
+            // {
+            path = @"D:\TestDir1\CategoryInDoc" + time + ".xlsx";
+            // }
+            // else
+            // {
+            //     path = @"D:\TestDir1\elementInFamily" + time + ".xlsx";
+            // }
 
             //如文件已存在则删除
             if (File.Exists(path)) File.Delete(path);
             //创建Excel文件
             ExcelPackage package = new ExcelPackage(new FileInfo(path));
-            ExcelWorksheet excelWorkSheet = package.Workbook.Worksheets.Add("提取到的元素数据");
+            ExcelWorksheet excelWorkSheet = package.Workbook.Worksheets.Add("文档中的Category列表");
 
             //表头
-            string[] headName = {"ElementId", "Name", "Category", "Location"};
+            string[] headName = {"Id", "Category"};
 
-            // string[] headName = { "ElementId", "Category", "Name", "Location", "元素总个数" };
             for (int i = 0; i < headName.Length; i++)
             {
                 //cells[row,column] ,从1开始计数,从非编程的使用习惯一致.
@@ -84,18 +82,14 @@ namespace ExerciseProject.PracticeBookInRevit
             //数据临时存储位置
             List<object[]> elementDataList = new List<object[]>();
 
-            // string info = null;
-            //
-            // info += "元素共有" + collector.Count().ToString() + "个\n\t";
+            int ID = 0;
 
             foreach (Element element in collector)
             {
-                string elementId, name, category, location;
+                string category;
 
                 // 读取数据
-                elementId = element.Id.ToString();
-
-                name = element.Name;
+                ID++;
 
                 if (null == element.Category)
                 {
@@ -106,18 +100,12 @@ namespace ExerciseProject.PracticeBookInRevit
                     category = element.Category.Name;
                 }
 
-                if (null == element.Location)
-                {
-                    location = "没有位置";
-                }
-                else
-                {
-                    location = element.Location.ToString();
-                }
-
-                object[] elementData = {elementId, name, category, location};
+                object[] elementData = {ID.ToString(), category};
                 elementDataList.Add(elementData);
             }
+
+            //去重 ??? 没搞出来,用excel表的去重功能完成的.
+            
 
             //写入数据
             for (int i = 0; i < elementDataList.Count; i++)

@@ -14,7 +14,7 @@ using Autodesk.Revit.UI.Selection;
 using View = Autodesk.Revit.DB.View;
 using System.IO;
 
-namespace ExerciseProject
+namespace ExerciseProject.PracticeBookInRevit
 {
     [Transaction((TransactionMode.Manual))]
     [Regeneration(RegenerationOption.Manual)]

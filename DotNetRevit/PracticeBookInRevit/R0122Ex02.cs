@@ -13,7 +13,7 @@ using Autodesk.Revit.UI.Selection;
 using CodeInTangsengjiewa.BinLibrary.Helpers;
 using View = Autodesk.Revit.DB.View;
 
-namespace ExerciseProject
+namespace ExerciseProject.PracticeBookInRevit
 {
     [Transaction((TransactionMode.Manual))]
     [Regeneration(RegenerationOption.Manual)]
