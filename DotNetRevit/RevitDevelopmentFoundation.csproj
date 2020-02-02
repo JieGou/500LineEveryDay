@@ -157,6 +157,12 @@
     </Compile>
     <Compile Include="CodeInTangsengjiewa\高级\Cmd_CallSystemCmd.cs" />
     <Compile Include="Epplus\RevitDataToExcelDemo3.cs" />
+    <Compile Include="Other\CreateAdaptiveComponentFamily.cs" />
+    <Compile Include="Other\Truss\Cmd_CreateSweep.cs" />
+    <Compile Include="Other\Truss\CreateFamily.cs" />
+    <Compile Include="Other\Truss\MakeNewCurve.cs" />
+    <Compile Include="Other\Truss\Cmd_CreateExtrusion.cs" />
+    <Compile Include="Other\Truss\Trussbars.cs" />
     <Compile Include="PracticeBookInRevit\R0122Ex052UseEpplus.cs" />
     <Compile Include="Epplus\RevitDataToExcelDemo2.cs" />
     <Compile Include="PracticeBookInRevit\R0122Ex052改.cs" />
@@ -164,13 +170,13 @@
     <Compile Include="PracticeBookInRevit\R0122Ex02.cs" />
     <Compile Include="PracticeBookInRevit\R0122Ex01.cs" />
     <Compile Include="Epplus\RevitDataToExcelDemo.cs" />
-    <Compile Include="TheCodeInJFeast\RevitLinkToMysql.cs" />
-    <Compile Include="TheCodeInJFeast\Code002.cs" />
-    <Compile Include="TheCodeInJFeast\Code001.cs" />
-    <Compile Include="TheCodeInKaiFaZhiNan\Chapter2\Code0229.cs" />
-    <Compile Include="TheCodeInKaiFaZhiNan\Chapter2\Code0203.cs" />
-    <Compile Include="TheCodeInKaiFaZhiNan\Chapter2\Code0202.cs" />
-    <Compile Include="TheCodeInKaiFaZhiNan\Chapter2\Code0201.cs" />
+    <Compile Include="Other\TheCodeInJFeast\RevitLinkToMysql.cs" />
+    <Compile Include="Other\TheCodeInJFeast\Code002.cs" />
+    <Compile Include="Other\TheCodeInJFeast\Code001.cs" />
+    <Compile Include="Other\TheCodeInKaiFaZhiNan\Chapter2\Code0229.cs" />
+    <Compile Include="Other\TheCodeInKaiFaZhiNan\Chapter2\Code0203.cs" />
+    <Compile Include="Other\TheCodeInKaiFaZhiNan\Chapter2\Code0202.cs" />
+    <Compile Include="Other\TheCodeInKaiFaZhiNan\Chapter2\Code0201.cs" />
     <Compile Include="TheCodeInBook\Chapter03\R0504bFamilyCreat2.cs" />
     <Compile Include="TheCodeInBook\Chapter03\R0601未完ExclusionFilterw.cs" />
     <Compile Include="TheCodeInBook\Chapter03\R0603ShowSelectedElementFaceArea.cs" />
