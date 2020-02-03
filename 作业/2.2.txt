@@ -2,9 +2,17 @@
 
 答: 见目录下excel文件:
 2.2  第1题 结果CategoryInDoc20202220243.xlsx
+//并不是所有的category，遍历枚举 BuiltInCategory才能找到所有的category
+
 ====
 2.了解ODBC
 
 答:已经从revit通过odbc文件,导出到mysql.见目录下pdf文件:
 2.2  第1题 结果 通过odbc到如mysql.pdf
+
+//程序在哪？
+
+
+文档组织又开始乱了
+
 ==============
