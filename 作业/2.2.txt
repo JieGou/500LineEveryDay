@@ -11,7 +11,11 @@
 2.2  第1题 结果 通过odbc到如mysql.pdf
 
 //程序在哪？
+按照这个教程做的.
 
+https://blog.csdn.net/weixin_30824479/article/details/95825553
+
+尝试着从revit读取数据,写入mysql,见这个目录 RevitDevelopmentFoundation/Other/TheCodeInJFeast下的 RevitLinkToMysql.cs
 
 文档组织又开始乱了
 
