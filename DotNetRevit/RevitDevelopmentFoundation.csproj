@@ -162,10 +162,13 @@
     <Compile Include="Other\Truss\CreateFamily.cs" />
     <Compile Include="Other\Truss\MakeNewCurve.cs" />
     <Compile Include="Other\Truss\Cmd_CreateExtrusion.cs" />
+    <Compile Include="Other\Truss\SweepRefCode.cs" />
+    <Compile Include="Other\Truss\SweepRefCode3.cs" />
+    <Compile Include="Other\Truss\SweepRefCode2.cs" />
     <Compile Include="Other\Truss\Trussbars.cs" />
     <Compile Include="PracticeBookInRevit\R0122Ex052UseEpplus.cs" />
     <Compile Include="Epplus\RevitDataToExcelDemo2.cs" />
-    <Compile Include="PracticeBookInRevit\R0122Ex052改 - 复制.cs" />
+    <Compile Include="PracticeBookInRevit\R0122Ex052改.cs" />
     <Compile Include="PracticeBookInRevit\R0202Ex01SuferCategoryInDoc.cs" />
     <Compile Include="PracticeBookInRevit\R0122Ex05.cs" />
     <Compile Include="PracticeBookInRevit\R0122Ex02.cs" />
