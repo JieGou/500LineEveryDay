@@ -2,7 +2,8 @@
 
 答: 见目录下excel文件:
 2.2  第1题 结果CategoryInDoc20202220243.xlsx
-//并不是所有的category，遍历枚举 BuiltInCategory才能找到所有的category
+//不对 重做
+//没找到所有的category，遍历枚举 BuiltInCategory才能找到所有的category
 
 ====
 2.了解ODBC
