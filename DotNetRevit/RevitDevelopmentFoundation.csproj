@@ -158,6 +158,7 @@
     <Compile Include="CodeInTangsengjiewa\高级\Cmd_CallSystemCmd.cs" />
     <Compile Include="Epplus\RevitDataToExcelDemo3.cs" />
     <Compile Include="Other\CreateAdaptiveComponentFamily.cs" />
+    <Compile Include="Other\Truss\SweepRefCode4.cs" />
     <Compile Include="Other\Truss\Cmd_CreateSweep.cs" />
     <Compile Include="Other\Truss\CreateFamily.cs" />
     <Compile Include="Other\Truss\MakeNewCurve.cs" />
