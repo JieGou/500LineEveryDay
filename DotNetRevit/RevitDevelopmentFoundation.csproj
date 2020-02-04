@@ -94,7 +94,7 @@
       <HintPath>..\packages\MySql.Data.8.0.19\lib\net452\Ubiety.Dns.Core.dll</HintPath>
     </Reference>
     <Reference Include="UIFrameworkServices">
-      <HintPath>C:\Program Files\Autodesk\Revit 2020\UIFrameworkServices.dll</HintPath>
+      <HintPath>C:\Program Files\Autodesk\Revit 2019\UIFrameworkServices.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
   </ItemGroup>
@@ -167,6 +167,7 @@
     <Compile Include="Other\Truss\SweepRefCode3.cs" />
     <Compile Include="Other\Truss\SweepRefCode2.cs" />
     <Compile Include="Other\Truss\Trussbars.cs" />
+    <Compile Include="PracticeBookInRevit\Example1.cs" />
     <Compile Include="PracticeBookInRevit\R0122Ex052UseEpplus.cs" />
     <Compile Include="Epplus\RevitDataToExcelDemo2.cs" />
     <Compile Include="PracticeBookInRevit\R0122Ex052改.cs" />

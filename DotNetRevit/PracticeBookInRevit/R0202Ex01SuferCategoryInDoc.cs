@@ -39,12 +39,33 @@ namespace ExerciseProject.PracticeBookInRevit
 
             //获得所有的元素
             BuiltInParameter testParam = BuiltInParameter.ID_PARAM;
-            ParameterValueProvider valueProvider = new ParameterValueProvider(new ElementId((int) testParam));
+            ParameterValueProvider valueProvider = new ParameterValueProvider(new ElementId((int)testParam));
             FilterNumericRuleEvaluator evaluator = new FilterNumericGreater();
             ElementId ruleValue = new ElementId(-1);
             FilterRule elementIdRuleFilter = new FilterElementIdRule(valueProvider, evaluator, ruleValue);
             ElementParameterFilter filter = new ElementParameterFilter(elementIdRuleFilter);
             collector.WherePasses(filter);
+
+            //xu add
+            //method 1
+            var wallcate1 = Category.GetCategory(doc, BuiltInCategory.OST_Walls);
+
+            var catevalues = Enum.GetValues(typeof(BuiltInCategory));
+            foreach (object item in catevalues)
+            {
+                var builtincate = (BuiltInCategory) item;
+                var aaa = Enum.GetName(typeof(BuiltInCategory), item);
+            }
+
+            //method 2
+            var caties = doc.Settings.Categories;
+            var wallCate = caties.Cast<Category>()
+                .FirstOrDefault(m => m.Id.IntegerValue == (int)BuiltInCategory.OST_Walls);
+
+            //for test
+            caties.Cast<Category>(). GroupBy(m => m.Name.Contains("aa"));
+
+
 
             //导出Excel文件路径
 
@@ -70,7 +91,7 @@ namespace ExerciseProject.PracticeBookInRevit
             ExcelWorksheet excelWorkSheet = package.Workbook.Worksheets.Add("文档中的Category列表");
 
             //表头
-            string[] headName = {"Id", "Category"};
+            string[] headName = { "Id", "Category" };
 
             for (int i = 0; i < headName.Length; i++)
             {
@@ -100,12 +121,12 @@ namespace ExerciseProject.PracticeBookInRevit
                     category = element.Category.Name;
                 }
 
-                object[] elementData = {ID.ToString(), category};
+                object[] elementData = { ID.ToString(), category };
                 elementDataList.Add(elementData);
             }
 
             //去重 ??? 没搞出来,用excel表的去重功能完成的.
-            
+
 
             //写入数据
             for (int i = 0; i < elementDataList.Count; i++)
