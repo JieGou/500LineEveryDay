@@ -154,7 +154,8 @@ PublishScripts/
 # NuGet Packages
 *.nupkg
 # The packages folder can be ignored because of Package Restore
-**/packages/*
+#**/packages/*
+
 # except build/, which is used as an MSBuild target.
 !**/packages/build/
 # Uncomment if necessary however generally it will be regenerated when needed
@@ -261,4 +262,4 @@ __pycache__/
 *.pyc
 /唐僧解瓦/通用/Cmd_netHeightAnalyses.cs
 /*.emmx
-/packages
+
