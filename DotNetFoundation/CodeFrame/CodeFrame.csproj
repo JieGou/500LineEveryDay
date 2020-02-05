@@ -274,6 +274,7 @@
     <Compile Include="PracticeBookInFoundation\Day0120\T012003StaticReadOnlyField.cs" />
     <Compile Include="PracticeBookInFoundation\Day0120\T012010StaticMehodInRevitApi.cs" />
     <Compile Include="PracticeBookInFoundation\Day0120\T012007RefOut.cs" />
+    <Compile Include="PracticeBookInFoundation\Day0205\D0205Enum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
