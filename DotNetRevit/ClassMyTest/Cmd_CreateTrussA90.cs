@@ -10,14 +10,14 @@ using Org.BouncyCastle.Security;
 using Application = Autodesk.Revit.ApplicationServices.Application;
 using Document = Autodesk.Revit.DB.Document;
 
-    namespace ClassMyTest
+namespace ClassMyTest
 {
     /// <summary>
     /// 完成 创建
     /// </summary>
     [TransactionAttribute(TransactionMode.Manual)]
     [RegenerationAttribute(RegenerationOption.Manual)]
-    public class Cmd_CreateTrussA80 : IExternalCommand
+    public class Cmd_CreateTrussA90 : IExternalCommand
     {
         // private Document doc;
         private double length;
@@ -33,7 +33,7 @@ using Document = Autodesk.Revit.DB.Document;
             Transaction ts = new Transaction(doc, "******");
             ts.Start();
 
-            TrussA80 trussR80 = new TrussA80(doc, 450);
+            TrussA90 trussR80 = new TrussA90(doc, 450);
 
             ts.Commit();
 
@@ -42,23 +42,26 @@ using Document = Autodesk.Revit.DB.Document;
     }
 
 
-    public class TrussA80
+    public class TrussA90
     {
-        public double Length { set; get; }
+        
         public double BraceSteelDiameter { set; get; }
-        public double UpSteelDiameter { set; get; }
 
-        public double Period { set; get; }
+
+        public double Period { set; get; } = mmToFeet(200);
+
+        double UpSteelDiameter = mmToFeet(8);
+
 
         //length参数输出时,单位是mm
-        public TrussA80(Document doc, double lengthMM)
+        public TrussA90(Document doc, double lengthMM)
         {
             double length = mmToFeet(lengthMM);
-            Period = mmToFeet(200);
+           
 
             // UpSteelDiameter = mmToFeet(8);
             BraceSteelDiameter = mmToFeet(4);
-            double TrussBraceTotalHeight = mmToFeet(84);
+            double TrussBraceTotalHeight = mmToFeet(94);
             double TrussBraceSteelHeight2 = TrussBraceTotalHeight - BraceSteelDiameter;
 
             XYZ center1 = new XYZ(0, 0, 0);
@@ -239,7 +242,7 @@ using Document = Autodesk.Revit.DB.Document;
 
             //创建用于放样的轮廓,这里创建轮廓线在生成轮廓的方式
             XYZ pnt1 = new XYZ(0, 0, 0);
-            double UpSteelDiameter = 8 / 304.8;
+           
             arr.Append(Arc.Create(pnt1, UpSteelDiameter / 2, 0.0d, degreeToRadian(360), XYZ.BasisX, XYZ.BasisY));
             arrarr.Append(arr);
             SweepProfile profile = doc.Application.Create.NewCurveLoopsProfile(arrarr);

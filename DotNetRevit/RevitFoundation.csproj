@@ -99,6 +99,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassMyTest\Cmd_CreateTrussA90.cs" />
     <Compile Include="ClassMyTest\E1001RunSample1.cs" />
     <Compile Include="ClassMyTest\Utils.cs" />
     <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\BitmapExtension.cs" />
@@ -159,15 +160,12 @@
     <Compile Include="Epplus\RevitDataToExcelDemo3.cs" />
     <Compile Include="Other\CreateAdaptiveComponentFamily.cs" />
     <Compile Include="ClassMyTest\Cmd_CreateTrussA80.cs" />
-    <Compile Include="Other\Truss\SweepRefCode4.cs" />
     <Compile Include="Other\Truss\Cmd_CreateSweep.cs" />
     <Compile Include="Other\Truss\CreateFamily.cs" />
     <Compile Include="Other\Truss\MakeNewCurve.cs" />
     <Compile Include="Other\Truss\Cmd_CreateExtrusion.cs" />
     <Compile Include="Other\Truss\SweepRefCode.cs" />
-    <Compile Include="Other\Truss\SweepRefCode3.cs" />
     <Compile Include="Other\Truss\SweepRefCode2.cs" />
-    <Compile Include="Other\Truss\Trussbars.cs" />
     <Compile Include="PracticeBookInRevit\R0205SufferCategory.cs" />
     <Compile Include="PracticeBookInRevit\R0205SufferElement.cs" />
     <Compile Include="PracticeBookInRevit\Example1.cs" />

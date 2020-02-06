@@ -26,7 +26,6 @@ namespace RevitFoundation.PracticeBookInRevit
             View acview = uidoc.ActiveView;
 
             //方法1
-
             // string info = null;
             //
             // foreach (var e in cateValue)

@@ -33,6 +33,7 @@ namespace RevitDevelopmentFoudation.PracticeBookInRevit
             foreach (var element in collector.WhereElementIsElementType())
             {
                 string elementId, name, category, location;
+
                 // 读取数据
                 elementId = element.Id.ToString();
                 name = element.Name;

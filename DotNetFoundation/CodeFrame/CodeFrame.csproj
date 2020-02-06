@@ -8,12 +8,13 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>CodeFrame</RootNamespace>
     <AssemblyName>CodeFrame</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x64</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -41,7 +42,8 @@
     <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EPPlus">
+    <Reference Include="EPPlus, Version=0.0.0.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\githubColone2\EPPlus\EPPlus\obj\Debug\EPPlus.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -275,6 +277,7 @@
     <Compile Include="PracticeBookInFoundation\Day0120\T012010StaticMehodInRevitApi.cs" />
     <Compile Include="PracticeBookInFoundation\Day0120\T012007RefOut.cs" />
     <Compile Include="PracticeBookInFoundation\Day0205\D0205Enum.cs" />
+    <Compile Include="PracticeBookInFoundation\Day0206\T0206Enum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
