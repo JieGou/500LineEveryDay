@@ -14,45 +14,55 @@ namespace CodeFrame.PracticeBookInFoundation.Day0206
     {
         static void Main(string[] args)
         {
-            // int a = (int) Sex.女;
-            // Console.WriteLine("将枚举转换为整数:" + a);
-            //
-            // string b = Sex.女.ToString();
-            // Console.WriteLine("将枚举转换为字符串:" + b);
-            //
-            // Sex c = (Sex) Enum.Parse(typeof(Sex), "女");
-            // Console.WriteLine("将字符串转换为枚举:" + c.ToString());
-            //
-            // Sex d = (Sex) 1;
-            // Console.WriteLine("将整数转换为枚举:" + d.ToString());
-            //
-            // string s = Enum.GetName(typeof(Sex), 1);
-            // Console.WriteLine("降整数转换为字符串:" + s);
-            //
-            // foreach (Sex sex in Enum.GetValues(typeof(Sex)))
-            // {
-            //     Console.WriteLine("循环枚举value " + sex.ToString() + "=" + (int) sex);
-            // }
-            //
-            // foreach (string sex in Enum.GetNames(typeof(Sex)))
-            // {
-            //     Console.WriteLine("循环枚举name " + sex);
-            // }
+            int a = (int) Sex.女;
+            Console.WriteLine("将枚举转换为整数:" + a);
 
-            var str = Enum.Format(typeof(TraffiicLight), 0, "d");
+            string b = Sex.女.ToString();
+            Console.WriteLine("将枚举转换为字符串:" + b);
+
+            Sex c = (Sex) Enum.Parse(typeof(Sex), "女");
+            Console.WriteLine("将字符串转换为枚举:" + c.ToString());
+
+            Sex c1 = (Sex) Enum.Parse(typeof(Sex), "女");
+            Console.WriteLine("将字符串转换为枚举:" + (int) c1);
+
+            Sex d = (Sex) 1;
+            Console.WriteLine("将整数转换为枚举:" + d.ToString());
+
+            string s = Enum.GetName(typeof(Sex), 1);
+            Console.WriteLine("Enum.GetName方法:(参数 1)" + s);
+
+            foreach (Sex sex in Enum.GetValues(typeof(Sex)))
+            {
+                Console.WriteLine("循环枚举value " + sex.ToString() + "=" + (int) sex);
+            }
+
+            foreach (var sex in Enum.GetNames(typeof(Sex)))
+            {
+                Console.WriteLine("循环枚举name " + sex);
+            }
+
+            var str = Enum.Format(typeof(Sex), 0, "d");
             Console.WriteLine(str);
 
-            str = Enum.GetName(typeof(TraffiicLight), 0);
-            Console.WriteLine(str);
-
-            str = Enum.GetUnderlyingType(typeof(TraffiicLight)).ToString();
+            str = Enum.GetUnderlyingType(typeof(Sex)).ToString();
             Console.WriteLine(str);
 
             //判断 名称或者value 是否存在于枚举中
-            var isornot = Enum.IsDefined(typeof(TraffiicLight), "Green");
+            var isornot = Enum.IsDefined(typeof(Sex), "Green");
             Console.WriteLine(isornot);
 
-            var enm = Enum.Parse(typeof(TraffiicLight), "1");
+            var enm = Enum.Parse(typeof(Sex), "1");
+            Console.WriteLine(enm);
+
+            var str1 = Enum.ToObject(typeof(Sex), 2);
+            Console.WriteLine(str1);
+
+            int intVa = (int) Sex.男;
+            Console.WriteLine(intVa);
+
+            var intVa2 = Sex.女.ToString("D");
+            Console.WriteLine(intVa2);
 
             Console.ReadKey();
         }

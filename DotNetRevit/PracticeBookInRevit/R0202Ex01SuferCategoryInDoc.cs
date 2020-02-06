@@ -52,7 +52,7 @@ namespace ExerciseProject.PracticeBookInRevit
             var catevalues = Enum.GetValues(typeof(BuiltInCategory));
             foreach (object item in catevalues)
             {
-                var builtincate = (BuiltInCategory) item;
+                var builtincate = (BuiltInCategory)item;
                 var aaa = Enum.GetName(typeof(BuiltInCategory), item);
             }
 
