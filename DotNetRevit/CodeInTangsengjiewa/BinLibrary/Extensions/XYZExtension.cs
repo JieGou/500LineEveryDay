@@ -64,5 +64,13 @@ namespace CodeInTangsengjiewa.BinLibrary.Extensions
             XYZ ret = new XYZ(-vec.Y + vec.Z, vec.X + vec.Z, -vec.Y - vec.X);
             return ret;
         }
+
+        // public static double AngleTo2(this XYZ vec1,XYZ vec2)
+        // {
+        //     double angle = vec1.DotProduct(vec2) / (vec1.GetLength()+vec2.GetLength());
+        //
+        //
+        //     return 
+        // } 
     }
 }

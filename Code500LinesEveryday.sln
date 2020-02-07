@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFIExternalCommandDemo", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowPreviewInWpf", "WPF\ShowPreviewInWpf\ShowPreviewInWpf\ShowPreviewInWpf.csproj", "{B8C95F6B-507C-49DA-B453-670E59D4C1F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "DotNetFoundation\Winform\WindowsFormsApp1\WindowsFormsApp1.csproj", "{3CFD03D8-2D58-4BA7-B454-940D67F3815A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{B8C95F6B-507C-49DA-B453-670E59D4C1F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8C95F6B-507C-49DA-B453-670E59D4C1F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8C95F6B-507C-49DA-B453-670E59D4C1F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CFD03D8-2D58-4BA7-B454-940D67F3815A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CFD03D8-2D58-4BA7-B454-940D67F3815A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CFD03D8-2D58-4BA7-B454-940D67F3815A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CFD03D8-2D58-4BA7-B454-940D67F3815A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +96,7 @@ Global
 		{6F6EEE2B-36DB-46C6-AF2F-816BA7D53E46} = {BFB529C1-5E7F-48E6-96C2-AB10D2200E7A}
 		{C92B7ECD-8BE5-40D6-92B0-90BA32B1282C} = {BFB529C1-5E7F-48E6-96C2-AB10D2200E7A}
 		{B8C95F6B-507C-49DA-B453-670E59D4C1F3} = {BFB529C1-5E7F-48E6-96C2-AB10D2200E7A}
+		{3CFD03D8-2D58-4BA7-B454-940D67F3815A} = {3E42B64F-9ED1-4E03-8FED-A15A7C8AF998}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3AD925E7-74B9-4ED0-8CEA-2E354AEAED41}

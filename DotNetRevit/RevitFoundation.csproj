@@ -53,8 +53,9 @@
     <Reference Include="Renci.SshNet, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=1cee9f8bde3db106, processorArchitecture=MSIL">
       <HintPath>..\packages\SSH.NET.2016.1.0\lib\net40\Renci.SshNet.dll</HintPath>
     </Reference>
-    <Reference Include="RevitAPI">
-      <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPI.dll</HintPath>
+    <Reference Include="RevitAPI, Version=19.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Autodesk\Revit 2020\RevitAPI.dll</HintPath>
     </Reference>
     <Reference Include="RevitAPIIFC">
       <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPIIFC.dll</HintPath>
@@ -64,8 +65,9 @@
       <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPIMacros.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="RevitAPIUI">
-      <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPIUI.dll</HintPath>
+    <Reference Include="RevitAPIUI, Version=19.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Autodesk\Revit 2020\RevitAPIUI.dll</HintPath>
     </Reference>
     <Reference Include="RevitAPIUIMacros">
       <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPIUIMacros.dll</HintPath>
@@ -99,7 +101,6 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClassMyTest\Cmd_CreateTrussA90.cs" />
     <Compile Include="ClassMyTest\E1001RunSample1.cs" />
     <Compile Include="ClassMyTest\Utils.cs" />
     <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\BitmapExtension.cs" />
@@ -166,6 +167,7 @@
     <Compile Include="Other\Truss\Cmd_CreateExtrusion.cs" />
     <Compile Include="Other\Truss\SweepRefCode.cs" />
     <Compile Include="Other\Truss\SweepRefCode2.cs" />
+    <Compile Include="PracticeBookInRevit\R0206Plane.cs" />
     <Compile Include="PracticeBookInRevit\R0205SufferCategory.cs" />
     <Compile Include="PracticeBookInRevit\R0205SufferElement.cs" />
     <Compile Include="PracticeBookInRevit\Example1.cs" />

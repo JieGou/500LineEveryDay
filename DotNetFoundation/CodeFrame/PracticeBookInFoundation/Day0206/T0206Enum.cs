@@ -27,7 +27,7 @@ namespace CodeFrame.PracticeBookInFoundation.Day0206
             Console.WriteLine("将字符串转换为枚举:" + (int) c1);
 
             Sex d = (Sex) 1;
-            Console.WriteLine("将整数转换为枚举:" + d.ToString());
+            Console.WriteLine("将整数转换为枚举:" + d.ToString()); 
 
             string s = Enum.GetName(typeof(Sex), 1);
             Console.WriteLine("Enum.GetName方法:(参数 1)" + s);

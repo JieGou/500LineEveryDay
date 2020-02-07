@@ -195,5 +195,26 @@ namespace RevitDevelopmentFoudation.CodeInTangsengjiewa.BinLibrary.Utils
                 return false;
             }
         }
+
+        /// <summary>
+        /// 角度转为弧度
+        /// </summary>
+        /// <param name="degree"></param>
+        /// <returns></returns>
+        public static double degreeToRadian(double degree)
+        {
+            return degree * Math.PI / 180;
+        }
+
+        /// <summary>
+        /// mm转为foot
+        /// </summary>
+        /// <param name="degree"></param>
+        /// <returns></returns>
+        public static double mmToFeet(double mm)
+        {
+            double feet = mm / 304.8;
+            return feet;
+        }
     }
 }
