@@ -103,6 +103,7 @@
   <ItemGroup>
     <Compile Include="ClassMyTest\E1001RunSample1.cs" />
     <Compile Include="ClassMyTest\Utils.cs" />
+    <Compile Include="CodeInSDK\CapitalizedAllTextNotes.cs" />
     <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\BitmapExtension.cs" />
     <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\WindowExtension.cs" />
     <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\TransactionExtension.cs" />
