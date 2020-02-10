@@ -7,6 +7,29 @@
         mc:Ignorable="d"
         d:DesignHeight="400" d:DesignWidth="400">
 
+    <Window.Resources>
+        <!-- TreeView分层数据模板-->
+        <HierarchicalDataTemplate ItemsSource="{Binding choseItems}" x:Key="myTreeviewWithHierarchical">
+            <StackPanel Orientation="Horizontal">
+                <CheckBox Margin="3" IsChecked="False" />
+                <Image Source="question2.png" Width="24" Height="24" />
+                <TextBlock Margin="3" Text="{Binding questionName}" />
+            </StackPanel>
+            <HierarchicalDataTemplate.ItemTemplate>
+                <DataTemplate>
+                    <Border Margin="3" BorderBrush="Blue" BorderThickness="1" CornerRadius="3">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Margin="3" Text="选项名:" />
+                            <TextBlock Margin="3" Text="{Binding ChoseName}" />
+                            <TextBlock Margin="3" Text="内容:" />
+                            <TextBlock Margin="3" Text="{Binding ChoseContent}" />
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </HierarchicalDataTemplate.ItemTemplate>
+        </HierarchicalDataTemplate>
+    </Window.Resources>
+
     <Grid ShowGridLines="False">
         <Grid.RowDefinitions>
             <RowDefinition Height="5*" />
@@ -16,14 +39,27 @@
 
         <TabControl Grid.Row="0" Margin="10" TabStripPlacement="Top">
             <TabItem Header="FillPattern" Name="TabControlFillPattern">
-                <WrapPanel Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Top">
 
 
-                    <Button Name="ButtonApplyToSurface" Content="Apply To Surface" Margin="10"
-                            Click="buttonApplyToSurface_Click" />
-                    <Button Name="ButtonApplyToCutSurface" Content="Apply To CutSurface" Margin="10"
-                            Click="buttonApplyToCutSaface_Click" />
+                <WrapPanel Orientation="Horizontal"  VerticalAlignment="top">
+
+                    <TreeView Name="tvProperties" Width="250" Padding="0" Margin="0" BorderThickness="1"
+                              VerticalAlignment="Top">
+                        <TreeView.ItemTemplate>
+                            <HierarchicalDataTemplate DataType="{x:Type local:PropertyNodeItem}"
+                                                      ItemsSource="{Binding Path=Children}">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock VerticalAlignment="Center" Text="{Binding DisplayName}" />
+                                </StackPanel>
+                            </HierarchicalDataTemplate>
+                        </TreeView.ItemTemplate>
+                    </TreeView>
+                    <StackPanel VerticalAlignment="Bottom" HorizontalAlignment="Left">
+                        <Button Name="ButtonApplyToCutSurface" Content="Apply To CutSurface" Margin="10" />
+                        <Button x:Name="ButtonApplyToSurface" Content="Apply To Surface" Margin="10" />
+                    </StackPanel>
                 </WrapPanel>
+
             </TabItem>
 
             <TabItem Header="LinePattern" Name="LinePattern">
@@ -51,23 +87,21 @@
 
                     </TreeView>
 
-                    <Button Name="ButtonApplyToGrids" Content="Apply To Grids" Margin="10" VerticalAlignment="Bottom"
-                            Click="buttonApplyToGrids_Click" />
+                    <Button Name="ButtonApplyToGrids" Content="Apply To Grids" Margin="10" VerticalAlignment="Bottom" />
 
 
                 </WrapPanel>
             </TabItem>
         </TabControl>
 
-        <WrapPanel HorizontalAlignment="Center" Grid.Row="1">
-            <Button Name="ButtonCreateFillPattern" Content="CreateFillPattern" Margin="5" Height="20"
-                    Click="buttonCreateFillPattern_Click" />
-            <Button Name="ButtonCreateLinePattern" Content="CreateLinePattern" Margin="5" Height="20"
-                    Click="buttonCreateLinePattern_Click" />
-            <Button Name="ButtonCreateComplexFillPattern" Content="CreateComplexFillPattern" Margin="5" Height="20"
-                    Click="buttonCreateComplexFillPattern_Click" />
+        <UniformGrid HorizontalAlignment="Center" Grid.Row="2">
+            <Button Name="ButtonCreateFillPattern" Content="CreateFillPattern" Margin="5" Height="20" />
+            <Button Name="ButtonCreateLinePattern" Content="CreateLinePattern" Margin="5" Height="20" />
+            <Button Name="ButtonCreateComplexFillPattern" Content="CreateComplexFillPattern" Margin="5" Height="20" />
             <Button Name="ButtonCancel" Content="Cancel" Margin="5" Height="20" Click="buttonCancel_Click" />
-        </WrapPanel>
+        </UniformGrid>
 
     </Grid>
+
+
 </Window>

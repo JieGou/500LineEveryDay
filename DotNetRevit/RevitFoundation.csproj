@@ -84,6 +84,7 @@
     <Reference Include="System.Management" />
     <Reference Include="System.Security" />
     <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
@@ -103,7 +104,22 @@
   <ItemGroup>
     <Compile Include="ClassMyTest\E1001RunSample1.cs" />
     <Compile Include="ClassMyTest\Utils.cs" />
-    <Compile Include="CodeInSDK\CapitalizedAllTextNotes.cs" />
+    <Compile Include="CodeInSDK\AutoCreateFloors\Commands\ExternalCommand.cs" />
+    <Compile Include="CodeInSDK\AutoCreateFloors\Helpers\DelegateCommand.cs" />
+    <Compile Include="CodeInSDK\AutoCreateFloors\Helpers\NotificationObject.cs" />
+    <Compile Include="CodeInSDK\AutoCreateFloors\Models\DataOfRevit.cs" />
+    <Compile Include="CodeInSDK\AutoCreateFloors\ViewModels\MainWindowViewModel.cs" />
+    <Compile Include="CodeInSDK\AutoCreateFloors\Views\CreateFloorsMainWindow.xaml.cs">
+      <DependentUpon>CreateFloorsMainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CodeInSDK\CapitalizedAllTextNotes\CapitalizedAllTextNotes.cs" />
+    <Compile Include="CodeInSDK\CreateTrianglesTopography2\Command.cs" />
+    <Compile Include="CodeInSDK\CreateTrianglesTopography2\TrianglesData.cs" />
+    <None Include="CodeInSDK\CreateTrianglesTopography2\TrianglesData.json" />
+    <Compile Include="CodeInSDK\CurvedBeam\CurvedBeam.cs" />
+    <Compile Include="CodeInSDK\CurvedBeam\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\BitmapExtension.cs" />
     <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\WindowExtension.cs" />
     <Compile Include="CodeInTangsengjiewa\BinLibrary\Extensions\TransactionExtension.cs" />
@@ -270,6 +286,14 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Page Include="CodeInSDK\AutoCreateFloors\Views\CreateFloorsMainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CodeInSDK\CurvedBeam\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="CodeInTangsengjiewa\通用\UIs\FloorSelector.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

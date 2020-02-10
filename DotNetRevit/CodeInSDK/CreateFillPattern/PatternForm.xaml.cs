@@ -42,7 +42,9 @@ namespace CreateFillPattern
             docUI = commandData.Application.ActiveUIDocument;
             doc = commandData.Application.ActiveUIDocument.Document;
             InitializeComponent();
-            IniTreeView();
+            // IniTreeView();
+
+            ShowTreeView();
         }
 
         public List<T> GetAllElements<T>()
@@ -58,308 +60,363 @@ namespace CreateFillPattern
             this.Close();
         }
 
-        private void IniTreeView()
-        {
-            //List<T> nodeList = null;
-
-            this.TreeViewLinePattern
-
-            List<LinePatternElement> lstLinePatterns = GetAllElements<LinePatternElement>();
-
-            for (int i = 0; i < lstLinePatterns.Count; i++)
-            {
-            }
-        } //待完成
+        // private void IniTreeView()
+        // {
+        //     //List<T> nodeList = null;
+        //
+        //     this.TreeViewLinePattern
+        //
+        //     List<LinePatternElement> lstLinePatterns = GetAllElements<LinePatternElement>();
+        //
+        //     for (int i = 0; i < lstLinePatterns.Count; i++)
+        //     {
+        //     }
+        // } //待完成
 
         /// <summary>
         /// create a fillPattern element
         /// </summary>
         /// <param name="patternName"></param>
         /// <returns></returns>
-        private FillPatternElement CreateFacePattern(string patternName)
+        // private FillPatternElement CreateFacePattern(string patternName)
+        // {
+        //     FillPattern fillPattern = new FillPattern(patternName, FillPatternTarget.Model,
+        //                                               FillPatternHostOrientation.ToView, 0.5, 0.5, 0.5);
+        //
+        //     Transaction trans = new Transaction(doc);
+        //     trans.Start("Create a fillPattern element");
+        //     FillPatternElement fillPatternElement = FillPatternElement.Create(doc, fillPattern);
+        //     trans.Commit();
+        //     return fillPatternElement;
+        // }
+
+        // private FillPatternElement CreateComplexFacePattern(string patternName)
+        // {
+        //     FillPatternElement fillPatternElement = null;
+        //
+        //     FillPattern fillPattern = new FillPattern("API-created", FillPatternTarget.Model,
+        //                                               FillPatternHostOrientation.ToHost);
+        //
+        //     List<FillGrid> grids = new List<FillGrid>();
+        //
+        //     grids.Add(CreateGrid(new UV(0, 0.1), 0.5, 0, 0.55, 1.0, 0.1));
+        //     grids.Add(CreateGrid(new UV(0, 0.5), 0.5, 0, 0.55, 1.0, 0.1));
+        //
+        //     // Vertical lines.  
+        //     grids.Add(CreateGrid(new UV(0, 0.1), 0.55, Math.PI / 2, 0.5, 0.4, 0.6));
+        //     grids.Add(CreateGrid(new UV(1.0, 0.1), 0.55, Math.PI / 2, 0.5, 0.4, 0.6));
+        //
+        //     fillPattern.SetFillGrids(grids);
+        //
+        //     // Create the fill pattern element. Now document is modified; transaction is needed
+        //     Transaction t = new Transaction(doc, "Create fill pattern");
+        //     t.Start();
+        //     fillPatternElement = FillPatternElement.Create(doc, fillPattern);
+        //
+        //     t.Commit();
+        //     return fillPatternElement;
+        // }
+
+        // private FillGrid CreateGrid(UV origin, double offset, double angle,
+        //                             double shift, params double[] segments)
+        // {
+        //     FillGrid fillGrid = new FillGrid();
+        //     // The arguments: origin, offset (vertical distance between lines), 
+        //     // angle, shift (delta between location of start point per line)
+        //     // The last two arguments are the segments: e.g. 1.0 units on, 
+        //     // 0.1 units off (units are Revit units (ft))
+        //     fillGrid.Origin = origin;
+        //     fillGrid.Offset = offset;
+        //     fillGrid.Angle = angle;
+        //     fillGrid.Shift = shift;
+        //     List<double> segmentsList = new List<double>();
+        //     foreach (double d in segments)
+        //     {
+        //         segmentsList.Add(d);
+        //     }
+        //     fillGrid.SetSegments(segmentsList);
+        //
+        //     return fillGrid;
+        // }
+
+        // private LinePatternElement CreateLinePatternElement(string patternName)
+        // {
+        //     //Create list of segments which define the line pattern
+        //     List<LinePatternSegment> lstSegments = new List<LinePatternSegment>();
+        //     lstSegments.Add(new LinePatternSegment(LinePatternSegmentType.Dot, 0.0));
+        //     lstSegments.Add(new LinePatternSegment(LinePatternSegmentType.Space, 0.02));
+        //     lstSegments.Add(new LinePatternSegment(LinePatternSegmentType.Dash, 0.03));
+        //     lstSegments.Add(new LinePatternSegment(LinePatternSegmentType.Space, 0.02));
+        //
+        //     LinePattern linePattern = new LinePattern(patternName);
+        //     linePattern.SetSegments(lstSegments);
+        //
+        //     Transaction trans = new Transaction(doc);
+        //     trans.Start("Create a linepattern element");
+        //     LinePatternElement linePatternElement = LinePatternElement.Create(doc, linePattern);
+        //     trans.Commit();
+        //     return linePatternElement;
+        // }
+
+        // private void buttonCreateFillPattern_Click(object sender, EventArgs e)
+        // {
+        //     Wall targetWall = GetSelectedWall();
+        //     if (targetWall == null)
+        //     {
+        //         TaskDialog.Show("Create Fill Pattern",
+        //                         "Before applying FillPattern to a wall's surfaces, you must firstly select a wall.");
+        //         this.Close();
+        //         return;
+        //     }
+        //
+        //     FillPatternElement mySurfacePattern = CreateFacePattern("MySurfacePattern");
+        //     Material targetMaterial = doc.GetElement(targetWall.GetMaterialIds(false).First<ElementId>()) as Material;
+        //     Transaction trans = new Transaction(doc);
+        //     trans.Start("Apply fillpattern to surface");
+        //     targetMaterial.SurfaceForegroundPatternId = mySurfacePattern.Id;
+        //     trans.Commit();
+        //     this.Close();
+        // }
+
+        // private void buttonCreateLinePattern_Click(object sender, EventArgs e)
+        // {
+        //     List<ElementId> lstGridTypeIds = new List<ElementId>();
+        //     GetSelectedGridTypeIds(lstGridTypeIds);
+        //     if (lstGridTypeIds.Count == 0)
+        //     {
+        //         TaskDialog.Show("Apply To Grids",
+        //                         "Before applying LinePattern to Grids, you must firstly select at least one grid.");
+        //         this.Close();
+        //         return;
+        //     }
+        //
+        //     LinePatternElement myLinePatternElement = CreateLinePatternElement("MyLinePattern");
+        //     foreach (ElementId typeId in lstGridTypeIds)
+        //     {
+        //         Element gridType = doc.GetElement(typeId);
+        //         //set the parameter value of End Segment Pattern
+        //         SetParameter("End Segment Pattern", myLinePatternElement.Id, gridType);
+        //     }
+        //     this.Close();
+        // }
+
+        // private void SetParameter(string paramName, ElementId eid, Element elem)
+        // {
+        //     foreach (Parameter param in elem.Parameters)
+        //     {
+        //         if (param.Definition.Name == paramName)
+        //         {
+        //             Transaction trans = new Transaction(doc);
+        //             trans.Start("Set parameter value");
+        //             param.Set(eid);
+        //             trans.Commit();
+        //             break;
+        //         }
+        //     }
+        // }
+        //
+        //
+        // private void buttonApplyToSurface_Click(object sender, EventArgs e)
+        // {
+        //     Wall targetWall = GetSelectedWall();
+        //     if (targetWall == null)
+        //     {
+        //         TaskDialog.Show("Apply To Surface",
+        //                         "Before applying FillPattern to a wall's surfaces, you must firstly select a wall.");
+        //         this.Close();
+        //         return;
+        //     }
+        //
+        //     if (treeViewFillPattern.SelectedNode == null || treeViewFillPattern.SelectedNode.Parent == null)
+        //     {
+        //         TaskDialog.Show("Apply To Surface",
+        //                         "Before applying FillPattern to a wall's surfaces, you must firstly select one FillPattern.");
+        //         return;
+        //     }
+        //
+        //     List<FillPatternElement> lstPatterns = GetAllElements<FillPatternElement>();
+        //     int patternIndex = int.Parse(treeViewFillPattern.SelectedNode.Name);
+        //     Material targetMaterial = doc.GetElement(targetWall.GetMaterialIds(false).First<ElementId>()) as Material;
+        //     Transaction trans = new Transaction(doc);
+        //     trans.Start("Apply fillpattern to surface");
+        //     targetMaterial.SurfaceForegroundPatternId = lstPatterns[patternIndex].Id;
+        //     trans.Commit();
+        //
+        //     this.Close();
+        // }
+        //
+        //
+        // private Wall GetSelectedWall()
+        // {
+        //     Wall wall = null;
+        //     foreach (ElementId elemId in docUI.Selection.GetElementIds())
+        //     {
+        //         Element elem = doc.GetElement(elemId);
+        //         wall = elem as Wall;
+        //         if (wall != null)
+        //             return wall;
+        //     }
+        //     return wall;
+        // }
+        //
+        //
+        // private void buttonApplyToCutSurface_Click(object sender, EventArgs e)
+        // {
+        //     Wall targetWall = GetSelectedWall();
+        //     if (targetWall == null)
+        //     {
+        //         TaskDialog.Show("Apply To CutSurface",
+        //                         "Before applying FillPattern to a wall's cutting surfaces, you must firstly select a wall.");
+        //         this.Close();
+        //         return;
+        //     }
+        //
+        //     if (treeViewFillPattern.SelectedNode == null || treeViewFillPattern.SelectedNode.Parent == null)
+        //     {
+        //         TaskDialog.Show("Apply To CutSurface",
+        //                         "Before applying FillPattern to a wall's cutting surfaces, you must firstly select one FillPattern.");
+        //         return;
+        //     }
+        //
+        //     List<FillPatternElement> lstPatterns = GetAllElements<FillPatternElement>();
+        //     int patternIndex = int.Parse(treeViewFillPattern.SelectedNode.Name);
+        //     Material targetMaterial = doc.GetElement(targetWall.GetMaterialIds(false).First<ElementId>()) as Material;
+        //
+        //     Transaction trans = new Transaction(doc);
+        //     trans.Start("Apply fillpattern to cutting surface");
+        //     targetMaterial.CutForegroundPatternId = lstPatterns[patternIndex].Id;
+        //     trans.Commit();
+        //
+        //     this.Close();
+        // }
+        //
+        //
+        // private void buttonApplyToGrids_Click(object sender, EventArgs e)
+        // {
+        //     List<ElementId> lstGridTypeIds = new List<ElementId>();
+        //     GetSelectedGridTypeIds(lstGridTypeIds);
+        //     if (lstGridTypeIds.Count == 0)
+        //     {
+        //         TaskDialog.Show("Apply To Grids",
+        //                         "Before applying LinePattern to Grids, you must firstly select at least one grid.");
+        //         this.Close();
+        //         return;
+        //     }
+        //
+        //     if (treeViewLinePattern.SelectedNode == null || treeViewLinePattern.Parent == null)
+        //     {
+        //         TaskDialog.Show("Apply To Grids",
+        //                         "Before applying LinePattern to Grids, you must firstly select a LinePattern.");
+        //         return;
+        //     }
+        //     ElementId eid = new ElementId(int.Parse(treeViewLinePattern.SelectedNode.Name));
+        //     foreach (ElementId typeId in lstGridTypeIds)
+        //     {
+        //         Element gridType = doc.GetElement(typeId);
+        //         //set the parameter value of End Segment Pattern
+        //         SetParameter("End Segment Pattern", eid, gridType);
+        //     }
+        //     this.Close();
+        // }
+        //
+        //
+        // private void GetSelectedGridTypeIds(List<ElementId> lstGridTypeIds)
+        // {
+        //     foreach (ElementId elemId in docUI.Selection.GetElementIds())
+        //     {
+        //         Element elem = doc.GetElement(elemId);
+        //         Autodesk.Revit.DB.Grid grid = elem as Autodesk.Revit.DB.Grid;
+        //         if (grid != null)
+        //         {
+        //             ElementId gridTypeId = grid.GetTypeId();
+        //             if (!lstGridTypeIds.Contains(gridTypeId))
+        //                 lstGridTypeIds.Add(gridTypeId);
+        //         }
+        //     }
+        // }
+        //
+        //
+        // private void buttonCreateComplexFillPattern_Click(object sender, EventArgs e)
+        // {
+        //     Wall targetWall = GetSelectedWall();
+        //     if (targetWall == null)
+        //     {
+        //         TaskDialog.Show("Create Fill Pattern",
+        //                         "Before applying FillPattern to a wall's surfaces, you must firstly select a wall.");
+        //         this.Close();
+        //         return;
+        //     }
+        //
+        //     FillPatternElement mySurfacePattern = CreateComplexFacePattern("MyComplexPattern");
+        //     Material targetMaterial = doc.GetElement(targetWall.GetMaterialIds(false).First<ElementId>()) as Material;
+        //     Transaction trans = new Transaction(doc);
+        //     trans.Start("Apply complex fillpattern to surface");
+        //     targetMaterial.SurfaceForegroundPatternId = mySurfacePattern.Id;
+        //     trans.Commit();
+        //     this.Close();
+        // }
+        private void ShowTreeView()
         {
-            FillPattern fillPattern = new FillPattern(patternName, FillPatternTarget.Model,
-                                                      FillPatternHostOrientation.ToView, 0.5, 0.5, 0.5);
+            List<PropertyNodeItem> itemList = new List<PropertyNodeItem>();
+            PropertyNodeItem node1 = new PropertyNodeItem()
+            {
+                DisplayName = "Node No.1",
+                Name = "This is the discription of Node1. This is a folder.",
+            };
 
-            Transaction trans = new Transaction(doc);
-            trans.Start("Create a fillPattern element");
-            FillPatternElement fillPatternElement = FillPatternElement.Create(doc, fillPattern);
-            trans.Commit();
-            return fillPatternElement;
+            PropertyNodeItem node1tag1 = new PropertyNodeItem()
+            {
+                DisplayName = "Tag No.1",
+                Name = "This is the discription of Tag 1. This is a tag.",
+            };
+            node1.Children.Add(node1tag1);
+
+            PropertyNodeItem node1tag2 = new PropertyNodeItem()
+            {
+                DisplayName = "Tag No.2",
+                Name = "This is the discription of Tag 2. This is a tag.",
+            };
+            node1.Children.Add(node1tag2);
+            itemList.Add(node1);
+
+            PropertyNodeItem node2 = new PropertyNodeItem()
+            {
+                DisplayName = "Node No.2",
+                Name = "This is the discription of Node 2. This is a folder.",
+            };
+
+            PropertyNodeItem node2tag3 = new PropertyNodeItem()
+            {
+                DisplayName = "Tag No.3",
+                Name = "This is the discription of Tag 3. This is a tag.",
+            };
+            node2.Children.Add(node2tag3);
+
+            PropertyNodeItem node2tag4 = new PropertyNodeItem()
+            {
+                DisplayName = "Tag No.4",
+                Name = "This is the discription of Tag 4. This is a tag.",
+            };
+
+            node2.Children.Add(node2tag4);
+            itemList.Add(node2);
+
+            this.tvProperties.ItemsSource = itemList;
         }
+    }
 
+    public class PropertyNodeItem
+    {
+        public string Icon { get; set; }
+        public string EditIcon { get; set; }
+        public string DisplayName { get; set; }
+        public string Name { get; set; }
 
-        private FillPatternElement CreateComplexFacePattern(string patternName)
+        public List<PropertyNodeItem> Children { get; set; }
+
+        public PropertyNodeItem()
         {
-            FillPatternElement fillPatternElement = null;
-
-            FillPattern fillPattern = new FillPattern("API-created", FillPatternTarget.Model,
-                                                      FillPatternHostOrientation.ToHost);
-
-            List<FillGrid> grids = new List<FillGrid>();
-
-            grids.Add(CreateGrid(new UV(0, 0.1), 0.5, 0, 0.55, 1.0, 0.1));
-            grids.Add(CreateGrid(new UV(0, 0.5), 0.5, 0, 0.55, 1.0, 0.1));
-
-            // Vertical lines.  
-            grids.Add(CreateGrid(new UV(0, 0.1), 0.55, Math.PI / 2, 0.5, 0.4, 0.6));
-            grids.Add(CreateGrid(new UV(1.0, 0.1), 0.55, Math.PI / 2, 0.5, 0.4, 0.6));
-
-            fillPattern.SetFillGrids(grids);
-
-            // Create the fill pattern element. Now document is modified; transaction is needed
-            Transaction t = new Transaction(doc, "Create fill pattern");
-            t.Start();
-            fillPatternElement = FillPatternElement.Create(doc, fillPattern);
-
-            t.Commit();
-            return fillPatternElement;
+            Children = new List<PropertyNodeItem>();
         }
-
-        private FillGrid CreateGrid(UV origin, double offset, double angle,
-                                    double shift, params double[] segments)
-        {
-            FillGrid fillGrid = new FillGrid();
-            // The arguments: origin, offset (vertical distance between lines), 
-            // angle, shift (delta between location of start point per line)
-            // The last two arguments are the segments: e.g. 1.0 units on, 
-            // 0.1 units off (units are Revit units (ft))
-            fillGrid.Origin = origin;
-            fillGrid.Offset = offset;
-            fillGrid.Angle = angle;
-            fillGrid.Shift = shift;
-            List<double> segmentsList = new List<double>();
-            foreach (double d in segments)
-            {
-                segmentsList.Add(d);
-            }
-            fillGrid.SetSegments(segmentsList);
-
-            return fillGrid;
-        }
-
-
-        private LinePatternElement CreateLinePatternElement(string patternName)
-        {
-            //Create list of segments which define the line pattern
-            List<LinePatternSegment> lstSegments = new List<LinePatternSegment>();
-            lstSegments.Add(new LinePatternSegment(LinePatternSegmentType.Dot, 0.0));
-            lstSegments.Add(new LinePatternSegment(LinePatternSegmentType.Space, 0.02));
-            lstSegments.Add(new LinePatternSegment(LinePatternSegmentType.Dash, 0.03));
-            lstSegments.Add(new LinePatternSegment(LinePatternSegmentType.Space, 0.02));
-
-            LinePattern linePattern = new LinePattern(patternName);
-            linePattern.SetSegments(lstSegments);
-
-            Transaction trans = new Transaction(doc);
-            trans.Start("Create a linepattern element");
-            LinePatternElement linePatternElement = LinePatternElement.Create(doc, linePattern);
-            trans.Commit();
-            return linePatternElement;
-        }
-
-
-        private void buttonCreateFillPattern_Click(object sender, EventArgs e)
-        {
-            Wall targetWall = GetSelectedWall();
-            if (targetWall == null)
-            {
-                TaskDialog.Show("Create Fill Pattern",
-                                "Before applying FillPattern to a wall's surfaces, you must firstly select a wall.");
-                this.Close();
-                return;
-            }
-
-            FillPatternElement mySurfacePattern = CreateFacePattern("MySurfacePattern");
-            Material targetMaterial = doc.GetElement(targetWall.GetMaterialIds(false).First<ElementId>()) as Material;
-            Transaction trans = new Transaction(doc);
-            trans.Start("Apply fillpattern to surface");
-            targetMaterial.SurfaceForegroundPatternId = mySurfacePattern.Id;
-            trans.Commit();
-            this.Close();
-        }
-
-        private void buttonCreateLinePattern_Click(object sender, EventArgs e)
-        {
-            List<ElementId> lstGridTypeIds = new List<ElementId>();
-            GetSelectedGridTypeIds(lstGridTypeIds);
-            if (lstGridTypeIds.Count == 0)
-            {
-                TaskDialog.Show("Apply To Grids",
-                                "Before applying LinePattern to Grids, you must firstly select at least one grid.");
-                this.Close();
-                return;
-            }
-
-            LinePatternElement myLinePatternElement = CreateLinePatternElement("MyLinePattern");
-            foreach (ElementId typeId in lstGridTypeIds)
-            {
-                Element gridType = doc.GetElement(typeId);
-                //set the parameter value of End Segment Pattern
-                SetParameter("End Segment Pattern", myLinePatternElement.Id, gridType);
-            }
-            this.Close();
-        }
-
-
-        private void SetParameter(string paramName, ElementId eid, Element elem)
-        {
-            foreach (Parameter param in elem.Parameters)
-            {
-                if (param.Definition.Name == paramName)
-                {
-                    Transaction trans = new Transaction(doc);
-                    trans.Start("Set parameter value");
-                    param.Set(eid);
-                    trans.Commit();
-                    break;
-                }
-            }
-        }
-
-
-        private void buttonApplyToSurface_Click(object sender, EventArgs e)
-        {
-            Wall targetWall = GetSelectedWall();
-            if (targetWall == null)
-            {
-                TaskDialog.Show("Apply To Surface",
-                                "Before applying FillPattern to a wall's surfaces, you must firstly select a wall.");
-                this.Close();
-                return;
-            }
-
-            if (treeViewFillPattern.SelectedNode == null || treeViewFillPattern.SelectedNode.Parent == null)
-            {
-                TaskDialog.Show("Apply To Surface",
-                                "Before applying FillPattern to a wall's surfaces, you must firstly select one FillPattern.");
-                return;
-            }
-
-            List<FillPatternElement> lstPatterns = GetAllElements<FillPatternElement>();
-            int patternIndex = int.Parse(treeViewFillPattern.SelectedNode.Name);
-            Material targetMaterial = doc.GetElement(targetWall.GetMaterialIds(false).First<ElementId>()) as Material;
-            Transaction trans = new Transaction(doc);
-            trans.Start("Apply fillpattern to surface");
-            targetMaterial.SurfaceForegroundPatternId = lstPatterns[patternIndex].Id;
-            trans.Commit();
-
-            this.Close();
-        }
-
-
-        private Wall GetSelectedWall()
-        {
-            Wall wall = null;
-            foreach (ElementId elemId in docUI.Selection.GetElementIds())
-            {
-                Element elem = doc.GetElement(elemId);
-                wall = elem as Wall;
-                if (wall != null)
-                    return wall;
-            }
-            return wall;
-        }
-
-
-        private void buttonApplyToCutSurface_Click(object sender, EventArgs e)
-        {
-            Wall targetWall = GetSelectedWall();
-            if (targetWall == null)
-            {
-                TaskDialog.Show("Apply To CutSurface",
-                                "Before applying FillPattern to a wall's cutting surfaces, you must firstly select a wall.");
-                this.Close();
-                return;
-            }
-
-            if (treeViewFillPattern.SelectedNode == null || treeViewFillPattern.SelectedNode.Parent == null)
-            {
-                TaskDialog.Show("Apply To CutSurface",
-                                "Before applying FillPattern to a wall's cutting surfaces, you must firstly select one FillPattern.");
-                return;
-            }
-
-            List<FillPatternElement> lstPatterns = GetAllElements<FillPatternElement>();
-            int patternIndex = int.Parse(treeViewFillPattern.SelectedNode.Name);
-            Material targetMaterial = doc.GetElement(targetWall.GetMaterialIds(false).First<ElementId>()) as Material;
-
-            Transaction trans = new Transaction(doc);
-            trans.Start("Apply fillpattern to cutting surface");
-            targetMaterial.CutForegroundPatternId = lstPatterns[patternIndex].Id;
-            trans.Commit();
-
-            this.Close();
-        }
-
-
-        private void buttonApplyToGrids_Click(object sender, EventArgs e)
-        {
-            List<ElementId> lstGridTypeIds = new List<ElementId>();
-            GetSelectedGridTypeIds(lstGridTypeIds);
-            if (lstGridTypeIds.Count == 0)
-            {
-                TaskDialog.Show("Apply To Grids",
-                                "Before applying LinePattern to Grids, you must firstly select at least one grid.");
-                this.Close();
-                return;
-            }
-
-            if (treeViewLinePattern.SelectedNode == null || treeViewLinePattern.Parent == null)
-            {
-                TaskDialog.Show("Apply To Grids",
-                                "Before applying LinePattern to Grids, you must firstly select a LinePattern.");
-                return;
-            }
-            ElementId eid = new ElementId(int.Parse(treeViewLinePattern.SelectedNode.Name));
-            foreach (ElementId typeId in lstGridTypeIds)
-            {
-                Element gridType = doc.GetElement(typeId);
-                //set the parameter value of End Segment Pattern
-                SetParameter("End Segment Pattern", eid, gridType);
-            }
-            this.Close();
-        }
-
-
-        private void GetSelectedGridTypeIds(List<ElementId> lstGridTypeIds)
-        {
-            foreach (ElementId elemId in docUI.Selection.GetElementIds())
-            {
-                Element elem = doc.GetElement(elemId);
-                Autodesk.Revit.DB.Grid grid = elem as Autodesk.Revit.DB.Grid;
-                if (grid != null)
-                {
-                    ElementId gridTypeId = grid.GetTypeId();
-                    if (!lstGridTypeIds.Contains(gridTypeId))
-                        lstGridTypeIds.Add(gridTypeId);
-                }
-            }
-        }
-
-
-        private void buttonCreateComplexFillPattern_Click(object sender, EventArgs e)
-        {
-            Wall targetWall = GetSelectedWall();
-            if (targetWall == null)
-            {
-                TaskDialog.Show("Create Fill Pattern",
-                                "Before applying FillPattern to a wall's surfaces, you must firstly select a wall.");
-                this.Close();
-                return;
-            }
-
-            FillPatternElement mySurfacePattern = CreateComplexFacePattern("MyComplexPattern");
-            Material targetMaterial = doc.GetElement(targetWall.GetMaterialIds(false).First<ElementId>()) as Material;
-            Transaction trans = new Transaction(doc);
-            trans.Start("Apply complex fillpattern to surface");
-            targetMaterial.SurfaceForegroundPatternId = mySurfacePattern.Id;
-            trans.Commit();
-            this.Close();
-        }
-
-
-
-
     }
 }
