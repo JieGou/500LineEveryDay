@@ -105,6 +105,7 @@
     <Compile Include="ClassMyTest\E1001RunSample1.cs" />
     <Compile Include="ClassMyTest\Utils.cs" />
     <Compile Include="CodeInSDK\AutoCreateFloors\Commands\ExternalCommand.cs" />
+    <Compile Include="CodeInSDK\AutoCreateFloors\Helpers\Tools.cs" />
     <Compile Include="CodeInSDK\AutoCreateFloors\Helpers\DelegateCommand.cs" />
     <Compile Include="CodeInSDK\AutoCreateFloors\Helpers\NotificationObject.cs" />
     <Compile Include="CodeInSDK\AutoCreateFloors\Models\DataOfRevit.cs" />
@@ -203,6 +204,7 @@
     <Compile Include="Other\TheCodeInKaiFaZhiNan\Chapter2\Code0203.cs" />
     <Compile Include="Other\TheCodeInKaiFaZhiNan\Chapter2\Code0202.cs" />
     <Compile Include="Other\TheCodeInKaiFaZhiNan\Chapter2\Code0201.cs" />
+    <Compile Include="PracticeBookInRevit\R0210Linq.cs" />
     <Compile Include="TheCodeInBook\Chapter03\R0504bFamilyCreat2.cs" />
     <Compile Include="TheCodeInBook\Chapter03\R0601未完ExclusionFilterw.cs" />
     <Compile Include="TheCodeInBook\Chapter03\R0603ShowSelectedElementFaceArea.cs" />

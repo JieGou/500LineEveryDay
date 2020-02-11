@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Autodesk.Revit.UI;
+using RevitDevelopmentFoudation.CodeInSDK.AutoCreateFloors.ViewModels;
 
 namespace RevitDevelopmentFoudation.CodeInSDK.AutoCreateFloors.Views
 {
@@ -24,7 +25,7 @@ namespace RevitDevelopmentFoudation.CodeInSDK.AutoCreateFloors.Views
         public CreateFloorsMainWindow(ExternalCommandData externalCommandData)
         {
             InitializeComponent();
-            DataContext =new MainWindowViewModel()
+            DataContext = new MainWindowViewModel(externalCommandData);
         }
     }
 }
