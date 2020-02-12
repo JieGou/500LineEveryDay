@@ -205,6 +205,8 @@
     <Compile Include="Other\TheCodeInKaiFaZhiNan\Chapter2\Code0202.cs" />
     <Compile Include="Other\TheCodeInKaiFaZhiNan\Chapter2\Code0201.cs" />
     <Compile Include="PracticeBookInRevit\R0210Linq.cs" />
+    <Compile Include="PracticeBookInRevit\R0212LinqGroup2.cs" />
+    <Compile Include="PracticeBookInRevit\R0212LinqGroupAccumulation.cs" />
     <Compile Include="TheCodeInBook\Chapter03\R0504bFamilyCreat2.cs" />
     <Compile Include="TheCodeInBook\Chapter03\R0601未完ExclusionFilterw.cs" />
     <Compile Include="TheCodeInBook\Chapter03\R0603ShowSelectedElementFaceArea.cs" />

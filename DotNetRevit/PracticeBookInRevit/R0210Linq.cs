@@ -21,15 +21,6 @@ namespace RevitDevelopmentFoudation.PracticeBookInRevit
             Document doc = commandData.Application.ActiveUIDocument.Document;
             string info = "";
 
-            // foreach (Element e in new FilteredElementCollector(doc)
-            //     .OfClass(typeof(FamilyInstance))
-            //     .OfCategory(BuiltInCategory.OST_Doors))
-            // {
-            //     FamilyInstance fi = e as FamilyInstance;
-            //     FamilySymbol fs = fi.Symbol;
-            //     Family family = fs.Family;
-            //     info += family.Name + " : " + fs.Name + " : " + fi.Name + Environment.NewLine;
-            // }
 
             foreach (FamilyInstance fi in new FilteredElementCollector(doc)
                 .OfClass(typeof(FamilyInstance))
