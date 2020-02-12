@@ -23,7 +23,9 @@ namespace RevitDevelopmentFoudation.PracticeBookInRevit
 
             FilteredElementCollector collector = new FilteredElementCollector(doc);
 
-            var ele = from e in collector.OfClass(typeof(FamilyInstance)).WhereElementIsNotElementType()
+            var ele = from e in collector
+                    .OfClass(typeof(FamilyInstance))
+                    .WhereElementIsNotElementType()
                     .Cast<FamilyInstance>()
                 group e by e.Symbol.Family.Name.ToString()
                 into g
