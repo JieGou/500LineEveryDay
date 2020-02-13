@@ -14,7 +14,7 @@ namespace RevitDevelopmentFoudation.PracticeBookInRevit
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    public class R0213LinqNameSpace : IExternalCommand
+    public class R0213LinqNameSpace2 : IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
@@ -22,22 +22,38 @@ namespace RevitDevelopmentFoudation.PracticeBookInRevit
             string info = "";
 
             FilteredElementCollector collector = new FilteredElementCollector(doc);
-
             ElementClassFilter filter = new ElementClassFilter(typeof(FamilyInstance));
             collector.WherePasses(filter);
 
-            var query = from element in collector
-                where element.Name == "60 x 30 Student"
-                select element;
+            //查询语法
+            var namesQuery = from n in collector
+                where n.Name.Length > 1
+                select n.Name;
 
-            List<FamilyInstance> familyInstances = query.Cast<FamilyInstance>().ToList<FamilyInstance>();
-
-            foreach (FamilyInstance instance in familyInstances)
+            info += "\n查询语法：  " + namesQuery.Count().ToString();
+            foreach (string s in namesQuery)
             {
-                info += "\n坐标为：\nX：" + (instance.Location as LocationPoint).Point.X.ToString()
-                                   + "\nY：" + (instance.Location as LocationPoint).Point.Y.ToString();
+                info += "\n" + s;
             }
-          
+
+            //命令语法
+            var namesMethod = collector
+                .Where(x => x.Name.Length > 1)
+                .Select(x => x.Name);
+            
+            info += "\n命令语法:   " +namesMethod.Count().ToString();
+            foreach (string s in namesMethod)
+            {
+                info += "\n" + s;
+            }
+
+            //两种形式结合
+            var namesCount = (from n in collector
+                              where n.Name.Length > 1
+                              select n).Count();
+
+            info += "\n数量:  " +namesCount.ToString();
+
 
             TaskDialog.Show("tips", info);
             return Result.Succeeded;

@@ -14,7 +14,7 @@ namespace RevitDevelopmentFoudation.PracticeBookInRevit
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    public class R0213LinqNameSpace : IExternalCommand
+    public class R0213LinqNameSpace3 : IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
@@ -22,22 +22,21 @@ namespace RevitDevelopmentFoudation.PracticeBookInRevit
             string info = "";
 
             FilteredElementCollector collector = new FilteredElementCollector(doc);
-
             ElementClassFilter filter = new ElementClassFilter(typeof(FamilyInstance));
             collector.WherePasses(filter);
 
-            var query = from element in collector
-                where element.Name == "60 x 30 Student"
-                select element;
+            var groupA = collector.Where(x => x.Name == "1000 x 1000mm");
+            var groupB = collector.Where(x => x.Name == "400 x 800mm");
+            var groupC = collector.Where(x => x.Name == "60 x 30 Student");
 
-            List<FamilyInstance> familyInstances = query.Cast<FamilyInstance>().ToList<FamilyInstance>();
+            var numList = from a in groupA
+                // from b in groupB
+                // from c in groupB
+                where a.Name.Length > 1
+                select new {Name = a.Name, CateName = a.Category.Name};
 
-            foreach (FamilyInstance instance in familyInstances)
-            {
-                info += "\n坐标为：\nX：" + (instance.Location as LocationPoint).Point.X.ToString()
-                                   + "\nY：" + (instance.Location as LocationPoint).Point.Y.ToString();
-            }
-          
+            info += "\n" + numList.FirstOrDefault().Name;
+            info += "\n" + numList.FirstOrDefault().CateName;
 
             TaskDialog.Show("tips", info);
             return Result.Succeeded;
