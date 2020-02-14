@@ -14,7 +14,7 @@ namespace RevitDevelopmentFoudation.PracticeBookInRevit
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    public class R0213LinqNameSpace3 : IExternalCommand
+    public class R0213LinqNameSpaceInto : IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
@@ -22,21 +22,24 @@ namespace RevitDevelopmentFoudation.PracticeBookInRevit
             string info = "";
 
             FilteredElementCollector collector = new FilteredElementCollector(doc);
-            ElementClassFilter filter = new ElementClassFilter(typeof(FamilyInstance));
-            collector.WherePasses(filter);
 
-            var groupA = collector.Where(x => x.Name == "1000 x 1000mm");
-            var groupB = collector.Where(x => x.Name == "400 x 800mm");
-            var groupC = collector.Where(x => x.Name == "60 x 30 Student");
+            collector.WhereElementIsNotElementType()
+                .OfClass(typeof(FamilyInstance));
 
-            var numList = from a in groupA
-                // from b in groupB
-                // from c in groupB
-                where a.Name.Length > 1
-                select new {Name = a.Name, CateName = a.Category.Name};
+            //Into语句
+            var groupC = collector.Where(x => x.Name == "1000 x 1000mm");
+            var groupD = collector.Where(x => x.Name == "60 x 30 Student");
 
-            info += "\n" + numList.FirstOrDefault().Name;
-            info += "\n" + numList.FirstOrDefault().CateName;
+            var elementList = from a in groupC
+                join b in groupD on a.Category.Name equals b.Category.Name
+                    into groupE
+                from c in groupE
+                select c;
+
+            foreach (var e in elementList)
+            {
+                info += e.Name +"\n";
+            }
 
             TaskDialog.Show("tips", info);
             return Result.Succeeded;

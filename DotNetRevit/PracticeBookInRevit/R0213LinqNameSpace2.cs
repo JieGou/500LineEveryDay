@@ -22,8 +22,9 @@ namespace RevitDevelopmentFoudation.PracticeBookInRevit
             string info = "";
 
             FilteredElementCollector collector = new FilteredElementCollector(doc);
-            ElementClassFilter filter = new ElementClassFilter(typeof(FamilyInstance));
-            collector.WherePasses(filter);
+
+            collector.WhereElementIsNotElementType()
+                .OfClass(typeof(FamilyInstance));
 
             //查询语法
             var namesQuery = from n in collector

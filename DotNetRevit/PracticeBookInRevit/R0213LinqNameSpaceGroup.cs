@@ -14,7 +14,7 @@ namespace RevitDevelopmentFoudation.PracticeBookInRevit
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    public class R0213LinqNameSpace : IExternalCommand
+    public class R0213LinqNameSpaceGroup : IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
@@ -23,23 +23,24 @@ namespace RevitDevelopmentFoudation.PracticeBookInRevit
 
             FilteredElementCollector collector = new FilteredElementCollector(doc);
 
-     
             collector.WhereElementIsNotElementType()
                 .OfClass(typeof(FamilyInstance));
 
-            var query = from element in collector
-                where element.Name == "60 x 30 Student"
-                select element;
+            //group子句
+            var groupA =( from e in collector
+                group e by e.Category.Name).ToList();
 
-            List<FamilyInstance> familyInstances = query.Cast<FamilyInstance>().ToList<FamilyInstance>();
-
-            foreach (FamilyInstance instance in familyInstances)
+            foreach (var g in groupA)
             {
-                info += "\n坐标为：\nX：" + (instance.Location as LocationPoint).Point.X.ToString()
-                                   + "\nY：" + (instance.Location as LocationPoint).Point.Y.ToString();
-            }
-          
+                info += g.Key + "\n";
 
+                foreach (var e in g)
+                {
+                    info += "\t" + e.Name + "\n";
+                }
+            }
+
+           
             TaskDialog.Show("tips", info);
             return Result.Succeeded;
         }

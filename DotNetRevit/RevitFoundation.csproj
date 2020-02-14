@@ -221,7 +221,11 @@
     <Compile Include="Other\TheCodeInKaiFaZhiNan\Chapter2\Code0201.cs" />
     <Compile Include="PracticeBookInRevit\R0210Linq.cs" />
     <Compile Include="PracticeBookInRevit\R0212LinqGroup2.cs" />
-    <Compile Include="PracticeBookInRevit\R0213LinqNameSpace3.cs" />
+    <Compile Include="PracticeBookInRevit\R0213LinqNameSpaceFrom.cs" />
+    <Compile Include="PracticeBookInRevit\R0213LinqNameSpaceInto.cs" />
+    <Compile Include="PracticeBookInRevit\R0213LinqNameSpaceGroup.cs" />
+    <Compile Include="PracticeBookInRevit\R0213LinqNameSpaceDelegate.cs" />
+    <Compile Include="PracticeBookInRevit\R0213LinqNameSpaceJoin.cs" />
     <Compile Include="PracticeBookInRevit\R0213LinqNameSpace2.cs" />
     <Compile Include="PracticeBookInRevit\R0213LinqNameSpace.cs" />
     <Compile Include="PracticeBookInRevit\R0212LinqGroupAccumulation.cs" />
