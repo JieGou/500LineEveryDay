@@ -132,6 +132,12 @@
     <Compile Include="CodeInSDK\CreateTrianglesTopography2\Command.cs" />
     <Compile Include="CodeInSDK\CreateTrianglesTopography2\TrianglesData.cs" />
     <None Include="CodeInSDK\CreateTrianglesTopography2\TrianglesData.json" />
+    <Compile Include="CodeInSDK\CurvedBeamWpf\Command\MainCommand.cs" />
+    <Compile Include="CodeInSDK\CurvedBeamWpf\Model\DataOfRevitModel.cs" />
+    <Compile Include="CodeInSDK\CurvedBeamWpf\ViewModel\CurvedBeamViewModel.cs" />
+    <Compile Include="CodeInSDK\CurvedBeamWpf\View\CurvedBeamView.xaml.cs">
+      <DependentUpon>CurvedBeamView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="CodeInSDK\CurvedBeam\CurvedBeam.cs" />
     <Compile Include="CodeInSDK\CurvedBeam\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -317,6 +323,10 @@
     <Page Include="CodeInSDK\AutoCreateFloors\Views\CreateFloorsMainWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CodeInSDK\CurvedBeamWpf\View\CurvedBeamView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="CodeInSDK\CurvedBeam\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>

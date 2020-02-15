@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RevitDevelopmentFoudation.CodeInSDK.AutoCreateFloors.Helpers
 {
-    class NotificationObject : INotifyPropertyChanged
+    public class NotificationObject : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
 

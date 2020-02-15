@@ -7,7 +7,7 @@ using System.Windows.Input;
 
 namespace RevitDevelopmentFoudation.CodeInSDK.AutoCreateFloors.Helpers
 {
-    class DelegateCommand : ICommand
+    public class DelegateCommand : ICommand
     {
         public event EventHandler CanExecuteChanged;
         public Action<object> ExecuteAction { get; set; }
