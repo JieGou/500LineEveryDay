@@ -35,13 +35,19 @@ namespace RevitDevelopmentFoudation.PracticeBookInRevit
                 .Count();
             info += numOfColumn + "\n";
 
+            //使用委托的实例
             Func<Element, bool> myDel = new Func<Element, bool>(IsFamilyInstanceAndColumn);
             //Element 是 in
             //bool 是 out
-
-            var numOfColumn2 = collector
-                .Count(myDel);
+            var numOfColumn2 = collector.Count(myDel);
             info += numOfColumn2 + "\n";
+
+            //使用lamda表达式的实例
+            var numofColumn3 =
+                collector.Count(x => x is FamilyInstance &&
+                                     x.Category.Id == new ElementId(BuiltInCategory.OST_Columns));
+
+            info += numofColumn3 + "\n";
 
             TaskDialog.Show("tips", info);
             return Result.Succeeded;
@@ -50,6 +56,7 @@ namespace RevitDevelopmentFoudation.PracticeBookInRevit
         //需要委托的方法
         static bool IsFamilyInstanceAndColumn(Element e)
         {
+            //doc 怎么作为参数写进来
             return (e is FamilyInstance) && (e.Category.Id == new ElementId(BuiltInCategory.OST_Columns));
         }
     }

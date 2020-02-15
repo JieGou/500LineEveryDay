@@ -22,8 +22,7 @@ namespace ShowAllFloors.view
     /// </summary>
     public partial class ShowFloorView : Window
     {
-        public ExternalCommandData CommandData { set; get; }
-
+      
         public ShowFloorView(ExternalCommandData commandData)
         {
            

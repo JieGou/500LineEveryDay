@@ -1,10 +1,12 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Windows.Documents;
 using GalaSoft.MvvmLight;
 using ShowAllFloors.Model;
 using Autodesk.Revit;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
+using GalaSoft.MvvmLight.Command;
 using ShowAllFloors.view;
 using ShowAllFloors.Command;
 
@@ -23,6 +25,8 @@ namespace ShowAllFloors.ViewModel
     /// </para>
     /// </summary>
     ///
+
+   
     public class ShowFloorViewModel : ViewModelBase
     {
         /// <summary>
@@ -33,7 +37,6 @@ namespace ShowAllFloors.ViewModel
         public DataModel DataModel { set; get; }
 
         private List<FloorType> floorTypes;
-
         public List<FloorType> FloorTypes
         {
             get { return floorTypes; }
@@ -45,7 +48,6 @@ namespace ShowAllFloors.ViewModel
         }
 
         private List<string> floorTypesName;
-
         public List<string> FloorTypesName
         {
             get { return floorTypesName; }
@@ -56,6 +58,35 @@ namespace ShowAllFloors.ViewModel
             }
         }
 
+        private FloorType floorType = null;
+
+        public string currentSelect;
+        public string CurrentSelect
+        {
+            get { return currentSelect; }
+            set
+            {
+                currentSelect = value;
+                floorType = floorTypes.Where(x => x.Name ==currentSelect) as FloorType;
+                RaisePropertyChanged("CurrentSelect");
+            }
+        }
+
+
+       
+       
+        public RelayCommand StartCreateCommand
+        {
+            get;
+            private set;
+        }
+
+        void ExcuteStartCreateCommand()
+        {
+            TaskDialog.Show("tips", "这是一个绑定命令的演示");
+        }
+
+        // bool CanExcuteStartCreateCommand()
 
         public ShowFloorViewModel(ExternalCommandData commandData)
         {
@@ -72,7 +103,13 @@ namespace ShowAllFloors.ViewModel
 
             DataModel = new DataModel(commandData);
             FloorTypes = DataModel.FloorTypes;
-            FloorTypesName = DataModel.FloorTypes.ConvertAll(x => x.Name);
+            FloorTypesName = DataModel.FloorTypes.ConvertAll(x => x.Name); 
+            currentSelect = FloorTypesName.First();
+
+            //初始化命令
+            StartCreateCommand =new RelayCommand(ExcuteStartCreateCommand);
+
+
             // FloorTypesName = new List<string>() {"11", "22", "33"};
         }
     }

@@ -26,6 +26,8 @@ namespace RevitDevelopmentFoudation.PracticeBookInRevit
             collector.WhereElementIsNotElementType()
                 .OfClass(typeof(FamilyInstance));
 
+            
+
             //group子句
             var groupA =( from e in collector
                 group e by e.Category.Name).ToList();

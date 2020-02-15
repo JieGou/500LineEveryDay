@@ -10,7 +10,6 @@ using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
-
 using View = Autodesk.Revit.DB.View;
 using System.IO;
 
@@ -28,7 +27,7 @@ namespace ExerciseProject.PracticeBookInRevit
             Document doc = uidoc.Document;
             Selection sel = uidoc.Selection;
             View acview = uidoc.ActiveView;
- 
+
             Transaction ts = new Transaction(doc, "**");
 
             ts.Start();
@@ -40,14 +39,13 @@ namespace ExerciseProject.PracticeBookInRevit
             FilteredElementCollector collector = new FilteredElementCollector(doc);
 
             BuiltInParameter testParam = BuiltInParameter.ID_PARAM;
-            ParameterValueProvider valueProvider = new ParameterValueProvider(new ElementId((int)testParam));
+            ParameterValueProvider valueProvider = new ParameterValueProvider(new ElementId((int) testParam));
             FilterNumericRuleEvaluator evaluator = new FilterNumericGreater();
             ElementId ruleValue = new ElementId(-1);
             FilterRule elementIdRuleFilter = new FilterElementIdRule(valueProvider, evaluator, ruleValue);
             ElementParameterFilter filter = new ElementParameterFilter(elementIdRuleFilter);
 
             collector.WherePasses(filter);
-
 
             string info = null;
 

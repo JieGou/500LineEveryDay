@@ -225,6 +225,8 @@
     <Compile Include="PracticeBookInRevit\R0213LinqNameSpaceInto.cs" />
     <Compile Include="PracticeBookInRevit\R0213LinqNameSpaceGroup.cs" />
     <Compile Include="PracticeBookInRevit\R0213LinqNameSpaceDelegate.cs" />
+    <Compile Include="PracticeBookInRevit\R0214Regex.cs" />
+    <Compile Include="PracticeBookInRevit\R0214TypeAreaAndInstanceArea.cs" />
     <Compile Include="PracticeBookInRevit\R0213LinqNameSpaceJoin.cs" />
     <Compile Include="PracticeBookInRevit\R0213LinqNameSpace2.cs" />
     <Compile Include="PracticeBookInRevit\R0213LinqNameSpace.cs" />
