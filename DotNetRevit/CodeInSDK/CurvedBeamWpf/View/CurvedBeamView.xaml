@@ -3,18 +3,12 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:CurvedBeamWpf"
-        xmlns:vm="clr-namespace:CurvedBeamWpf.ViewModel"
+
         mc:Ignorable="d"
+      
         Title="Curved Beam" Height="200" Width="450">
-    <!-- DataContext="{Binding Source= Locator,Path=ShowFloorViewModel}" -->
 
-    <!-- <Window.Resources> -->
-    <!--     <ResourceDictionary> -->
-    <!--         <vm:ViewModelLocator x:Key="Locator" d:IsDataSource="True" /> -->
-    <!--     </ResourceDictionary> -->
-    <!-- </Window.Resources> -->
-
+    <!-- DataContext="{Binding Source={StaticResource Locator},Path=CurvedBeam}" -->
 
     <Grid>
         <Grid.RowDefinitions>
@@ -66,8 +60,9 @@
             <Button Name="CreateBeamArc"
                     Content="Arc"
                     FontWeight="Bold"
-                    Margin="5"
-                    Command="{Binding StartCreateCommand}" />
+                    Margin="5" 
+                    Command="{Binding StartCreateCommand}" 
+                     />
             <Button Name="CreateBeamEllispe"
                     Content="Ellispe"
                     FontWeight="Bold"

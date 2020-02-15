@@ -53,7 +53,7 @@ namespace CodeInTangsengjiewa.建筑
             }
             catch (Exception e)
             {
-                MessageBox.Show("用户取消了命令.");
+                TaskDialog.Show("error",e.ToString());
                 return Result.Cancelled;
             }
 
@@ -127,6 +127,7 @@ namespace CodeInTangsengjiewa.建筑
             }
             catch (Exception e)
             {
+                TaskDialog.Show("error", e.ToString());
                 result = null;
             }
 

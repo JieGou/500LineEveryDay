@@ -41,11 +41,11 @@ namespace CodeInTangsengjiewa.Test
             var familysymbol = typesForm.symbolCombo.SelectedItem as FamilySymbol;
 
             //varient for setting bottom and top /* for learners self modifing */
-            var bottomlevel = default(Level);
-            var bottomoffset = default(double);
+            // var bottomlevel = default(Level);
+            // var bottomoffset = default(double);
 
-            var toplevel = default(Level);
-            var topoffset = default(string);
+            // var toplevel = default(Level);
+            // var topoffset = default(string);
 
             var grids = doc.TCollector<Grid>();
             var points = new List<XYZ>();

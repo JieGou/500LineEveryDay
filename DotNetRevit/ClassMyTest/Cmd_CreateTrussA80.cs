@@ -20,8 +20,8 @@ using Document = Autodesk.Revit.DB.Document;
     public class Cmd_CreateTrussA80 : IExternalCommand
     {
         // private Document doc;
-        private double length;
-        private double UpSteelDiameter;
+        // private double length;
+        // private double UpSteelDiameter;
 
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {

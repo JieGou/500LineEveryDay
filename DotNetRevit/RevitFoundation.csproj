@@ -70,11 +70,11 @@
       <HintPath>C:\Program Files\Autodesk\Revit 2020\RevitAPI.dll</HintPath>
     </Reference>
     <Reference Include="RevitAPIIFC">
-      <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPIIFC.dll</HintPath>
+      <HintPath>C:\Program Files\Autodesk\Revit 2020\RevitAPIIFC.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="RevitAPIMacros">
-      <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPIMacros.dll</HintPath>
+      <HintPath>C:\Program Files\Autodesk\Revit 2020\RevitAPIMacros.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="RevitAPIUI, Version=19.0.0.0, Culture=neutral, processorArchitecture=AMD64">
@@ -82,7 +82,7 @@
       <HintPath>C:\Program Files\Autodesk\Revit 2020\RevitAPIUI.dll</HintPath>
     </Reference>
     <Reference Include="RevitAPIUIMacros">
-      <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPIUIMacros.dll</HintPath>
+      <HintPath>C:\Program Files\Autodesk\Revit 2020\RevitAPIUIMacros.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -134,6 +134,7 @@
     <None Include="CodeInSDK\CreateTrianglesTopography2\TrianglesData.json" />
     <Compile Include="CodeInSDK\CurvedBeamWpf\Command\MainCommand.cs" />
     <Compile Include="CodeInSDK\CurvedBeamWpf\Model\DataOfRevitModel.cs" />
+    <Compile Include="CodeInSDK\CurvedBeamWpf\ViewModel\ViewModelLocator.cs" />
     <Compile Include="CodeInSDK\CurvedBeamWpf\ViewModel\CurvedBeamViewModel.cs" />
     <Compile Include="CodeInSDK\CurvedBeamWpf\View\CurvedBeamView.xaml.cs">
       <DependentUpon>CurvedBeamView.xaml</DependentUpon>
@@ -188,6 +189,8 @@
     <Compile Include="CodeInTangsengjiewa\Test\UIs\ColumnTypesForm.Designer.cs">
       <DependentUpon>ColumnTypesForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CodeInTangsengjiewa\建筑\Cmd_CutFloorWithLine.cs" />
+    <Compile Include="CodeInTangsengjiewa\建筑\Utils.cs" />
     <Compile Include="CodeInTangsengjiewa\建筑\Cmd_CreateFloorQuickly.cs" />
     <Compile Include="CodeInTangsengjiewa\建筑\Cmd_BeamAlignToRoofAndFloor.cs" />
     <Compile Include="CodeInTangsengjiewa\通用\UIs\FloorSelector.xaml.cs">
@@ -200,7 +203,6 @@
     <Compile Include="Epplus\RevitDataToExcelDemo3.cs" />
     <Compile Include="Other\CreateAdaptiveComponentFamily.cs" />
     <Compile Include="ClassMyTest\Cmd_CreateTrussA80.cs" />
-    <Compile Include="Other\Truss\Cmd_CreateSweep.cs" />
     <Compile Include="Other\Truss\CreateFamily.cs" />
     <Compile Include="Other\Truss\MakeNewCurve.cs" />
     <Compile Include="Other\Truss\Cmd_CreateExtrusion.cs" />

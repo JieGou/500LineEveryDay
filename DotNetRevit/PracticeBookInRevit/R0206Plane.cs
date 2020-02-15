@@ -15,8 +15,8 @@ namespace PracticeBookInRevit
     public class R0206Plane : IExternalCommand
     {
         // private Document doc;
-        private double length;
-        private double UpSteelDiameter;
+        // private double length;
+        // private double UpSteelDiameter;
 
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
