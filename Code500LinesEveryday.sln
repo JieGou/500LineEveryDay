@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateFillPattern", "DotNet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowAllFloors", "WPF\ShowAllFloors\ShowAllFloors.csproj", "{65D68D42-FE0D-4EE2-9890-32B33EDD0A5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDemo", "WPF\WpfDemo\WpfDemo.csproj", "{65ECCDC0-680F-4030-8931-38AA51C73B01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -89,6 +91,10 @@ Global
 		{65D68D42-FE0D-4EE2-9890-32B33EDD0A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65D68D42-FE0D-4EE2-9890-32B33EDD0A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65D68D42-FE0D-4EE2-9890-32B33EDD0A5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65ECCDC0-680F-4030-8931-38AA51C73B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65ECCDC0-680F-4030-8931-38AA51C73B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65ECCDC0-680F-4030-8931-38AA51C73B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65ECCDC0-680F-4030-8931-38AA51C73B01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -107,6 +113,7 @@ Global
 		{4B94558C-94DB-4DED-A3C7-1A7F1F83245C} = {6546664A-99B1-4552-BB6F-59C93957D41A}
 		{7407E6FC-14AA-493D-83D4-CF6925E049A4} = {4B94558C-94DB-4DED-A3C7-1A7F1F83245C}
 		{65D68D42-FE0D-4EE2-9890-32B33EDD0A5F} = {BFB529C1-5E7F-48E6-96C2-AB10D2200E7A}
+		{65ECCDC0-680F-4030-8931-38AA51C73B01} = {BFB529C1-5E7F-48E6-96C2-AB10D2200E7A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3AD925E7-74B9-4ED0-8CEA-2E354AEAED41}

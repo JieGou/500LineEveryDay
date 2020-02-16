@@ -69,10 +69,10 @@ namespace CSharpTutorialUtilityEdition2.Chapter01
         {
             get
             {
-                if ((_position == null) || (_position >= _colors.Length))
-                {
-                    throw new InvalidOperationException();
-                }
+                // if ((_position == null) || (_position >= _colors.Length))
+                // {
+                //     throw new InvalidOperationException();
+                // }
 
                 return _colors[_position];
             }
