@@ -1,0 +1,35 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:WpfApplication1.ViewModel"
+        Title="MainWindow" Height="237" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Content="输入" Margin="20 0 0 0" HorizontalAlignment="Left" VerticalAlignment="Center"
+               Width="47" />
+        <TextBox Grid.Row="0" x:Name="tb" HorizontalAlignment="Center" VerticalAlignment="Center" Height="23"
+                 TextWrapping="Wrap" Width="120" Text="{Binding Input}" />
+
+        <Label Grid.Row="1" Content="输出" HorizontalAlignment="Left" Margin="20 0 0 0" VerticalAlignment="Center"
+               Width="38" RenderTransformOrigin="0.447,0.462" />
+        <Label Grid.Row="1" Background="Aqua" Foreground="Red" HorizontalAlignment="Center" VerticalAlignment="Center"
+               Width="120" Height="23" Content="{Binding Display}" />
+
+        <Button Content="提 交" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"
+                Command="{Binding SetTextCommand}" />
+
+        <ComboBox Grid.Row="4"
+                  ItemsSource="{Binding LisStrings}"
+                  SelectedItem="{Binding SelectItem ,Mode =TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+        <Label Grid.Row="3" Background="Aqua" Foreground="Red" HorizontalAlignment="Center" VerticalAlignment="Center"
+               Width="120" Height="23" Content="{Binding SelectItem}" />
+
+
+    </Grid>
+</Window>

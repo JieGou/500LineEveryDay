@@ -117,6 +117,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bootstrapper.cs" />
     <Compile Include="ClassMyTest\E1001RunSample1.cs" />
     <Compile Include="ClassMyTest\Utils.cs" />
     <Compile Include="CodeInSDK\AutoCreateFloors\Commands\ExternalCommand.cs" />
@@ -196,6 +197,7 @@
     <Compile Include="CodeInTangsengjiewa\建筑\Cmd_BeamAlignToRoofAndFloor.cs" />
     <Compile Include="CodeInTangsengjiewa\通用\Cmd_3DregionView.cs" />
     <Compile Include="CodeInTangsengjiewa\通用\Cmd_ChangeBackGroundColor.cs" />
+    <Compile Include="CodeInTangsengjiewa\通用\Cmd_Floor3D.cs" />
     <Compile Include="CodeInTangsengjiewa\通用\Cmd_PickBox3D.cs" />
     <Compile Include="CodeInTangsengjiewa\通用\UIs\FloorSelector.xaml.cs">
       <DependentUpon>FloorSelector.xaml</DependentUpon>
@@ -215,6 +217,10 @@
     <Compile Include="Other\Truss\Cmd_CreateExtrusion.cs" />
     <Compile Include="Other\Truss\SweepRefCode.cs" />
     <Compile Include="Other\Truss\SweepRefCode2.cs" />
+    <Compile Include="Pages\ShellView.xaml.cs">
+      <DependentUpon>ShellView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ShellViewModel.cs" />
     <Compile Include="PracticeBookInRevit\R0206Plane.cs" />
     <Compile Include="PracticeBookInRevit\R0205SufferCategory.cs" />
     <Compile Include="PracticeBookInRevit\R0205SufferElement.cs" />
@@ -329,6 +335,10 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <AdditionalFiles Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </AdditionalFiles>
     <Page Include="CodeInSDK\AutoCreateFloors\Views\CreateFloorsMainWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -350,6 +360,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="CodeInTangsengjiewa\通用\UIs\ViewSemutaneousSelector.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\ShellView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

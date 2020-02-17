@@ -2,22 +2,22 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
-using LearnWpfMVVM.Annotations;
 
-namespace LearnWpfMVVM
+namespace WpfApplication1.ViewModel
 {
-    public class NotificationObject : INotifyPropertyChanged
+    public abstract class ViewModelBase : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
         public void RaisePropertyChanged(string propertyName)
         {
-            if (PropertyChanged != null)
+            PropertyChangedEventHandler handler = PropertyChanged;
+
+            if (handler != null)
             {
-                PropertyChanged.Invoke(this, new PropertyChangedEventArgs(propertyName));
+                handler(this, new PropertyChangedEventArgs(propertyName));
             }
         }
     }

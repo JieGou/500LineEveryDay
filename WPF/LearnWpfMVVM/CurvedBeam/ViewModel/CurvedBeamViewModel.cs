@@ -4,7 +4,7 @@ using Autodesk.Revit.UI;
 using LearnWpfMVVM;
 using System.Collections.Generic;
 using System.Linq;
-
+using Autodesk.Revit.DB.Structure;
 
 namespace CurvedBeamWpf.ViewModel
 {
@@ -14,6 +14,8 @@ namespace CurvedBeamWpf.ViewModel
         private Action _closeAction = null;
 
         #region 属性
+
+        //level
 
         private List<Level> _levelTypes;
 
@@ -39,8 +41,8 @@ namespace CurvedBeamWpf.ViewModel
             }
         }
 
-        //
         public Level LevelType = null;
+
         private string _currentSelectOflevel;
 
         public string CurrentSelectOfLevel
@@ -49,7 +51,7 @@ namespace CurvedBeamWpf.ViewModel
             set
             {
                 _currentSelectOflevel = value;
-                LevelType = _levelTypes.Where(x => x.Name == _currentSelectOflevel) as Level;
+                LevelType = _levelTypes.FirstOrDefault(x => x.Name == _currentSelectOflevel) as Level;
                 RaisePropertyChanged("CurrentSelectOfLevel");
             }
         }
@@ -89,7 +91,7 @@ namespace CurvedBeamWpf.ViewModel
             set
             {
                 _currentSelectOfBeam = value;
-                BeamType = _BeamTypes.Where(x => x.Name == _currentSelectOfBeam) as FamilySymbol;
+                BeamType = BeamTypes.FirstOrDefault(x => x.Name == _currentSelectOfBeam);
                 RaisePropertyChanged("CurrentSelectOfBeam");
             }
         }
@@ -109,6 +111,13 @@ namespace CurvedBeamWpf.ViewModel
 
             StartCreateBeamEllispeCommand = new DelegateCommand();
             StartCreateBeamEllispeCommand.ExecuteAction = new Action<object>(CreateBeamEllispe);
+
+            // Transaction ts = new Transaction(doc, "mvvm里执行命令的测试");
+            // ts.Start();
+            // BeamType = BeamTypes.FirstOrDefault(x => x.Name == _currentSelectOfBeam);
+            // string info = BeamType.Name == null ? "选择的梁类型没有绑上" : BeamType.Name;
+            // TaskDialog.Show("tips", info);
+            // ts.Commit();
         }
 
 
@@ -125,6 +134,7 @@ namespace CurvedBeamWpf.ViewModel
                 .OfClass(typeof(FamilySymbol))
                 .Cast<FamilySymbol>()
                 .ToList();
+
             BeamTypesName = BeamTypes.ConvertAll(x => x.Name);
             CurrentSelectOfBeam = BeamTypesName.First();
 
@@ -136,28 +146,47 @@ namespace CurvedBeamWpf.ViewModel
                 .ToList();
             LevelTypesName = LevelTypes.ConvertAll(x => x.Name);
             CurrentSelectOfLevel = LevelTypesName.First();
-
-
         }
 
 
         void CreateBeamArc(object parameter)
         {
             var curve = Line.CreateBound(new XYZ(0, 0, 0), new XYZ(100, 0, 0));
-            var level = doc.ActiveView.GenLevel.Id;
+
             Transaction ts = new Transaction(doc, "mvvm里执行命令的测试");
             ts.Start();
 
-            Wall.Create(doc, curve, level, false);
-            TaskDialog.Show("tips", "墙创建好了");
+            BeamType = BeamTypes.FirstOrDefault(x => x.Name == _currentSelectOfBeam);
+
+            if (!BeamType.IsActive)
+            {
+                BeamType.Activate();
+            }
+
+            LevelType = _levelTypes.FirstOrDefault(x => x.Name == _currentSelectOflevel) as Level;
+            // if (!LevelType.IsActive)
+            // {
+            //     symbol.Activate();
+            // }
+
+            doc.Create.NewFamilyInstance(curve, BeamType, LevelType, StructuralType.Beam);
+            TaskDialog.Show("tips", "梁创建好了");
 
             ts.Commit();
+
         }
 
 
         void CreateBeamEllispe(object parameter)
         {
-            string info = BeamType.Name;
+            string info = CurrentSelectOfBeam + "\n";
+            info += BeamType.Name + "\n";
+
+            // LevelType = _levelTypes.FirstOrDefault(x => x.Name == _currentSelectOflevel) as Level;
+
+            info += CurrentSelectOfLevel + "\n";
+            info += LevelType.Name + "\n";
+            
             TaskDialog.Show("tips", info);
         }
 

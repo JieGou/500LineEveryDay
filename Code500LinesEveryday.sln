@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateFillPattern", "DotNet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnWpfMVVM", "WPF\LearnWpfMVVM\LearnWpfMVVM.csproj", "{CF7E191E-4892-45BC-8F15-7465FF5F331C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfMvvmDemo", "WPF\simplestmvvmdemo\WpfMvvmDemo\WpfMvvmDemo.csproj", "{3A7D072F-71E5-4529-A995-5ED78035BB64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{CF7E191E-4892-45BC-8F15-7465FF5F331C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF7E191E-4892-45BC-8F15-7465FF5F331C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF7E191E-4892-45BC-8F15-7465FF5F331C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A7D072F-71E5-4529-A995-5ED78035BB64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7D072F-71E5-4529-A995-5ED78035BB64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7D072F-71E5-4529-A995-5ED78035BB64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7D072F-71E5-4529-A995-5ED78035BB64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +92,7 @@ Global
 		{4B94558C-94DB-4DED-A3C7-1A7F1F83245C} = {6546664A-99B1-4552-BB6F-59C93957D41A}
 		{7407E6FC-14AA-493D-83D4-CF6925E049A4} = {4B94558C-94DB-4DED-A3C7-1A7F1F83245C}
 		{CF7E191E-4892-45BC-8F15-7465FF5F331C} = {BFB529C1-5E7F-48E6-96C2-AB10D2200E7A}
+		{3A7D072F-71E5-4529-A995-5ED78035BB64} = {BFB529C1-5E7F-48E6-96C2-AB10D2200E7A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3AD925E7-74B9-4ED0-8CEA-2E354AEAED41}
