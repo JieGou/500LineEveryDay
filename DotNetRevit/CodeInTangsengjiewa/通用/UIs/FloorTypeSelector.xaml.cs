@@ -1,5 +1,5 @@
-﻿using System.Windows;
-using System.ComponentModel;
+﻿using System.ComponentModel;
+using System.Windows;
 
 namespace CodeInTangsengjiewa.通用.UIs
 {
@@ -27,7 +27,6 @@ namespace CodeInTangsengjiewa.通用.UIs
                 return instance;
             }
         }
-
 
         protected override void OnClosing(CancelEventArgs e)
         {

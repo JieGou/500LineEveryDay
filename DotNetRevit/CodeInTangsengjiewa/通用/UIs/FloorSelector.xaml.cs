@@ -21,6 +21,7 @@ namespace CodeInTangsengjiewa.通用.UIs
                 return instance;
             }
         }
+
         private FloorSelector()
         {
             InitializeComponent();

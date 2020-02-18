@@ -18,6 +18,12 @@ namespace CodeInTangsengjiewa.BinLibrary.Extensions
         /// <param name="dir2"></param>
         /// <returns></returns>
         /// DotProduct 点积, a向量 点乘 b向量 =a*b*cosθ = 各对应坐标相乘的和
+        ///
+        public static bool IsParallel(this XYZ vector1, XYZ vector2)
+        {
+            return vector1.IsSameDirection(vector2) || vector1.IsOppositeDirection(vector2);
+        }
+
         public static bool IsSameDirection(this XYZ dir1, XYZ dir2)
         {
             bool result = false;

@@ -15,7 +15,7 @@ namespace CodeInTangsengjiewa.BinLibrary.Extensions
         /// <param name="po"></param>
         /// <param name="l"></param>
         /// <returns></returns>
-        public static XYZ ProjectToLine(this XYZ po, Line l /* 有限长度线段*/)
+        public static XYZ ProjectToXLine(this XYZ po, Line l /* 有限长度线段*/)
         {
             Line l1 = l.Clone() as Line;
 
@@ -72,7 +72,13 @@ namespace CodeInTangsengjiewa.BinLibrary.Extensions
             return false;
         }
 
-        public static bool IsXOnline(this XYZ p, Line l)
+        /// <summary>
+        /// 判断点是否在线 或线的延长线上
+        /// </summary>
+        /// <param name="p"></param>
+        /// <param name="l"></param>
+        /// <returns></returns>
+        public static bool IsXOnLine(this XYZ p, Line l)
         {
             double precision = 0.00000001d;
             var l1 = l.Clone() as Line;
@@ -89,7 +95,7 @@ namespace CodeInTangsengjiewa.BinLibrary.Extensions
         public static double DistanceTo(this XYZ p1, Line xLine)
         {
             double result = double.NegativeInfinity;
-            XYZ p1_online = p1.ProjectToLine(xLine);
+            XYZ p1_online = p1.ProjectToXLine(xLine);
 
             result = p1.DistanceTo(p1_online);
             return result;

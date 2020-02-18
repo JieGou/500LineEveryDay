@@ -16,7 +16,7 @@ namespace CodeInTangsengjiewa.通用.UIs
             {
                 if (instance == null)
                 {
-                    instance= new ViewSemutaneousSelector();
+                    instance = new ViewSemutaneousSelector();
                 }
 
                 return instance;

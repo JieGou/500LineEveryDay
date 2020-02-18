@@ -184,6 +184,10 @@
     <Compile Include="CodeInTangsengjiewa\Test\UIs\AboutForm.Designer.cs">
       <DependentUpon>AboutForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CodeInTangsengjiewa\注释\Cmd_DimAllPipesAndNearestGrid.cs" />
+    <Compile Include="CodeInTangsengjiewa\注释\Cmd_FlipDimension.cs" />
+    <Compile Include="CodeInTangsengjiewa\注释\Cmd_SectionGap.cs" />
+    <Compile Include="CodeInTangsengjiewa\通用\Cmd_ReverseBackGroundColor.cs" />
     <Compile Include="CodeInTangsengjiewa\Test\UIs\ColumnTypesForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -198,7 +202,9 @@
     <Compile Include="CodeInTangsengjiewa\通用\Cmd_3DregionView.cs" />
     <Compile Include="CodeInTangsengjiewa\通用\Cmd_ChangeBackGroundColor.cs" />
     <Compile Include="CodeInTangsengjiewa\通用\Cmd_Floor3D.cs" />
+    <Compile Include="CodeInTangsengjiewa\通用\Cmd_HideElementInfamilyDoc.cs" />
     <Compile Include="CodeInTangsengjiewa\通用\Cmd_PickBox3D.cs" />
+    <Compile Include="CodeInTangsengjiewa\通用\Cmd_UnhideElementsInFamlyDoc.cs" />
     <Compile Include="CodeInTangsengjiewa\通用\UIs\FloorSelector.xaml.cs">
       <DependentUpon>FloorSelector.xaml</DependentUpon>
     </Compile>
@@ -333,7 +339,9 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="CodeInTangsengjiewa\注释\UIs\" />
+  </ItemGroup>
   <ItemGroup>
     <AdditionalFiles Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>

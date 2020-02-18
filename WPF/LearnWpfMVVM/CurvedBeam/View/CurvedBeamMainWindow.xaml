@@ -69,6 +69,7 @@
                     FontWeight="Bold"
                     Margin="5"
                     Command="{Binding StartCreateBeamSplineCommand}" />
+            
 
 
         </UniformGrid>
