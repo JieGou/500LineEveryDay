@@ -85,7 +85,7 @@ namespace RevitDevelopmentFoudation.CodeInTangsengjiewa.注释
                 }
 
                 bool contains = false;
-                var count1 = 0;
+                // var count1 = 0;
 
                 foreach (List<ElementId> pipegroup in result)
                 {
@@ -102,7 +102,7 @@ namespace RevitDevelopmentFoudation.CodeInTangsengjiewa.注释
                     contains = false;
 
                     var pipegroupcount = pipegroup.Count;
-                    var count3 = 0;
+                    // var count3 = 0;
 
                     //if(result.Count>500){
                     //LogHelper.LogWrite(pipegroupcount+"\n",@"c:\pipecouont.txt",true);}

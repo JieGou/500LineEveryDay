@@ -9,6 +9,7 @@ using UIFrameworkServices;
 
 namespace RevitDevelopmentFoudation.CodeInTangsengjiewa.注释
 {
+    [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     class Cmd_SectionGap : IExternalCommand
     {

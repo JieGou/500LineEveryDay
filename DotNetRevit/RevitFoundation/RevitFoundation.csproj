@@ -130,9 +130,12 @@
       <DependentUpon>CreateFloorsMainWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="CodeInSDK\CapitalizedAllTextNotes\CapitalizedAllTextNotes.cs" />
+    <Compile Include="CodeInSDK\CreateDimensions\Cmd_CreateDimensions.cs" />
     <Compile Include="CodeInSDK\CreateTrianglesTopography2\Command.cs" />
     <Compile Include="CodeInSDK\CreateTrianglesTopography2\TrianglesData.cs" />
     <None Include="CodeInSDK\CreateTrianglesTopography2\TrianglesData.json" />
+    <Compile Include="CodeInSDK\CreateViewSection\Command.cs" />
+    <Compile Include="CodeInSDK\CreateViewSection\XYZMath.cs" />
     <Compile Include="CodeInSDK\CurvedBeamWpf\Command\MainCommand.cs" />
     <Compile Include="CodeInSDK\CurvedBeamWpf\Model\DataOfRevitModel.cs" />
     <Compile Include="CodeInSDK\CurvedBeamWpf\ViewModel\ViewModelLocator.cs" />
