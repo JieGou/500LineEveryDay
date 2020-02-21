@@ -9,16 +9,16 @@ using Autodesk.Revit.UI;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI.Selection;
 
-namespace RevitDevelopmentFoudation.CodeInSDK.CreateViewSection
-{
-    [Transaction(TransactionMode.Manual)]
-    public class AutoCreateDim : IExternalCommand
-    {
-        public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
-        {
-  
-        }
-
-   
-    }
-}
+// namespace RevitDevelopmentFoudation.CodeInSDK.CreateViewSection
+// {
+//     [Transaction(TransactionMode.Manual)]
+//     public class AutoCreateDim : IExternalCommand
+//     {
+//         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
+//         {
+//   
+//         }
+//
+//    
+//     }
+// }
