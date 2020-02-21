@@ -51,18 +51,9 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AdWindows">
-      <HintPath>C:\Program Files\Autodesk\Revit 2020\AdWindows.dll</HintPath>
-    </Reference>
-    <Reference Include="EPPlus">
-      <HintPath>..\..\..\..\githubColone2\EPPlus\EPPlus\obj\Debug\EPPlus.dll</HintPath>
-    </Reference>
     <Reference Include="RevitAPI, Version=19.0.0.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\Program Files\Autodesk\Revit 2019\RevitAPI.dll</HintPath>
-    </Reference>
-    <Reference Include="RevitAPIUI">
-      <HintPath>C:\Program Files\Autodesk\Revit 2020\RevitAPIUI.dll</HintPath>
     </Reference>
     <Reference Include="RevitDevelopmentFoudation, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
@@ -79,7 +70,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GetNameSpaces.cs" />
+    <Compile Include="T0221GetEnum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

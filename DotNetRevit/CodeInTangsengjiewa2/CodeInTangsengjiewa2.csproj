@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="RevitAPI">
       <HintPath>C:\Program Files\Autodesk\Revit 2020\RevitAPI.dll</HintPath>
     </Reference>
@@ -63,8 +64,15 @@
     <Compile Include="BinLibrary\Extensions\GeometryElementExtension.cs" />
     <Compile Include="BinLibrary\Extensions\GeometryObjectExtension.cs" />
     <Compile Include="BinLibrary\Extensions\LineExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\MepcurveExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\PipeExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\PointExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\ReferenceExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\SelectionFilter.cs" />
     <Compile Include="BinLibrary\Extensions\TransactionExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\UIDocumentExtension.cs" />
     <Compile Include="BinLibrary\Extensions\VectorExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\WindwoExtension.cs" />
     <Compile Include="BinLibrary\Extensions\XYZExtension.cs" />
     <Compile Include="BinLibrary\Helpers\LogHelper.cs" />
     <Compile Include="BinLibrary\Helpers\TransactionHelper.cs" />

@@ -286,6 +286,7 @@
     <Compile Include="PracticeBookInFoundation\Day0207\T0207SelectWhere.cs" />
     <Compile Include="PracticeBookInFoundation\Day0207\T0207Cast.cs" />
     <Compile Include="PracticeBookInFoundation\Day0216\T0216Delegate.cs" />
+    <Compile Include="PracticeBookInFoundation\Day0221\T0221GetEnum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
