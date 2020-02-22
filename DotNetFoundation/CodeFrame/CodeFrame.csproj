@@ -86,6 +86,10 @@
     <Compile Include="Epplus\Epplus013001.cs" />
     <Compile Include="Epplus\F00001Time.cs" />
     <Compile Include="IllustratedCSharp2012\Chapter13Delegate\F130101Delegate.cs" />
+    <Compile Include="LearningHardCSharpNote\Chaper8Delegate\Code0801.cs" />
+    <Compile Include="LearningHardCSharpNote\Chaper8Delegate\Code0802.cs" />
+    <Compile Include="LearningHardCSharpNote\Chaper8Delegate\CodeP92.cs" />
+    <Compile Include="LearningHardCSharpNote\Chaper9Event\Code0901.cs" />
     <Compile Include="PracticeBookInFoundation\Day0119\T011904FilteredElementCollection.cs" />
     <Compile Include="PracticeBookInFoundation\Day0119\T011903MembersOfElement.cs" />
     <Compile Include="PracticeBookInFoundation\Day0119\T011902OverRide.cs" />
@@ -294,7 +298,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CsharpCase1200\" />
-    <Folder Include="LearningHardCSharpNote\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
