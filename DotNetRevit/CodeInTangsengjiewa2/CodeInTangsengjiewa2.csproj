@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AdWindows">
+      <HintPath>C:\Program Files\Autodesk\Revit 2020\AdWindows.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="RevitAPI">
@@ -45,6 +48,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -74,15 +78,17 @@
     <Compile Include="BinLibrary\Extensions\VectorExtension.cs" />
     <Compile Include="BinLibrary\Extensions\WindwoExtension.cs" />
     <Compile Include="BinLibrary\Extensions\XYZExtension.cs" />
+    <Compile Include="BinLibrary\GeometryAlgorithm\PolygonHelper.cs" />
+    <Compile Include="BinLibrary\Helpers\CollectorHelper.cs" />
+    <Compile Include="BinLibrary\Helpers\CurveHelper.cs" />
     <Compile Include="BinLibrary\Helpers\LogHelper.cs" />
     <Compile Include="BinLibrary\Helpers\TransactionHelper.cs" />
+    <Compile Include="BinLibrary\RevitHelper\RevitWindowHelper.cs" />
+    <Compile Include="BinLibrary\Utils\Utils.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="BinLibrary\GeometryAlgorithm\" />
-    <Folder Include="BinLibrary\RevitHelper\" />
-    <Folder Include="BinLibrary\Utils\" />
     <Folder Include="System\Windows\" />
     <Folder Include="Test\UIs\" />
     <Folder Include="建筑\" />

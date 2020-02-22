@@ -294,6 +294,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CsharpCase1200\" />
+    <Folder Include="LearningHardCSharpNote\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

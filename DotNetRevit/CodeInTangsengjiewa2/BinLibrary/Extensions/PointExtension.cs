@@ -28,7 +28,12 @@ namespace CodeInTangsengjiewa2.BinLibrary.Extensions
             double diff = Math.Abs(d1 - d2);
             return diff < precision;
         }
-
+        /// <summary>
+        /// 判断点是否在直线上
+        /// </summary>
+        /// <param name="p"></param>
+        /// <param name="l"></param>
+        /// <returns></returns>
         public static bool IsOnLine(this XYZ p, Line l)
         {
             XYZ end1 = l.GetEndPoint(0);
