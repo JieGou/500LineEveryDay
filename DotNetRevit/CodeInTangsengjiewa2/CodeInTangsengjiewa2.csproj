@@ -87,9 +87,16 @@
     <Compile Include="BinLibrary\Utils\Utils.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test\Cmd_CalculateAreaOfShipment.cs" />
+    <Compile Include="Test\Cmd_CalculateConcreteVolume.cs" />
+    <Compile Include="Test\Cmd_DimLine.cs" />
+    <Compile Include="Test\Cmd_DimPipe.cs" />
+    <Compile Include="Test\Cmd_ExternalStorageDataTest.cs" />
+    <Compile Include="Test\Cmd_FlipTee.cs" />
+    <Compile Include="Test\Cmd_GetCuttedFace.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="System\Windows\" />
+    <Folder Include="Resources\" />
     <Folder Include="Test\UIs\" />
     <Folder Include="建筑\" />
     <Folder Include="注释\" />
