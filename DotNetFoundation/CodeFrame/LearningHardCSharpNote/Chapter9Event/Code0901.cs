@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeFrame.LearningHardCSharpNote.Chaper9Event
+namespace CodeFrame.LearningHardCSharpNote.Chapter9Event
 {
     class Code0901
     {

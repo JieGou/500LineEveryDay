@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeFrame.LearningHardCSharpNote.Chaper8Delegate
+namespace CodeFrame.LearningHardCSharpNote.Chapter8Delegate
 {
     class Code0801
     {
