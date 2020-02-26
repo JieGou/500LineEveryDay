@@ -32,7 +32,17 @@ namespace CodeInTangsengjiewa2.BinLibrary.Extensions
             return double1 / 304.8;
         }
 
+        public static double MmToFeet(this double double1)
+        {
+            return double1 / 304.8;
+        }
+
         public static double FeetToMetric(this double double1)
+        {
+            return double1 * 304.8;
+        }
+
+        public static double FeetToMm(this double double1)
         {
             return double1 * 304.8;
         }

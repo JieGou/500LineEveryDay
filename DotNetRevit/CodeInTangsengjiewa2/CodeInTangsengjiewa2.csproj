@@ -91,7 +91,13 @@
     <Compile Include="BinLibrary\Helpers\TransactionHelper.cs" />
     <Compile Include="BinLibrary\RevitHelper\RevitWindowHelper.cs" />
     <Compile Include="BinLibrary\Utils\Utils.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="HelloWorld.cs" />
+    <Compile Include="HWCracApp.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Test\Cmd_Updatefiles.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test\Cmd_CalculateAreaOfShipment.cs" />
@@ -106,20 +112,58 @@
     <Compile Include="Test\Cmd_SurfaceTest.cs" />
     <Compile Include="建筑\Cmd_BeamAlignToRoofAndFloor.cs" />
     <Compile Include="建筑\Cmd_CreateFloorQukly.cs" />
+    <Compile Include="建筑\Cmd_CutFloorWithLine.cs" />
+    <Compile Include="建筑\Cmd_SetDefaultWallType.cs" />
+    <Compile Include="建筑\Utils.cs" />
+    <Compile Include="样板\Cmd_CopyViewCropRegion.cs" />
+    <Compile Include="样板\Cmd_HideRevitInstance.cs" />
+    <Compile Include="样板\UIs\ViewSelector.xaml.cs">
+      <DependentUpon>ViewSelector.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="样板\UIs\TypeSelector.xaml.cs">
+      <DependentUpon>TypeSelector.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="注释\Cmd_LengthAccumulate.cs" />
+    <Compile Include="注释\Cmd_SectionGap.cs" />
+    <Compile Include="注释\UIs\ResultShow.xaml.cs">
+      <DependentUpon>ResultShow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="通用\Cmd_3DregionView.cs" />
+    <Compile Include="通用\Cmd_ChangeBackGroundColor.cs" />
+    <Compile Include="通用\Cmd_Floor3D.cs" />
+    <Compile Include="通用\Cmd_HideElementInfamilyDoc.cs" />
+    <Compile Include="通用\Cmd_PickBox3D.cs" />
+    <Compile Include="通用\Cmd_ReverseBackGroundColor.cs" />
+    <Compile Include="通用\Cmd_UnhideElementsInFamlyDoc.cs" />
+    <Compile Include="通用\Cmd_UpdateFiles.cs" />
+    <Compile Include="通用\Cmd_ViewSimultaneous.cs" />
     <Compile Include="通用\UIs\FloorSelector.xaml.cs">
       <DependentUpon>FloorSelector.xaml</DependentUpon>
     </Compile>
     <Compile Include="通用\UIs\FloorTypeSelector.xaml.cs">
       <DependentUpon>FloorTypeSelector.xaml</DependentUpon>
     </Compile>
+    <Compile Include="通用\UIs\ViewSemutaneousSelector.xaml.cs">
+      <DependentUpon>ViewSemutaneousSelector.xaml</DependentUpon>
+    </Compile>
     <Compile Include="高级\Cmd_CallSystemCmd.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\" />
     <Folder Include="Test\UIs\" />
-    <Folder Include="注释\" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="样板\UIs\ViewSelector.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="样板\UIs\TypeSelector.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="注释\UIs\ResultShow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="通用\UIs\FloorSelector.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -128,6 +172,22 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="通用\UIs\ViewSemutaneousSelector.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hideshow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hideshow.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
