@@ -11,7 +11,7 @@ using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
 using View = Autodesk.Revit.DB.View;
 
-namespace MyClass
+namespace RevitFoundation.ClassMyTest
 {
     public static partial class MyTestClass
     {

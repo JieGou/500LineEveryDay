@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace Myclass
+namespace RevitFoundation.ClassMyTest
 {
     public class Utils
     {

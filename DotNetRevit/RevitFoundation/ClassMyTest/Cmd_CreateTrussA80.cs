@@ -10,7 +10,7 @@ using Org.BouncyCastle.Security;
 using Application = Autodesk.Revit.ApplicationServices.Application;
 using Document = Autodesk.Revit.DB.Document;
 
-    namespace ClassMyTest
+    namespace RevitFoundation.ClassMyTest
 {
     /// <summary>
     /// 完成 创建

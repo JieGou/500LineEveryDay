@@ -10,7 +10,7 @@ using OfficeOpenXml.Style;
 using Color = System.Drawing.Color;
 
 
-namespace Myclass
+namespace RevitFoundation.ClassMyTest
 {
    public class RunEpplusSample
     {
