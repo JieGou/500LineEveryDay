@@ -83,6 +83,9 @@
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D010301Class.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter01\D05LinstAndIList.cs" />
     <Compile Include="CSharpTutorialUtilityEdition2\Chapter06\D060501SplitAndMergeFiles.cs" />
+    <Compile Include="CShrapEssential\Chapter12\CodeList1203.cs" />
+    <Compile Include="CShrapEssential\Chapter12\CodeList1202.cs" />
+    <Compile Include="CShrapEssential\Chapter12\CodeList1201.cs" />
     <Compile Include="Epplus\Epplus013001.cs" />
     <Compile Include="Epplus\F00001Time.cs" />
     <Compile Include="IllustratedCSharp2012\Chapter13Delegate\F130101Delegate.cs" />
@@ -293,6 +296,7 @@
     <Compile Include="PracticeBookInFoundation\Day0207\T0207Cast.cs" />
     <Compile Include="PracticeBookInFoundation\Day0216\T0216Delegate.cs" />
     <Compile Include="PracticeBookInFoundation\Day0221\T0221GetEnum.cs" />
+    <Compile Include="PracticeBookInFoundation\Day0228\T0228DataTable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -13,7 +13,7 @@ using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
 
 using View = Autodesk.Revit.DB.View;
-using MyClass;
+
 
 namespace ExerciseProject
 {

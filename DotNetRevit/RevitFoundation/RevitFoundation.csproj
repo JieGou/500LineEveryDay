@@ -144,6 +144,7 @@
     <Compile Include="BinLibrary\Helpers\TransactionHelper.cs" />
     <Compile Include="BinLibrary\RevitHelper\RevitWindowHelper.cs" />
     <Compile Include="BinLibrary\Utils\Utils.cs" />
+    <Compile Include="ClassMyTest\CmdCreatLevel - 复制.cs" />
     <Compile Include="ClassMyTest\E1001RunSample1.cs" />
     <Compile Include="ClassMyTest\Utils.cs" />
     <Compile Include="CodeInJeremytammik\Cmd_GetViewSheetFromView.cs" />
@@ -279,7 +280,7 @@
     <Compile Include="ClassMyTest\GetNameFromElement.cs" />
     <Compile Include="TheCodeInBook\Chapter03\R0303EditFamilyAndLoadFamilyAndChangeFamilyParameter.cs" />
     <Compile Include="TheCodeInBook\Chapter03\R0302LinearArrayAndRadialArray.cs" />
-    <Compile Include="ClassMyTest\CmdCreatLevel.cs" />
+    <Compile Include="ClassMyTest\Cmd_Categories.cs" />
     <Compile Include="ClassMyTest\CmdTemplateTool.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

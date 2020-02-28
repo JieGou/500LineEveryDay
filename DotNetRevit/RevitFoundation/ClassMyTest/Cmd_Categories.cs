@@ -9,16 +9,14 @@ using Autodesk.Revit.DB;
 using Autodesk.Revit.UI.Events;
 using Autodesk.Revit.UI.Selection;
 using System.Windows;
+using CodeInTangsengjiewa2.BinLibrary.Helpers;
 
-
-using View = Autodesk.Revit.DB.View;
-
-namespace RevitDevelopmentFoundation.Chapter04
+namespace RevitFoundation.ClassMyTest
 {
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class R0417GetCadBlockFilter : IExternalCommand
+    class Cmd_Categories : IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
@@ -28,25 +26,16 @@ namespace RevitDevelopmentFoundation.Chapter04
             Selection sel = uidoc.Selection;
             View acView = uidoc.ActiveView;
 
-            Transaction ts = new Transaction(doc, "******");
+            string cateNames = "";
 
-            try
+            var cate = doc.Settings.Categories.ForwardIterator();
+
+            while (cate.MoveNext())
             {
-                ts.Start();
-
-                
-
-
-                ts.Commit();
-            }
-            catch (Exception)
-            {
-                if (ts.GetStatus() == TransactionStatus.Started)
-                {
-                    ts.RollBack();
-                }
+                cateNames += (cate.Current as Category).Name + "\n";
             }
 
+            TaskDialog.Show("tips", cateNames);
             return Result.Succeeded;
         }
     }

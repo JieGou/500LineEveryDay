@@ -91,6 +91,8 @@
     <Compile Include="BinLibrary\Helpers\TransactionHelper.cs" />
     <Compile Include="BinLibrary\RevitHelper\RevitWindowHelper.cs" />
     <Compile Include="BinLibrary\Utils\Utils.cs" />
+    <Compile Include="CodeInJeme\Cmd_CreateFillledRegionDimensions.cs" />
+    <Compile Include="CodeOfQian\Cmd_CreateFillledRegionDimensions.cs" />
     <Compile Include="HelloWorld.cs" />
     <Compile Include="HWCracApp.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
