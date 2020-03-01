@@ -6,6 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Xml;
 using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.DB.Visual;
@@ -21,11 +22,11 @@ namespace CodeInTangsengjiewa2.CodeOfQian
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    public class Cmd_Now_MoveElement : IExternalCommand
+    public class Cmd_Now_CopyElement : IExternalCommand
     {
         /// <summary>
         /// what can i do with revit api now?
-        /// move wall
+        /// CopyElement: 将元素复制到指定的位置
         /// </summary>
         /// <param name="commandData"></param>
         /// <param name="message"></param>
@@ -33,17 +34,30 @@ namespace CodeInTangsengjiewa2.CodeOfQian
         /// <returns></returns>
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
+            var uiapp = commandData.Application;
             UIDocument uidoc = commandData.Application.ActiveUIDocument;
             Document doc = uidoc.Document;
-
             Selection sel = uidoc.Selection;
 
-            ElementId eleId = sel.PickObject(ObjectType.Element, doc.GetSelectionFilter(m => m is Wall)).ElementId;
+            doc.Invoke(m =>
+                       {
+                           Element ele = sel.PickObject(ObjectType.Element, "请选择一个元素").GetElement(doc);
+                           ICollection<Element> eles = new List<Element>();
+                           eles.Add(ele);
+                           XYZ newTrans = new XYZ(1000d.MmToFeet(), 2000d.MmToFeet(), 0);
+                           var ele2 = ElementTransformUtils.CopyElement(doc, ele.Id, newTrans);
+                           string info = "";
+                           int i = 0;
+                           info += "元素总个数:" + eles.Count;
+                           foreach (var elementId in ele2)
+                           {
+                               i++;
+                               info += i + ":\nNew:" + elementId + "\nOld:"+ele.Id;
+                           }
+                           TaskDialog.Show("tips", info);
 
-            doc.Invoke(m => { ElementTransformUtils.MoveElement(doc, eleId, new XYZ(1000d.MmToFeet(), 1000d.MmToFeet(), 0)); },
-                       "移动一片墙");
-
-
+                       }
+                     , "复制元素1");
 
             return Result.Succeeded;
         }

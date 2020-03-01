@@ -51,7 +51,7 @@ namespace CodeInTangsengjiewa2.CodeOfQian
             XYZ endPoint = ((reference.GetElement(doc).Location as LocationCurve).Curve as Line).GetEndPoint(1);
 
             XYZ midPoint = (startPoint + endPoint) / 2;
-       
+
             Line positon = Line.CreateBound(startPoint, midPoint);
 
             Level level = doc.TCollector<Level>().FirstOrDefault();

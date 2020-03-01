@@ -21,11 +21,11 @@ namespace CodeInTangsengjiewa2.CodeOfQian
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    public class Cmd_Now_MoveElement : IExternalCommand
+    public class Cmd_Now_MoveElementByLocation : IExternalCommand
     {
         /// <summary>
         /// what can i do with revit api now?
-        /// move wall
+        /// move wall by location
         /// </summary>
         /// <param name="commandData"></param>
         /// <param name="message"></param>
@@ -40,10 +40,17 @@ namespace CodeInTangsengjiewa2.CodeOfQian
 
             ElementId eleId = sel.PickObject(ObjectType.Element, doc.GetSelectionFilter(m => m is Wall)).ElementId;
 
-            doc.Invoke(m => { ElementTransformUtils.MoveElement(doc, eleId, new XYZ(1000d.MmToFeet(), 1000d.MmToFeet(), 0)); },
-                       "移动一片墙");
+            // doc.Invoke(m => { ElementTransformUtils.MoveElement(doc, eleId, new XYZ(1000d.MmToFeet(), 1000d.MmToFeet(), 0)); },
+            //            "移动一片墙");
 
+            doc.Invoke(m =>
+            {
+                LocationCurve wallLine = eleId.GetElement(doc).Location as LocationCurve;
 
+                XYZ transVec = new XYZ(1000d.MmToFeet(), 1000d.MmToFeet(), 0);
+
+                wallLine.Move(transVec);//墙上的窗户会跟着一起移动
+            }, "移动墙通过location");
 
             return Result.Succeeded;
         }

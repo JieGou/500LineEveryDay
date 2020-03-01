@@ -2,4 +2,7 @@
 
 1 尺寸标注的reference没能理解.
 
-2 
+2 元素的视图之间复制,未完成: Cmd_Now_CopyElementViewToView.cs
+
+3 被各种uiapp app搞晕了.
+ Revit中ApplicationServices.Application与UIApplication之间的转换
