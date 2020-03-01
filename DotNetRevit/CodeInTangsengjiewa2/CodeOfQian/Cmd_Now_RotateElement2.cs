@@ -37,21 +37,18 @@ namespace CodeInTangsengjiewa2.CodeOfQian
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
             var uiapp = commandData.Application;
+            var app = uiapp.Application;
+            // Autodesk.Revit.ApplicationServices.Application app = commandData.Application.Application;
             UIDocument uidoc = commandData.Application.ActiveUIDocument;
             Document doc = uidoc.Document;
             Selection sel = uidoc.Selection;
-
-            var app = uiapp.Application;// Autodesk.Revit.ApplicationServices.Application
 
             doc.Invoke(m =>
                        {
                            //假设是一片墙
                            Element ele = sel.PickObject(ObjectType.Element, "请选择一个元素").GetElement(doc);
 
-
                            LocationRotate(app, ele);
-
-                           
                        }
                      , "旋转元素1");
 
@@ -62,14 +59,21 @@ namespace CodeInTangsengjiewa2.CodeOfQian
         {
             bool rotated = false;
 
-            LocationCurve curve = element.Location as LocationCurve;
-            if (null != curve)
+            if (element.Location is LocationCurve curve)
             {
                 Curve line = curve.Curve;
                 XYZ aa = line.GetEndPoint(0);
                 XYZ cc = new XYZ(aa.X, aa.Y, aa.Z + 10);
                 Line axis = Line.CreateBound(aa, cc);
-                rotated = curve.Rotate(axis, Math.PI / 2);
+                rotated = curve.Rotate(axis, Math.PI / 4);
+            }
+
+            if (element.Location is LocationPoint location)
+            {
+                XYZ aa = location.Point;
+                XYZ cc = new XYZ(aa.X, aa.Y, aa.Z + 10);
+                Line axis = Line.CreateBound(aa, cc);
+                rotated = location.Rotate(axis, Math.PI / 4);
             }
 
             return rotated;
