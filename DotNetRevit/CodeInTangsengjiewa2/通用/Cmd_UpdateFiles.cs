@@ -26,7 +26,7 @@ namespace CodeInTangsengjiewa2.通用
             var sel = uidoc.Selection;
             var acview = uidoc.ActiveView;
 
-            var filePath = default(string);
+            // var filePath = default(string);
 
             OpenFileDialog opdg = new OpenFileDialog();
             opdg.Filter = "(*.rfa)|*.rfa|(*.rvt)|*.rvt";

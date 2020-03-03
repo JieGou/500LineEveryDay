@@ -18,20 +18,16 @@ using CodeInTangsengjiewa2.通用.UIs;
 
 namespace CodeInTangsengjiewa2.CodeOfQian
 {
+    /// <summary>
+    /// what can i do with revit api now?
+    /// dim wall2
+    /// From :https://blog.csdn.net/NancyLee18/article/details/82969370
+    /// </summary>
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
     public class Cmd_Now_DimTwoPoint : IExternalCommand
     {
-        /// <summary>
-        /// what can i do with revit api now?
-        /// dim wall2
-        /// From :https://blog.csdn.net/NancyLee18/article/details/82969370
-        /// </summary>
-        /// <param name="commandData"></param>
-        /// <param name="message"></param>
-        /// <param name="elements"></param>
-        /// <returns></returns>
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
             UIDocument uidoc = commandData.Application.ActiveUIDocument;

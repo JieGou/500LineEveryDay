@@ -17,19 +17,15 @@ using CodeInTangsengjiewa2.通用.UIs;
 
 namespace CodeInTangsengjiewa2.CodeOfQian
 {
+    /// <summary>
+    /// what can i do with revit api now?
+    /// 创建窗
+    /// </summary>
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
     public class Cmd_Now_CreateWindow : IExternalCommand
     {
-        /// <summary>
-        /// what can i do with revit api now?
-        /// 创建窗
-        /// </summary>
-        /// <param name="commandData"></param>
-        /// <param name="message"></param>
-        /// <param name="elements"></param>
-        /// <returns></returns>
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
             var uiapp = commandData.Application;

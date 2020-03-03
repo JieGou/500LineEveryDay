@@ -19,44 +19,47 @@ using CodeInTangsengjiewa2.通用.UIs;
 
 namespace CodeInTangsengjiewa2.CodeOfQian
 {
-    /// <summary>
-    /// what can i do with revit api now?
-    /// move wall by curve
-    /// </summary>
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    public class Cmd_Now_MoveElementByCurve : IExternalCommand
+    public class Cmd_Now_MirrorElement : IExternalCommand
     {
+        /// <summary>
+        /// what can i do with revit api now?
+        ///mirror Element:  镜像图元
+        ///***************取面的操作没看明白.
+        /// </summary>
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
             var uiapp = commandData.Application;
             UIDocument uidoc = commandData.Application.ActiveUIDocument;
             Document doc = uidoc.Document;
-
             Selection sel = uidoc.Selection;
 
             doc.Invoke(m =>
                        {
                            Wall wall = sel.PickObject(ObjectType.Element, doc.GetSelectionFilter(x => x is Wall))
-                                           .GetElement(doc) as Wall; //运行时,取消选择会报错提示.
-                           Line newWallLine =
-                               Line.CreateBound(XYZ.Zero, new XYZ(2000d.MmToFeet(), -1000d.MmToFeet(), 0));
-                           (wall.Location as LocationCurve).Curve = newWallLine;
+                                           .GetElement(doc) as Wall;
+                           MirrorWall(doc, wall);
                        }
-                     , "移动墙通过Curve");
+                     , "复制元素1");
 
             return Result.Succeeded;
         }
 
-        // void MoveUsingCurve(Wall wall)
-        // {
-        //     LocationCurve wallLine = wall.Location as LocationCurve;
-        //     XYZ p1 = XYZ.Zero;
-        //     XYZ p2 = new XYZ(10, 20, 0);
-        //     Line newWallLine = Line.CreateBound(p1, p2);
-        //
-        //     wallLine.Curve = newWallLine;
-        // }
+        public void MirrorWall(Document doc, Wall wall)
+        {
+            Reference reference = HostObjectUtils.GetSideFaces(wall, ShellLayerType.Exterior).First();
+
+            //get one of the wall's major side faces
+            Face face = wall.GetGeometryObjectFromReference(reference) as Face;
+
+            UV bboxMin = face.GetBoundingBox().Min;
+            //create a plane based on the side face with an offset of 10 in the X & Y directions
+            Plane plane =
+                Plane.CreateByNormalAndOrigin(face.ComputeNormal(bboxMin),
+                                              face.Evaluate(bboxMin).Add(new XYZ(10, 10, 0)));
+            ElementTransformUtils.MirrorElement(doc, wall.Id, plane);
+        }
     }
 }

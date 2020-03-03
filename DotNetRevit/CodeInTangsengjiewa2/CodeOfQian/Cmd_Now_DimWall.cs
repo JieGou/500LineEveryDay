@@ -18,19 +18,15 @@ using CodeInTangsengjiewa2.通用.UIs;
 
 namespace CodeInTangsengjiewa2.CodeOfQian
 {
+    /// <summary>
+    /// what can i do with revit api now?
+    /// dim wall
+    /// </summary>
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
     public class Cmd_Now_DimWall : IExternalCommand
     {
-        /// <summary>
-        /// what can i do with revit api now?
-        /// dim wall
-        /// </summary>
-        /// <param name="commandData"></param>
-        /// <param name="message"></param>
-        /// <param name="elements"></param>
-        /// <returns></returns>
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
             UIDocument uidoc = commandData.Application.ActiveUIDocument;
@@ -42,7 +38,7 @@ namespace CodeInTangsengjiewa2.CodeOfQian
                 ReferenceArray refArry = new ReferenceArray();
 
                 Line wallLine = (wall.Location as LocationCurve).Curve as Line;
-                
+
                 XYZ wallDir = ((wall.Location as LocationCurve).Curve as Line).Direction;
 
                 // wallDir = new XYZ(wallDir.Y, -wallDir.X, 0);

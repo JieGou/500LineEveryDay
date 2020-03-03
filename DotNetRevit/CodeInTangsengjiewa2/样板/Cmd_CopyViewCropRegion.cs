@@ -66,6 +66,7 @@ namespace CodeInTangsengjiewa2.样板
             }
             catch (Exception e)
             {
+                message = e.ToString();
                 return Result.Cancelled;
             }
 

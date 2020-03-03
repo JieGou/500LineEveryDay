@@ -31,6 +31,8 @@ namespace CodeInTangsengjiewa2.Test
                 }
                 catch (Exception e)
                 {
+                    message = e.ToString();
+
                     break;
                 }
             }

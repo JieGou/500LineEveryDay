@@ -61,6 +61,7 @@ namespace CodeInTangsengjiewa2.通用
             }
             catch (Exception e)
             {
+                message = e.ToString();
                 if (ts.GetStatus() == TransactionStatus.Started)
                 {
                     ts.RollBack();

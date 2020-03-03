@@ -61,12 +61,9 @@ namespace CodeInTangsengjiewa2.BinLibrary.Extensions
 
     public static class SelectionFilterHelper
     {
-        public static MultiSelectionFilter GetSelectionFilter(
-            this Document doc,
-            Func<Element, bool> func1,
-            Func<Reference, bool> func2 = null)
+        public static MultiSelectionFilter GetSelectionFilter(this Document doc,Func<Element, bool> func1,Func<Reference, bool> func2 = null)
         {
-            return  new MultiSelectionFilter(func1,func2);
+            return new MultiSelectionFilter(func1, func2);
         }
     }
 }

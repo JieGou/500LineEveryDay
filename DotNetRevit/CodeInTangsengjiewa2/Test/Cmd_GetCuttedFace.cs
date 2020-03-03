@@ -33,7 +33,7 @@ namespace CodeInTangsengjiewa2.Test
             var othersolids =
                 getcuttingelements.Select(m => m.GetElement(doc)
                                               .get_Geometry(new Options() {DetailLevel = ViewDetailLevel.Fine}));
-            var resultsolid = default(Solid);
+            // var resultsolid = default(Solid);
 
             foreach (var othersolid in othersolids)
             {

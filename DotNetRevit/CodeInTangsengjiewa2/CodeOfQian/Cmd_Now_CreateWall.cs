@@ -15,18 +15,14 @@ using CodeInTangsengjiewa2.通用.UIs;
 
 namespace CodeInTangsengjiewa2.CodeOfQian
 {
+    /// <summary>
+    /// what can i do with revit api now?
+    /// </summary>
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
     public class Cmd_Now_CreateWall : IExternalCommand
     {
-        /// <summary>
-        /// what can i do with revit api now?
-        /// </summary>
-        /// <param name="commandData"></param>
-        /// <param name="message"></param>
-        /// <param name="elements"></param>
-        /// <returns></returns>
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
             var uiapp = commandData.Application;
@@ -71,7 +67,7 @@ namespace CodeInTangsengjiewa2.CodeOfQian
             //curves 是墙的轮廓(正面看墙的平面.)
             // profile
             // An array of planar curves that represent the vertical profile of the wall. 
-         
+
             return Result.Succeeded;
         }
     }

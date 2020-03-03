@@ -49,6 +49,7 @@ namespace CodeInTangsengjiewa2.建筑
             }
             catch (Exception e)
             {
+                message = e.ToString();
                 MessageBox.Show("用户取消了命令");
                 return Result.Cancelled;
             }
@@ -260,6 +261,7 @@ namespace CodeInTangsengjiewa2.建筑
             }
             catch (Exception e)
             {
+               
                 result = null;
             }
             return result;
