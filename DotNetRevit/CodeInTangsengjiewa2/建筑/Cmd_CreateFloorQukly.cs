@@ -259,7 +259,7 @@ namespace CodeInTangsengjiewa2.建筑
             {
                 result = BooleanOperationsUtils.ExecuteBooleanOperation(solid1, solid2, BooleanOperationsType.Union);
             }
-            catch (Exception e)
+            catch 
             {
                
                 result = null;

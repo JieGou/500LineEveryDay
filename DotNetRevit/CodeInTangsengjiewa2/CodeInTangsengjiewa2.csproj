@@ -91,12 +91,17 @@
     <Compile Include="BinLibrary\Helpers\TransactionHelper.cs" />
     <Compile Include="BinLibrary\RevitHelper\RevitWindowHelper.cs" />
     <Compile Include="BinLibrary\Utils\Utils.cs" />
+    <Compile Include="CodeInHuanGS\Cmd_GetFaces.cs" />
+    <Compile Include="CodeInHuanGS\Cmd_RayMehodRE.cs" />
+    <Compile Include="CodeInHuanGS\Cmd_RayMethod.cs" />
     <Compile Include="CodeInHuanGS\Cmd_CreateDoor.cs" />
     <Compile Include="CodeInHuanGS\Cmd_CreateBeam.cs" />
     <Compile Include="CodeInHuanGS\Cmd_GetSubAndSuperComponents.cs" />
     <Compile Include="CodeInHuanGS\Cmd_CreateTables.cs" />
     <Compile Include="CodeInHuanGS\Cmd_GetInfo_Opening.cs" />
+    <Compile Include="CodeInJeme\Cmd_SelectTouchingBeams.cs" />
     <Compile Include="CodeInJeme\Cmd_CreateFillledRegionDimensions.cs" />
+    <Compile Include="CodeInJeme\Cmd_FilterForTouchingBeamsUsingSolidIntersection.cs" />
     <Compile Include="CodeOfQian\Cmd_AligningElement.cs" />
     <Compile Include="CodeOfQian\Cmd_Now_GetViewFamilyTypes.cs" />
     <Compile Include="CodeOfQian\Cmd_Now_Create3DView.cs" />

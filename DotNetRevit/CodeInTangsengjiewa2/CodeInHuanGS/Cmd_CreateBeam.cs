@@ -33,6 +33,7 @@ namespace CodeInTangsengjiewa2.CodeInHuanGS
             //load a family symbol from file
             FamilySymbol gotSymbol = null;
             string fileName = @"C:\ProgramData\Autodesk\RVT 2020\Libraries\China\结构\框架\钢\堞形梁.rfa";
+            string fileNameFromFilePath = System.IO.Path.GetFileNameWithoutExtension(fileName);
             string name = "CB460X28.3";
             FamilyInstance instance = null;
 
