@@ -38,9 +38,10 @@ namespace CodeInTangsengjiewa2.CodeOfQian.WpfEventDemo
         private void CreateWallBtn1_Click(object sender, RoutedEventArgs e)
         {
 
-            //3 触发事件,执行命令
-            //4 属性传值
+          
+            //3 属性传值
             CmdCreateWall.WallHeight = Convert.ToDouble(this.TxBoxWallHeight1.Text);
+            //4 触发事件,执行命令
             createWallEvent.Raise();
         }
     }

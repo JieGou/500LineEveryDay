@@ -66,18 +66,30 @@
     <Compile Include="BinLibrary\Extensions\DoubleExtension.cs" />
     <Compile Include="BinLibrary\Extensions\ElementIdExtension.cs" />
     <Compile Include="BinLibrary\Extensions\GeometryElementExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\LineExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\MepcurveExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\PipeExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\PointExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\ReferenceExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\SelectionFilter.cs" />
     <Compile Include="BinLibrary\Extensions\TransactionExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\UIDocumentExtension.cs" />
     <Compile Include="BinLibrary\Extensions\VectorExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\WindwoExtension.cs" />
     <Compile Include="BinLibrary\Extensions\XYZExtension.cs" />
+    <Compile Include="BinLibrary\Geometryalgorithm\PolygonHelper.cs" />
+    <Compile Include="BinLibrary\Helpers\CollectorHelper.cs" />
+    <Compile Include="BinLibrary\Helpers\CurveHelper.cs" />
     <Compile Include="BinLibrary\Helpers\LogHelper.cs" />
     <Compile Include="BinLibrary\Helpers\TransactionHelper.cs" />
+    <Compile Include="BinLibrary\RevitHelper\RevitWindowHelper.cs" />
+    <Compile Include="BinLibrary\Utils\Utils.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="CodeInHuanGS\Cmd_CreateBeam.cs" />
+    <Compile Include="CodeInHuanGS\Cmd_CreateDoor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="BinLibrary\Geometryalgorithm\" />
-    <Folder Include="BinLibrary\RevitHelper\" />
-    <Folder Include="BinLibrary\Utils\" />
     <Folder Include="Resources\" />
     <Folder Include="Test\UIs\" />
     <Folder Include="工具\" />

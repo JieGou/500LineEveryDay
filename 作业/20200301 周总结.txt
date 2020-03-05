@@ -1,4 +1,4 @@
-2020年3月31日	学习小结
+2020年3月1日	学习小结
 
 1 尺寸标注的reference没能理解.
 
@@ -6,3 +6,9 @@
 
 3 被各种uiapp app搞晕了.
  Revit中ApplicationServices.Application与UIApplication之间的转换
+
+4 为什么revit的事件的用法看上去和c#的事件不一样.
+
+5 Intersect_cus方法的坐标变换没看懂.
+
+6 IntersectionResult: XYZ point , uvpoint
