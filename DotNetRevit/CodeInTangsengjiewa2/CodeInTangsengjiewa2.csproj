@@ -94,6 +94,7 @@
     <Compile Include="BinLibrary\RevitHelper\RevitWindowHelper.cs" />
     <Compile Include="BinLibrary\Utils\Utils.cs" />
     <Compile Include="CodeInHuanGS\Cmd_GetFaces.cs" />
+    <Compile Include="CodeInHuanGS\Cmd_ModelLineColor.cs" />
     <Compile Include="CodeInHuanGS\Cmd_RayMehodRE.cs" />
     <Compile Include="CodeInHuanGS\Cmd_RayMethod.cs" />
     <Compile Include="CodeInHuanGS\Cmd_CreateDoor.cs" />
@@ -124,7 +125,7 @@
     <Compile Include="CodeOfQian\Cmd_Now_MoveElement.cs" />
     <Compile Include="CodeOfQian\Cmd_Now_DimWall.cs" />
     <Compile Include="CodeOfQian\Cmd_Now_CreateWall.cs" />
-    <Compile Include="CodeOfQian\Cmd_EnumViewFamiliy.cs" />
+    <Compile Include="CodeOfQian\Cmd_EnumViewFamily.cs" />
     <Compile Include="CodeOfQian\WpfEventDemo\Cmd_CreateWall.cs" />
     <Compile Include="CodeOfQian\WpfEventDemo\MainWindow.cs" />
     <Compile Include="CodeOfQian\WpfEventDemo\MainWindowCreateWall.xaml.cs">

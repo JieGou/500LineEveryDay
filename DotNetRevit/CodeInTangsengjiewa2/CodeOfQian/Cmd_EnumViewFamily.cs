@@ -15,7 +15,7 @@ namespace CodeInTangsengjiewa2.CodeOfQian
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    public class Cmd_EnumViewFamiliy : IExternalCommand
+    public class Cmd_EnumViewFamily : IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
