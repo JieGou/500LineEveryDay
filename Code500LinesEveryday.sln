@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeInTangsengjiewa2", "Dot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeInTangsengjiewa3", "DotNetRevit\CodeInTangsengjiewa3\CodeInTangsengjiewa3.csproj", "{DBD0C5B9-25F4-407D-87B2-BFA1F886A4A6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{883C66BA-8601-49D7-B6CC-E1D6B3428406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiTools", "Tools\HiTools\HiTools.csproj", "{C3BCD29B-D5A4-412C-8DE0-413442955179}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,10 @@ Global
 		{DBD0C5B9-25F4-407D-87B2-BFA1F886A4A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBD0C5B9-25F4-407D-87B2-BFA1F886A4A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBD0C5B9-25F4-407D-87B2-BFA1F886A4A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3BCD29B-D5A4-412C-8DE0-413442955179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3BCD29B-D5A4-412C-8DE0-413442955179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3BCD29B-D5A4-412C-8DE0-413442955179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3BCD29B-D5A4-412C-8DE0-413442955179}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +91,7 @@ Global
 		{578E200D-39A1-467B-8CEA-F3632F6A010B} = {175CE764-9121-4D70-BAF3-F8A9B2FA2A82}
 		{6F7CAF26-D9C8-4FE7-BB91-E161A2E562A6} = {175CE764-9121-4D70-BAF3-F8A9B2FA2A82}
 		{DBD0C5B9-25F4-407D-87B2-BFA1F886A4A6} = {175CE764-9121-4D70-BAF3-F8A9B2FA2A82}
+		{C3BCD29B-D5A4-412C-8DE0-413442955179} = {883C66BA-8601-49D7-B6CC-E1D6B3428406}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3AD925E7-74B9-4ED0-8CEA-2E354AEAED41}
