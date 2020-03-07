@@ -100,6 +100,14 @@
     <Compile Include="CodeOfQian\Cmd_AligningElement.cs" />
     <Compile Include="CodeOfQian\Cmd_EnumViewFamily.cs" />
     <Compile Include="CodeOfQian\Cmd_Now_ArrayElement.cs" />
+    <Compile Include="CodeOfQian\Cmd_Now_CopyElement.cs" />
+    <Compile Include="CodeOfQian\Cmd_Now_Create3DView.cs" />
+    <Compile Include="CodeOfQian\Cmd_Now_CreateLevel.cs" />
+    <Compile Include="CodeOfQian\Cmd_Now_CreateWall.cs" />
+    <Compile Include="CodeOfQian\Cmd_Now_CreateWindow.cs" />
+    <Compile Include="CodeOfQian\Cmd_Now_DimTwoPoint.cs" />
+    <Compile Include="CodeOfQian\Cmd_Now_DimWall.cs" />
+    <Compile Include="CodeOfQian\Cmd_Now_GetViewFamilyTypes.cs" />
     <Compile Include="CodeOfQian\WpfEventDemo\Cmd_CreateWall.cs" />
     <Compile Include="CodeOfQian\WpfEventDemo\MainWindow.cs" />
     <Compile Include="CodeOfQian\WpfEventDemo\MainWindowCreateWall.xaml.cs">

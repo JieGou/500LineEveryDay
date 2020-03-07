@@ -1,20 +1,9 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Xml;
-using Autodesk.Revit.Attributes;
+﻿using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
-using Autodesk.Revit.DB.Visual;
 using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
-using CodeInTangsengjiewa2.BinLibrary.Extensions;
-using CodeInTangsengjiewa2.BinLibrary.Helpers;
-using CodeInTangsengjiewa2.通用.UIs;
+using System.Linq;
+using System.Windows;
 
 
 namespace CodeInTangsengjiewa2.CodeOfQian
