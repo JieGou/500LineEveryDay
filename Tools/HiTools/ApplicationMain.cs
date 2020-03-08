@@ -69,9 +69,9 @@ namespace HiTools
 
             string classNameHelloWorld2 = "HiTools.Cmd_HelloWorld";
             RibbonItemData item1 =
-                new PushButtonData("HiToolsInternalName2", "HelloWorld1", assemblyPath, classNameHelloWorld);
+                new PushButtonData("HiToolsInternalName2", "HelloWorld1", assemblyPath, classNameHelloWorld2);
             RibbonItemData item2 =
-                new PushButtonData("HiToolsInternalName4", "HelloWorld2", assemblyPath, classNameHelloWorld);
+                new PushButtonData("HiToolsInternalName4", "HelloWorld2", assemblyPath, classNameHelloWorld2);
 
             IList<RibbonItem> listRibbon1 = rp2.AddStackedItems(item1, item2);
             PushButton pushButton3 = listRibbon1[0] as PushButton;

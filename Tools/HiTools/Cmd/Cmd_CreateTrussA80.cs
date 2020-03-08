@@ -1,22 +1,18 @@
-﻿using System;
-using Autodesk.Revit.Attributes;
+﻿using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
-using System.Linq;
-using System.Windows;
-using System.Windows.Media.Animation;
-using Autodesk.Revit.Creation;
-using Org.BouncyCastle.Security;
-using Application = Autodesk.Revit.ApplicationServices.Application;
+using System;
 using Document = Autodesk.Revit.DB.Document;
 
-    namespace RevitFoundation.ClassMyTest
+namespace HiTools.Cmd
 {
     /// <summary>
     /// 完成 创建
     /// </summary>
     [TransactionAttribute(TransactionMode.Manual)]
     [RegenerationAttribute(RegenerationOption.Manual)]
+    [Journaling(JournalingMode.UsingCommandData)]
+
     public class Cmd_CreateTrussA80 : IExternalCommand
     {
         // private Document doc;

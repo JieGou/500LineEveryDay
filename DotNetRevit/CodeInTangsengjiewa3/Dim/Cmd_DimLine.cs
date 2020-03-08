@@ -9,11 +9,11 @@ using Autodesk.Revit.DB;
 using Autodesk.Revit.DB.Plumbing;
 using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
-using CodeInTangsengjiewa2.BinLibrary.Extensions;
-using CodeInTangsengjiewa2.BinLibrary.Helpers;
+using CodeInTangsengjiewa3.BinLibrary.Extensions;
+using CodeInTangsengjiewa3.BinLibrary.Helpers;
 using Application = Autodesk.Revit.ApplicationServices.Application;
 
-namespace CodeInTangsengjiewa2.Test
+namespace CodeInTangsengjiewa3.Dim
 {
     /// <summary>
     /// 为什么不能正常工作?????????
@@ -49,6 +49,9 @@ namespace CodeInTangsengjiewa2.Test
             Transaction ts = new Transaction(doc, "dim");
             ts.Start();
             doc.Create.NewDimension(acview, line, referenceArray);
+            //line: 为相邻轴网所取点构造的新的Line，
+            //referenceArray : 为引用的集合.
+       
             ts.Commit();
 
             // doc.Invoke(m => { doc.Create.NewDimension(acview, line, referencearray); }, "dim");

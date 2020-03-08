@@ -31,7 +31,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeInTangsengjiewa2", "Dot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeInTangsengjiewa3", "DotNetRevit\CodeInTangsengjiewa3\CodeInTangsengjiewa3.csproj", "{DBD0C5B9-25F4-407D-87B2-BFA1F886A4A6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{883C66BA-8601-49D7-B6CC-E1D6B3428406}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HiTools", "HiTools", "{883C66BA-8601-49D7-B6CC-E1D6B3428406}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HiTools", "Tools\HiTools\HiTools.csproj", "{C3BCD29B-D5A4-412C-8DE0-413442955179}"
 EndProject

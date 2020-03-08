@@ -38,7 +38,7 @@ namespace CodeInTangsengjiewa3.CodeOfQian
                 XYZ newTrans = new XYZ(1000d.MmToFeet(), 2000d.MmToFeet(), 0);
                 var ele2 = ElementTransformUtils.CopyElement(doc, ele.Id, newTrans);
                 string info = "";
-                int i = 0;
+                // int i = 0;
                 info += "元素总个数为: ";
                 TaskDialog.Show("tips", info);
             }, "copyelement");

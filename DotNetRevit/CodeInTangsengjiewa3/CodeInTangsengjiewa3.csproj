@@ -108,12 +108,25 @@
     <Compile Include="CodeOfQian\Cmd_Now_DimTwoPoint.cs" />
     <Compile Include="CodeOfQian\Cmd_Now_DimWall.cs" />
     <Compile Include="CodeOfQian\Cmd_Now_GetViewFamilyTypes.cs" />
+    <Compile Include="CodeOfQian\Cmd_Now_GrouprElement.cs" />
+    <Compile Include="CodeOfQian\Cmd_Now_MirrorElement.cs" />
+    <Compile Include="CodeOfQian\Cmd_Now_MoveElement.cs" />
+    <Compile Include="CodeOfQian\Cmd_Now_MoveElementByCurve.cs" />
+    <Compile Include="CodeOfQian\Cmd_Now_MoveElementByPoint.cs" />
+    <Compile Include="CodeOfQian\Cmd_Now_PinnedElement.cs" />
     <Compile Include="CodeOfQian\WpfEventDemo\Cmd_CreateWall.cs" />
     <Compile Include="CodeOfQian\WpfEventDemo\MainWindow.cs" />
     <Compile Include="CodeOfQian\WpfEventDemo\MainWindowCreateWall.xaml.cs">
       <DependentUpon>MainWindowCreateWall.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Dim\Cmd_DimLine.cs" />
+    <Compile Include="Dim\Cmd_DimPipe.cs" />
+    <Compile Include="Dim\Cmd_DimTwoPoint.cs" />
+    <Compile Include="Dim\Cmd_DimWAll.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test\Cmd_CalculateAreaOfShipment.cs" />
+    <Compile Include="Test\Cmd_CalculateConcreteVolume.cs" />
+    <Compile Include="Test\Cmd_FlipTee.cs" />
     <Compile Include="通用\UIs\FloorSelector.xaml.cs">
       <DependentUpon>FloorSelector.xaml</DependentUpon>
     </Compile>

@@ -40,7 +40,11 @@ namespace CodeInTangsengjiewa3.CodeInJeme
                     CreateDimension(filledRegion, -1 * view.RightDirection, targetDimensionTypeName);
                     CreateDimension(filledRegion, view.UpDirection, targetDimensionTypeName);
                 }
+                ts.Commit();
+
             }
+
+            return Result.Succeeded;
         }
 
         private void CreateDimension(FilledRegion filledRegion, XYZ dimensionDirection, string typeName)

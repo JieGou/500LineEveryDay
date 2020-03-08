@@ -49,8 +49,8 @@ namespace CodeInTangsengjiewa3.CodeOfQian
                 Parameter farClip = view3d.get_Parameter(BuiltInParameter.VIEWER_BOUND_ACTIVE_FAR);
 
                 farClip.Set(1);
-                return Result.Succeeded;
             }
+            return Result.Succeeded;
         }
     }
 }

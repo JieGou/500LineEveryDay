@@ -54,6 +54,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cmd\Cmd_CreateTrussA80.cs" />
     <Compile Include="Cmd_HelloWorld.cs" />
     <Compile Include="Cmd_HelloRevit.cs" />
     <Compile Include="ApplicationMain.cs" />
@@ -73,5 +74,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -10,7 +10,7 @@ using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
 using CodeInTangsengjiewa3.BinLibrary.Extensions;
 
-namespace CodeInTangsengjiewa3.CodeOfQian
+namespace CodeInTangsengjiewa3.Dim
 {
     /// <summary>
     /// dim two point
@@ -18,7 +18,7 @@ namespace CodeInTangsengjiewa3.CodeOfQian
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    public class Cmd_Now_DimTwoPoint : IExternalCommand
+    public class Cmd_DimTwoPoint : IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
@@ -32,7 +32,19 @@ namespace CodeInTangsengjiewa3.CodeOfQian
 
             if (vt == ViewType.FloorPlan || vt == ViewType.Elevation)
             {
-                Reference eRef = sel.PickObject(ObjectType.Element, "Please select a curve based element like wall");
+                Reference eRef = default(Reference);
+                try
+                {
+                    eRef = sel.PickObject(ObjectType.Element, "Please select a curve based element like wall");
+                }
+                catch
+                {
+                }
+                if (eRef == null)
+                {
+                    return Result.Cancelled;
+                }
+
                 Element element = eRef.GetElement(doc);
                 if (eRef != null && element != null)
                 {
