@@ -3,48 +3,45 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Documents;
-using System.Windows.Forms;
+using System.Windows;
 using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
-using Autodesk.Revit.DB.ExtensibleStorage;
 using Autodesk.Revit.UI;
+using Autodesk.Revit.DB.ExtensibleStorage;
 
-namespace CodeInTangsengjiewa2.Test
+namespace CodeInTangsengjiewa3.Test
 {
-    /// <summary>
-    /// 外部存储测试
-    /// </summary>
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
     class Cmd_ExternalStorageDataTest : IExternalCommand
     {
-        private Autodesk.Revit.DB.Document doc = null;
         private UIApplication uiapp = null;
         private UIDocument uidoc = null;
+        private Document doc = null;
         private string _volume = string.Empty;
         private string _area = string.Empty;
-        object obj = new object();
+         object obj = new object();
 
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
             uiapp = commandData.Application;
             uidoc = uiapp.ActiveUIDocument;
             doc = uidoc.Document;
-            object obj = new object();
+            Object obj = new object();
 
             using (Transaction trans = new Transaction(doc, "xxx"))
             {
                 trans.Start();
                 Data data = new Data();
                 FaceRecorder.Instance(doc, data).Recorder();
-                
+
                 var d = FaceRecorder.Instance(doc, data);
                 string info = "a1" + d.Extract("a1").ToString() +"\n";
                 info+=  "a2" + d.Extract("a2").ToString() +"\n";
                 info+=  "a3" + d.Extract("a3").ToString() +"\n";
                 MessageBox.Show(info);
+
                 trans.Commit();
             }
             return Result.Succeeded;
@@ -59,16 +56,12 @@ namespace CodeInTangsengjiewa2.Test
         private static FaceRecorder _instance;
         static readonly object syncRoot = new object();
 
-        /// <summary>
-        /// 私有构造
-        /// </summary>
-        /// <param name="doc"></param>
-        /// <param name="recordedData"></param>
         private FaceRecorder(Document doc, IFaceRecorderData recordedData)
         {
             _doc = doc;
             _data = recordedData;
         }
+
 
         public void Recorder()
         {
@@ -94,7 +87,6 @@ namespace CodeInTangsengjiewa2.Test
             {
                 ent.Set(item.Key, item.Value, DisplayUnitType.DUT_METERS);
             }
-
             //仓库
             DataStorage st = DataStorage.Create(_doc);
             st.Name = "myStorage";
@@ -108,15 +100,13 @@ namespace CodeInTangsengjiewa2.Test
             Schema schema = Schema.Lookup(_data.guid);
             Type t = _data.Fields.FirstOrDefault(x => x.Key == fieldName).Type;
             Entity e = ds.GetEntity(schema);
-
+            //?????????????????????????
             var o = e.GetType().GetMethod("Get", new Type[] {typeof(string), typeof(DisplayUnitType)})
                 .MakeGenericMethod(t).Invoke(e, new object[] {fieldName, DisplayUnitType.DUT_METERS});
-
             dynamic d = Convert.ChangeType(o, t);
             return d;
         }
-
-        public static FaceRecorder Instance(Document doc, IFaceRecorderData recordedData)
+        public static FaceRecorder Instance(Document doc, IFaceRecorderData recorderData)
         {
             if (_instance == null)
             {
@@ -124,14 +114,13 @@ namespace CodeInTangsengjiewa2.Test
                 {
                     if (_instance == null)
                     {
-                        _instance = new FaceRecorder(doc, recordedData);
+                        _instance = new FaceRecorder(doc, recorderData);
                     }
                 }
             }
             return _instance;
         }
     }
-
 
     public class Data : IFaceRecorderData
     {
@@ -141,7 +130,7 @@ namespace CodeInTangsengjiewa2.Test
             {
                 return new List<RecordData>()
                 {
-                    new RecordData("a1", 2.2),
+                    new RecordData("a1", 2.2d),
                     new RecordData("a2", true),
                     new RecordData("a3", "你好")
                 };
@@ -155,7 +144,7 @@ namespace CodeInTangsengjiewa2.Test
     public interface IFaceRecorderData
     {
         /// <summary>
-        /// 字段字典
+        ///   字段字典
         /// </summary>
         List<RecordData> Fields { get; }
         /// <summary>
@@ -163,11 +152,11 @@ namespace CodeInTangsengjiewa2.Test
         /// </summary>
         string SchemaName { get; }
         /// <summary>
-        /// 设置一个仓库名是必要的
+        /// 设置一个仓库名是必须的
         /// </summary>
         string StorageName { get; }
         /// <summary>
-        /// 记号你的Guid
+        /// Guid
         /// </summary>
         Guid guid { get; }
     }
