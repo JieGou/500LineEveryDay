@@ -45,7 +45,7 @@ namespace CodeInTangsengjiewa2.CodeOfQian
     }
 }
 
-public static class temUtis
+public static class TemUtis
 {
     public static bool Regex(this string name, string key)
     {

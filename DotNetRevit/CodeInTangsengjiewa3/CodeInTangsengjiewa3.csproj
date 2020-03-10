@@ -140,7 +140,9 @@
     <Compile Include="Test\Cmd_RotateTest.cs" />
     <Compile Include="Test\Cmd_SurfaceTest.cs" />
     <Compile Include="Test\Cmd_Updatefiles.cs" />
+    <Compile Include="建筑\Cmd_BeamAlignToRoofAndFloor.cs" />
     <Compile Include="建筑\Cmd_CreateFloorQuickly.cs" />
+    <Compile Include="建筑\Cmd_CutFloorWithLine.cs" />
     <Compile Include="通用\UIs\FloorSelector.xaml.cs">
       <DependentUpon>FloorSelector.xaml</DependentUpon>
     </Compile>
