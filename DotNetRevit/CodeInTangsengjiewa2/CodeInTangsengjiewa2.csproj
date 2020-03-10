@@ -113,6 +113,7 @@
     <Compile Include="CodeOfQian\Cmd_Now_ArrayElement.cs" />
     <Compile Include="CodeOfQian\Cmd_Now_MirrorElement.cs" />
     <Compile Include="CodeOfQian\Cmd_Now_RotateElement2.cs" />
+    <Compile Include="CodeOfQian\Cmd_IndependentTag.cs" />
     <Compile Include="CodeOfQian\Cmd_Now_RotateElement.cs" />
     <Compile Include="CodeOfQian\Cmd_Now_CopyElementViewToView.cs" />
     <Compile Include="CodeOfQian\Cmd_Now_CreateLevel.cs" />
@@ -174,6 +175,7 @@
     <Compile Include="通用\Cmd_HideElementInfamilyDoc.cs" />
     <Compile Include="通用\Cmd_PickBox3D.cs" />
     <Compile Include="通用\Cmd_ReverseBackGroundColor.cs" />
+    <Compile Include="通用\Cmd_UnhideElementsInFamlyDoc - 复制.cs" />
     <Compile Include="通用\Cmd_UnhideElementsInFamlyDoc.cs" />
     <Compile Include="通用\Cmd_UpdateFiles.cs" />
     <Compile Include="通用\Cmd_ViewSimultaneous.cs" />
