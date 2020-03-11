@@ -105,8 +105,10 @@
     <Compile Include="CodeOfQian\Cmd_CreateFamilySymbolAndSymbolParameter .cs" />
     <Compile Include="CodeOfQian\Cmd_CreateNewWallType.cs" />
     <Compile Include="CodeOfQian\Cmd_EnumViewFamily.cs" />
+    <Compile Include="CodeOfQian\Cmd_IndependentTag.cs" />
     <Compile Include="CodeOfQian\Cmd_Now_ArrayElement.cs" />
     <Compile Include="CodeOfQian\Cmd_Now_CopyElement.cs" />
+    <Compile Include="CodeOfQian\Cmd_Now_CopyElementViewToView.cs" />
     <Compile Include="CodeOfQian\Cmd_Now_Create3DView.cs" />
     <Compile Include="CodeOfQian\Cmd_Now_CreateLevel.cs" />
     <Compile Include="CodeOfQian\Cmd_Now_CreateWall.cs" />
@@ -121,6 +123,7 @@
     <Compile Include="CodeOfQian\Cmd_Now_MoveElementByPoint.cs" />
     <Compile Include="CodeOfQian\Cmd_Now_PinnedElement.cs" />
     <Compile Include="CodeOfQian\Cmd_Now_RotateElement.cs" />
+    <Compile Include="CodeOfQian\Cmd_Now_RotateElement2.cs" />
     <Compile Include="CodeOfQian\WpfEventDemo\Cmd_CreateWall.cs" />
     <Compile Include="CodeOfQian\WpfEventDemo\MainWindow.cs" />
     <Compile Include="CodeOfQian\WpfEventDemo\MainWindowCreateWall.xaml.cs">
@@ -143,8 +146,22 @@
     <Compile Include="建筑\Cmd_BeamAlignToRoofAndFloor.cs" />
     <Compile Include="建筑\Cmd_CreateFloorQuickly.cs" />
     <Compile Include="建筑\Cmd_CutFloorWithLine.cs" />
+    <Compile Include="建筑\Cmd_SetDefaultWallType.cs" />
+    <Compile Include="建筑\Utils.cs" />
+    <Compile Include="通用\Cmd_3DregionView.cs" />
+    <Compile Include="通用\Cmd_ChangeBackGroundColor.cs" />
+    <Compile Include="通用\Cmd_Floor3D.cs" />
+    <Compile Include="通用\Cmd_HideElementInFamilyDoc.cs" />
+    <Compile Include="通用\Cmd_PickBox3D.cs" />
+    <Compile Include="通用\Cmd_ReverseBackGroundColor.cs" />
     <Compile Include="通用\UIs\FloorSelector.xaml.cs">
       <DependentUpon>FloorSelector.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="通用\UIs\FloorTypeSelector.xaml.cs">
+      <DependentUpon>FloorTypeSelector.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="通用\UIs\ViewSemutaneousSelector.xaml.cs">
+      <DependentUpon>ViewSemutaneousSelector.xaml</DependentUpon>
     </Compile>
     <Compile Include="高级\Cmd_CallSystemCmd.cs" />
   </ItemGroup>
@@ -160,6 +177,14 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="通用\UIs\FloorSelector.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="通用\UIs\FloorTypeSelector.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="通用\UIs\ViewSemutaneousSelector.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

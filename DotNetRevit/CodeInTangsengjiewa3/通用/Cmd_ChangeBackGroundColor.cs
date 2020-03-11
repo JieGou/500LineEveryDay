@@ -3,22 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
-using Autodesk.Revit.UI.Selection;
 using CodeInTangsengjiewa3.BinLibrary.Extensions;
-using CodeInTangsengjiewa3.BinLibrary.Helpers;
 
-namespace CodeInTangsengjiewa3.CodeOfQian
+namespace CodeInTangsengjiewa3.通用
 {
-    /// <summary>
-    /// 旋转一个柱子
-    /// </summary>
-    [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
+    [Transaction(TransactionMode.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    public class Cmd_Now_RotateElement : IExternalCommand
+    public class Cmd_ChangeBackGroundColor : IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
@@ -28,14 +24,18 @@ namespace CodeInTangsengjiewa3.CodeOfQian
             var doc = uidoc.Document;
             var sel = uidoc.Selection;
 
-            doc.Invoke(m =>
+            ColorDialog colorDialog = new ColorDialog();
+            var colorResult = colorDialog.ShowDialog();
+            System.Drawing.Color targetColor = default(System.Drawing.Color);
+            if (colorResult == DialogResult.OK)
             {
-                //假设是一个柱子
-                Element ele = sel.PickObject(ObjectType.Element, "请选择一根柱子").GetElement(doc);
-                XYZ p1 = (ele.Location as LocationPoint).Point;
-                Line line = Line.CreateBound(p1, new XYZ(p1.X, p1.Y, p1.Z + 10));
-                ElementTransformUtils.RotateElement(doc, ele.Id, line, 30d.DegreeToRadius());
-            }, "旋转柱子");
+                targetColor = colorDialog.Color;
+            }
+            else
+            {
+                return Result.Cancelled;
+            }
+            uiapp.Application.BackgroundColor = targetColor.ToRvtColor();
             return Result.Succeeded;
         }
     }

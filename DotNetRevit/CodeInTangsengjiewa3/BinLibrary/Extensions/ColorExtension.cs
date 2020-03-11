@@ -4,7 +4,7 @@ namespace CodeInTangsengjiewa3.BinLibrary.Extensions
 {
     public static class ColorExtension
     {
-        public static Color InversColor(this Color color)
+        public static Color InverseColor(this Color color)
         {
             var newcolor = default(Color);
             var newR = (byte) (255 - color.Red);

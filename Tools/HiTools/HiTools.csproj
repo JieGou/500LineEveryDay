@@ -55,6 +55,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cmd\Cmd_CreateTrussA80.cs" />
+    <Compile Include="Cmd\Cmd_HideElementInfamilyDoc.cs" />
+    <Compile Include="Cmd\Cmd_PickBox3D.cs" />
     <Compile Include="Cmd_HelloWorld.cs" />
     <Compile Include="Cmd_HelloRevit.cs" />
     <Compile Include="ApplicationMain.cs" />

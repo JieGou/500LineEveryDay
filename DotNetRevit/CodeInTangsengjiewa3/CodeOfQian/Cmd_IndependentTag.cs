@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 using System.Windows;
 
 
-namespace CodeInTangsengjiewa2.CodeOfQian
+namespace CodeInTangsengjiewa3.CodeOfQian
 {
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
