@@ -29,8 +29,8 @@ namespace CodeInTangsengjiewa3.建筑
             var doc = uidoc.Document;
             var sel = uidoc.Selection;
             var acview = uidoc.ActiveView;
-
-            app.DocumentChanged += OnDocumentChanged;
+            //
+            // app.DocumentChanged += OnDocumentChanged;
             
 
 

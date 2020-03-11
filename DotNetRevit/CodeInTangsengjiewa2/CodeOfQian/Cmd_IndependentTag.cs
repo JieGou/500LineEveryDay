@@ -29,7 +29,8 @@ namespace CodeInTangsengjiewa2.CodeOfQian
 
             List<Element> collector = new FilteredElementCollector(doc).WhereElementIsNotElementType()
                 .OfClass(typeof(IndependentTag))
-                .Where(m => m.Name.Regex("标准") && m.OwnerViewId==doc.ActiveView.Id).ToList();
+                .Where(m => m.OwnerViewId == doc.ActiveView.Id)
+                .Select(m => (m as IndependentTag).GetTaggedLocalElement()).Where(m => m.Name.Regex("标准")).ToList();
 
             List<ElementId> collectorIds = collector.Select(m => m.Id).ToList();
             string info = "";
