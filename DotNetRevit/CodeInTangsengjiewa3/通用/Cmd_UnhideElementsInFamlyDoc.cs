@@ -1,17 +1,19 @@
-﻿using Autodesk.Revit.Attributes;
-using Autodesk.Revit.DB;
-using Autodesk.Revit.UI;
-using Autodesk.Revit.UI.Selection;
-using CodeInTangsengjiewa2.BinLibrary.Helpers;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows;
+using Autodesk.Revit.Attributes;
+using Autodesk.Revit.DB;
+using Autodesk.Revit.UI;
+using CodeInTangsengjiewa3.BinLibrary.Helpers;
+using Application = Autodesk.Revit.ApplicationServices.Application;
 
-namespace CodeInTangsengjiewa2.通用
+namespace CodeInTangsengjiewa3.通用
 {
     /// <summary>
-    /// 显示族文件的各个视图里的隐藏元素
+    ///  show hided elements in family document of any view
     /// </summary>
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
@@ -21,21 +23,18 @@ namespace CodeInTangsengjiewa2.通用
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
             UIApplication uiapp = commandData.Application;
-            UIDocument uidoc = uiapp.ActiveUIDocument;
-            Document doc = uidoc.Document;
-            Selection sel = uidoc.Selection;
-            var acview = uidoc.ActiveView;
+            Application app = commandData.Application.Application;
+            UIDocument uidoc = commandData.Application.ActiveUIDocument;
+            Document doc = commandData.Application.ActiveUIDocument.Document;
+            View acView = uidoc.ActiveView;
 
             if (!doc.IsFamilyDocument)
             {
-                MessageBox.Show("这不是族文档,请在族文档中使用该命令");
+                MessageBox.Show("请在族文档中使用该命令.");
             }
-
             var views = doc.TCollector<View>().Where(m => !(m.IsTemplate));
-
             FilteredElementCollector collector = new FilteredElementCollector(doc);
-
-            var elelist = collector.WhereElementIsNotElementType();
+            var elementList = collector.WhereElementIsNotElementType();
 
             Transaction ts = new Transaction(doc, "显示族的隐藏元素");
             try
@@ -45,9 +44,9 @@ namespace CodeInTangsengjiewa2.通用
                 {
                     if (view is ViewPlan || view is ViewSection || view is View3D)
                     {
-                        foreach (var item in elelist)
+                        foreach (var item in elementList)
                         {
-                            if (item.IsHidden(view))
+                            if (item.IsHidden((view)))
                             {
                                 view.UnhideElements(new List<ElementId>() {item.Id});
                             }

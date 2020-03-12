@@ -148,12 +148,25 @@
     <Compile Include="建筑\Cmd_CutFloorWithLine.cs" />
     <Compile Include="建筑\Cmd_SetDefaultWallType.cs" />
     <Compile Include="建筑\Utils.cs" />
+    <Compile Include="样板\Cmd_CopyViewCropRegion.cs" />
+    <Compile Include="样板\Cmd_HideRevitInstance.cs" />
+    <Compile Include="注释\Cmd_LengthAccumulate.cs" />
+    <Compile Include="样板\UIs\TypeSelector.xaml.cs">
+      <DependentUpon>TypeSelector.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="样板\UIs\ViewSelector.xaml.cs">
+      <DependentUpon>ViewSelector.xaml</DependentUpon>
+    </Compile>
     <Compile Include="通用\Cmd_3DregionView.cs" />
     <Compile Include="通用\Cmd_ChangeBackGroundColor.cs" />
     <Compile Include="通用\Cmd_Floor3D.cs" />
+    <Compile Include="通用\Cmd_ForcedDisplay.cs" />
     <Compile Include="通用\Cmd_HideElementInFamilyDoc.cs" />
     <Compile Include="通用\Cmd_PickBox3D.cs" />
     <Compile Include="通用\Cmd_ReverseBackGroundColor.cs" />
+    <Compile Include="通用\Cmd_UnhideElementsInFamlyDoc.cs" />
+    <Compile Include="通用\Cmd_UpdateFiles.cs" />
+    <Compile Include="通用\Cmd_ViewSimultaneous.cs" />
     <Compile Include="通用\UIs\FloorSelector.xaml.cs">
       <DependentUpon>FloorSelector.xaml</DependentUpon>
     </Compile>
@@ -168,11 +181,18 @@
   <ItemGroup>
     <Folder Include="Resources\" />
     <Folder Include="Test\UIs\" />
-    <Folder Include="样板\" />
     <Folder Include="结构\" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="CodeOfQian\WpfEventDemo\MainWindowCreateWall.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="样板\UIs\TypeSelector.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="样板\UIs\ViewSelector.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

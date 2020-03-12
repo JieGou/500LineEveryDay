@@ -45,6 +45,9 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -52,11 +55,42 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BinLibrary\Extensions\BitmapExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\ColorExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\ConnectorExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\CreationExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\DocumentExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\DoubleExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\ElementIdExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\GeometryElementExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\GeometryObjectExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\LineExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\MepcurveExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\PipeExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\PointExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\ReferenceExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\SelectionFilter.cs" />
+    <Compile Include="BinLibrary\Extensions\TransactionExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\UIDocumentExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\VectorExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\WindwoExtension.cs" />
+    <Compile Include="BinLibrary\Extensions\XYZExtension.cs" />
+    <Compile Include="BinLibrary\Geometryalgorithm\PolygonHelper.cs" />
+    <Compile Include="BinLibrary\Helpers\CollectorHelper.cs" />
+    <Compile Include="BinLibrary\Helpers\CurveHelper.cs" />
+    <Compile Include="BinLibrary\Helpers\LogHelper.cs" />
+    <Compile Include="BinLibrary\Helpers\TransactionHelper.cs" />
+    <Compile Include="BinLibrary\RevitHelper\RevitWindowHelper.cs" />
+    <Compile Include="BinLibrary\Utils\Utils.cs" />
     <Compile Include="Cmd\Cmd_CreateTrussA80.cs" />
-    <Compile Include="Cmd\Cmd_HideElementInfamilyDoc.cs" />
+    <Compile Include="Cmd\Cmd_ForcedDisplayInDoc.cs" />
+    <Compile Include="Cmd\Cmd_HideElementInFamilyDoc.cs" />
     <Compile Include="Cmd\Cmd_PickBox3D.cs" />
+    <Compile Include="Cmd\Cmd_ReverseBackGroundColor.cs" />
+    <Compile Include="Cmd\Cmd_UnhideElementsInFamlyDoc.cs" />
     <Compile Include="Cmd_HelloWorld.cs" />
     <Compile Include="Cmd_HelloRevit.cs" />
     <Compile Include="ApplicationMain.cs" />
@@ -76,6 +110,28 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Source\Cmd_HideElementInFamilyDoc.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Source\Cmd_UnhideElementsInDoc.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Source\Cmd_PickBox3D.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Source\Cmd_ReverseBackGroundColor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Source\Cmd_ForcedDisplayInDoc.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

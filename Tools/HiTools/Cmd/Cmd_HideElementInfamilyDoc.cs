@@ -6,7 +6,7 @@ using Autodesk.Revit.UI.Selection;
 using System;
 using System.Collections.ObjectModel;
 
-namespace CodeInTangsengjiewa3.通用
+namespace HiTools.Cmd
 {
     /// <summary>
     /// 隐藏族文档中的元素
@@ -40,6 +40,8 @@ namespace CodeInTangsengjiewa3.通用
                     ts.RollBack();
                 }
             }
+            ts.Commit();
+
             return Result.Succeeded;
         }
     }

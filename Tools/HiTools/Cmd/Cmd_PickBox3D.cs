@@ -11,7 +11,7 @@ using Autodesk.Revit.UI.Selection;
 using CodeInTangsengjiewa3.BinLibrary.Extensions;
 using CodeInTangsengjiewa3.BinLibrary.Helpers;
 
-namespace CodeInTangsengjiewa3.通用
+namespace HiTools.Cmd
 {
     /// <summary>
     /// 框选元素,形成三维框
@@ -33,12 +33,22 @@ namespace CodeInTangsengjiewa3.通用
             var viewfamilytype =
                 doc.TCollector<ViewFamilyType>().First(m => m.ViewFamily == ViewFamily.ThreeDimensional);
 
-            var elementRefs = sel.PickObjects(ObjectType.Element,
+            IList<Reference> elementRefs;
+            try
+            {
+                elementRefs = sel.PickObjects(ObjectType.Element,
                                               doc.GetSelectionFilter(m =>
                                               {
                                                   return m.Category.CategoryType ==
                                                          CategoryType.Model;
-                                              })); ///?????????????????????????
+                                              }));
+                ///?????????????????????????
+            }
+            catch
+            {
+                return Result.Cancelled;
+            }
+
             var eles = elementRefs.Select(m => m.ElementId.GetElement(doc));
             var eleids = elementRefs.Select(m => m.ElementId).ToList();
             var tembox = default(BoundingBoxXYZ);

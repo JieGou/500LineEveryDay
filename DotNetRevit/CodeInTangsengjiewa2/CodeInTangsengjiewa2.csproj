@@ -175,8 +175,8 @@
     <Compile Include="通用\Cmd_HideElementInfamilyDoc.cs" />
     <Compile Include="通用\Cmd_PickBox3D.cs" />
     <Compile Include="通用\Cmd_ReverseBackGroundColor.cs" />
-    <Compile Include="通用\Cmd_UnhideElementsInFamlyDoc - 复制.cs" />
     <Compile Include="通用\Cmd_UnhideElementsInFamlyDoc.cs" />
+    <Compile Include="通用\Cmd_ForcedDisplay.cs" />
     <Compile Include="通用\Cmd_UpdateFiles.cs" />
     <Compile Include="通用\Cmd_ViewSimultaneous.cs" />
     <Compile Include="通用\UIs\FloorSelector.xaml.cs">

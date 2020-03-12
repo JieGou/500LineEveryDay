@@ -19,54 +19,46 @@ namespace CodeInTangsengjiewa2.通用
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]
     [Journaling(JournalingMode.UsingCommandData)]
-    class Cmd_UnhideElementsInFamlyDoc : IExternalCommand
+    class Cmd_ForcedDisplay : IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
             UIApplication uiapp = commandData.Application;
-            UIDocument uidoc = uiapp.ActiveUIDocument;
+            UIDocument uidoc = commandData.Application.ActiveUIDocument;
             Document doc = uidoc.Document;
-            Selection sel = uidoc.Selection;
-            var acview = uidoc.ActiveView;
+            var acView = doc.ActiveView;
+            Transaction ts = new Transaction(doc, "******");
 
-            if (!doc.IsFamilyDocument)
-            {
-                MessageBox.Show("这不是族文档,请在族文档中使用该命令");
-            }
-
-            var views = doc.TCollector<View>().Where(m => !(m.IsTemplate));
-
-            FilteredElementCollector collector = new FilteredElementCollector(doc);
-
-            var elelist = collector.WhereElementIsNotElementType();
-
-            Transaction ts = new Transaction(doc, "显示族的隐藏元素");
             try
             {
                 ts.Start();
-                foreach (var view in views)
+
+                FilteredElementCollector collection = new FilteredElementCollector(doc);
+                collection.WhereElementIsNotElementType();
+                var list = new List<ElementId>();
+
+                foreach (Element i in collection)
                 {
-                    if (view is ViewPlan || view is ViewSection || view is View3D)
-                    {
-                        foreach (var item in elelist)
-                        {
-                            if (item.IsHidden(view))
-                            {
-                                view.UnhideElements(new List<ElementId>() {item.Id});
-                            }
-                        }
-                    }
+                    // Selection sel = uidoc.Selection;
+
+                    list.Add(i.Id);
                 }
+
+                MessageBox.Show((list.Count.ToString()));
+                acView.UnhideElements(list);
+
                 ts.Commit();
             }
             catch (Exception e)
             {
-                message = e.ToString();
+                MessageBox.Show(e.ToString());
+
                 if (ts.GetStatus() == TransactionStatus.Started)
                 {
                     ts.RollBack();
                 }
             }
+
             return Result.Succeeded;
         }
     }

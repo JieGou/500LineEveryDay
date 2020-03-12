@@ -1,14 +1,18 @@
-﻿using Autodesk.Revit.Attributes;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Navigation;
+using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;
-using CodeInTangsengjiewa2.BinLibrary.Helpers;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Windows;
 
-namespace CodeInTangsengjiewa2.通用
+using CodeInTangsengjiewa3.BinLibrary.Helpers;
+
+namespace HiTools.Cmd
 {
     /// <summary>
     /// 显示族文件的各个视图里的隐藏元素
