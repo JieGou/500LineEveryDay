@@ -15,6 +15,8 @@ namespace CodeInTangsengjiewa2.BinLibrary.Extensions
             var uiviews = uidoc.GetOpenUIViews();
             var acuiview = uiviews.FirstOrDefault(m => acview.Id == m.ViewId);
 
+            
+
             return acuiview;
         }
     }

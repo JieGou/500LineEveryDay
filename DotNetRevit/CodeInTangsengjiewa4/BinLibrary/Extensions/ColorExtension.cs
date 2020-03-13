@@ -1,6 +1,11 @@
-﻿using Autodesk.Revit.DB;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Autodesk.Revit.DB;
 
-namespace CodeInTangsengjiewa3.BinLibrary.Extensions
+namespace CodeInTangsengjiewa4.BinLibrary.Extensions
 {
     public static class ColorExtension
     {
@@ -10,9 +15,7 @@ namespace CodeInTangsengjiewa3.BinLibrary.Extensions
             var newR = (byte) (255 - color.Red);
             var newG = (byte) (255 - color.Green);
             var newB = (byte) (255 - color.Blue);
-
             newColor = new Color(newR, newG, newB);
-
             return newColor;
         }
 

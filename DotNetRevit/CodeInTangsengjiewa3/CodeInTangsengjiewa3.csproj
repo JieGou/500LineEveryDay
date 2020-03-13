@@ -150,6 +150,9 @@
     <Compile Include="建筑\Utils.cs" />
     <Compile Include="样板\Cmd_CopyViewCropRegion.cs" />
     <Compile Include="样板\Cmd_HideRevitInstance.cs" />
+    <Compile Include="样板\UIs\ResultShow.xaml.cs">
+      <DependentUpon>ResultShow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="注释\Cmd_LengthAccumulate.cs" />
     <Compile Include="样板\UIs\TypeSelector.xaml.cs">
       <DependentUpon>TypeSelector.xaml</DependentUpon>
@@ -157,6 +160,7 @@
     <Compile Include="样板\UIs\ViewSelector.xaml.cs">
       <DependentUpon>ViewSelector.xaml</DependentUpon>
     </Compile>
+    <Compile Include="注释\Cmd_SectionGap.cs" />
     <Compile Include="通用\Cmd_3DregionView.cs" />
     <Compile Include="通用\Cmd_ChangeBackGroundColor.cs" />
     <Compile Include="通用\Cmd_Floor3D.cs" />
@@ -185,6 +189,10 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="CodeOfQian\WpfEventDemo\MainWindowCreateWall.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="样板\UIs\ResultShow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

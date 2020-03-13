@@ -44,7 +44,7 @@ namespace CodeInTangsengjiewa3.BinLibrary.Extensions
         }
 
 
-        public static void Newbox(this Document doc, BoundingBoxXYZ box)
+        public static void NewBox(this Document doc, BoundingBoxXYZ box)
         {
             var trans = box.Transform;
             var min = box.Min;

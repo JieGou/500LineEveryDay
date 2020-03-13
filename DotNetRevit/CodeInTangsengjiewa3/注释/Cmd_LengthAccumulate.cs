@@ -11,19 +11,22 @@ using Autodesk.Revit.Attributes;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.DB.Events;
 using Autodesk.Revit.UI;
-u
+    u
+using CodeInTangsengjiewa3.BinLibrary.Extensions;
+using CodeInTangsengjiewa3.BinLibrary.RevitHelper;
+using CodeInTangsengjiewa3.注释.UIs;
 
 namespace CodeInTangsengjiewa3.样板
 {
     /// <summary>
     ///  统计长度
     /// </summary>
-  [Transaction(TransactionMode.Manual)]
-  [Regeneration(RegenerationOption.Manual)]
-  [Journaling(JournalingMode.UsingCommandData)]
-    public  class Cmd_LengthAccumulate:IExternalCommand
+    [Transaction(TransactionMode.Manual)]
+    [Regeneration(RegenerationOption.Manual)]
+    [Journaling(JournalingMode.UsingCommandData)]
+    public class Cmd_LengthAccumulate : IExternalCommand
     {
-        public  static List<ModelLine> ModelLines=new List<ModelLine>();
+        public static List<ModelLine> ModelLines = new List<ModelLine>();
         public static List<ElementId> addedIds = new List<ElementId>();
         public static Document _doc = default(Document);
 
@@ -38,10 +41,12 @@ namespace CodeInTangsengjiewa3.样板
             _doc = doc;
 
             doc.Application.DocumentChanged += OnDocumentChanged;
-            
-            ResultShow 
 
-
+            ResultShow resultShowin = ResultShow.Instance;
+            resultShowin.Helper().Owner = RevitWindowHelper.GetRevitHandle();
+            ResultShow.Instance.Show();
+            uiapp.PostCommand(RevitCommandId.LookupPostableCommandId(PostableCommand.ModelLine));
+            return Result.Succeeded;
         }
 
         private void OnDocumentChanged(object sender, DocumentChangedEventArgs e)
@@ -50,7 +55,7 @@ namespace CodeInTangsengjiewa3.样板
             var ids = e.GetAddedElementIds();
             foreach (var elementId in ids)
             {
-                if (! addedIds.Contains(elementId))
+                if (!addedIds.Contains(elementId))
                 {
                     addedIds.Add(elementId);
                 }
