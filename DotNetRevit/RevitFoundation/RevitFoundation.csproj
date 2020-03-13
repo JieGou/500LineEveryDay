@@ -202,6 +202,7 @@
     <Compile Include="Other\TheCodeInKaiFaZhiNan\Chapter2\Code0203.cs" />
     <Compile Include="Other\TheCodeInKaiFaZhiNan\Chapter2\Code0202.cs" />
     <Compile Include="Other\TheCodeInKaiFaZhiNan\Chapter2\Code0201.cs" />
+    <Compile Include="PracticeBookInRevit\R0213LinqNameSpaceJoin .cs" />
     <Compile Include="PracticeBookInRevit\R0227 button.cs" />
     <Compile Include="PracticeBookInRevit\R0210Linq.cs" />
     <Compile Include="PracticeBookInRevit\R0212LinqGroup2.cs" />
@@ -211,7 +212,7 @@
     <Compile Include="PracticeBookInRevit\R0213LinqNameSpaceDelegate.cs" />
     <Compile Include="PracticeBookInRevit\R0214Regex.cs" />
     <Compile Include="PracticeBookInRevit\R0214TypeAreaAndInstanceArea.cs" />
-    <Compile Include="PracticeBookInRevit\R0213LinqNameSpaceJoin.cs" />
+    <Compile Include="PracticeBookInRevit\R0313ChangeElementType.cs" />
     <Compile Include="PracticeBookInRevit\R0213LinqNameSpace2.cs" />
     <Compile Include="PracticeBookInRevit\R0213LinqNameSpace.cs" />
     <Compile Include="PracticeBookInRevit\R0212LinqGroupAccumulation.cs" />

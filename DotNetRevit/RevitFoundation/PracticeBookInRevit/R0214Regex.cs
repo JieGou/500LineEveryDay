@@ -13,7 +13,7 @@ using Autodesk.Revit.UI.Selection;
 using CodeInTangsengjiewa2.BinLibrary.Helpers;
 
 
-namespace RevitDevelopmentFoudation.PracticeBookInRevit
+namespace RevitFoundation.PracticeBookInRevit
 {
     [Transaction(TransactionMode.Manual)]
     [Regeneration(RegenerationOption.Manual)]

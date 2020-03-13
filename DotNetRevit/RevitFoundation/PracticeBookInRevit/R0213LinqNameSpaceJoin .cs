@@ -32,9 +32,9 @@ namespace RevitDevelopmentFoudation.PracticeBookInRevit
 
             //join子句
             var numList = from a in groupA
-                join b in groupB on a.Category.Name equals b.Category.Name
-                where a.Name.Length > 1 && b.Name.Length > 1
-                select new {Name1 = a.Name, Name2 = b.Name, sum = a.Name + b.Name};
+                          join b in groupB on a.Category.Name equals b.Category.Name
+                          where a.Name.Length > 1 && b.Name.Length > 1
+                          select new {Name1 = a.Name, Name2 = b.Name, sum = a.Name + b.Name};
 
             foreach (var e in numList)
             {
