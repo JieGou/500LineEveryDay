@@ -12,7 +12,7 @@ using System.Windows;
 
 namespace CurvedBeamWpf.ViewModel
 {
-    public class CurvedBeamViewModel : NotificationObject
+    public class CurvedBeamViewModel : ViewModelBase
     {
         private Document doc = null;
         private CurvedBeamMainWindow _win;
@@ -39,7 +39,7 @@ namespace CurvedBeamWpf.ViewModel
 
         public Level CurrentSelectOfLevel
         {
-            get { return _currentSelectOflevel; }
+            get => _currentSelectOflevel;
             set
             {
                 _currentSelectOflevel = value;
@@ -48,14 +48,14 @@ namespace CurvedBeamWpf.ViewModel
             }
         }
 
-        private List<FamilySymbol> _BeamTypes;
+        private List<FamilySymbol> _beamTypes;
 
         public List<FamilySymbol> BeamTypes
         {
-            get => _BeamTypes;
+            get => _beamTypes;
             set
             {
-                _BeamTypes = value;
+                _beamTypes = value;
                 RaisePropertyChanged("BeamTypes");
             }
         }
@@ -67,7 +67,7 @@ namespace CurvedBeamWpf.ViewModel
 
         public FamilySymbol CurrentSelectOfBeam
         {
-            get { return _currentSelectOfBeam; }
+            get => _currentSelectOfBeam;
             set
             {
                 _currentSelectOfBeam = value;
@@ -86,20 +86,8 @@ namespace CurvedBeamWpf.ViewModel
             InitializeData();
 
             WindowLoaded = new RelayCommand<CurvedBeamMainWindow>(OnWindowLoaded);
-
             StartCreateArcCommand = new RelayCommand<CurvedBeamMainWindow>(CreateBeamArc);
-
-            StartCreateBeamEllispeCommand = new DelegateCommand
-            {
-                ExecuteAction = new Action<object>(CreateBeamEllispe)
-            };
-
-            // Transaction ts = new Transaction(doc, "mvvm里执行命令的测试");
-            // ts.Start();
-            // BeamType = BeamTypes.FirstOrDefault(x => x.Name == _currentSelectOfBeam);
-            // string info = BeamType.Name == null ? "选择的梁类型没有绑上" : BeamType.Name;
-            // TaskDialog.Show("tips", info);
-            // ts.Commit();
+            StartCreateBeamEllispeCommand = new RelayCommand<CurvedBeamMainWindow>(CreateBeamEllispe);
         }
 
         private void OnWindowLoaded(CurvedBeamMainWindow win)
@@ -109,31 +97,36 @@ namespace CurvedBeamWpf.ViewModel
 
         public RelayCommand<CurvedBeamMainWindow> WindowLoaded { get; set; }
 
-        //public DelegateCommand StartCreateArcCommand { get; set; }
         public RelayCommand<CurvedBeamMainWindow> StartCreateArcCommand { get; set; }
 
-        public DelegateCommand StartCreateBeamEllispeCommand { get; set; }
+        public RelayCommand<CurvedBeamMainWindow> StartCreateBeamEllispeCommand { get; set; }
 
         public string info = null;
 
         private void InitializeData()
         {
-            //Beam:
+            //梁类型
             BeamTypes = new FilteredElementCollector(doc)
                 .OfCategory(BuiltInCategory.OST_StructuralFraming)
                 .OfClass(typeof(FamilySymbol))
                 .Cast<FamilySymbol>()
                 .ToList();
 
-            CurrentSelectOfBeam = BeamTypes.First();
+            if (BeamTypes.Count > 0)
+            {
+                CurrentSelectOfBeam = BeamTypes.First();
+            }
 
-            // Level:
+            //标高
             LevelTypes = new FilteredElementCollector(doc)
                 .OfCategory(BuiltInCategory.OST_Levels)
                 .OfClass(typeof(Level))
                 .Cast<Level>()
                 .ToList();
-            CurrentSelectOfLevel = LevelTypes.First();
+            if (LevelTypes.Count > 0)
+            {
+                CurrentSelectOfLevel = LevelTypes.First();
+            }
         }
 
         private void CreateBeamArc(CurvedBeamMainWindow win)
@@ -164,8 +157,9 @@ namespace CurvedBeamWpf.ViewModel
             ts.Commit();
         }
 
-        private void CreateBeamEllispe(object parameter)
+        private void CreateBeamEllispe(CurvedBeamMainWindow win)
         {
+            _win.Close();
             string info = CurrentSelectOfBeam + "\n";
             info += BeamType.Name + "\n";
 
