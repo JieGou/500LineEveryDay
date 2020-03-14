@@ -80,6 +80,10 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App.cs" />
+    <Compile Include="Common\GlsDevCommonFuns.cs" />
+    <Compile Include="Common\MultiVersionTools.cs" />
+    <Compile Include="Common\MySetting.cs" />
     <Compile Include="CurvedBeam\Command\ExternalCommands.cs" />
     <Compile Include="CurvedBeam\ViewModel\CurvedBeamViewModel.cs" />
     <Compile Include="CurvedBeam\View\CurvedBeamMainWindow.xaml.cs">
@@ -135,5 +139,12 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\CurvedBeam.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy "$(ProjectDir)Images\*.*" "$(OutDir)..\..\..\Images" /Y /I /E
+xcopy "$(ProjectDir)Images\*.*" "C:\yejo\MyPlugins\OliverTool\bin\Images\" /Y /I /E</PostBuildEvent>
+  </PropertyGroup>
 </Project>

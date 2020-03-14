@@ -264,3 +264,4 @@ __pycache__/
 /*.emmx
 
 /packages/Microsoft.Xaml.Behaviors.Wpf.1.1.19
+/WPF/LearnWpfMVVM/Common

@@ -35,17 +35,47 @@ namespace CurvedBeamWpf.ViewModel
             }
         }
 
-        private Level _currentSelectOflevel;
+        /// <summary>
+        /// The <see cref="CurrentSelectOfLevel" /> property's name.
+        /// </summary>
+        public const string CurrentSelectOfLevelPropertyName = "CurrentSelectOfLevel";
 
+        private Level _currentSelectOfLevel;
+
+        /// <summary>
+        /// Sets and gets the CurrentSelectOfLevel property.
+        /// Changes to that property's value raise the PropertyChanged event.
+        /// </summary>
         public Level CurrentSelectOfLevel
         {
-            get => _currentSelectOflevel;
+            get
+            {
+                return _currentSelectOfLevel;
+            }
+
             set
             {
-                _currentSelectOflevel = value;
-                RaisePropertyChanged("CurrentSelectOfLevel");
+                if (_currentSelectOfLevel == value)
+                {
+                    return;
+                }
+
+                _currentSelectOfLevel = value;
+                RaisePropertyChanged(CurrentSelectOfLevelPropertyName);
             }
         }
+
+        //private Level _currentSelectOfLevel;
+
+        //public Level CurrentSelectOfLevel
+        //{
+        //    get => _currentSelectOfLevel;
+        //    set
+        //    {
+        //        _currentSelectOfLevel = value;
+        //        RaisePropertyChanged("CurrentSelectOfLevel");
+        //    }
+        //}
 
         private List<FamilySymbol> _beamTypes;
 
@@ -150,7 +180,7 @@ namespace CurvedBeamWpf.ViewModel
                 _currentSelectOfBeam.Activate();
             }
 
-            doc.Create.NewFamilyInstance(curve, _currentSelectOfBeam, _currentSelectOflevel, StructuralType.Beam);
+            doc.Create.NewFamilyInstance(curve, _currentSelectOfBeam, _currentSelectOfLevel, StructuralType.Beam);
             TaskDialog.Show("tips", "梁创建好了");
 
             ts.Commit();
@@ -162,8 +192,8 @@ namespace CurvedBeamWpf.ViewModel
             string info = _currentSelectOfBeam + "\n";
             info += _currentSelectOfBeam.Name + "\n";
 
-            info += _currentSelectOflevel + "\n";
-            info += _currentSelectOflevel.Name + "\n";
+            info += _currentSelectOfLevel + "\n";
+            info += _currentSelectOfLevel.Name + "\n";
 
             TaskDialog.Show("tips", info);
         }

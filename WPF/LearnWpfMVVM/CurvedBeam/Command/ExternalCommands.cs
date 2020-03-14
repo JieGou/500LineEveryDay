@@ -22,7 +22,7 @@ namespace LearnWpfMVVM.CurvedBeam.Command
 
             CurvedBeamMainWindow mainWindow = new CurvedBeamMainWindow(commandData);
 
-            //主父窗口为Revit
+            //父窗口为Revit
             IWin32Window revitWindow = new JtWindowHandle(Autodesk.Windows.ComponentManager.ApplicationWindow);
             WindowInteropHelper helper = new WindowInteropHelper(mainWindow)
             {
