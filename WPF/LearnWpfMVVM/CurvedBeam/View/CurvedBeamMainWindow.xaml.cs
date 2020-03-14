@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Autodesk.Revit.DB;
+using Autodesk.Revit.UI;
+using CurvedBeamWpf.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -10,9 +13,6 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Forms;
 using System.Windows.Input;
-using Autodesk.Revit.DB;
-using Autodesk.Revit.UI;
-using CurvedBeamWpf.ViewModel;
 
 namespace LearnWpfMVVM.CurvedBeam.View
 {
@@ -24,8 +24,7 @@ namespace LearnWpfMVVM.CurvedBeam.View
         public CurvedBeamMainWindow(ExternalCommandData commandData)
         {
             InitializeComponent();
-            this.DataContext = new CurvedBeamViewModel(commandData, Close);
-
+            this.DataContext = new CurvedBeamViewModel(commandData);
         }
     }
 }
