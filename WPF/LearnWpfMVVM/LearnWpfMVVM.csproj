@@ -42,6 +42,12 @@
     <Reference Include="GalaSoft.MvvmLight">
       <HintPath>..\..\packages\MvvmLightLibs.5.4.1.1\lib\net45\GalaSoft.MvvmLight.dll</HintPath>
     </Reference>
+    <Reference Include="Itenso.Configuration">
+      <HintPath>..\..\..\..\..\..\Downloads\UserSettingsApplied_v1.2.0\bin\Debug\Itenso.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Itenso.Configuration.Windows">
+      <HintPath>..\..\..\..\..\..\Downloads\UserSettingsApplied_v1.2.0\bin\Debug\Itenso.Configuration.Windows.dll</HintPath>
+    </Reference>
     <Reference Include="RevitAPI">
       <HintPath>C:\Program Files\Autodesk\Revit 2020\RevitAPI.dll</HintPath>
       <Private>False</Private>
