@@ -59,17 +59,31 @@ namespace LearnWpfMVVM
             View vPrevious = e.PreviousActiveView;
             View vCurrent = e.CurrentActiveView;
 
+            if (vPrevious == null || vCurrent == null)
+            {
+                DeleteConfigFile();
+                return;
+            }
+
             var title1 = vPrevious.Document.Title;
             var title2 = vCurrent.Document.Title;
 
             //切换了文档 两文档的标题不同 需要注意对配制文件进行删除
             if (!title1.Equals(title2, StringComparison.OrdinalIgnoreCase))
             {
-                var configurationFilePath = ApplicationSettings.UserConfigurationFilePath;
-                if (File.Exists(configurationFilePath))
-                {
-                    File.Delete(configurationFilePath);
-                }
+                DeleteConfigFile();
+            }
+        }
+
+        /// <summary>
+        /// 删除配置文件
+        /// </summary>
+        private static void DeleteConfigFile()
+        {
+            var configurationFilePath = ApplicationSettings.UserConfigurationFilePath;
+            if (File.Exists(configurationFilePath))
+            {
+                File.Delete(configurationFilePath);
             }
         }
     }
