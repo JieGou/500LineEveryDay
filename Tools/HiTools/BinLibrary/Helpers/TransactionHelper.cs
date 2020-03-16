@@ -1,42 +1,26 @@
-﻿using System;
+﻿using Autodesk.Revit.DB;
+using CodeInTangsengjiewa3.BinLibrary.Extensions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Autodesk.Revit.DB;
-using CodeInTangsengjiewa3.BinLibrary.Extensions;
-
 
 namespace CodeInTangsengjiewa3.BinLibrary.Helpers
 {
+    /// <summary>
+    /// 事务帮助类
+    /// </summary>
     public static class TransactionHelper
     {
-        public static void Invoke(this Document doc, Action<Transaction> action, string name = "Invoke")
-        {
-#if DEBUG
-            LogHelper.LogException(delegate
-            {
-#endif
-
-                using (Transaction transaction = new Transaction(doc, name))
-                {
-                    transaction.Start();
-                    action(transaction);
-                    bool flag = transaction.GetStatus() == (TransactionStatus) 1;
-                    if (flag)
-                    {
-                        transaction.Commit();
-                    }
-                }
-
-#if DEBUG
-            }, "c:\\revitExceptionlog.txt");
-#endif
-        }
-
-
-        public static void Invoke(
-            this Document doc, Action<Transaction> action, string name = "Invoke", bool ignorefailure = true)
+        /// <summary>
+        /// 启动事务
+        /// </summary>
+        /// <param name="doc">Revit Document对象</param>
+        /// <param name="action">委托</param>
+        /// <param name="name">事务名称 默认为"Invoke"</param>
+        /// <param name="ignorefailure">事务名称 默认为"Invoke"</param>
+        public static void Invoke(this Document doc, Action<Transaction> action, string name = "Invoke", bool ignorefailure = true)
         {
             LogHelper.LogException(delegate
             {
@@ -58,13 +42,18 @@ namespace CodeInTangsengjiewa3.BinLibrary.Helpers
             }, "c:\\revitExceptionlog.txt");
         }
 
+        /// <summary>
+        /// 启动子事务
+        /// </summary>
+        /// <param name="doc">Revit Document对象</param>
+        /// <param name="action">委托</param>
         public static void SubtranInvoke(this Document doc, Action<SubTransaction> action)
         {
             using (SubTransaction subTransaction = new SubTransaction(doc))
             {
                 subTransaction.Start();
                 action(subTransaction);
-                bool flag = subTransaction.GetStatus() == (TransactionStatus) 1;
+                bool flag = subTransaction.GetStatus() == TransactionStatus.Started;
                 if (flag)
                 {
                     subTransaction.Commit();
