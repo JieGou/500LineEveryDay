@@ -26,10 +26,11 @@ namespace LearnWpfMVVM.CurvedBeam.View
         public CurvedBeamMainWindow(ExternalCommandData commandData)
         {
             InitializeComponent();
-            this.DataContext = new CurvedBeamViewModel(commandData);
-
+            //重点 在后台代码中创建保持设置的对象
             WindowSettings windowSettings = new WindowSettings(this);
             windowSettings.SettingCollectors.Add(new DependencyPropertySettingCollector(this, ComboBox.TextProperty));
+
+            this.DataContext = new CurvedBeamViewModel(commandData);
         }
     }
 }

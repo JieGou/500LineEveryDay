@@ -23,6 +23,7 @@ namespace WpfApplication1.ViewModel
         }
 
         private string _selectItem;
+
         public string SelectItem
         {
             get
@@ -35,7 +36,6 @@ namespace WpfApplication1.ViewModel
                 RaisePropertyChanged("SelectItem");
             }
         }
-
 
         private string _display;
 
@@ -51,7 +51,6 @@ namespace WpfApplication1.ViewModel
                 RaisePropertyChanged("Display");
             }
         }
-
 
         private List<string> _lisStrings;
 
@@ -79,8 +78,7 @@ namespace WpfApplication1.ViewModel
         {
             SetTextCommand = new DelegateCommand(new Action<object>(SetText));
 
-            LisStrings = new List<string>() {"张三", "李四"};
-            ;
+            LisStrings = new List<string>() { "张三", "李四" };
         }
     }
 }

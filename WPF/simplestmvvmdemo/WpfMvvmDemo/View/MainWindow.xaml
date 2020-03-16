@@ -24,12 +24,10 @@
         <Button Content="提 交" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Width="75"
                 Command="{Binding SetTextCommand}" />
 
+        <Label Grid.Row="3" Background="Aqua" Foreground="Red" HorizontalAlignment="Center" VerticalAlignment="Center"
+               Width="120" Height="23" Content="{Binding SelectItem}" />
         <ComboBox Grid.Row="4"
                   ItemsSource="{Binding LisStrings}"
                   SelectedItem="{Binding SelectItem ,Mode =TwoWay, UpdateSourceTrigger=PropertyChanged}" />
-        <Label Grid.Row="3" Background="Aqua" Foreground="Red" HorizontalAlignment="Center" VerticalAlignment="Center"
-               Width="120" Height="23" Content="{Binding SelectItem}" />
-
-
     </Grid>
 </Window>
